@@ -1,0 +1,6 @@
+
+[common]
+	"Enable end respawn anchor" = true
+	"Enable netherite respawn anchor" = true
+	"Enable netherite end respawn anchor" = true
+

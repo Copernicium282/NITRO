@@ -1,0 +1,52 @@
+
+[immersiveweapons-common]
+	#Enable the natural spawning of Dying Soldiers - Default true
+	dying_soldiers_spawn = true
+	#Minimum distance in chunks between Landmine Traps - Default 6
+	min_landmine_trap_distance = 6
+	#Minimum distance in chunks between Landmine Traps - Default 12
+	max_landmine_trap_distance = 12
+	#Set the maximum number of particles produced by the smoke bomb - Default 96
+	#Setting this higher can make clients laggy, setting to 0 effectively disables it
+	max_smoke_bomb_particles = 96
+	#Maximum distance in chunks between Underground Bunkers - Default 110
+	max_underground_bunker_distance = 110
+	#Maximum distance in chunks between Battlefield Villages - Default 30
+	max_battlefield_village_distance = 30
+	#Minimum distance in chunks between Battlefield Camps - Default 4
+	min_battlefield_camp_distance = 4
+	#Maximum distance in chunks between Pitfall Traps - Default 8
+	max_pitfall_trap_distance = 8
+	#Maximum distance in chunks between Bear Traps - Default 10
+	max_bear_trap_distance = 10
+	#Enable the natural spawning of Hans the Almighty - Default true
+	hans_spawn = true
+	#Enable the natural spawning of Wandering Warriors - Default true
+	wandering_warriors_spawn = true
+	#Minimum distance in chunks between Underground Bunkers - Default 80
+	min_underground_bunker_distance = 80
+	#Maximum distance in chunks between Abandoned Factories - Default 120
+	max_abandoned_factory_distance = 120
+	#Minimum distance in chunks between Campsites - Default 30
+	min_campsite_distance = 30
+	#Minimum distance in chunks between Pitfall Traps - Default 2
+	min_pitfall_trap_distance = 2
+	#Minimum distance in chunks between Cloud Islands - Default 70
+	min_cloud_island_distance = 70
+	#Enable/Disable the Tesla Armor effect sound - Default true
+	tesla_armor_effect_sound = true
+	#Maximum distance in chunks between Campsites - Default 50
+	max_campsite_distance = 50
+	#Minimum distance in chunks between Abandoned Factories - Default 90
+	min_abandoned_factory_distance = 90
+	#Enable/Disable bullets breaking glass - Default true
+	bullets_break_glass = true
+	#Minimum distance in chunks between Bear Traps - Default 4
+	min_bear_trap_distance = 4
+	#Maximum distance in chunks between Battlefield Camps - Default 16
+	max_battlefield_camp_distance = 16
+	#Minimum distance in chunks between Battlefield Villages - Default 10
+	min_battlefield_village_distance = 10
+	#Maximum distance in chunks between Cloud Islands - Default 90
+	max_cloud_island_distance = 90
+

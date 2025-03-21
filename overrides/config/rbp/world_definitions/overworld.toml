@@ -1,0 +1,24 @@
+
+[overworld]
+	#The maximum altitude that chunk updates will occur on blocks in the dimension[s].
+	#Range: 0 ~ 255
+	ChunkUpdateAltitudeMax = 255
+
+	#The minumum altitude that chunk updates will occur on blocks in the dimension[s].
+	#Range: 0 ~ 255
+	ChunkUpdateAltitudeMin = 0
+
+	#A list of dimension IDs to be affected by this definition.
+	Dimensions = ["minecraft:overworld"]
+
+	#The maximum altitude that block neighbour updates will occur on blocks in the dimension[s].
+	#Range: 0 ~ 255
+	NeighbourUpdateAltitudeMax = 255
+
+	#The minimum altitude that block neighbour updates will occur on blocks in the dimensions[s].
+	#Range: 0 ~ 255
+	NeighbourUpdateAltitudeMin = 0
+
+	#A list of block IDs and block definition names which will be excluded from the dimension[s].
+	PhysicsBlacklist = []
+

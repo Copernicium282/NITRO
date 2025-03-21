@@ -1,0 +1,6 @@
+
+#atomic bomb client side settings
+[nuclear_craft]
+	#Render mushroom cloud by nukes
+	render_mushroom_cloud = true
+

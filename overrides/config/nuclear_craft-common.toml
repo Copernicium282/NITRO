@@ -1,0 +1,1725 @@
+
+#Ammo destroying block settings
+[ammo_break_block]
+	#Tungsten ammo can break blocks with blast resist lower than this value
+	#Range: -10.0 ~ 99999.0
+	ammo_tungsten_block_break_threshold = 6.0
+	#Normal ammo can break blocks with blast resist lower than this value
+	#Range: -10.0 ~ 99999.0
+	ammo_block_break_threshold = 3.0
+	#Silver ammo can break blocks with blast resist lower than this value
+	#Range: -10.0 ~ 99999.0
+	ammo_silver_block_break_threshold = 6.0
+
+#Rocket ammo number settings
+[rocket_ammo_number]
+	#Max number of ammo of high explosive rocket launcher
+	#Range: 0 ~ 32767
+	high_explosive_ammo = 1
+	#Max number of ammo of water drop rocket launcher
+	#Range: 0 ~ 32767
+	water_drop_ammo = 1
+	#Max number of ammo of smoke rocket launcher
+	#Range: 0 ~ 32767
+	smoke_ammo = 1
+	#Max number of ammo of incendiary rocket launcher
+	#Range: 0 ~ 32767
+	incendiary_ammo = 1
+
+#Explosion settings
+[explosion]
+	#Atomic bomb explosion power(i.e. max blast resistance block to break) 3,600,000 for bedrock, 1200 for obsidian, 100 for water
+	#Range: 0.0 ~ 9.99999999E8
+	nuke_blast_power = 1500.0
+	#Smoke bomb radius
+	#Range: 0.0 ~ 256.0
+	smoke_bomb = 30.0
+	#Atomic bomb explosion radius
+	#Range: 0.0 ~ 256.0
+	nuke_radius = 50.0
+	#High explosive bomb radius
+	#Range: 0.0 ~ 80.0
+	high_explosive = 10.0
+	#High explosive bomb explosion power(i.e. max blast resistance block to break) 3,600,000 for bedrock, 1200 for obsidian, 100 for water
+	#Range: 0.0 ~ 9.99999999E8
+	high_explosive_blast_power = 101.0
+
+#Ricochet, gravity, incendiary fire count
+[misc]
+	#Energy loss of ammo (TUNGSTEN) after ricochet (bouncing on hard surfaces)
+	#Range: 0.0 ~ 1.0
+	ammo_tungsten_ricochet_loss = 0.5
+	#Energy loss of ammo (Normal) after ricochet (bouncing on hard surfaces)
+	#Range: 0.0 ~ 1.0
+	ammo_normal_ricochet_loss = 0.5
+	#Number of flames from incendiary
+	#Range: 0 ~ 10000
+	incendiary_bomb = 100
+	#Energy loss of ammo (SILVER) after ricochet (bouncing on hard surfaces)
+	#Range: 0.0 ~ 1.0
+	ammo_silver_ricochet_loss = 0.5
+	#Energy loss of ammo (Anti-Gravity) after ricochet (bouncing on hard surfaces)
+	#Range: 0.0 ~ 1.0
+	ammo_anti_gravity_ricochet_loss = 0.5
+
+#Rifle Ammo Speed and Damage
+[rifle_ammo]
+
+	[rifle_ammo.762]
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Explosive 7.62mm
+		#Range: 0.0 ~ 999999.0
+		damage_explosive_762 = 16.0
+		#Range: 0.0 ~ 999999.0
+		speed_incendiary_762 = 6.5
+		#Range: 0.0 ~ 999999.0
+		gravity_explosive_762 = 0.029999999329447746
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Nuke 7.62mm
+		#Range: 0.0 ~ 999999.0
+		damage_nuke_762 = 24.0
+		#Range: 0.0 ~ 999999.0
+		gravity_anti_gravity_762 = 0.0
+		#Range: 0.0 ~ 999999.0
+		gravity_tungsten_762 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_incendiary_762 = 0.029999999329447746
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 7.62mm
+		#Range: 0.0 ~ 999999.0
+		damage_normal_762 = 21.600000381469727
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Incendiary 7.62mm
+		#Range: 0.0 ~ 999999.0
+		damage_incendiary_762 = 16.0
+		#Range: 0.0 ~ 999999.0
+		speed_explosive_762 = 6.5
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Silver 7.62mm
+		#Range: 0.0 ~ 999999.0
+		damage_silver_762 = 32.0
+		#Range: 0.0 ~ 999999.0
+		speed_silver_762 = 9.09999942779541
+		#Range: 0.0 ~ 999999.0
+		speed_nuke_762 = 7.799999713897705
+		#Range: 0.0 ~ 999999.0
+		speed_anti_gravity_762 = 6.5
+		#Range: 0.0 ~ 999999.0
+		speed_tungsten_762 = 10.399999618530273
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Anti-Gravity 7.62mm
+		#Range: 0.0 ~ 999999.0
+		damage_anti_gravity_762 = 20.0
+		#Range: 0.0 ~ 999999.0
+		speed_normal_762 = 6.5
+		#Range: 0.0 ~ 999999.0
+		gravity_silver_762 = 0.029999999329447746
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Tungsten 7.62mm
+		#Range: 0.0 ~ 999999.0
+		damage_tungsten_762 = 40.0
+		#Range: 0.0 ~ 999999.0
+		gravity_normal_762 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_nuke_762 = 0.029999999329447746
+
+	[rifle_ammo.127]
+		#Range: 0.0 ~ 999999.0
+		gravity_incendiary_127 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_explosive_127 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_tungsten_127 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		speed_incendiary_127 = 7.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 12.7mm
+		#Range: 0.0 ~ 999999.0
+		damage_normal_127 = 54.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Incendiary 12.7mm
+		#Range: 0.0 ~ 999999.0
+		damage_incendiary_127 = 40.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Explosive 12.7mm
+		#Range: 0.0 ~ 999999.0
+		damage_explosive_127 = 40.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Anti-Gravity 12.7mm
+		#Range: 0.0 ~ 999999.0
+		damage_anti_gravity_127 = 50.0
+		#Range: 0.0 ~ 999999.0
+		gravity_anti_gravity_127 = 0.0
+		#Range: 0.0 ~ 999999.0
+		speed_explosive_127 = 7.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Nuke 12.7mm
+		#Range: 0.0 ~ 999999.0
+		damage_nuke_127 = 60.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Silver 12.7mm
+		#Range: 0.0 ~ 999999.0
+		damage_silver_127 = 80.0
+		#Range: 0.0 ~ 999999.0
+		speed_silver_127 = 9.800000190734863
+		#Range: 0.0 ~ 999999.0
+		speed_normal_127 = 7.0
+		#Range: 0.0 ~ 999999.0
+		gravity_nuke_127 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_silver_127 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		speed_tungsten_127 = 11.199999809265137
+		#Range: 0.0 ~ 999999.0
+		speed_anti_gravity_127 = 7.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Tungsten 12.7mm
+		#Range: 0.0 ~ 999999.0
+		damage_tungsten_127 = 100.0
+		#Range: 0.0 ~ 999999.0
+		speed_nuke_127 = 8.399999618530273
+		#Range: 0.0 ~ 999999.0
+		gravity_normal_127 = 0.029999999329447746
+
+	[rifle_ammo.556]
+		#Range: 0.0 ~ 999999.0
+		gravity_incendiary_556 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_explosive_556 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_tungsten_556 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		speed_incendiary_556 = 7.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 5.56mm
+		#Range: 0.0 ~ 999999.0
+		damage_normal_556 = 18.899999618530273
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Incendiary 5.56mm
+		#Range: 0.0 ~ 999999.0
+		damage_incendiary_556 = 14.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Explosive 5.56mm
+		#Range: 0.0 ~ 999999.0
+		damage_explosive_556 = 14.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Anti-Gravity 5.56mm
+		#Range: 0.0 ~ 999999.0
+		damage_anti_gravity_556 = 17.5
+		#Range: 0.0 ~ 999999.0
+		gravity_anti_gravity_556 = 0.0
+		#Range: 0.0 ~ 999999.0
+		speed_explosive_556 = 7.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Nuke 5.56mm
+		#Range: 0.0 ~ 999999.0
+		damage_nuke_556 = 21.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Silver 5.56mm
+		#Range: 0.0 ~ 999999.0
+		damage_silver_556 = 28.0
+		#Range: 0.0 ~ 999999.0
+		speed_silver_556 = 9.800000190734863
+		#Range: 0.0 ~ 999999.0
+		speed_normal_556 = 7.0
+		#Range: 0.0 ~ 999999.0
+		gravity_nuke_556 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_silver_556 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		speed_tungsten_556 = 11.199999809265137
+		#Range: 0.0 ~ 999999.0
+		speed_anti_gravity_556 = 7.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Tungsten 5.56mm
+		#Range: 0.0 ~ 999999.0
+		damage_tungsten_556 = 35.0
+		#Range: 0.0 ~ 999999.0
+		speed_nuke_556 = 8.399999618530273
+		#Range: 0.0 ~ 999999.0
+		gravity_normal_556 = 0.029999999329447746
+
+	[rifle_ammo.9mm]
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Incendiary 9mm
+		#Range: 0.0 ~ 999999.0
+		damage_incendiary_9mm = 20.0
+		#Range: 0.0 ~ 999999.0
+		gravity_tungsten_9mm = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_incendiary_9mm = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_explosive_9mm = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_normal_9mm = 0.029999999329447746
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Explosive 9mm
+		#Range: 0.0 ~ 999999.0
+		damage_explosive_9mm = 20.0
+		#Range: 0.0 ~ 999999.0
+		speed_incendiary_9mm = 5.0
+		#Range: 0.0 ~ 999999.0
+		speed_explosive_9mm = 5.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Nuke 9mm
+		#Range: 0.0 ~ 999999.0
+		damage_nuke_9mm = 30.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Silver 9mm
+		#Range: 0.0 ~ 999999.0
+		damage_silver_9mm = 40.0
+		#Range: 0.0 ~ 999999.0
+		speed_silver_9mm = 7.0
+		#Range: 0.0 ~ 999999.0
+		gravity_anti_gravity_9mm = 0.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Tungsten 9mm
+		#Range: 0.0 ~ 999999.0
+		damage_tungsten_9mm = 50.0
+		#Range: 0.0 ~ 999999.0
+		speed_anti_gravity_9mm = 5.0
+		#Range: 0.0 ~ 999999.0
+		speed_tungsten_9mm = 8.0
+		#Range: 0.0 ~ 999999.0
+		speed_nuke_9mm = 6.0
+		#Range: 0.0 ~ 999999.0
+		gravity_nuke_9mm = 0.029999999329447746
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Anti-Gravity 9mm
+		#Range: 0.0 ~ 999999.0
+		damage_anti_gravity_9mm = 25.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 9mm
+		#Range: 0.0 ~ 999999.0
+		damage_normal_9mm = 27.0
+		#Range: 0.0 ~ 999999.0
+		gravity_silver_9mm = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		speed_normal_9mm = 5.0
+
+	[rifle_ammo.570]
+		#Range: 0.0 ~ 999999.0
+		gravity_anti_gravity_570 = 0.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Nuke 5.70mm
+		#Range: 0.0 ~ 999999.0
+		damage_nuke_570 = 30.0
+		#Range: 0.0 ~ 999999.0
+		speed_silver_570 = 7.0
+		#Range: 0.0 ~ 999999.0
+		speed_normal_570 = 5.0
+		#Range: 0.0 ~ 999999.0
+		gravity_explosive_570 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_silver_570 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		speed_tungsten_570 = 8.0
+		#Range: 0.0 ~ 999999.0
+		gravity_tungsten_570 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		speed_anti_gravity_570 = 5.0
+		#Range: 0.0 ~ 999999.0
+		speed_incendiary_570 = 5.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 5.70mm
+		#Range: 0.0 ~ 999999.0
+		damage_normal_570 = 27.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Explosive 5.70mm
+		#Range: 0.0 ~ 999999.0
+		damage_explosive_570 = 20.0
+		#Range: 0.0 ~ 999999.0
+		speed_nuke_570 = 6.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Anti-Gravity 5.70mm
+		#Range: 0.0 ~ 999999.0
+		damage_anti_gravity_570 = 25.0
+		#Range: 0.0 ~ 999999.0
+		gravity_normal_570 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		speed_explosive_570 = 5.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Silver 5.70mm
+		#Range: 0.0 ~ 999999.0
+		damage_silver_570 = 40.0
+		#Range: 0.0 ~ 999999.0
+		gravity_incendiary_570 = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_nuke_570 = 0.029999999329447746
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Incendiary 5.70mm
+		#Range: 0.0 ~ 999999.0
+		damage_incendiary_570 = 20.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Tungsten 5.70mm
+		#Range: 0.0 ~ 999999.0
+		damage_tungsten_570 = 50.0
+
+#Shotguns Ammo Speed, Damage, bird shots
+[shotgun_ammo]
+	#Number of birdshots in short gun ammo: Blight
+	#Range: 0 ~ 999999
+	n_birdshot_short_gun_blight = 10
+	#Number of birdshots in short gun ammo: Desolator
+	#Range: 0 ~ 999999
+	n_birdshot_short_gun_desolator = 10
+	#Number of birdshots in short gun ammo: Normal
+	#Range: 0 ~ 999999
+	n_birdshot_short_gun_normal = 10
+
+	[shotgun_ammo.12_ga]
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Normal 12 gauge
+		#Range: 0.0 ~ 999999.0
+		damage_short_gun_normal_12_ga = 7.0
+		#Range: 0.0 ~ 999999.0
+		gravity_short_gun_normal_12_ga = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		gravity_short_gun_desolator_12_ga = 0.029999999329447746
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Blight 12 gauge
+		#Range: 0.0 ~ 999999.0
+		damage_short_gun_blight_12_ga = 7.0
+		#Range: 0.0 ~ 999999.0
+		speed_short_gun_blight_12_ga = 5.0
+		#Base damage, base speed(m/tick) and gravity(m/tick^2) of ammo: Desolator 12 gauge
+		#Range: 0.0 ~ 999999.0
+		damage_short_gun_desolator_12_ga = 7.0
+		#Range: 0.0 ~ 999999.0
+		speed_short_gun_desolator_12_ga = 5.0
+		#Range: 0.0 ~ 999999.0
+		gravity_short_gun_blight_12_ga = 0.029999999329447746
+		#Range: 0.0 ~ 999999.0
+		speed_short_gun_normal_12_ga = 5.0
+
+#Gun Modifiers
+[gun_modifiers]
+	#AWP damage modify
+	#Range: 0.0 ~ 999999.0
+	awp_damage_modify = 3.0
+	#P90 speed modify
+	#Range: 0.0 ~ 999999.0
+	P90_speed_modify = 1.35
+	#GLOCK damage modify
+	#Range: 0.0 ~ 999999.0
+	glock_damage_modify = 1.1
+	#AWP speed modify
+	#Range: 0.0 ~ 999999.0
+	awp_speed_modify = 2.0
+	#DESERT_EAGLE damage modify
+	#Range: 0.0 ~ 999999.0
+	desert_eagle_damage_modify = 1.4
+	#M4A4 damage modify
+	#Range: 0.0 ~ 999999.0
+	m4a4_damage_modify = 1.3
+	#BARRETT damage modify
+	#Range: 0.0 ~ 999999.0
+	barrett_damage_modify = 5.0
+	#GLOCK speed modify
+	#Range: 0.0 ~ 999999.0
+	glock_speed_modify = 1.0
+	#DESERT_EAGLE speed modify
+	#Range: 0.0 ~ 999999.0
+	desert_eagle_speed_modify = 1.4
+	#FN57 speed modify
+	#Range: 0.0 ~ 999999.0
+	fn57_speed_modify = 1.1
+	#AK47 speed modify
+	#Range: 0.0 ~ 999999.0
+	ak47_speed_modify = 1.5
+	#USP speed modify
+	#Range: 0.0 ~ 999999.0
+	usp_speed_modify = 1.0
+	#BARRETT speed modify
+	#Range: 0.0 ~ 999999.0
+	barrett_speed_modify = 4.0
+	#FN57 damage modify
+	#Range: 0.0 ~ 999999.0
+	fn57_damage_modify = 1.1
+	#P90 damage modify
+	#Range: 0.0 ~ 999999.0
+	P90_damage_modify = 1.3
+	#M4A4 speed modify
+	#Range: 0.0 ~ 999999.0
+	m4a4_speed_modify = 1.35
+	#AK47 damage modify
+	#Range: 0.0 ~ 999999.0
+	ak47_damage_modify = 1.7
+	#USP damage modify
+	#Range: 0.0 ~ 999999.0
+	usp_damage_modify = 1.0
+
+#Tradings
+[tradings]
+
+	#ROCKET_MASTER_PROFESSION: Rockets.
+	[tradings.rocket_master]
+
+		[tradings.rocket_master.atomic_bomb_rocket]
+			atomic_bomb_rocket_price1 = "minecraft:diamond"
+			atomic_bomb_rocket_price2 = "null"
+			#Range: 1 ~ 64
+			atomic_bomb_rocket_price1_max = 50
+			#Range: 1 ~ 64
+			atomic_bomb_rocket_price2_min = 1
+			#Range: 1 ~ 64
+			atomic_bomb_rocket_price1_min = 40
+			#Range: 1 ~ 64
+			atomic_bomb_rocket_output_max = 1
+			atomic_bomb_rocket_output = "nuclear_craft:atomic_bomb_rocket"
+			#Range: 1 ~ 64
+			atomic_bomb_rocket_level = 4
+			#Range: 1 ~ 64
+			atomic_bomb_rocket_output_min = 1
+			atomic_bomb_rocket_profession = "nuclear_craft:rocket_master"
+			#Range: 1 ~ 64
+			atomic_bomb_rocket_price2_max = 1
+
+		[tradings.rocket_master.incendiary_rocket]
+			#Range: 1 ~ 64
+			incendiary_rocket_price2_max = 1
+			#Range: 1 ~ 64
+			incendiary_rocket_price2_min = 1
+			#Range: 1 ~ 64
+			incendiary_rocket_output_min = 1
+			#Range: 1 ~ 64
+			incendiary_rocket_level = 1
+			#Range: 1 ~ 64
+			incendiary_rocket_output_max = 1
+			incendiary_rocket_price1 = "minecraft:diamond"
+			incendiary_rocket_price2 = "null"
+			incendiary_rocket_profession = "nuclear_craft:rocket_master"
+			#Range: 1 ~ 64
+			incendiary_rocket_price1_min = 1
+			incendiary_rocket_output = "nuclear_craft:incendiary_rocket"
+			#Range: 1 ~ 64
+			incendiary_rocket_price1_max = 2
+
+		[tradings.rocket_master.water_drop_rocket]
+			#Range: 1 ~ 64
+			water_drop_rocket_price1_min = 40
+			#Range: 1 ~ 64
+			water_drop_rocket_price2_min = 1
+			water_drop_rocket_price2 = "null"
+			water_drop_rocket_price1 = "minecraft:nether_star"
+			#Range: 1 ~ 64
+			water_drop_rocket_output_max = 1
+			#Range: 1 ~ 64
+			water_drop_rocket_output_min = 1
+			water_drop_rocket_profession = "nuclear_craft:rocket_master"
+			#Range: 1 ~ 64
+			water_drop_rocket_price2_max = 1
+			#Range: 1 ~ 64
+			water_drop_rocket_level = 4
+			water_drop_rocket_output = "nuclear_craft:water_drop_rocket"
+			#Range: 1 ~ 64
+			water_drop_rocket_price1_max = 50
+
+		[tradings.rocket_master.high_explosive_rocket]
+			#Range: 1 ~ 64
+			high_explosive_rocket_price2_max = 1
+			#Range: 1 ~ 64
+			high_explosive_rocket_price2_min = 1
+			#Range: 1 ~ 64
+			high_explosive_rocket_price1_max = 4
+			#Range: 1 ~ 64
+			high_explosive_rocket_level = 3
+			high_explosive_rocket_output = "nuclear_craft:high_explosive_rocket"
+			high_explosive_rocket_profession = "nuclear_craft:rocket_master"
+			#Range: 1 ~ 64
+			high_explosive_rocket_price1_min = 3
+			#Range: 1 ~ 64
+			high_explosive_rocket_output_min = 1
+			high_explosive_rocket_price2 = "null"
+			high_explosive_rocket_price1 = "minecraft:diamond"
+			#Range: 1 ~ 64
+			high_explosive_rocket_output_max = 1
+
+		[tradings.rocket_master.rocket_launcher]
+			rocket_launcher_profession = "nuclear_craft:rocket_master"
+			#Range: 1 ~ 64
+			rocket_launcher_price1_min = 30
+			rocket_launcher_price2 = "null"
+			#Range: 1 ~ 64
+			rocket_launcher_output_min = 1
+			rocket_launcher_price1 = "minecraft:diamond"
+			rocket_launcher_output = "nuclear_craft:rocket_launcher"
+			#Range: 1 ~ 64
+			rocket_launcher_output_max = 1
+			#Range: 1 ~ 64
+			rocket_launcher_price2_max = 1
+			#Range: 1 ~ 64
+			rocket_launcher_level = 1
+			#Range: 1 ~ 64
+			rocket_launcher_price2_min = 1
+			#Range: 1 ~ 64
+			rocket_launcher_price1_max = 40
+
+		[tradings.rocket_master.smoke_rocket]
+			smoke_rocket_profession = "nuclear_craft:rocket_master"
+			smoke_rocket_price2 = "null"
+			#Range: 1 ~ 64
+			smoke_rocket_output_max = 1
+			smoke_rocket_price1 = "minecraft:diamond"
+			#Range: 1 ~ 64
+			smoke_rocket_price1_min = 2
+			#Range: 1 ~ 64
+			smoke_rocket_price2_min = 1
+			#Range: 1 ~ 64
+			smoke_rocket_level = 2
+			#Range: 1 ~ 64
+			smoke_rocket_price2_max = 1
+			#Range: 1 ~ 64
+			smoke_rocket_price1_max = 3
+			smoke_rocket_output = "nuclear_craft:smoke_rocket"
+			#Range: 1 ~ 64
+			smoke_rocket_output_min = 1
+
+	#EXPLOSIVE_MASTER_PROFESSION: C4 explosives
+	[tradings.explosive_master]
+
+		[tradings.explosive_master.netherite_defuse_kit]
+			#Range: 1 ~ 64
+			netherite_defuse_kit_price2_min = 1
+			netherite_defuse_kit_price2 = "null"
+			#Range: 1 ~ 64
+			netherite_defuse_kit_price1_max = 8
+			netherite_defuse_kit_price1 = "minecraft:netherite_ingot"
+			#Range: 1 ~ 64
+			netherite_defuse_kit_price2_max = 1
+			#Range: 1 ~ 64
+			netherite_defuse_kit_price1_min = 5
+			netherite_defuse_kit_output = "nuclear_craft:netherite_defuse_kit"
+			#Range: 1 ~ 64
+			netherite_defuse_kit_level = 5
+			#Range: 1 ~ 64
+			netherite_defuse_kit_output_max = 1
+			netherite_defuse_kit_profession = "nuclear_craft:explosive_master"
+			#Range: 1 ~ 64
+			netherite_defuse_kit_output_min = 1
+
+		[tradings.explosive_master.c4_atomic_bomb]
+			#Range: 1 ~ 64
+			c4_atomic_bomb_output_min = 1
+			c4_atomic_bomb_price1 = "minecraft:diamond"
+			c4_atomic_bomb_profession = "nuclear_craft:explosive_master"
+			#Range: 1 ~ 64
+			c4_atomic_bomb_output_max = 1
+			#Range: 1 ~ 64
+			c4_atomic_bomb_level = 4
+			#Range: 1 ~ 64
+			c4_atomic_bomb_price1_min = 40
+			#Range: 1 ~ 64
+			c4_atomic_bomb_price2_min = 1
+			c4_atomic_bomb_price2 = "null"
+			#Range: 1 ~ 64
+			c4_atomic_bomb_price2_max = 1
+			c4_atomic_bomb_output = "nuclear_craft:c4_atomic_bomb"
+			#Range: 1 ~ 64
+			c4_atomic_bomb_price1_max = 50
+
+		[tradings.explosive_master.diamond_defuse_kit]
+			#Range: 1 ~ 64
+			diamond_defuse_kit_price1_min = 5
+			diamond_defuse_kit_output = "nuclear_craft:diamond_defuse_kit"
+			#Range: 1 ~ 64
+			diamond_defuse_kit_price2_min = 1
+			#Range: 1 ~ 64
+			diamond_defuse_kit_output_max = 1
+			diamond_defuse_kit_price2 = "null"
+			#Range: 1 ~ 64
+			diamond_defuse_kit_price2_max = 1
+			#Range: 1 ~ 64
+			diamond_defuse_kit_output_min = 1
+			#Range: 1 ~ 64
+			diamond_defuse_kit_level = 4
+			#Range: 1 ~ 64
+			diamond_defuse_kit_price1_max = 8
+			diamond_defuse_kit_price1 = "minecraft:diamond"
+			diamond_defuse_kit_profession = "nuclear_craft:explosive_master"
+
+		[tradings.explosive_master.c4_high_explosive]
+			#Range: 1 ~ 64
+			c4_high_explosive_output_max = 1
+			#Range: 1 ~ 64
+			c4_high_explosive_output_min = 1
+			c4_high_explosive_profession = "nuclear_craft:explosive_master"
+			#Range: 1 ~ 64
+			c4_high_explosive_price1_max = 10
+			#Range: 1 ~ 64
+			c4_high_explosive_price2_min = 1
+			#Range: 1 ~ 64
+			c4_high_explosive_price1_min = 5
+			#Range: 1 ~ 64
+			c4_high_explosive_price2_max = 1
+			c4_high_explosive_price1 = "minecraft:diamond"
+			c4_high_explosive_output = "nuclear_craft:c4_high_explosive"
+			c4_high_explosive_price2 = "null"
+			#Range: 1 ~ 64
+			c4_high_explosive_level = 3
+
+		[tradings.explosive_master.c4_incendiary]
+			c4_incendiary_profession = "nuclear_craft:explosive_master"
+			#Range: 1 ~ 64
+			c4_incendiary_level = 1
+			c4_incendiary_price1 = "minecraft:diamond"
+			c4_incendiary_output = "nuclear_craft:c4_incendiary"
+			#Range: 1 ~ 64
+			c4_incendiary_output_min = 1
+			c4_incendiary_price2 = "null"
+			#Range: 1 ~ 64
+			c4_incendiary_output_max = 1
+			#Range: 1 ~ 64
+			c4_incendiary_price2_max = 1
+			#Range: 1 ~ 64
+			c4_incendiary_price2_min = 1
+			#Range: 1 ~ 64
+			c4_incendiary_price1_min = 2
+			#Range: 1 ~ 64
+			c4_incendiary_price1_max = 3
+
+		[tradings.explosive_master.c4_smoke]
+			#Range: 1 ~ 64
+			c4_smoke_price2_min = 1
+			c4_smoke_output = "nuclear_craft:c4_smoke"
+			c4_smoke_price2 = "null"
+			c4_smoke_price1 = "minecraft:diamond"
+			#Range: 1 ~ 64
+			c4_smoke_price1_min = 4
+			#Range: 1 ~ 64
+			c4_smoke_price2_max = 1
+			#Range: 1 ~ 64
+			c4_smoke_price1_max = 5
+			#Range: 1 ~ 64
+			c4_smoke_output_max = 1
+			c4_smoke_profession = "nuclear_craft:explosive_master"
+			#Range: 1 ~ 64
+			c4_smoke_level = 2
+			#Range: 1 ~ 64
+			c4_smoke_output_min = 1
+
+		[tradings.explosive_master.wood_defuse_kit]
+			wood_defuse_kit_price2 = "null"
+			#Range: 1 ~ 64
+			wood_defuse_kit_output_max = 1
+			wood_defuse_kit_price1 = "minecraft:stick"
+			wood_defuse_kit_output = "nuclear_craft:wood_defuse_kit"
+			#Range: 1 ~ 64
+			wood_defuse_kit_output_min = 1
+			#Range: 1 ~ 64
+			wood_defuse_kit_price1_min = 10
+			#Range: 1 ~ 64
+			wood_defuse_kit_level = 1
+			#Range: 1 ~ 64
+			wood_defuse_kit_price2_min = 1
+			#Range: 1 ~ 64
+			wood_defuse_kit_price2_max = 1
+			#Range: 1 ~ 64
+			wood_defuse_kit_price1_max = 13
+			wood_defuse_kit_profession = "nuclear_craft:explosive_master"
+
+		[tradings.explosive_master.gold_defuse_kit]
+			#Range: 1 ~ 64
+			gold_defuse_kit_price1_min = 5
+			gold_defuse_kit_price1 = "minecraft:gold_ingot"
+			#Range: 1 ~ 64
+			gold_defuse_kit_price1_max = 8
+			#Range: 1 ~ 64
+			gold_defuse_kit_level = 3
+			gold_defuse_kit_profession = "nuclear_craft:explosive_master"
+			#Range: 1 ~ 64
+			gold_defuse_kit_price2_max = 1
+			gold_defuse_kit_price2 = "null"
+			#Range: 1 ~ 64
+			gold_defuse_kit_output_min = 1
+			#Range: 1 ~ 64
+			gold_defuse_kit_price2_min = 1
+			#Range: 1 ~ 64
+			gold_defuse_kit_output_max = 1
+			gold_defuse_kit_output = "nuclear_craft:gold_defuse_kit"
+
+		[tradings.explosive_master.iron_defuse_kit]
+			#Range: 1 ~ 64
+			iron_defuse_kit_price1_min = 5
+			#Range: 1 ~ 64
+			iron_defuse_kit_price1_max = 8
+			iron_defuse_kit_profession = "nuclear_craft:explosive_master"
+			iron_defuse_kit_price2 = "null"
+			#Range: 1 ~ 64
+			iron_defuse_kit_level = 2
+			iron_defuse_kit_price1 = "minecraft:iron_ingot"
+			iron_defuse_kit_output = "nuclear_craft:iron_defuse_kit"
+			#Range: 1 ~ 64
+			iron_defuse_kit_price2_max = 1
+			#Range: 1 ~ 64
+			iron_defuse_kit_output_min = 1
+			#Range: 1 ~ 64
+			iron_defuse_kit_price2_min = 1
+			#Range: 1 ~ 64
+			iron_defuse_kit_output_max = 1
+
+	#SHOTGUN_AMMO_SELLER_PROFESSION: Shotgun ammo
+	[tradings.shotgun_ammo_seller]
+
+		[tradings.shotgun_ammo_seller.ammo_12_ga_short_gun_desolator]
+			ammo_12_ga_short_gun_desolator_price1 = "minecraft:iron_ingot"
+			ammo_12_ga_short_gun_desolator_profession = "nuclear_craft:shotgun_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_desolator_price1_min = 5
+			ammo_12_ga_short_gun_desolator_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_desolator_output_min = 6
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_desolator_level = 3
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_desolator_output_max = 10
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_desolator_price2_max = 4
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_desolator_price2_min = 2
+			ammo_12_ga_short_gun_desolator_output = "nuclear_craft:ammo_12_ga_short_gun_desolator"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_desolator_price1_max = 10
+
+		[tradings.shotgun_ammo_seller.ammo_12_ga_short_gun_blight]
+			ammo_12_ga_short_gun_blight_output = "nuclear_craft:ammo_12_ga_short_gun_blight"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_blight_level = 2
+			ammo_12_ga_short_gun_blight_profession = "nuclear_craft:shotgun_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_blight_output_max = 10
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_blight_output_min = 6
+			ammo_12_ga_short_gun_blight_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_blight_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_blight_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_blight_price2_max = 2
+			ammo_12_ga_short_gun_blight_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_blight_price1_min = 1
+
+		[tradings.shotgun_ammo_seller.ammo_12_ga_short_gun_normal]
+			ammo_12_ga_short_gun_normal_profession = "nuclear_craft:shotgun_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_normal_output_max = 10
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_normal_level = 1
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_normal_output_min = 6
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_normal_price2_max = 1
+			ammo_12_ga_short_gun_normal_output = "nuclear_craft:ammo_12_ga_short_gun_normal"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_normal_price1_max = 1
+			ammo_12_ga_short_gun_normal_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_normal_price2_min = 1
+			ammo_12_ga_short_gun_normal_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_12_ga_short_gun_normal_price1_min = 1
+
+	#GUN_SELLER_PROFESSION: guns
+	[tradings.gun_seller]
+
+		[tradings.gun_seller.ak47]
+			ak47_output = "nuclear_craft:ak47"
+			#Range: 1 ~ 64
+			ak47_price2_max = 1
+			#Range: 1 ~ 64
+			ak47_output_min = 1
+			#Range: 1 ~ 64
+			ak47_level = 4
+			ak47_profession = "nuclear_craft:gun_seller"
+			#Range: 1 ~ 64
+			ak47_price1_min = 40
+			#Range: 1 ~ 64
+			ak47_price1_max = 50
+			ak47_price2 = "null"
+			#Range: 1 ~ 64
+			ak47_price2_min = 1
+			#Range: 1 ~ 64
+			ak47_output_max = 1
+			ak47_price1 = "minecraft:diamond"
+
+		[tradings.gun_seller.barrett]
+			#Range: 1 ~ 64
+			barrett_price1_min = 50
+			#Range: 1 ~ 64
+			barrett_price1_max = 64
+			#Range: 1 ~ 64
+			barrett_price2_max = 1
+			#Range: 1 ~ 64
+			barrett_level = 5
+			#Range: 1 ~ 64
+			barrett_price2_min = 1
+			barrett_price2 = "null"
+			#Range: 1 ~ 64
+			barrett_output_min = 1
+			barrett_price1 = "minecraft:diamond"
+			#Range: 1 ~ 64
+			barrett_output_max = 1
+			barrett_profession = "nuclear_craft:gun_seller"
+			barrett_output = "nuclear_craft:barrett"
+
+		[tradings.gun_seller.usp]
+			#Range: 1 ~ 64
+			usp_level = 1
+			#Range: 1 ~ 64
+			usp_output_max = 1
+			usp_profession = "nuclear_craft:gun_seller"
+			#Range: 1 ~ 64
+			usp_output_min = 1
+			#Range: 1 ~ 64
+			usp_price2_min = 1
+			usp_price1 = "minecraft:diamond"
+			usp_output = "nuclear_craft:usp"
+			#Range: 1 ~ 64
+			usp_price1_max = 10
+			usp_price2 = "null"
+			#Range: 1 ~ 64
+			usp_price2_max = 1
+			#Range: 1 ~ 64
+			usp_price1_min = 10
+
+		[tradings.gun_seller.desert_eagle]
+			#Range: 1 ~ 64
+			desert_eagle_price2_max = 1
+			#Range: 1 ~ 64
+			desert_eagle_price2_min = 1
+			#Range: 1 ~ 64
+			desert_eagle_price1_min = 20
+			#Range: 1 ~ 64
+			desert_eagle_price1_max = 30
+			desert_eagle_profession = "nuclear_craft:gun_seller"
+			desert_eagle_output = "nuclear_craft:desert_eagle"
+			desert_eagle_price2 = "null"
+			#Range: 1 ~ 64
+			desert_eagle_output_min = 1
+			desert_eagle_price1 = "minecraft:diamond"
+			#Range: 1 ~ 64
+			desert_eagle_output_max = 1
+			#Range: 1 ~ 64
+			desert_eagle_level = 2
+
+		[tradings.gun_seller.p90]
+			#Range: 1 ~ 64
+			p90_level = 3
+			#Range: 1 ~ 64
+			p90_output_min = 1
+			#Range: 1 ~ 64
+			p90_output_max = 1
+			#Range: 1 ~ 64
+			p90_price1_min = 30
+			p90_profession = "nuclear_craft:gun_seller"
+			p90_price2 = "null"
+			#Range: 1 ~ 64
+			p90_price2_min = 1
+			p90_price1 = "minecraft:diamond"
+			p90_output = "nuclear_craft:p90"
+			#Range: 1 ~ 64
+			p90_price2_max = 1
+			#Range: 1 ~ 64
+			p90_price1_max = 50
+
+		[tradings.gun_seller.m4a4]
+			#Range: 1 ~ 64
+			m4a4_level = 3
+			m4a4_price1 = "minecraft:diamond"
+			m4a4_output = "nuclear_craft:m4a4"
+			#Range: 1 ~ 64
+			m4a4_output_max = 1
+			m4a4_price2 = "null"
+			#Range: 1 ~ 64
+			m4a4_output_min = 1
+			#Range: 1 ~ 64
+			m4a4_price1_max = 40
+			#Range: 1 ~ 64
+			m4a4_price2_min = 1
+			#Range: 1 ~ 64
+			m4a4_price1_min = 30
+			#Range: 1 ~ 64
+			m4a4_price2_max = 1
+			m4a4_profession = "nuclear_craft:gun_seller"
+
+		[tradings.gun_seller.fn57]
+			#Range: 1 ~ 64
+			fn57_output_min = 1
+			fn57_price2 = "null"
+			fn57_price1 = "minecraft:diamond"
+			#Range: 1 ~ 64
+			fn57_output_max = 1
+			#Range: 1 ~ 64
+			fn57_level = 1
+			#Range: 1 ~ 64
+			fn57_price1_max = 10
+			#Range: 1 ~ 64
+			fn57_price2_min = 1
+			#Range: 1 ~ 64
+			fn57_price1_min = 10
+			#Range: 1 ~ 64
+			fn57_price2_max = 1
+			fn57_output = "nuclear_craft:fn57"
+			fn57_profession = "nuclear_craft:gun_seller"
+
+		[tradings.gun_seller.xm1014]
+			xm1014_profession = "nuclear_craft:gun_seller"
+			#Range: 1 ~ 64
+			xm1014_price1_min = 30
+			#Range: 1 ~ 64
+			xm1014_price1_max = 40
+			xm1014_price1 = "minecraft:diamond"
+			xm1014_price2 = "null"
+			xm1014_output = "nuclear_craft:xm1014"
+			#Range: 1 ~ 64
+			xm1014_price2_max = 1
+			#Range: 1 ~ 64
+			xm1014_level = 3
+			#Range: 1 ~ 64
+			xm1014_price2_min = 1
+			#Range: 1 ~ 64
+			xm1014_output_min = 1
+			#Range: 1 ~ 64
+			xm1014_output_max = 1
+
+		[tradings.gun_seller.awp]
+			awp_price1 = "minecraft:diamond"
+			#Range: 1 ~ 64
+			awp_price1_min = 40
+			#Range: 1 ~ 64
+			awp_price1_max = 50
+			awp_price2 = "null"
+			#Range: 1 ~ 64
+			awp_output_max = 1
+			awp_profession = "nuclear_craft:gun_seller"
+			#Range: 1 ~ 64
+			awp_output_min = 1
+			#Range: 1 ~ 64
+			awp_price2_max = 1
+			awp_output = "nuclear_craft:awp"
+			#Range: 1 ~ 64
+			awp_level = 4
+			#Range: 1 ~ 64
+			awp_price2_min = 1
+
+		[tradings.gun_seller.glock]
+			#Range: 1 ~ 64
+			glock_price2_max = 1
+			#Range: 1 ~ 64
+			glock_price2_min = 1
+			#Range: 1 ~ 64
+			glock_price1_min = 10
+			#Range: 1 ~ 64
+			glock_price1_max = 10
+			glock_profession = "nuclear_craft:gun_seller"
+			glock_output = "nuclear_craft:glock"
+			#Range: 1 ~ 64
+			glock_output_min = 1
+			glock_price1 = "minecraft:diamond"
+			glock_price2 = "null"
+			#Range: 1 ~ 64
+			glock_output_max = 1
+			#Range: 1 ~ 64
+			glock_level = 1
+
+		[tradings.gun_seller.nova]
+			#Range: 1 ~ 64
+			nova_price1_min = 20
+			#Range: 1 ~ 64
+			nova_price2_min = 1
+			#Range: 1 ~ 64
+			nova_output_max = 1
+			#Range: 1 ~ 64
+			nova_price2_max = 1
+			nova_price1 = "minecraft:diamond"
+			#Range: 1 ~ 64
+			nova_output_min = 1
+			nova_price2 = "null"
+			#Range: 1 ~ 64
+			nova_price1_max = 30
+			nova_profession = "nuclear_craft:gun_seller"
+			#Range: 1 ~ 64
+			nova_level = 2
+			nova_output = "nuclear_craft:nova"
+
+	#RIFLE_AMMO_SELLER_PROFESSION: Rifle ammo
+	[tradings.rifle_ammo_seller]
+
+		[tradings.rifle_ammo_seller.ammo_127_incendiary]
+			ammo_127_incendiary_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_127_incendiary_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_127_incendiary_price1_max = 1
+			ammo_127_incendiary_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_127_incendiary_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_127_incendiary_price2_min = 2
+			ammo_127_incendiary_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_127_incendiary_output_min = 6
+			#Range: 1 ~ 64
+			ammo_127_incendiary_level = 1
+			ammo_127_incendiary_output = "nuclear_craft:ammo_127_incendiary"
+			#Range: 1 ~ 64
+			ammo_127_incendiary_output_max = 10
+
+		[tradings.rifle_ammo_seller.ammo_9mm_silver]
+			#Range: 1 ~ 64
+			ammo_9mm_silver_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_9mm_silver_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_9mm_silver_output_min = 6
+			ammo_9mm_silver_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_9mm_silver_output = "nuclear_craft:ammo_9mm_silver"
+			ammo_9mm_silver_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_9mm_silver_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_9mm_silver_output_max = 10
+			#Range: 1 ~ 64
+			ammo_9mm_silver_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_9mm_silver_level = 2
+			ammo_9mm_silver_price2 = "minecraft:gunpowder"
+
+		[tradings.rifle_ammo_seller.ammo_9mm_normal]
+			ammo_9mm_normal_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_9mm_normal_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_9mm_normal_price1_max = 1
+			ammo_9mm_normal_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_9mm_normal_price2_max = 1
+			ammo_9mm_normal_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_9mm_normal_price2_min = 1
+			ammo_9mm_normal_output = "nuclear_craft:ammo_9mm_normal"
+			#Range: 1 ~ 64
+			ammo_9mm_normal_level = 1
+			#Range: 1 ~ 64
+			ammo_9mm_normal_output_min = 6
+			#Range: 1 ~ 64
+			ammo_9mm_normal_output_max = 10
+
+		[tradings.rifle_ammo_seller.ammo_762_tungsten]
+			#Range: 1 ~ 64
+			ammo_762_tungsten_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_762_tungsten_level = 4
+			ammo_762_tungsten_output = "nuclear_craft:ammo_762_tungsten"
+			#Range: 1 ~ 64
+			ammo_762_tungsten_price1_min = 5
+			ammo_762_tungsten_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_762_tungsten_price2_max = 2
+			ammo_762_tungsten_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_762_tungsten_price1_max = 5
+			#Range: 1 ~ 64
+			ammo_762_tungsten_output_max = 10
+			ammo_762_tungsten_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_762_tungsten_output_min = 6
+
+		[tradings.rifle_ammo_seller.ammo_556_incendiary]
+			#Range: 1 ~ 64
+			ammo_556_incendiary_level = 1
+			#Range: 1 ~ 64
+			ammo_556_incendiary_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_556_incendiary_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_556_incendiary_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_556_incendiary_price2_max = 2
+			ammo_556_incendiary_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_556_incendiary_output_min = 6
+			ammo_556_incendiary_output = "nuclear_craft:ammo_556_incendiary"
+			#Range: 1 ~ 64
+			ammo_556_incendiary_output_max = 10
+			ammo_556_incendiary_price2 = "minecraft:gunpowder"
+			ammo_556_incendiary_profession = "nuclear_craft:rifle_ammo_seller"
+
+		[tradings.rifle_ammo_seller.ammo_570_normal]
+			ammo_570_normal_price1 = "minecraft:iron_ingot"
+			ammo_570_normal_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_570_normal_price2_max = 1
+			#Range: 1 ~ 64
+			ammo_570_normal_price2_min = 1
+			#Range: 1 ~ 64
+			ammo_570_normal_level = 1
+			#Range: 1 ~ 64
+			ammo_570_normal_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_570_normal_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_570_normal_output_max = 10
+			#Range: 1 ~ 64
+			ammo_570_normal_output_min = 6
+			ammo_570_normal_output = "nuclear_craft:ammo_570_normal"
+			ammo_570_normal_profession = "nuclear_craft:rifle_ammo_seller"
+
+		[tradings.rifle_ammo_seller.ammo_570_nuke]
+			ammo_570_nuke_output = "nuclear_craft:ammo_570_nuke"
+			ammo_570_nuke_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_570_nuke_price1_min = 1
+			ammo_570_nuke_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_570_nuke_output_min = 60
+			ammo_570_nuke_price1 = "minecraft:nether_star"
+			#Range: 1 ~ 64
+			ammo_570_nuke_output_max = 64
+			#Range: 1 ~ 64
+			ammo_570_nuke_price2_max = 1
+			#Range: 1 ~ 64
+			ammo_570_nuke_level = 5
+			#Range: 1 ~ 64
+			ammo_570_nuke_price2_min = 1
+			#Range: 1 ~ 64
+			ammo_570_nuke_price1_max = 1
+
+		[tradings.rifle_ammo_seller.ammo_556_normal]
+			#Range: 1 ~ 64
+			ammo_556_normal_output_min = 6
+			#Range: 1 ~ 64
+			ammo_556_normal_level = 1
+			ammo_556_normal_output = "nuclear_craft:ammo_556_normal"
+			#Range: 1 ~ 64
+			ammo_556_normal_output_max = 10
+			ammo_556_normal_price2 = "minecraft:gunpowder"
+			ammo_556_normal_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_556_normal_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_556_normal_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_556_normal_price2_min = 1
+			ammo_556_normal_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_556_normal_price2_max = 1
+
+		[tradings.rifle_ammo_seller.ammo_556_tungsten]
+			#Range: 1 ~ 64
+			ammo_556_tungsten_output_max = 10
+			ammo_556_tungsten_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_556_tungsten_output_min = 6
+			ammo_556_tungsten_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_556_tungsten_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_556_tungsten_price1_max = 5
+			#Range: 1 ~ 64
+			ammo_556_tungsten_price2_max = 2
+			ammo_556_tungsten_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_556_tungsten_price1_min = 5
+			#Range: 1 ~ 64
+			ammo_556_tungsten_level = 4
+			ammo_556_tungsten_output = "nuclear_craft:ammo_556_tungsten"
+
+		[tradings.rifle_ammo_seller.ammo_127_nuke]
+			#Range: 1 ~ 64
+			ammo_127_nuke_price2_min = 1
+			#Range: 1 ~ 64
+			ammo_127_nuke_level = 5
+			#Range: 1 ~ 64
+			ammo_127_nuke_price2_max = 1
+			#Range: 1 ~ 64
+			ammo_127_nuke_price1_max = 1
+			ammo_127_nuke_price1 = "minecraft:nether_star"
+			ammo_127_nuke_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_127_nuke_price1_min = 1
+			ammo_127_nuke_output = "nuclear_craft:ammo_127_nuke"
+			ammo_127_nuke_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_127_nuke_output_max = 64
+			#Range: 1 ~ 64
+			ammo_127_nuke_output_min = 60
+
+		[tradings.rifle_ammo_seller.ammo_127_anti_gravity]
+			ammo_127_anti_gravity_output = "nuclear_craft:ammo_127_anti_gravity"
+			#Range: 1 ~ 64
+			ammo_127_anti_gravity_output_min = 6
+			#Range: 1 ~ 64
+			ammo_127_anti_gravity_output_max = 10
+			#Range: 1 ~ 64
+			ammo_127_anti_gravity_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_127_anti_gravity_level = 2
+			ammo_127_anti_gravity_price1 = "minecraft:iron_ingot"
+			ammo_127_anti_gravity_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_127_anti_gravity_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_127_anti_gravity_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_127_anti_gravity_price1_max = 1
+			ammo_127_anti_gravity_profession = "nuclear_craft:rifle_ammo_seller"
+
+		[tradings.rifle_ammo_seller.ammo_127_explosive]
+			#Range: 1 ~ 64
+			ammo_127_explosive_output_min = 6
+			#Range: 1 ~ 64
+			ammo_127_explosive_output_max = 10
+			ammo_127_explosive_output = "nuclear_craft:ammo_127_explosive"
+			#Range: 1 ~ 64
+			ammo_127_explosive_level = 3
+			#Range: 1 ~ 64
+			ammo_127_explosive_price2_max = 10
+			#Range: 1 ~ 64
+			ammo_127_explosive_price1_min = 2
+			#Range: 1 ~ 64
+			ammo_127_explosive_price2_min = 10
+			#Range: 1 ~ 64
+			ammo_127_explosive_price1_max = 2
+			ammo_127_explosive_price1 = "minecraft:iron_ingot"
+			ammo_127_explosive_price2 = "minecraft:gunpowder"
+			ammo_127_explosive_profession = "nuclear_craft:rifle_ammo_seller"
+
+		[tradings.rifle_ammo_seller.ammo_127_tungsten]
+			ammo_127_tungsten_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_127_tungsten_price1 = "minecraft:iron_ingot"
+			ammo_127_tungsten_output = "nuclear_craft:ammo_127_tungsten"
+			#Range: 1 ~ 64
+			ammo_127_tungsten_price1_min = 5
+			ammo_127_tungsten_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_127_tungsten_price1_max = 5
+			#Range: 1 ~ 64
+			ammo_127_tungsten_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_127_tungsten_level = 4
+			#Range: 1 ~ 64
+			ammo_127_tungsten_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_127_tungsten_output_min = 6
+			#Range: 1 ~ 64
+			ammo_127_tungsten_output_max = 10
+
+		[tradings.rifle_ammo_seller.ammo_556_silver]
+			#Range: 1 ~ 64
+			ammo_556_silver_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_556_silver_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_556_silver_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_556_silver_price1_min = 1
+			ammo_556_silver_price1 = "minecraft:iron_ingot"
+			ammo_556_silver_price2 = "minecraft:gunpowder"
+			ammo_556_silver_output = "nuclear_craft:ammo_556_silver"
+			#Range: 1 ~ 64
+			ammo_556_silver_output_max = 10
+			#Range: 1 ~ 64
+			ammo_556_silver_output_min = 6
+			#Range: 1 ~ 64
+			ammo_556_silver_level = 2
+			ammo_556_silver_profession = "nuclear_craft:rifle_ammo_seller"
+
+		[tradings.rifle_ammo_seller.ammo_9mm_incendiary]
+			#Range: 1 ~ 64
+			ammo_9mm_incendiary_price1_min = 1
+			ammo_9mm_incendiary_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_9mm_incendiary_output = "nuclear_craft:ammo_9mm_incendiary"
+			#Range: 1 ~ 64
+			ammo_9mm_incendiary_output_min = 6
+			#Range: 1 ~ 64
+			ammo_9mm_incendiary_output_max = 10
+			#Range: 1 ~ 64
+			ammo_9mm_incendiary_level = 1
+			ammo_9mm_incendiary_price1 = "minecraft:iron_ingot"
+			ammo_9mm_incendiary_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_9mm_incendiary_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_9mm_incendiary_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_9mm_incendiary_price1_max = 1
+
+		[tradings.rifle_ammo_seller.ammo_9mm_tungsten]
+			ammo_9mm_tungsten_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_9mm_tungsten_output_max = 10
+			#Range: 1 ~ 64
+			ammo_9mm_tungsten_output_min = 6
+			#Range: 1 ~ 64
+			ammo_9mm_tungsten_price1_min = 5
+			#Range: 1 ~ 64
+			ammo_9mm_tungsten_level = 4
+			#Range: 1 ~ 64
+			ammo_9mm_tungsten_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_9mm_tungsten_price1_max = 5
+			ammo_9mm_tungsten_output = "nuclear_craft:ammo_9mm_tungsten"
+			#Range: 1 ~ 64
+			ammo_9mm_tungsten_price2_max = 2
+			ammo_9mm_tungsten_price2 = "minecraft:gunpowder"
+			ammo_9mm_tungsten_price1 = "minecraft:iron_ingot"
+
+		[tradings.rifle_ammo_seller.ammo_127_normal]
+			#Range: 1 ~ 64
+			ammo_127_normal_level = 1
+			#Range: 1 ~ 64
+			ammo_127_normal_output_min = 6
+			ammo_127_normal_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_127_normal_output = "nuclear_craft:ammo_127_normal"
+			#Range: 1 ~ 64
+			ammo_127_normal_output_max = 10
+			ammo_127_normal_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_127_normal_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_127_normal_price2_min = 1
+			ammo_127_normal_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_127_normal_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_127_normal_price2_max = 1
+
+		[tradings.rifle_ammo_seller.ammo_762_nuke]
+			#Range: 1 ~ 64
+			ammo_762_nuke_price2_min = 1
+			#Range: 1 ~ 64
+			ammo_762_nuke_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_762_nuke_price2_max = 1
+			#Range: 1 ~ 64
+			ammo_762_nuke_price1_min = 1
+			ammo_762_nuke_price1 = "minecraft:nether_star"
+			ammo_762_nuke_output = "nuclear_craft:ammo_762_nuke"
+			ammo_762_nuke_price2 = "minecraft:gunpowder"
+			ammo_762_nuke_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_762_nuke_output_max = 64
+			#Range: 1 ~ 64
+			ammo_762_nuke_output_min = 60
+			#Range: 1 ~ 64
+			ammo_762_nuke_level = 5
+
+		[tradings.rifle_ammo_seller.ammo_570_silver]
+			ammo_570_silver_output = "nuclear_craft:ammo_570_silver"
+			#Range: 1 ~ 64
+			ammo_570_silver_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_570_silver_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_570_silver_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_570_silver_price1_min = 1
+			ammo_570_silver_price2 = "minecraft:gunpowder"
+			ammo_570_silver_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_570_silver_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_570_silver_output_max = 10
+			#Range: 1 ~ 64
+			ammo_570_silver_output_min = 6
+			#Range: 1 ~ 64
+			ammo_570_silver_level = 2
+
+		[tradings.rifle_ammo_seller.ammo_9mm_nuke]
+			ammo_9mm_nuke_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_9mm_nuke_output_max = 64
+			ammo_9mm_nuke_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_9mm_nuke_level = 5
+			ammo_9mm_nuke_output = "nuclear_craft:ammo_9mm_nuke"
+			#Range: 1 ~ 64
+			ammo_9mm_nuke_output_min = 60
+			#Range: 1 ~ 64
+			ammo_9mm_nuke_price2_min = 1
+			#Range: 1 ~ 64
+			ammo_9mm_nuke_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_9mm_nuke_price2_max = 1
+			ammo_9mm_nuke_price1 = "minecraft:nether_star"
+			#Range: 1 ~ 64
+			ammo_9mm_nuke_price1_min = 1
+
+		[tradings.rifle_ammo_seller.ammo_762_incendiary]
+			#Range: 1 ~ 64
+			ammo_762_incendiary_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_762_incendiary_price1_max = 1
+			ammo_762_incendiary_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_762_incendiary_output = "nuclear_craft:ammo_762_incendiary"
+			#Range: 1 ~ 64
+			ammo_762_incendiary_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_762_incendiary_output_min = 6
+			ammo_762_incendiary_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_762_incendiary_level = 1
+			ammo_762_incendiary_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_762_incendiary_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_762_incendiary_output_max = 10
+
+		[tradings.rifle_ammo_seller.ammo_570_anti_gravity]
+			#Range: 1 ~ 64
+			ammo_570_anti_gravity_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_570_anti_gravity_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_570_anti_gravity_price1_max = 1
+			ammo_570_anti_gravity_output = "nuclear_craft:ammo_570_anti_gravity"
+			#Range: 1 ~ 64
+			ammo_570_anti_gravity_level = 2
+			ammo_570_anti_gravity_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_570_anti_gravity_output_max = 10
+			ammo_570_anti_gravity_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_570_anti_gravity_output_min = 6
+			ammo_570_anti_gravity_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_570_anti_gravity_price1_min = 1
+
+		[tradings.rifle_ammo_seller.ammo_762_normal]
+			#Range: 1 ~ 64
+			ammo_762_normal_price2_max = 1
+			ammo_762_normal_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_762_normal_output_min = 6
+			#Range: 1 ~ 64
+			ammo_762_normal_level = 1
+			ammo_762_normal_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_762_normal_price1_max = 1
+			ammo_762_normal_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_762_normal_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_762_normal_price2_min = 1
+			#Range: 1 ~ 64
+			ammo_762_normal_output_max = 10
+			ammo_762_normal_output = "nuclear_craft:ammo_762_normal"
+
+		[tradings.rifle_ammo_seller.ammo_762_silver]
+			ammo_762_silver_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_762_silver_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_762_silver_level = 2
+			#Range: 1 ~ 64
+			ammo_762_silver_price1_max = 1
+			ammo_762_silver_price1 = "minecraft:iron_ingot"
+			ammo_762_silver_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_762_silver_output_min = 6
+			#Range: 1 ~ 64
+			ammo_762_silver_output_max = 10
+			#Range: 1 ~ 64
+			ammo_762_silver_price2_max = 2
+			ammo_762_silver_output = "nuclear_craft:ammo_762_silver"
+			#Range: 1 ~ 64
+			ammo_762_silver_price2_min = 2
+
+		[tradings.rifle_ammo_seller.ammo_127_silver]
+			#Range: 1 ~ 64
+			ammo_127_silver_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_127_silver_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_127_silver_price2_max = 2
+			ammo_127_silver_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_127_silver_price1_min = 1
+			ammo_127_silver_price2 = "minecraft:gunpowder"
+			ammo_127_silver_output = "nuclear_craft:ammo_127_silver"
+			#Range: 1 ~ 64
+			ammo_127_silver_level = 2
+			ammo_127_silver_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_127_silver_output_max = 10
+			#Range: 1 ~ 64
+			ammo_127_silver_output_min = 6
+
+		[tradings.rifle_ammo_seller.ammo_9mm_anti_gravity]
+			ammo_9mm_anti_gravity_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_9mm_anti_gravity_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_9mm_anti_gravity_output_min = 6
+			#Range: 1 ~ 64
+			ammo_9mm_anti_gravity_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_9mm_anti_gravity_output_max = 10
+			#Range: 1 ~ 64
+			ammo_9mm_anti_gravity_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_9mm_anti_gravity_level = 2
+			ammo_9mm_anti_gravity_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_9mm_anti_gravity_price1_max = 1
+			ammo_9mm_anti_gravity_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_9mm_anti_gravity_output = "nuclear_craft:ammo_9mm_anti_gravity"
+
+		[tradings.rifle_ammo_seller.ammo_9mm_explosive]
+			ammo_9mm_explosive_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_9mm_explosive_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_9mm_explosive_price1_min = 2
+			ammo_9mm_explosive_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_9mm_explosive_price1_max = 2
+			#Range: 1 ~ 64
+			ammo_9mm_explosive_price2_max = 10
+			#Range: 1 ~ 64
+			ammo_9mm_explosive_level = 3
+			#Range: 1 ~ 64
+			ammo_9mm_explosive_price2_min = 10
+			ammo_9mm_explosive_output = "nuclear_craft:ammo_9mm_explosive"
+			#Range: 1 ~ 64
+			ammo_9mm_explosive_output_min = 6
+			#Range: 1 ~ 64
+			ammo_9mm_explosive_output_max = 10
+
+		[tradings.rifle_ammo_seller.ammo_762_anti_gravity]
+			#Range: 1 ~ 64
+			ammo_762_anti_gravity_level = 2
+			ammo_762_anti_gravity_price2 = "minecraft:gunpowder"
+			ammo_762_anti_gravity_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_762_anti_gravity_output_max = 10
+			#Range: 1 ~ 64
+			ammo_762_anti_gravity_output_min = 6
+			ammo_762_anti_gravity_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_762_anti_gravity_price1_min = 1
+			ammo_762_anti_gravity_output = "nuclear_craft:ammo_762_anti_gravity"
+			#Range: 1 ~ 64
+			ammo_762_anti_gravity_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_762_anti_gravity_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_762_anti_gravity_price2_min = 2
+
+		[tradings.rifle_ammo_seller.ammo_556_nuke]
+			ammo_556_nuke_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_556_nuke_output_max = 64
+			#Range: 1 ~ 64
+			ammo_556_nuke_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_556_nuke_output_min = 60
+			ammo_556_nuke_price1 = "minecraft:nether_star"
+			#Range: 1 ~ 64
+			ammo_556_nuke_level = 5
+			ammo_556_nuke_price2 = "minecraft:gunpowder"
+			ammo_556_nuke_output = "nuclear_craft:ammo_556_nuke"
+			#Range: 1 ~ 64
+			ammo_556_nuke_price2_max = 1
+			#Range: 1 ~ 64
+			ammo_556_nuke_price2_min = 1
+			#Range: 1 ~ 64
+			ammo_556_nuke_price1_max = 1
+
+		[tradings.rifle_ammo_seller.ammo_556_explosive]
+			ammo_556_explosive_output = "nuclear_craft:ammo_556_explosive"
+			#Range: 1 ~ 64
+			ammo_556_explosive_price1_min = 2
+			ammo_556_explosive_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_556_explosive_output_min = 6
+			ammo_556_explosive_price2 = "minecraft:gunpowder"
+			ammo_556_explosive_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_556_explosive_output_max = 10
+			#Range: 1 ~ 64
+			ammo_556_explosive_level = 3
+			#Range: 1 ~ 64
+			ammo_556_explosive_price2_min = 10
+			#Range: 1 ~ 64
+			ammo_556_explosive_price2_max = 10
+			#Range: 1 ~ 64
+			ammo_556_explosive_price1_max = 2
+
+		[tradings.rifle_ammo_seller.ammo_556_anti_gravity]
+			#Range: 1 ~ 64
+			ammo_556_anti_gravity_output_min = 6
+			#Range: 1 ~ 64
+			ammo_556_anti_gravity_output_max = 10
+			ammo_556_anti_gravity_price2 = "minecraft:gunpowder"
+			ammo_556_anti_gravity_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_556_anti_gravity_price1_min = 1
+			#Range: 1 ~ 64
+			ammo_556_anti_gravity_level = 2
+			ammo_556_anti_gravity_output = "nuclear_craft:ammo_556_anti_gravity"
+			#Range: 1 ~ 64
+			ammo_556_anti_gravity_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_556_anti_gravity_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_556_anti_gravity_price1_max = 1
+			ammo_556_anti_gravity_profession = "nuclear_craft:rifle_ammo_seller"
+
+		[tradings.rifle_ammo_seller.ammo_570_explosive]
+			ammo_570_explosive_price1 = "minecraft:iron_ingot"
+			ammo_570_explosive_price2 = "minecraft:gunpowder"
+			ammo_570_explosive_output = "nuclear_craft:ammo_570_explosive"
+			#Range: 1 ~ 64
+			ammo_570_explosive_price2_min = 10
+			#Range: 1 ~ 64
+			ammo_570_explosive_price1_max = 2
+			#Range: 1 ~ 64
+			ammo_570_explosive_price2_max = 10
+			#Range: 1 ~ 64
+			ammo_570_explosive_price1_min = 2
+			#Range: 1 ~ 64
+			ammo_570_explosive_level = 3
+			ammo_570_explosive_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_570_explosive_output_max = 10
+			#Range: 1 ~ 64
+			ammo_570_explosive_output_min = 6
+
+		[tradings.rifle_ammo_seller.ammo_570_incendiary]
+			#Range: 1 ~ 64
+			ammo_570_incendiary_price2_min = 2
+			#Range: 1 ~ 64
+			ammo_570_incendiary_price1_max = 1
+			#Range: 1 ~ 64
+			ammo_570_incendiary_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_570_incendiary_price1_min = 1
+			ammo_570_incendiary_price2 = "minecraft:gunpowder"
+			ammo_570_incendiary_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_570_incendiary_level = 1
+			ammo_570_incendiary_profession = "nuclear_craft:rifle_ammo_seller"
+			#Range: 1 ~ 64
+			ammo_570_incendiary_output_max = 10
+			ammo_570_incendiary_output = "nuclear_craft:ammo_570_incendiary"
+			#Range: 1 ~ 64
+			ammo_570_incendiary_output_min = 6
+
+		[tradings.rifle_ammo_seller.ammo_570_tungsten]
+			#Range: 1 ~ 64
+			ammo_570_tungsten_output_min = 6
+			#Range: 1 ~ 64
+			ammo_570_tungsten_output_max = 10
+			ammo_570_tungsten_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_570_tungsten_price2 = "minecraft:gunpowder"
+			#Range: 1 ~ 64
+			ammo_570_tungsten_price1_min = 5
+			ammo_570_tungsten_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_570_tungsten_price1_max = 5
+			#Range: 1 ~ 64
+			ammo_570_tungsten_price2_max = 2
+			#Range: 1 ~ 64
+			ammo_570_tungsten_level = 4
+			ammo_570_tungsten_output = "nuclear_craft:ammo_570_tungsten"
+			#Range: 1 ~ 64
+			ammo_570_tungsten_price2_min = 2
+
+		[tradings.rifle_ammo_seller.ammo_762_explosive]
+			#Range: 1 ~ 64
+			ammo_762_explosive_output_min = 6
+			ammo_762_explosive_price2 = "minecraft:gunpowder"
+			ammo_762_explosive_profession = "nuclear_craft:rifle_ammo_seller"
+			ammo_762_explosive_output = "nuclear_craft:ammo_762_explosive"
+			#Range: 1 ~ 64
+			ammo_762_explosive_level = 3
+			#Range: 1 ~ 64
+			ammo_762_explosive_output_max = 10
+			#Range: 1 ~ 64
+			ammo_762_explosive_price1_max = 2
+			#Range: 1 ~ 64
+			ammo_762_explosive_price2_min = 10
+			ammo_762_explosive_price1 = "minecraft:iron_ingot"
+			#Range: 1 ~ 64
+			ammo_762_explosive_price1_min = 2
+			#Range: 1 ~ 64
+			ammo_762_explosive_price2_max = 10
+
+#Defuse Time (in ticks, 20ticks = 1 second)
+[defuse_time]
+	#Range: 1 ~ 999999999
+	netherite_defuse_kit_time = 100
+	#Range: 1 ~ 999999999
+	iron_defuse_kit_time = 200
+	#Range: 1 ~ 999999999
+	wood_defuse_kit_time = 400
+	#Range: 1 ~ 999999999
+	gold_defuse_kit_time = 60
+	#Range: 1 ~ 999999999
+	diamond_defuse_kit_time = 150
+

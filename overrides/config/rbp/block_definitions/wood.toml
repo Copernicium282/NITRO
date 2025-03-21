@@ -1,0 +1,58 @@
+
+[wood]
+	#The strength of the block[s] as a beam supporting blocks above.
+	#Range: 0.0 ~ 1.0
+	BeamStrength = 0.6
+
+	#A list of block IDs to be affected by this definition.
+	Blocks = ["minecraft:acacia_log", "minecraft:acacia_planks", "minecraft:acacia_wood", "minecraft:birch_log", "minecraft:birch_planks", "minecraft:birch_wood", "minecraft:crimson_hyphae", "minecraft:crimson_planks", "minecraft:crimson_stem", "minecraft:dark_oak_log", "minecraft:dark_oak_planks", "minecraft:dark_oak_wood", "minecraft:jungle_log", "minecraft:jungle_planks", "minecraft:jungle_wood", "minecraft:oak_log", "minecraft:oak_planks", "minecraft:oak_wood", "minecraft:spruce_log", "minecraft:spruce_planks", "minecraft:spruce_wood", "minecraft:stripped_acacia_log", "minecraft:stripped_acacia_wood", "minecraft:stripped_birch_log", "minecraft:stripped_birch_wood", "minecraft:stripped_crimson_hyphae", "minecraft:stripped_crimson_stem", "minecraft:stripped_dark_oak_log", "minecraft:stripped_dark_oak_wood", "minecraft:stripped_jungle_log", "minecraft:stripped_jungle_wood", "minecraft:stripped_oak_log", "minecraft:stripped_oak_wood", "minecraft:stripped_spruce_log", "minecraft:stripped_spruce_wood", "minecraft:stripped_warped_hyphae", "minecraft:stripped_warped_stem", "minecraft:warped_hyphae", "minecraft:warped_planks", "minecraft:warped_stem"]
+
+	#The chance of the block[s] breaking after falling and landing.
+	#Range: 0.0 ~ 1.0
+	BreakChanceOnLanded = 0.2
+
+	#Whether the block[s] should break instead of falling.
+	BreakOnFalling = false
+
+	#The minimum velocity, in meters per tick, the block[s] must land at before they have a chance of breaking.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	BreakVelocityMinOnLanded = 0.5
+
+	#The damage the block[s] will cause to entities after falling and landing on them.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	EntityDamage = 1.5
+
+	#Whether the block[s] should have a fake full-block collision box.
+	FakeFullBlock = false
+
+	#Whether the block[s] should be allowed to float on water.
+	FloatsOnWater = false
+
+	#Whether the block[s] should be allowed to attach to the side of other blocks.
+	IsAttachable = true
+
+	#Whether the block[s] should be allowed to attach to the bottom of other blocks.
+	IsHangable = true
+
+	#The mass of the block[s], in kilograms.
+	#Range: > 1
+	Mass = 700
+
+	#Whether the block[s] will receive chunk updates.
+	ReceivesChunkUpdates = false
+
+	#Whether the block[s] will receive neighbouring block updates.
+	ReceivesNeighbourUpdates = true
+
+	#The chance of the block[s] sliding after falling and landing.
+	#Range: 0.0 ~ 1.0
+	SlideChanceOnLanded = 0.6
+
+	#The chance of the block[s] sliding after being placed.
+	#Range: 0.0 ~ 1.0
+	SlideChanceOnPlaced = 0.0
+
+	#The maximum mass the block[s] can support horizontally and vertically.
+	#Range: > 0
+	SupportMass = 4500
+

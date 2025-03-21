@@ -1,0 +1,380 @@
+
+[Armor]
+
+	[Armor.Sapphire]
+		#Set the protection value of the Sapphire Helmet
+		#Range: 0 ~ 999999999
+		sapphire_helmet_protection = 3
+		#Set the toughness of the Sapphire Armor
+		#Range: 0.0 ~ 9.99999999E8
+		sapphire_toughness = 2.0
+		#Set the protection value of the Sapphire Boots
+		#Range: 0 ~ 999999999
+		sapphire_boots_protection = 3
+		#Set the protection value of the Sapphire Chestplate
+		#Range: 0 ~ 999999999
+		sapphire_chestplate_protection = 8
+		#Set the protection value of the Sapphire Leggings
+		#Range: 0 ~ 999999999
+		sapphire_leggings_protection = 6
+
+	[Armor."Status Effect"]
+		#Enable if full Armor sets should give Potion Effects or not(Default: true).
+		enable_statuseffects = true
+
+	[Armor.Cryorite]
+		#Set the protection value of the Cryorite Leggings
+		#Range: 0 ~ 999999999
+		cryorite_leggings_protection = 7
+		#Set the protection value of the Cryorite Boots
+		#Range: 0 ~ 999999999
+		cryorite_boots_protection = 3
+		#Set the protection value of the Cryorite Chestplate
+		#Range: 0 ~ 999999999
+		cryorite_chestplate_protection = 6
+		#Set the toughness of the Cryorite Armor
+		#Range: 0.0 ~ 9.99999999E8
+		cryorite_toughness = 0.0
+		#Set the protection value of the Cryorite Helmet
+		#Range: 0 ~ 999999999
+		cryorite_helmet_protection = 3
+
+	[Armor.Ruby]
+		#Set the protection value of the Ruby Boots
+		#Range: 0 ~ 999999999
+		ruby_boots_protection = 3
+		#Set the protection value of the Ruby Helmet
+		#Range: 0 ~ 999999999
+		ruby_helmet_protection = 3
+		#Set the toughness of the Ruby Armor
+		#Range: 0.0 ~ 9.99999999E8
+		ruby_toughness = 2.0
+		#Set the protection value of the Ruby Chestplate
+		#Range: 0 ~ 999999999
+		ruby_chestplate_protection = 8
+		#Set the protection value of the Ruby Leggings
+		#Range: 0 ~ 999999999
+		ruby_leggings_protection = 6
+
+	[Armor.Topaz]
+		#Set the protection value of the Topaz Boots
+		#Range: 0 ~ 999999999
+		topaz_boots_protection = 3
+		#Set the protection value of the Topaz Helmet
+		#Range: 0 ~ 999999999
+		topaz_helmet_protection = 3
+		#Set the toughness of the Topaz Armor
+		#Range: 0.0 ~ 9.99999999E8
+		topaz_toughness = 2.5
+		#Set the protection value of the Topaz Chestplate
+		#Range: 0 ~ 999999999
+		topaz_chestplate_protection = 8
+		#Set the protection value of the Topaz Leggings
+		#Range: 0 ~ 999999999
+		topaz_leggings_protection = 6
+
+	[Armor.Amethyst]
+		#Set the protection value of the Amethyst Chestplate
+		#Range: 0 ~ 999999999
+		amethyst_chestplate_protection = 8
+		#Set the protection value of the Amethyst Helmet
+		#Range: 0 ~ 999999999
+		amethyst_helmet_protection = 3
+		#Set the toughness of the Amethyst Armor
+		#Range: 0.0 ~ 9.99999999E8
+		amethyst_toughness = 3.0
+		#Set the protection value of the Amethyst Leggings
+		#Range: 0 ~ 999999999
+		amethyst_leggings_protection = 6
+		#Set the protection value of the Amethyst Boots
+		#Range: 0 ~ 999999999
+		amethyst_boots_protection = 3
+
+["Ore Generation"]
+
+	["Ore Generation".Experience]
+		#Enable that fortune boosts the experience that you can get from mining(Default: true).
+		enable_fortune = true
+
+		["Ore Generation".Experience.Points]
+
+			["Ore Generation".Experience.Points.Nether]
+				#Set the Max Experience you can get out of the Experience Nether Ore (Default: 30).
+				#Range: 0 ~ 999999999
+				max_exp_nether = 30
+				#Set the Min Experience you can get out of the Experience Nether Ore (Default: 20).
+				#Range: 0 ~ 999999999
+				min_exp_nether = 20
+
+			["Ore Generation".Experience.Points.Overworld]
+				#Set the Min Experience you can get out of the Experience Overworld Ore (Default: 10).
+				#Range: 0 ~ 999999999
+				min_exp_overworld = 10
+				#Set the Max Experience you can get out of the Experience Overworld Ore (Default: 20).
+				#Range: 0 ~ 999999999
+				max_exp_overworld = 20
+
+			["Ore Generation".Experience.Points.End]
+				#Set the Min Experience you can get out of the Experience End Ore (Default: 30).
+				#Range: 0 ~ 999999999
+				min_exp_end = 30
+				#Set the Max Experience you can get out of the Experience End Ore (Default: 40).
+				#Range: 0 ~ 999999999
+				max_exp_end = 40
+
+		["Ore Generation".Experience.Nether]
+			#Set the maximum ammount of the Experience Ore veins in the Nether (Default: 4)
+			#Range: 1 ~ 999999999
+			count_nether_experience = 5
+			#Enable the Generation of the Nether Experience Ore (Default: true).
+			generate_nether_experience = true
+			#Set the Max Height of the Experience Ore in the Nether (Default: 128).
+			#Range: 0 ~ 128
+			max_height_nether_experience = 128
+			#Set the Min Height of the Experience Ore in the Nether (Default: 0).
+			#Range: 0 ~ 128
+			min_height_nether_experience = 0
+			#Set the Vein Size of the Nether Experience Ore(Default: 4).
+			#Range: 1 ~ 255
+			veinsize_nether_experience = 4
+			#Set the chance of the Nether Experience Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
+			#Range: 1 ~ 999999999
+			chance_nether_experience = 1
+
+		["Ore Generation".Experience.Overworld]
+			#Enable the Generation of the Overworld Experience Ore(Default: true).
+			generate_overworld_experience = true
+			#Set the maximum ammount of the Experience Ore veins in the Overworld (Default: 4)
+			#Range: 1 ~ 999999999
+			count_overworld_experience = 5
+			#Set the Max Height of the Experience Ore in the Overworld (Default: 128).
+			#Range: 1 ~ 256
+			max_height_overworld_experience = 128
+			#Set the Min Height of the Experience Ore in the Overworld (Default: 0).
+			#Range: 0 ~ 128
+			min_height_overworld_experience = 0
+			#Set the chance of the Overworld Experience Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
+			#Range: 1 ~ 999999999
+			chance_overworld_experience = 1
+			#Set the Vein Size of the Overworld Experience Ore(Default: 1).
+			#Range: 1 ~ 255
+			veinsize_overworld_experience = 4
+
+		["Ore Generation".Experience.End]
+			#Enable the Generation of the End Experience Ore (Default: true).
+			generate_end_experience = true
+			#Set the Vein Size of the End Experience Ore(Default: 4).
+			#Range: 1 ~ 255
+			veinsize_end_experience = 4
+			#Set the maximum ammount of the Experience Ore veins in the End (Default: 4)
+			#Range: 1 ~ 999999999
+			count_end_experience = 5
+			#Set the Min Height of the Experience Ore in  the End (Default: 0).
+			#Range: 0 ~ 128
+			min_height_end_experience = 0
+			#Set the Max Height of the Experience Ore in  the End (Default: 128).
+			#Range: 0 ~ 128
+			max_height_end_experience = 128
+			#Set the chance of the End Experience Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
+			#Range: 1 ~ 999999999
+			chance_end_experience = 1
+
+	["Ore Generation".Nether]
+
+		["Ore Generation".Nether."Topaz Generation"]
+			#Set the Vein Size of the Topaz Ore (Default: 4).
+			#Range: 1 ~ 255
+			veinsize_topaz = 4
+			#Enable the Generation of Topaz Ore (Default: true).
+			generate_topaz = true
+			#Set the Max Height of the Topaz Ore (Default: 128).
+			#Range: 0 ~ 128
+			maxheight_topaz = 128
+			#Set the Min Height of the Topaz Ore (Default: 0).
+			#Range: 0 ~ 128
+			minheight_topaz = 0
+			#Set the chance of the Topaz Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
+			#Range: 1 ~ 255
+			chance_topaz = 1
+			#Set the maximum ammount of the Topaz ore veins per Chunk (Default: 1).
+			#Range: 0 ~ 999999999
+			count_topaz = 1
+
+	["Ore Generation".Overworld]
+		#Enable that Rubies and Sapphire's generate in every biome(Default: false).
+		every_biome = false
+
+		["Ore Generation".Overworld."Cryorite Generation"]
+			#Set the maximum ammount of the Cryorite ore veins per Chunk (Default: 1).
+			#Range: 0 ~ 999999999
+			count_cryorite = 1
+			#Set the Max  Height of the Cryorite Ore (Default: 100).
+			#Range: 0 ~ 256
+			maxheight_cryorite = 100
+			#Set the Vein Size of the Cryorite Ore (Default: 4).
+			#Range: 1 ~ 255
+			veinsize_cryorite = 4
+			#Enable the Generation of Cryorite Ore (Default: true).
+			generate_cryorite = true
+			#Set the Temperature of the biome in which the Cryorite Ore should generate(The temperature of the biome is equal and below)(Default: 0.5F)
+			#Range: -9.99999999E8 ~ 9.99999999E8
+			cryorite_temperature = 0.5
+			#Set the chance of the Cryorite Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
+			#Range: 1 ~ 255
+			chance_cryorite = 1
+			#Set the Min Height of the Cryorite Ore (Default: 40).
+			#Range: 0 ~ 256
+			minheight_cryorite = 40
+
+		["Ore Generation".Overworld."Sapphire Generation"]
+			#Set the chance of the Sapphire Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
+			#Range: 1 ~ 100
+			chance_sapphire = 1
+			#Set the Max Height of the Sapphire Ore (Default: 16).
+			#Range: 0 ~ 256
+			maxheight_sapphire = 16
+			#Set the Temperature of the biome in which the Sapphire Ore should generate(The temperature of the biome is equal and below)(Default: 0.2F)
+			#Range: -9.99999999E8 ~ 9.99999999E8
+			sapphire_temperature = 0.2
+			#Set the maximum ammount of the Sapphire ore veins per Chunk (Default: 1).
+			#Range: 0 ~ 999999999
+			count_sapphire = 1
+			#Set the Vein Size of the Sapphire Ore (Default: 8).
+			#Range: 4 ~ 255
+			veinsize_sapphire = 8
+			#Set the Min Height of the Sapphire Ore (Default: 0).
+			#Range: 0 ~ 256
+			minheight_sapphire = 0
+			#Enable the Generation of Sapphire Ore (Default: true).
+			generate_sapphire = true
+
+		["Ore Generation".Overworld."Ruby Generation"]
+			#Enable the Generation of Ruby Ore (Default: true).
+			generate_ruby = true
+			#Set the Temperature of the biome in which the Ruby Ore should generate(The temperature of the biome is equal and above)(Default: 1.0F)
+			#Range: -9.99999999E8 ~ 9.99999999E8
+			ruby_temperature = 1.0
+			#Set the Vein Size of the Ruby Ore (Default: 8).
+			#Range: 4 ~ 255
+			veinsize_ruby = 8
+			#Set the maximum ammount of the Ruby ore veins per Chunk (Default: 1).
+			#Range: 0 ~ 999999999
+			count_ruby = 1
+			#Set the Min Height of the Ruby Ore (Default: 0).
+			#Range: 0 ~ 256
+			minheight_ruby = 0
+			#Set the chance of the Ruby Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
+			#Range: 1 ~ 255
+			chance_ruby = 1
+			#Set the Max  Height of the Ruby Ore (Default: 16).
+			#Range: 0 ~ 256
+			maxheight_ruby = 16
+
+	["Ore Generation".End]
+
+		["Ore Generation".End."Amethyst Generation"]
+			#Set the maximum ammount of the Amethyst ore veins per Chunk (Default: 1).
+			#Range: 0 ~ 999999999
+			count_amethyst = 4
+			#Set the Max Height of the Amethyst Ore (Default: 128).
+			#Range: 0 ~ 128
+			maxheight_amethyst = 128
+			#Set the Vein Size of the Amethyst Ore(Default: 1).
+			#Range: 1 ~ 255
+			veinsize_amethyst = 4
+			#Enable the Generation of Amethyst Ore (Default: true).
+			generate_amethyst = true
+			#Set the chance of the Amethyst Ore how rare it will be 1 = as common as diamond, 2 = half as common as diamond (Default: 1).
+			#Range: 1 ~ 255
+			chance_amethyst = 1
+			#Set the Min Height of the Amethyst Ore (Default: 0).
+			#Range: 0 ~ 128
+			minheight_amethyst = 0
+
+["Horse Armor"]
+
+	["Horse Armor".Nether]
+		#Set the protection value of the Topaz horse armor
+		#Range: 0 ~ 999999999
+		topaz_horse_armor = 13
+
+	["Horse Armor".Overworld]
+		#Set the protection value of the Ruby horse armor
+		#Range: 0 ~ 999999999
+		ruby_horse_armor = 11
+		#Set the protection value of the Sapphire horse armor
+		#Range: 0 ~ 999999999
+		sapphire_horse_armor = 11
+		#Set the protection value of the Cryorite horse armor
+		#Range: 0 ~ 999999999
+		cryorite_horse_armor = 11
+
+	["Horse Armor".End]
+		#Set the protection value of the Amethyst horse armor
+		#Range: 0 ~ 999999999
+		amethyst_horse_armor = 18
+
+#Config File of the More Ores In ONE mod.
+["Tool Attack Damages"]
+
+	["Tool Attack Damages".Sapphire]
+		#Sapphire base attack damage
+		#Range: 0.0 ~ 9.99999999E8
+		attackdamage_sapphire = 3.5
+
+	["Tool Attack Damages".Cryorite]
+		#Cryorite base attack damage
+		#Range: 0.0 ~ 9.99999999E8
+		attackdamage_cryorite = 2.5
+
+	["Tool Attack Damages".Ruby]
+		#Ruby base attack damage
+		#Range: 0.0 ~ 9.99999999E8
+		attackdamage_ruby = 3.5
+
+	["Tool Attack Damages".Topaz]
+		#Topaz base attack damage
+		#Range: 0.0 ~ 9.99999999E8
+		attackdamage_topaz = 4.0
+
+	["Tool Attack Damages".Amethyst]
+		#Amethyst base attack damage
+		#Range: 0.0 ~ 9.99999999E8
+		attackdamage_amethyst = 4.5
+
+	["Tool Attack Damages"."DONT CHANGE THE STRINGS!"]
+		dontchange = "Base Axe damage: 6"
+		dontchange2 = "Base Sword damage: 3"
+		dontchange4 = "Base Pickaxe damage: 1"
+		dontchange3 = "Base Shovel damage: 1.5"
+		dontchange6 = "Base Cup damage: 1"
+		dontchange5 = "Base Hoe damage: 0"
+		dontchange7 = "To get the damage you want add the base damage of the Tool and the base attack damage of the material."
+
+["Tool Durabilities"]
+
+	["Tool Durabilities".Sapphire]
+		#Set the Durability of Sapphire Tools(Default: 1700).
+		#Range: 0 ~ 999999999
+		durability_sapphire = 1700
+
+	["Tool Durabilities".Cryorite]
+		#Set the Durability of Cryorite Tools(Default: 400).
+		#Range: 0 ~ 999999999
+		durability_cryorite = 400
+
+	["Tool Durabilities".Ruby]
+		#Set the Durability of Ruby Tools(Default: 1700).
+		#Range: 0 ~ 999999999
+		durability_ruby = 1700
+
+	["Tool Durabilities".Topaz]
+		#Set the Durability of Topaz Tools(Default: 1800).
+		#Range: 0 ~ 999999999
+		durability_topaz = 1800
+
+	["Tool Durabilities".Amethyst]
+		#Set the Durability of Amethyst Tools(Default: 2000).
+		#Range: 0 ~ 999999999
+		durability_amethyst = 2000
+

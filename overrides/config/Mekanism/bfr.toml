@@ -1,0 +1,12 @@
+
+#Better Fusion Reactor. This config is synced between server and client.
+[bfr]
+
+	#Better Fusion Reactor
+	[bfr.better_fusion_reactor]
+		#Small explosion when reactor reaches 100% error level
+		reactor_meltdown = true
+		#How often Reactivity changes and error level change speed. default 10
+		#Range: 1 ~ 20
+		reaction_difficulty = 16
+

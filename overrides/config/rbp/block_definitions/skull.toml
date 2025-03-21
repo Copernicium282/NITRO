@@ -1,0 +1,58 @@
+
+[skull]
+	#The strength of the block[s] as a beam supporting blocks above.
+	#Range: 0.0 ~ 1.0
+	BeamStrength = 0.0
+
+	#A list of block IDs to be affected by this definition.
+	Blocks = ["minecraft:creeper_head", "minecraft:dragon_head", "minecraft:flower_pot", "minecraft:player_head", "minecraft:skeleton_skull", "minecraft:turtle_egg", "minecraft:wither_skeleton_skull", "minecraft:zombie_head"]
+
+	#The chance of the block[s] breaking after falling and landing.
+	#Range: 0.0 ~ 1.0
+	BreakChanceOnLanded = 0.2
+
+	#Whether the block[s] should break instead of falling.
+	BreakOnFalling = false
+
+	#The minimum velocity, in meters per tick, the block[s] must land at before they have a chance of breaking.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	BreakVelocityMinOnLanded = 0.5
+
+	#The damage the block[s] will cause to entities after falling and landing on them.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	EntityDamage = 2.0
+
+	#Whether the block[s] should have a fake full-block collision box.
+	FakeFullBlock = false
+
+	#Whether the block[s] should be allowed to float on water.
+	FloatsOnWater = false
+
+	#Whether the block[s] should be allowed to attach to the side of other blocks.
+	IsAttachable = false
+
+	#Whether the block[s] should be allowed to attach to the bottom of other blocks.
+	IsHangable = false
+
+	#The mass of the block[s], in kilograms.
+	#Range: > 1
+	Mass = 1
+
+	#Whether the block[s] will receive chunk updates.
+	ReceivesChunkUpdates = true
+
+	#Whether the block[s] will receive neighbouring block updates.
+	ReceivesNeighbourUpdates = true
+
+	#The chance of the block[s] sliding after falling and landing.
+	#Range: 0.0 ~ 1.0
+	SlideChanceOnLanded = 0.6
+
+	#The chance of the block[s] sliding after being placed.
+	#Range: 0.0 ~ 1.0
+	SlideChanceOnPlaced = 0.0
+
+	#The maximum mass the block[s] can support horizontally and vertically.
+	#Range: > 0
+	SupportMass = 0
+

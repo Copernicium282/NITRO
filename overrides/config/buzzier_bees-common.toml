@@ -1,0 +1,9 @@
+
+[items]
+
+	[items.bone_meal]
+		#If short flowers can be fertilized with Bone Meal to duplicate
+		"Short flower fertilizing" = true
+		#If tall flowers can be fertilized with Bone Meal to duplicate
+		"Tall flower fertilizing" = true
+

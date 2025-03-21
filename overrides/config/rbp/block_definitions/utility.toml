@@ -1,0 +1,58 @@
+
+[utility]
+	#The strength of the block[s] as a beam supporting blocks above.
+	#Range: 0.0 ~ 1.0
+	BeamStrength = 0.0
+
+	#A list of block IDs to be affected by this definition.
+	Blocks = ["minecraft:anvil", "minecraft:beacon", "minecraft:blast_furnace", "minecraft:cartography_table", "minecraft:cauldron", "minecraft:chipped_anvil", "minecraft:composter", "minecraft:crafting_table", "minecraft:damaged_anvil", "minecraft:dispenser", "minecraft:dropper", "minecraft:enchanting_table", "minecraft:end_portal_frame", "minecraft:fletching_table", "minecraft:furnace", "minecraft:grindstone", "minecraft:jukebox", "minecraft:lectern", "minecraft:lit_furnace", "minecraft:lodestone", "minecraft:loom", "minecraft:mob_spawner", "minecraft:note_block", "minecraft:observer", "minecraft:respawn_anchor", "minecraft:smithing_table", "minecraft:smoker", "minecraft:stonecutter"]
+
+	#The chance of the block[s] breaking after falling and landing.
+	#Range: 0.0 ~ 1.0
+	BreakChanceOnLanded = 0.2
+
+	#Whether the block[s] should break instead of falling.
+	BreakOnFalling = false
+
+	#The minimum velocity, in meters per tick, the block[s] must land at before they have a chance of breaking.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	BreakVelocityMinOnLanded = 0.5
+
+	#The damage the block[s] will cause to entities after falling and landing on them.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	EntityDamage = 1.5
+
+	#Whether the block[s] should have a fake full-block collision box.
+	FakeFullBlock = false
+
+	#Whether the block[s] should be allowed to float on water.
+	FloatsOnWater = false
+
+	#Whether the block[s] should be allowed to attach to the side of other blocks.
+	IsAttachable = false
+
+	#Whether the block[s] should be allowed to attach to the bottom of other blocks.
+	IsHangable = false
+
+	#The mass of the block[s], in kilograms.
+	#Range: > 1
+	Mass = 100
+
+	#Whether the block[s] will receive chunk updates.
+	ReceivesChunkUpdates = true
+
+	#Whether the block[s] will receive neighbouring block updates.
+	ReceivesNeighbourUpdates = true
+
+	#The chance of the block[s] sliding after falling and landing.
+	#Range: 0.0 ~ 1.0
+	SlideChanceOnLanded = 0.6
+
+	#The chance of the block[s] sliding after being placed.
+	#Range: 0.0 ~ 1.0
+	SlideChanceOnPlaced = 0.0
+
+	#The maximum mass the block[s] can support horizontally and vertically.
+	#Range: > 0
+	SupportMass = 0
+
