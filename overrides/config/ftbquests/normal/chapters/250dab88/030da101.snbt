@@ -1,0 +1,27 @@
+{
+	title: "Energy converters",
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"These energy converters do as they say; Convert HE to RF and vice-versa.",
+		"",
+		"NOTE: 1 HE = 2 RF"
+	],
+	dependencies: [
+		"fcb1a09c"
+	],
+	tasks: [{
+		uid: "1e15fb67",
+		type: "item",
+		items: [{
+			item: "hbm:machine_converter_he_rf"
+		}]
+	},
+	{
+		uid: "302f9881",
+		type: "item",
+		items: [{
+			item: "hbm:machine_converter_rf_he"
+		}]
+	}]
+}

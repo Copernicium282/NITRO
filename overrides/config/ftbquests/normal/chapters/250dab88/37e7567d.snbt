@@ -1,0 +1,17 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	text: [
+		"Forces radioactive materials to decay."
+	],
+	dependencies: [
+		"f6b4c28f"
+	],
+	tasks: [{
+		uid: "8c52d0b3",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:decay_hastener"
+		}]
+	}]
+}

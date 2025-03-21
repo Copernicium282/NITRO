@@ -1,0 +1,17 @@
+{
+	x: 15.5d,
+	y: 7.0d,
+	text: [
+		"Splits compounds into their elements."
+	],
+	dependencies: [
+		"e3ef6357"
+	],
+	tasks: [{
+		uid: "18454e09",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:electrolyzer"
+		}]
+	}]
+}

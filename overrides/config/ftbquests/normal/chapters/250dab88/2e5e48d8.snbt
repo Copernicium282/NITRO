@@ -1,0 +1,22 @@
+{
+	title: "Random Teleport",
+	icon: "hbm:telepad",
+	x: -2.5d,
+	y: -6.0d,
+	description: "YEAH BOII",
+	text: [
+		"You can use the /rtp command to randomly teleport around the world. This will really come in handy when finding HBM structures to loot.",
+		"All you need to do before this is set your home using /home (not required if you dont want your home near to spawn and are finding for one using rtp)",
+		"and you're set to go!",
+		"",
+		"You can also use the /back command to teleport to your previous location in case you want to use it."
+	],
+	dependencies: [
+		"9bba69a3"
+	],
+	rewards: [{
+		uid: "7a17ad19",
+		type: "item",
+		item: "nuclearcraft:smore"
+	}]
+}

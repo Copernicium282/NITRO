@@ -1,0 +1,125 @@
+{
+	title: "XNET: RF transfer",
+	x: 4.5d,
+	y: -7.5d,
+	text: [
+		"Use the Nuclearcraft RF storage blocks to store your RF.",
+		"",
+		"Note: You can also use Ender IO cables."
+	],
+	dependencies: [
+		"cc0b2d12"
+	],
+	tasks: [{
+		uid: "d24068c7",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			}
+		}]
+	},
+	{
+		uid: "c63fc134",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_red.name"
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "6dc0b3b0",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_yellow.name"
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "b78c44cc",
+		type: "item",
+		items: [{
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_green.name"
+				}
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "ed4b3dc5",
+		type: "item",
+		item: "xnet:xnet_manual"
+	},
+	{
+		uid: "f5e9e5b2",
+		type: "item",
+		item: "xnet:controller"
+	},
+	{
+		uid: "5e72762a",
+		type: "item",
+		item: {
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			}
+		}
+	},
+	{
+		uid: "6841ba36",
+		type: "item",
+		item: {
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_red.name"
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "e670719a",
+		type: "item",
+		item: {
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_yellow.name"
+				}
+			},
+			Damage: 2s
+		}
+	},
+	{
+		uid: "751882dc",
+		type: "item",
+		item: {
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_green.name"
+				}
+			},
+			Damage: 3s
+		}
+	}]
+}

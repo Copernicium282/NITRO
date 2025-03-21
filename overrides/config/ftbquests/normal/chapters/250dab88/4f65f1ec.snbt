@@ -1,0 +1,25 @@
+{
+	title: "Key to Mid Game",
+	x: 18.0d,
+	y: -0.5d,
+	description: "4th Tier Circuitry",
+	text: [
+		"Used in a lot of mid to late-game machines like the Radar, the Schrabidium Transmutation Device, the large nuclear reactor's control core,",
+		" the Ore Acidizer, as well as some high-tier nukes.",
+		"",
+		"Can be made by upgrading and advanced circuit with 400mb of Hydrogen Peroxide, 200mb of Petroleum Gas, Gold wiring, Lapis Lazuli powder, ",
+		"and a Polymer Bar. Devices that use this typically lean on the high-tech side.",
+		"",
+		"Note that this and the next recipe is made using the Chemical Plant and not the Assembly Machine."
+	],
+	dependencies: [
+		"033092cd"
+	],
+	tasks: [{
+		uid: "899ba2a6",
+		type: "item",
+		items: [{
+			item: "hbm:circuit_gold"
+		}]
+	}]
+}

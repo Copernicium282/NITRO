@@ -1,0 +1,81 @@
+{
+	title: "Environmental protection (Plan B)",
+	icon: {
+		id: "hbm:t45_helmet",
+		tag: {
+			charge: 1000000L
+		}
+	},
+	x: 9.0d,
+	y: -2.0d,
+	description: "Much better than Hazmat if you intend on working on machines and other stuff while also avoiding small amounts of radiation.",
+	text: [
+		"Your very first power armor!",
+		"Wearing a complete set gives you strength, modify 0.5 explosion damage, damage upper limit 10.0, damage correction 0.5, Geiger counter alarm,",
+		" Fire protection, immunity to fall damage, head-up display (HUD) and hard landing.",
+		"",
+		"Equip a full set with some lead cladding using an Armor Modification Table to get better radiation protection."
+	],
+	dependencies: [
+		"808bec73"
+	],
+	tasks: [{
+		uid: "e7e8a023",
+		type: "item",
+		items: [{
+			id: "hbm:t45_helmet",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c72c52f",
+		type: "item",
+		items: [{
+			id: "hbm:t45_plate",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "792390dd",
+		type: "item",
+		items: [{
+			id: "hbm:t45_legs",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1c8b4423",
+		type: "item",
+		items: [{
+			id: "hbm:t45_boots",
+			tag: {
+				charge: 1000000L
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3397ec19",
+		type: "item",
+		item: "hbm:cladding_lead",
+		count: 4
+	},
+	{
+		uid: "e16a6382",
+		type: "item",
+		item: "hbm:machine_armor_table"
+	}]
+}

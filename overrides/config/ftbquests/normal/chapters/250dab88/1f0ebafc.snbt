@@ -1,0 +1,23 @@
+{
+	title: "Advanced Alloy Ingot",
+	x: 0.0d,
+	y: 1.0d,
+	description: "As important as steel in HBM",
+	text: [
+		"Advanced alloy (not to be confused with IC2 version) is a, well, advanced alloy made from steel and red copper.",
+		"It is used to make tools, armor, superconductors, Advanced Factories, and much more.",
+		"It has just as much use in electrical components as red copper, maybe more, and they're all mid-late game.",
+		"It can also be found in Spaceships. For now, craft atleast a stack of each of plates and ingots of Advanced alloy for the upcoming quests",
+		"(to make your first circuit) and also for automation of circuits and other stuff."
+	],
+	dependencies: [
+		"97008a6d"
+	],
+	tasks: [{
+		uid: "4a4f60ab",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_advanced_alloy"
+		}]
+	}]
+}
