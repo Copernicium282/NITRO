@@ -1,4 +1,4 @@
-# NuclearTechReborn
+# Nuclear Integrated Tech Research Overhauled A.K.A NITRO
 
 https://www.curseforge.com/minecraft/modpacks/nuclear-tech-reborn
 
