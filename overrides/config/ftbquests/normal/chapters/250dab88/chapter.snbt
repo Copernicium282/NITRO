@@ -1,7 +1,0 @@
-{
-	title: "Beginning",
-	icon: "hbm:anvil_iron",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "circle"
-}
