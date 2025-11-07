@@ -1,0 +1,60 @@
+
+[recipes]
+
+    # Enables dynamic replacement of log -> plank recipes with variants that use a axe or saw.
+    # These recipes are added dynamically and are not editable via datapacks. If this is disabled, no log -> plank recipes will be replaced!
+    enableDynamicRecipeReplacement = true
+
+
+[worldgen]
+
+    # Enables loose rock world gen added automatically to biomes.
+    enableLooseRocksWorldGen = true
+
+
+[blockHarvesting]
+
+    # If blocks are mineable without the correct tool.
+    doBlocksMineWithoutCorrectTool = false
+
+    # If blocks drop their items without the correct tool.
+    doBlocksDropWithoutCorrectTool = false
+
+    # If blocks that break instantly are mineable without the correct tool.
+    doInstantBreakBlocksDropWithoutCorrectTool = false
+
+    # If blocks that break instantly drop their items without the correct tool.
+    doInstantBreakBlocksMineWithoutCorrectTool = true
+
+    # If blocks such as tall grass which break instantly consume durability when broken with a knife (only affects No Tree Punching knives)
+    doInstantBreakBlocksDamageKnives = true
+
+
+[balance]
+
+    # The chance to consume a piece of flint when knapping
+    # Range: [0.0, 1.0]
+    flintKnappingConsumeChance = 0.4
+
+    # The chance to produce flint shards if a piece of flint has been consumed while knapping
+    # Range: [0.0, 1.0]
+    flintKnappingSuccessChance = 0.7
+
+    # The chance for a fire starter to start fires
+    # Range: [0.0, 1.0]
+    fireStarterFireStartChance = 0.3
+
+    # If the fire starter can be used to make a campfire (with one '#notreepunching:fire_starter_logs' and three '#notreepunching:fire_starter_kindling'
+    fireStarterCanMakeCampfire = true
+
+    # If the fire starter can be used to make a soul campfire (with one '#notreepunching:fire_starter_logs', three '#notreepunching:fire_starter_kindling', and one '#notreepunching:fire_starter_soul_fire_catalyst'
+    fireStarterCanMakeSoulCampfire = true
+
+    # If the large ceramic vessel block keeps it's contents when broken (as opposed to dropping them on the ground
+    largeVesselKeepsContentsWhenBroken = true
+
+    # The sequence of blocks that can be created with the clay tool.
+    # When the clay tool is used, if the block is present in this list, it may be converted to the next block in the list.
+    # If the next block is minecraft:air, the block will be destroyed (the clay tool will never try and convert air into something)
+    potteryBlockSequences = ["minecraft:clay", "notreepunching:clay_worked", "notreepunching:clay_large_vessel", "notreepunching:clay_small_vessel", "notreepunching:clay_bucket", "notreepunching:clay_flower_pot", "minecraft:air"]
+

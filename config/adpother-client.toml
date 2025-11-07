@@ -1,0 +1,23 @@
+
+[Smog]
+	#Enables/disables smog from pollution
+	enabled = true
+	#Whether smog changes color depending on pollution
+	colored = true
+	#Enables/disables particle effects of polluted air
+	particles = true
+	#Smog density
+	#Range: 0.0 ~ 1.0
+	density = 1.0
+
+[Aerometer]
+	#Time interval (in seconds) between gas detection sound alarms. Set to 0 to disable beeps
+	#Range: 0 ~ 300
+	beepInterval = 8
+	#The volume the beep sounds will be played at
+	#Range: 0.0 ~ 64.0
+	beepVolume = 0.5
+	#The pitch value the beep sounds will be played at
+	#Range: 0.0 ~ 2.0
+	beepPitch = 1.0
+

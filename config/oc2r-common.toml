@@ -1,0 +1,162 @@
+
+[vm]
+	#Maximum memory that can be allocated across all virtual machines (computers/robots) at any one time (in bytes)
+	#Range: 0 ~ 9223372036854775807
+	maxAllocatedMemory = 536870912
+	#Determines the size factor of drives, where SF is the size factor set below the sizes are as follows (this settings is in bytes):
+	#Small Disk: SF
+	#Medium Disk: 2 * SF
+	#Large Disk: 4 * SF
+	#Extra Large Disk: 16 * SF
+	#With the default factor this is equivalent to (in the same order) 2MB, 4MB, 8MB, 32MB.
+	#Range: > 0
+	diskSizeFactor = 2097152
+
+[energy]
+
+	[energy.blocks]
+		#The amount of energy consumed per tick by a bus cable
+		#Range: 0.0 ~ 1.7976931348623157E308
+		busCableEnergyPerTick = 0.05
+		#The amount of energy consumed per tick by a bus interface
+		#Range: 0.0 ~ 1.7976931348623157E308
+		busInterfaceEnergyPerTick = 0.05
+		#The amount of energy consumed per tick by a computer
+		#Range: > 0
+		computerEnergyPerTick = 10
+		#The amount of energy stored in a computer
+		#Range: > 0
+		computerEnergyStorage = 2000
+		#The amount of energy consumed per tick by a charger
+		#Range: > 0
+		chargerEnergyPerTick = 2500
+		#The amount of energy stored in a charger
+		#Range: > 0
+		chargerEnergyStorage = 10000
+		#The amount of energy consumed per tick by a projector
+		#Range: > 0
+		projectorEnergyPerTick = 20
+		#The amount of energy stored in a projector
+		#Range: > 0
+		projectorEnergyStorage = 2000
+		#The amount of energy consumed per tick by a monitor
+		#Range: > 0
+		monitorEnergyPerTick = 15
+		#The amount of energy stored in a monitor
+		#Range: > 0
+		monitorEnergyStorage = 2000
+		#The amount of energy consumed per tick by a card cage
+		#Range: > 0
+		cardCageEnergyPerTick = 20
+		#The amount of energy stored in a card cage
+		#Range: > 0
+		cardCageEnergyStorage = 2000
+		#The amount of energy consumed per packet by a gateway
+		#Range: > 0
+		gatewayEnergyPerPacket = 20
+		#The amount of energy stored in a gateway
+		#Range: > 0
+		gatewayEnergyStorage = 2000
+
+	[energy.entities]
+		#The amount of energy consumed per tick by a robot
+		#Range: > 0
+		gatewayEnergyStorage = 5
+		#The amount of energy stored in a robot
+		#Range: > 0
+		robotEnergyStorage = 750000
+
+	[energy.items]
+		#The amount of energy consumed per megabyte per tick for memory modules
+		#Range: 0.0 ~ 1.7976931348623157E308
+		memoryEnergyPerMegabytePerTick = 0.05
+		#The amount of energy consumed per megabyte per tick for hard drive modules
+		#Range: 0.0 ~ 1.7976931348623157E308
+		hardDriveEnergyPerMegabytePerTick = 1.0
+		#The amount of energy consumed per megahertz per tick for CPU modules
+		#Range: 0.0 ~ 1.7976931348623157E308
+		cpuEnergyPerMegahertzPerTick = 0.1
+		#The amount of energy consumed per tick for network interface cards
+		#Range: > 0
+		redstoneInterfaceCardEnergyPerTick = 1
+		#The amount of energy consumed per tick for file import/export cards
+		#Range: > 0
+		fileImportExportCardEnergyPerTick = 1
+		#The amount of energy consumed per tick for sound cards
+		#Range: > 0
+		soundCardEnergyPerTick = 1
+		#The amount of energy consumed per tick for block operations modules
+		#Range: > 0
+		blockOperationsModuleEnergyPerTick = 2
+		#The amount of energy consumed per tick for inventory operations modules
+		#Range: > 0
+		inventoryOperationsModuleEnergyPerTick = 1
+		#The amount of energy consumed per tick for network tunnels
+		#Range: > 0
+		networkTunnelEnergyPerTick = 2
+
+[gameplay]
+	#The mining tool equivalent of the block operations module
+	#Allowed Values: WOOD, STONE, IRON, DIAMOND, GOLD, NETHERITE
+	blockOperationsModuleToolTier = "DIAMOND"
+	#The number of seconds between sound card uses, to prevent spam/abuse
+	#Range: 1 ~ 9223372036854775807
+	soundCardCoolDownSeconds = 2
+
+[admin]
+	#The UUID that the mod will use for it's fake player
+	fakePlayerUUID = "e39dd9a7-514f-4a2d-aa5e-b6030621416d"
+
+	[admin.network]
+		#The maximum number of bytes a projector will send per second on average
+		#Range: > 0
+		projectorAverageMaxBytesPerSecond = 163840
+
+	[admin.virtual_network]
+		#The time to live of an ethernet frame sent over the virtual network
+		#Range: > 0
+		ethernetFrameTimeToLive = 12
+		#The time to live of an ethernet frame sent over the virtual network to a hub
+		#Range: > 0
+		hubEthernetFrameTimeToLive = 32
+
+[vxlan]
+	#Whether to enable VXLAN support, must be on for the internet card to work
+	enable = false
+	#The remote host that the VXLAN protocol is running on
+	remoteHost = "::1"
+	#The remote port that the VXLAN protocol is exposed on
+	#Range: 1 ~ 65535
+	remotePort = 4789
+	#The address to bind VXLAN to
+	bindHost = "::1"
+	#The port to bind VXLAN to
+	#Range: 1 ~ 65535
+	bindPort = 4789
+
+[internet_card]
+	#Whether to enable to internet card, VXLAN must also be enabled
+	internetCardEnabled = false
+	#Default lifetime of sessions in milliseconds
+	#Range: > 0
+	defaultSessionLifetimeMs = 60000
+	#Number of sessions (connections) allowed per internet card
+	#Range: > 0
+	defaultSessionsNumberPerCardLimit = 10
+	#Number of sessions (connections) allowed in total across all cards
+	#Range: > 0
+	defaultSessionsNumberLimit = 100
+	#Number of milliseconds before a timeout should be assumed on ICMP/Echo (ping) packets
+	#Range: > 1
+	defaultEchoRequestTimeoutMs = 1000
+	#A list of hosts (IPs) that VMs are allowed to access
+	#Only denied hosts or allowed hosts may have a value, or an error will occur
+	deniedHosts = []
+	#The default nameserver to be used
+	defaultNameServer = "1.1.1.1"
+	useSynchronisedNAT = false
+	#Range: > 1
+	streamBufferSize = 2000
+	#Range: > 1
+	tcpRetransmissionTimeoutMs = 2000
+

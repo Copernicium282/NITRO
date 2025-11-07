@@ -1,0 +1,19 @@
+
+#Bloodmoon common config settings
+[general]
+	#Vertical scan depth from the heightmap
+	#Range: 1 ~ 256
+	scanDepth = 30
+	#How many chunks to process per batch
+	#Range: 1 ~ 64
+	chunksPerBatch = 6
+	#Ticks to wait between batches
+	#Range: 0 ~ 1000
+	delayPerBatch = 4
+	#Number of pending chunk scans per tick
+	#Range: 1 ~ 64
+	pendingChunkScansPerTick = 3
+	#Maximum vertical range for torch scanning from surface heightmaps.
+	#Range: 1 ~ 64
+	torchScanRange = 20
+

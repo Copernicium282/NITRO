@@ -1,0 +1,77 @@
+distance:
+  # The default world you are teleported to when using /rtp.
+  # Only supported when use-original is set to true
+  # When set to "playerworld" will teleport to the player's world
+  # Default: playerworld
+  default_world: playerworld
+  # Maximum distance you want you to be teleported centered in level spawn.
+  # 0 = world border size
+  # Default: auto
+  # Range: > 0
+  max_distance: 0
+  # Minimum distance you want you to be teleported.
+  # Default: 1
+  # Range: > 0
+  min_distance: 1
+
+inter-dimensions-command:
+  # Do you want to enable the /rtpd command?
+  # This commands allows you to teleport to a random location in a specified dimension.
+  # Default: true
+  inter-dim: true
+  # Do you want to whitelist or blacklist destination dimensions?
+  # Default: false
+  use-whitelist: false
+  # The dimension whitelist / blacklist.
+  # Supported format is namespace:path
+  # Default: minecraft:the_end (The End - vanilla) and twilight:dimension (The Twilight Forest - mod]
+  whitelist-dimension:
+    - 'minecraft:the_end'
+    - 'twilight:dimension'
+
+inter-biomes-command:
+  # Do you want to enable the /rtpb command?
+  # This commands allows you to teleport to a random location in a specified biome.
+  # Default: true
+  inter-biome: true
+
+others:
+  # How many times should the mod look for a safe teleport destination?
+  # Only supported when use-original is set to true
+  # -1 = infinite
+  # Default: -1
+  max-tries: -1
+  # What RTP system should the mod use?
+  # true = the mod's custom RTP system
+  # false = the vanilla /spreadplayers system
+  # [default: true]
+  use-original: true
+  # Should the mod teleport you automatically when first joining
+  # none = does nothing
+  # rtp = random teleport in the default dimension
+  # rtpd <dimension> = random teleports to the specified dimension
+  # rtpb <biome> = random teleports to the specified biome
+  # [default: none]
+  auto-teleportation: none
+  # Do you want to whitelist or blacklist destination biomes?
+  # true = whitelist
+  # false = blacklist
+  # [default: false]
+  use-biome-whitelist: false
+  # The biome whitelist / blacklist.
+  # (uses namespace:path format)
+  # [default: all vanilla oceans]
+  biome-whitelist:
+    - 'minecraft:warm_ocean'
+    - 'minecraft:lukewarm_ocean'
+    - 'minecraft:deep_lukewarm_ocean'
+    - 'minecraft:ocean'
+    - 'minecraft:deep_ocean'
+    - 'minecraft:cold_ocean'
+    - 'minecraft:deep_cold_ocean'
+    - 'minecraft:frozen_ocean'
+    - 'minecraft:deep_frozen_ocean'
+  # How long do you want the command cooldown to be?
+  # (range: 0 ~ 1000)
+  # [default: 0]
+  cooldown: 0
