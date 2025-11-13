@@ -57,12 +57,12 @@
   },
   "wireless": {
     "wirelessBaseCost": 8.0,
-    "wirelessCostMultiplier": 1.0,
+    "wirelessCostMultiplier": 1.5,
     "wirelessBaseRange": 16.0,
-    "wirelessBoosterRangeMultiplier": 1.0,
+    "wirelessBoosterRangeMultiplier": 1.5,
     "wirelessBoosterExp": 1.5,
     "wirelessHighWirelessCount": 64.0,
-    "wirelessTerminalDrainMultiplier": 1.0
+    "wirelessTerminalDrainMultiplier": 1.5
   },
   "PortableCells": {
     "allowDisassembly_comment": "Allow disassembly of portable cells into the recipe ingredients using shift+right-click",

@@ -1,6 +1,6 @@
 {
   "name": "bronze",
-  "disable": false,
+  "disable": true,
   "tier": 2,
   "color": "da9839",
   "armorPoints": 3,

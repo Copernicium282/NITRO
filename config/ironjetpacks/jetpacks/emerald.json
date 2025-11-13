@@ -1,6 +1,6 @@
 {
   "name": "emerald",
-  "disable": false,
+  "disable": true,
   "tier": 5,
   "color": "4dd979",
   "armorPoints": 4,
