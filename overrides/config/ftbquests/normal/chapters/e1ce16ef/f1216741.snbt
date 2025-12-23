@@ -1,0 +1,43 @@
+{
+	title: "Assembly Machine",
+	x: 21.5d,
+	y: -1.0d,
+	description: "Way to Industrialisation! (and also automation)",
+	text: [
+		"The assembly machine requires power to operate and has a maximum capacity of 100kHE.",
+		"It also needs to have an assembly template in the corresponding slot which tells it what recipe to use.",
+		"The assembly templates can be created with the Machine Template Folder, which you would have already made before.",
+		"",
+		"It has 4 ports for energy, 1 port for inputing items, and 1 port for output.",
+		"The input is labeled with a green arrow and the output is labeled with a red arrow.",
+		"You can also power it with a battery item by placing it in the slot next to the long power gauge.",
+		"",
+		"On the right side of the machine's GUI there are 3 slots for machine upgrades.",
+		"The only valid upgrades are Speed (Stacks to 3), Power Saving (Stacks to 3) and Overdrive (Stacks to 9).",
+		"",
+		"For now, we have to make a Chemical Plant (which requires higher tier circuits, we will discuss about them later on)",
+		"and a Shredder to start with higher quality Ore Processing and the Oil Age."
+	],
+	dependencies: [
+		"fcb1a09c"
+	],
+	tasks: [{
+		uid: "ce32be06",
+		type: "item",
+		items: [{
+			item: "hbm:machine_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "7017d91e",
+		type: "item",
+		item: "minecraft:paper",
+		count: 32
+	},
+	{
+		uid: "940d37bc",
+		type: "item",
+		item: "minecraft:dye 1 6",
+		count: 32
+	}]
+}

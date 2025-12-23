@@ -1,0 +1,59 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -3452084853941779868,
+      "questIDLow:4": -8814195478562745428
+    },
+    "1:10": {
+      "questIDHigh:4": -7304498655902217673,
+      "questIDLow:4": -8613527807676344481
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §6Overflow Void Card§r acts as a voiding upgrade for AE2 §6Storage Cells§r. It can be added to a storage cell using the §3Cell Workbench§r.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 68,
+        "OreDict:8": "",
+        "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Overflow Void Card",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": -8171629350502970651,
+  "questIDLow:4": -7266422267852404643,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 68,
+          "OreDict:8": "",
+          "id:8": "appliedenergistics2:item.ItemMultiMaterial"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

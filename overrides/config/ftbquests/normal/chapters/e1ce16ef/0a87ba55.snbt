@@ -1,0 +1,30 @@
+{
+	title: "HE Transfer",
+	x: 13.0d,
+	y: 0.5d,
+	text: [
+		"[QUEST IN DEVELOPMENT]",
+		"",
+		"Powering Your HBM Base: Red Copper Cables",
+		"Getting power to your machines is essential, and that's where Red Copper Cables come in. ",
+		"Think of them as your electrical wires, letting you send power wherever it needs to go.",
+		"Just place a cable next to a compatible machine's power port, and it'll automatically connect and start zapping energy!",
+		"",
+		"Two more variants:",
+		"",
+		"Coated Red Copper Cables: These are like full blocks, so you can embed them directly into your walls to hide your wiring. Super neat!",
+		"",
+		"Paintable Red Copper Cables: Even better for aesthetics! Grab any solid block (like wood or stone), right-click a paintable cable,",
+		" and it'll instantly take on that block's texture, making your power lines virtually invisible."
+	],
+	dependencies: [
+		"a567a5c2"
+	],
+	tasks: [{
+		uid: "71f05d7d",
+		type: "item",
+		items: [{
+			item: "hbm:red_cable"
+		}]
+	}]
+}

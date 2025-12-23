@@ -1,0 +1,17 @@
+{
+	x: 20.5d,
+	y: -12.0d,
+	text: [
+		"Processes items under immense pressure."
+	],
+	dependencies: [
+		"e3ef6357"
+	],
+	tasks: [{
+		uid: "cdf3b269",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:pressurizer"
+		}]
+	}]
+}

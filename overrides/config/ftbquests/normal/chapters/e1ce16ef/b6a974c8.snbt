@@ -1,0 +1,37 @@
+{
+	title: "Pam's Harvestcraft",
+	x: 2.5d,
+	y: 0.0d,
+	description: "Food is now more realistic",
+	text: [
+		"Pam's HarvestCraft significantly expands Minecraft's food system, adding:",
+		"",
+		"Ingredients: 80 new crops (like cotton), 6 garden bushes, and 50 fruit/item trees.",
+		"Resources: 19 new fish, plus a beekeeping system for items like candles, wax, and honey.",
+		"Variety: Over 1400 new foods and items, along with re-balanced vanilla recipes.",
+		"Utility Blocks: Includes placeable cakes, a Presser for resource production (honey, paper), a Market for buying seeds/spawners, ",
+		"Shipping for selling goods, and Ground/Water Traps for catching resources with bait.",
+		"Streamlined Gameplay: Plant crops directly using items, convert water/milk to fresh versions easily, use tofu for vegetarian recipes, ",
+		"and right-click to harvest/replant crops.",
+		"",
+		"Cooking for Blockheads complements this with a cooking book and functional kitchen. ",
+		"Use the book or Cooking Table to quickly find recipes based on your ingredients and cook with one click. ",
+		"The modular kitchen can be upgraded for extra storage or an oven. You can even capture a cow in a jar (using an anvil, cow, and jar) for infinite milk."
+	],
+	dependencies: [
+		"34b8f770"
+	],
+	tasks: [{
+		uid: "86ddc999",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}]
+	}],
+	rewards: [{
+		uid: "0805d232",
+		type: "item",
+		item: "harvestcraft:applejellysandwichitem",
+		count: 6
+	}]
+}

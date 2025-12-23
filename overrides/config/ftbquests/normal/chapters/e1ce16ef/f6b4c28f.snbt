@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: -9.5d,
+	text: [
+		"Combines base metals into alloys."
+	],
+	dependencies: [
+		"d7887e56"
+	],
+	tasks: [{
+		uid: "35de28b0",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy_furnace"
+		}]
+	}]
+}

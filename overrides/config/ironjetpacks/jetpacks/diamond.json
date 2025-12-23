@@ -1,6 +1,6 @@
 {
   "name": "diamond",
-  "disable": false,
+  "disable": true,
   "tier": 4,
   "color": "4aedd1",
   "armorPoints": 4,

@@ -1,0 +1,35 @@
+{
+	title: "Shredder",
+	x: 21.5d,
+	y: 0.5d,
+	description: "Shreds literally everything into dust (except for some that are actually meant to be useful)",
+	text: [
+		"The Shredder is used to shred (or pulverize) materials and can shred 9 items simultaneously.",
+		"It needs x2 Shredder Blades and power to operate (Consumes ~300HE per operation).",
+		"",
+		"Put the two blades in their slots, then fill the 9 slots above with whatever items you want turned into powder.",
+		"It will turn everything in those slots into powder at the same time, so you can shred several different items at once.",
+		"This is highly recommended even when shredding stacks of the same item as you will use less power, time, and blade durability.",
+		"",
+		"If ore is placed inside, you will receive 2 of the dust form of the item, which can be smelted into 2 ingots of the item.",
+		"Though overall inferior to the centrifuge in this role, as it doesn't use blades that have to be replaced,",
+		" and produces up to 3 or 2 with a secondary output, it is good for early gameplay for more efficient ore processing",
+		" or processing a significant amount of 1 or more ores."
+	],
+	dependencies: [
+		"f1216741"
+	],
+	tasks: [{
+		uid: "e6c3cd76",
+		type: "item",
+		items: [{
+			item: "hbm:machine_shredder"
+		}]
+	}],
+	rewards: [{
+		uid: "d4d63faf",
+		type: "item",
+		item: "hbm:blades_aluminum",
+		count: 2
+	}]
+}

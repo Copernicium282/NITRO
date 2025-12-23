@@ -1,0 +1,75 @@
+{
+	title: "Environmental protection (Plan A)",
+	icon: {
+		id: "hbm:hazmat_helmet",
+		tag: {}
+	},
+	x: 24.5d,
+	y: 0.5d,
+	description: "Full Hazmat Suit",
+	text: [
+		"This is the most basic hazmat suit and it has 0.59 radiation resistance. If you use hazmat suits, be sure to put a filter on it, as not all filters are the same",
+		" so be sure to use the correct one to protect yourself. {combo gas mask filter will protect you from anything other than radon and it’s long ",
+		"lasting so i would recommend you to make this. RMB with the filter in hand to equip it.",
+		"",
+		"This is the most basic hazmat suit and it has 0.59 radiation resistance. You will need this in future to deal with Radioactive stuff."
+	],
+	dependencies: [
+		"808bec73"
+	],
+	tasks: [{
+		uid: "de3b7437",
+		type: "item",
+		items: [{
+			id: "hbm:hazmat_helmet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e253b2df",
+		type: "item",
+		items: [{
+			id: "hbm:hazmat_plate",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c89e8469",
+		type: "item",
+		items: [{
+			id: "hbm:hazmat_legs",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "627a68e7",
+		type: "item",
+		items: [{
+			id: "hbm:hazmat_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cd36eba0",
+		type: "item",
+		items: [{
+			item: "hbm:gas_mask_filter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f54b1474",
+		type: "item",
+		item: "hbm:radaway",
+		count: 4
+	}]
+}

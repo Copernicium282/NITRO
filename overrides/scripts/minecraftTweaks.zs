@@ -10,6 +10,13 @@ mods.nuclearcraft.Assembler.addRecipe(<hbm:powder_magic>*1, <nuclearcraft:compou
 mods.nuclearcraft.Pressurizer.addRecipe(<nuclearcraft:compound:2>*2, <minecraft:blaze_rod>*1);
 mods.nuclearcraft.Pressurizer.addRecipe(<hbm:powder_coltan>*1, <minecraft:ghast_tear>*1);
 
+//RFLUX new recipe
+recipes.removeByRecipeName("rflux:lightblock_off");
+recipes.addShaped("UpgradedRFLUXlight", <rflux:lightblock_off>.withTag({color: 0}),
+[[<nuclearcraft:part:0>, <minecraft:glowstone_dust>, <nuclearcraft:part:0>],
+[<minecraft:glowstone_dust>, <hbm:battery_red_cell>.withTag({charge: 0 as long}), <minecraft:glowstone_dust>],
+[<nuclearcraft:part:0>, <minecraft:glowstone_dust>, <nuclearcraft:part:0>]]);
+
 //Flint from gravel
 recipes.addShaped("FlintFromGravel", <minecraft:flint>,
 [[<ore:gravel>, <ore:gravel>, null],

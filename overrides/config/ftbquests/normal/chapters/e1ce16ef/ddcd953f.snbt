@@ -1,0 +1,33 @@
+{
+	title: "SCP : Lockdown",
+	x: 4.0d,
+	y: -1.0d,
+	description: "SECURE. CONTAIN. PROTECT.",
+	text: [
+		"Your peaceful survival world just got invaded by creatures from a secret, terrifying government facility. ",
+		"These SCPs aren't just tougher zombies; they're unique, unpredictable, and often horrifying.",
+		"Containment structures spawn all over your world, and some of them contain amazing loot, such as gold ingots and much more",
+		"(guns and more loot to come in next update)",
+		"",
+		"You'll face things that can mess with your mind, rip you apart, or even change the very landscape around you. ",
+		"Your usual sword-and-shield strategy won't always cut it. You'll need to be smart, plan ahead, and sometimes just run.",
+		"",
+		"Expect to die. Expect to be scared. This mod is here to make your survival a genuine challenge, pushing you to your limits. ",
+		"So, gear up, stay alert, and good luck – you're going to need it."
+	],
+	dependencies: [
+		"34b8f770"
+	],
+	tasks: [{
+		uid: "91cf8256",
+		type: "item",
+		items: [{
+			item: "scp:card_reader"
+		}]
+	}],
+	rewards: [{
+		uid: "b61cd77c",
+		type: "item",
+		item: "scp:document_machine"
+	}]
+}

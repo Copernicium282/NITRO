@@ -1,0 +1,29 @@
+{
+	title: "Zombie Awareness",
+	icon: "minecraft:skull 1 2",
+	x: 1.0d,
+	y: -1.0d,
+	description: "Zombies are smarter than before",
+	text: [
+		"This mod introduces several realistic and challenging features to your gameplay:",
+		"",
+		" Blood Scents: Taking damage causes you to spill blood, and if your health is low, you'll occasionaly bleed out.",
+		" Sound Sources: Mining blocks will generate noise, alerting nearby zombies to your presence.",
+		" Light Sources: Exposed light sources can be seen by zombies from a great distance, drawing them to investigate if they have a clear line of sight.",
+		" Night Surface Spawning: Expect more zombies to spawn in groups at night, leading to random invasions.",
+		" Wandering Hordes (Default Off): Large groups of mobs will gather and roam the terrain randomly. This feature is off by default.",
+		" Faster Zombies: Zombies may receive a small speed buff randomly, adding an element of unpredictability to their movements."
+	],
+	dependencies: [
+		"8b3ce673"
+	],
+	tasks: [{
+		uid: "469e58c3",
+		type: "item",
+		items: [{
+			item: "notreepunching:knife/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

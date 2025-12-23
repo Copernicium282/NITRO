@@ -1,0 +1,20 @@
+{
+	title: "Motor",
+	x: 18.5d,
+	y: -1.0d,
+	description: "A Basic component for machinery",
+	text: [
+		"Crafting a motor is simple, but a lot of them are used in machinery. Make sure to have atleast 2 stacks of spare motors and basic circuits ",
+		"in your base."
+	],
+	dependencies: [
+		"aa60e8ae"
+	],
+	tasks: [{
+		uid: "fdd34b94",
+		type: "item",
+		items: [{
+			item: "hbm:motor"
+		}]
+	}]
+}

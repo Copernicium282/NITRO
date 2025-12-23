@@ -1,0 +1,10 @@
+{
+	title: "TBE : Exploration",
+	icon: "hbm:coin_radiation",
+	description: [
+		"The Dawn"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

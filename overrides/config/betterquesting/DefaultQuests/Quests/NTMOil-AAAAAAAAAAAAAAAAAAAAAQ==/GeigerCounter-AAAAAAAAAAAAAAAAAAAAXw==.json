@@ -1,0 +1,55 @@
+{
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 32
+    }
+  },
+  "properties:10": {
+    "betterquesting:10": {
+      "autoClaim:1": 0,
+      "desc:8": "The §6Geiger counter§r is a device used to measure §eRAD/s§r, in order to inform the player of any eventual radiation. It is an upgrade to the §6Dosimeter§r. It can measure three different types of radiation, those types being chunk radiation, environmental radiation and player contamination.\n\nIt can be used in one of two forms, either as a hand-held item or in its block form.\n\nHolding it in the inventory will show a meter on the bottom left of the screen, and right clicking while holding it will send a message in chat showing the various doses of radiation.\n\nIt will also click whenever it reads any kind of radiation, a signature function of any dosimeter.",
+      "globalShare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "hbm:item.geiger_counter"
+      },
+      "isMain:1": 0,
+      "isSilent:1": 0,
+      "lockedProgress:1": 0,
+      "name:8": "Geiger Counter",
+      "questLogic:8": "AND",
+      "repeatTime:3": -1,
+      "repeat_relative:1": 1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "random.levelup",
+      "snd_update:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "questIDHigh:4": 0,
+  "questIDLow:4": 95,
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "hbm:item.geiger_counter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

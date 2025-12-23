@@ -76,9 +76,9 @@ mods.nuclearcraft.Manufactory.addRecipe(<hbm:coil_copper>, <nuclearcraft:part:4>
 //Steel pipes cheap
 recipes.removeByRecipeName("hbm:pipes_steel");
 recipes.addShaped("CheapSteelPipes", <hbm:pipes_steel>,
-[[null, null, null],
-[<hbm:hull_small_steel>, <hbm:hull_small_steel>, <hbm:hull_small_steel>],
-[null, null, null]]);
+[[null, <hbm:hull_small_steel>, null],
+[null, <hbm:hull_small_steel>, null],
+[null, <hbm:hull_small_steel>, null]]);
 
 //Biomass Production
 //Biomass Pam Oredict

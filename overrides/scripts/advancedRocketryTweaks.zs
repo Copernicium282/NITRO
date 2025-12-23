@@ -24,6 +24,12 @@ recipes.addShaped("UpgradedPhotovoltaicPanel", <hbm:photo_panel>,
 
 //Recipe Tweaks
 
+recipes.removeByRecipeName("advancedrocketry:thermitetorch");
+recipes.addShaped("UpgradedThermiTorch", <advancedrocketry:thermitetorch>,
+[[null, <hbm:powder_thermite>, null],
+[null, <realistictorches:torch_unlit>, null],
+[null, <realistictorches:matchbox>, null]]);
+
 recipes.removeByRecipeName("advancedrocketry:blastbrick");
 recipes.addShaped("HeatProofBrick", <advancedrocketry:blastbrick>,
 [[<hbm:plate_polymer>, <minecraft:brick_block>, null],

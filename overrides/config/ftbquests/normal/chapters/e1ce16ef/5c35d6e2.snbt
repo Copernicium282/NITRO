@@ -1,0 +1,32 @@
+{
+	title: "Comforts",
+	x: -3.0d,
+	y: -1.0d,
+	description: "Sleeping Bags and Hammocks",
+	text: [
+		"The Comforts mod introduces sleeping bags and hammocks to Minecraft.  ",
+		"These items function similarly to beds, but do not change the player's spawn place, allowing them to remain at home base.  ",
+		"They are available in 16 different colors, exactly like beds!  ",
+		"Sleeping bags can be layered, making them ideal for adventures, whilst hammocks serve as an inverse bed, transitioning between day and night.",
+		"",
+		"To make a hammock, you'll need some hammock cloth. You'll also need two pairs of rope and nails.  ",
+		"You now need to find some blocks that are exactly four spaces apart.",
+		"Once you've selected an appropriate position, arrange the two pairs of rope and nails on the logs, facing each other.",
+		"Now, grab your hammock cloth and right-click one of the ropes or nails and you can now take a quick nap!"
+	],
+	dependencies: [
+		"2e5e48d8"
+	],
+	tasks: [{
+		uid: "235e80e1",
+		type: "item",
+		items: [{
+			item: "comforts:sleeping_bag 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "02d5d804",
+		type: "item",
+		item: "nuclearcraft:smore"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Iron anvil",
+	x: 9.0d,
+	y: -1.0d,
+	description: "Your First Anvil",
+	text: [
+		"The anvil is used to make numerous items such as Plates and Blast Furnaces, either exclusively or acting as a cheaper/more efficient alternative recipe.",
+		"These recipes do not require the use of the top slots, rather the items just have to be in the inventory.",
+		"Select the desired recipe in the scrolling section or search for it, then click the anvil button to craft.",
+		"Left-shift clicking will attempt to craft an entire stack, if possible. Excess is dropped, so it is not lost.",
+		"For now, we will need a Blast furnace."
+	],
+	dependencies: [
+		"cc0b2d12"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "925f0aa1",
+		type: "item",
+		items: [{
+			item: "hbm:anvil_iron"
+		}]
+	}],
+	rewards: [{
+		uid: "864d0df8",
+		type: "item",
+		item: "hbm:bottle_sparkle",
+		count: 4
+	}]
+}

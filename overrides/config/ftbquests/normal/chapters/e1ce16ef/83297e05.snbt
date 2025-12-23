@@ -1,0 +1,39 @@
+{
+	title: "Thermal Dynamics",
+	x: 8.5d,
+	y: -4.5d,
+	description: "Transportation of RF energy, Fluids and Items",
+	text: [
+		"Thermal Dynamics is your go-to for automating your base. It adds ducts (pipes) to move items, fluids, and RF energy (power) around. ",
+		"Plus, you can use an HE to RF converter to make different energy types work together. It's how you make everything run itself!"
+	],
+	dependencies: [
+		"cc0b2d12"
+	],
+	tasks: [{
+		uid: "fe170a2f",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:wrench"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4b1c2529",
+		type: "item",
+		item: "thermaldynamics:duct_0",
+		count: 8
+	},
+	{
+		uid: "32642443",
+		type: "item",
+		item: "thermaldynamics:duct_16",
+		count: 8
+	},
+	{
+		uid: "e1196a5a",
+		type: "item",
+		item: "thermaldynamics:duct_32",
+		count: 8
+	}]
+}

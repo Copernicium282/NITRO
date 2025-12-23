@@ -1,0 +1,24 @@
+{
+	title: "Electrical Alloy",
+	x: 15.0d,
+	y: -0.5d,
+	description: "Also called Red copper",
+	text: [
+		"Red copper (aka Minecraft Grade Copper) is an alloy of Redstone and Copper.",
+		"It is probably one of the first alloys you'll need to make after steel. Its primary use is to make wires in Red Copper Cables at least at this point. ",
+		"It is very useful in a multitude of places, mainly electrical components of machines. ",
+		"The hardest part is acquiring lots of Redstone, but once you do, you can mass-produce red copper for all its uses.",
+		"For now, craft atleast a stack of each of plates, wires and ingots of Red Copper for the upcoming quests",
+		"(to make your first circuit) and also for automation of circuits and other stuff."
+	],
+	dependencies: [
+		"97008a6d"
+	],
+	tasks: [{
+		uid: "625586e2",
+		type: "item",
+		items: [{
+			item: "hbm:ingot_red_copper"
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Iron Backpacks",
+	x: 2.5d,
+	y: -2.0d,
+	text: [
+		"Iron Backpacks revolutionizes portable storage with these features:",
+		"",
+		"Tiered Backpacks: Four different tiers are available, offering specialized benefits such as greater storage capacity or more upgrade slots at higher levels.",
+		"Visual Equipping: Backpacks can be equipped and will appear on your character model.",
+		"Modular Upgrades: Customize your backpack with over 20 unique upgrades. ",
+		"These enhancements provide a wide array of functionalities, including smart item gathering, inventory restocking, quick item depositing, ",
+		"persistence through death, visual fullness indicators, and on-the-go item compression, among many others."
+	],
+	dependencies: [
+		"34b8f770"
+	],
+	tasks: [{
+		uid: "e11d75c3",
+		type: "item",
+		items: [{
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

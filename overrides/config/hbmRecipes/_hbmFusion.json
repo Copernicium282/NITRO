@@ -1,0 +1,199 @@
+{
+  "recipes": [
+    {
+      "name": "fus.dd",
+      "inputFluid": [
+        ["DEUTERIUM",20]
+      ],
+      "outputFluid": [
+        ["HELIUM4",1000]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:gas_full",1,8],
+      "named": true,
+      "ignitionTemp": 750000,
+      "outputTemp": 1000000,
+      "outputFlux": 50.0,
+      "r": 1.0,
+      "g": 0.20000000298023224,
+      "b": 0.20000000298023224
+    },
+    {
+      "name": "fus.do",
+      "inputFluid": [
+        ["DEUTERIUM",10],
+        ["OXYGEN",10]
+      ],
+      "outputItem": [
+        ["single",["hbm:pellet_charged"]]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:gas_full",1,39],
+      "named": true,
+      "ignitionTemp": 250000,
+      "outputTemp": 1250000,
+      "outputFlux": 50.0,
+      "r": 1.0,
+      "g": 0.20000000298023224,
+      "b": 0.6000000238418579
+    },
+    {
+      "name": "fus.dt",
+      "inputFluid": [
+        ["DEUTERIUM",10],
+        ["TRITIUM",10]
+      ],
+      "outputFluid": [
+        ["HELIUM4",1000]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:gas_full",1,165],
+      "named": true,
+      "ignitionTemp": 750000,
+      "outputTemp": 3750000,
+      "outputFlux": 100.0,
+      "r": 1.0,
+      "g": 0.20000000298023224,
+      "b": 0.6000000238418579
+    },
+    {
+      "name": "fus.tcl",
+      "inputFluid": [
+        ["TRITIUM",10],
+        ["CHLORINE",10]
+      ],
+      "outputItem": [
+        ["single",["hbm:powder_chlorophyte"]]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:powder_chlorophyte"],
+      "named": true,
+      "ignitionTemp": 2500000,
+      "outputTemp": 6250000,
+      "outputFlux": 500.0,
+      "r": 0.800000011920929,
+      "g": 0.6000000238418579,
+      "b": 0.4000000059604645
+    },
+    {
+      "name": "fus.h3",
+      "inputFluid": [
+        ["HELIUM3",20]
+      ],
+      "outputFluid": [
+        ["HELIUM4",1000]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:gas_full",1,57],
+      "named": true,
+      "ignitionTemp": 500000,
+      "outputTemp": 3750000,
+      "outputFlux": 0.0,
+      "r": 0.20000000298023224,
+      "g": 0.20000000298023224,
+      "b": 1.0
+    },
+    {
+      "name": "fus.th4",
+      "inputFluid": [
+        ["TRITIUM",10],
+        ["HELIUM4",10]
+      ],
+      "outputItem": [
+        ["single",["hbm:pellet_charged"]]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:gas_full",1,9],
+      "named": true,
+      "ignitionTemp": 875000,
+      "outputTemp": 4000000,
+      "outputFlux": 500.0,
+      "r": 0.20000000298023224,
+      "g": 0.20000000298023224,
+      "b": 1.0
+    },
+    {
+      "name": "fus.cl",
+      "inputFluid": [
+        ["CHLORINE",20]
+      ],
+      "outputItem": [
+        ["single",["hbm:powder_chlorophyte"]]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:powder_chlorophyte"],
+      "named": true,
+      "ignitionTemp": 3750000,
+      "outputTemp": 10000000,
+      "outputFlux": 1000.0,
+      "r": 1.0,
+      "g": 0.6000000238418579,
+      "b": 0.20000000298023224
+    },
+    {
+      "name": "fus.dhc",
+      "inputFluid": [
+        ["DHC",20]
+      ],
+      "outputItem": [
+        ["single",["hbm:powder_chlorophyte"]]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:fluid_icon",1,205],
+      "named": true,
+      "ignitionTemp": 10000000,
+      "outputTemp": 25000000,
+      "outputFlux": 2000.0,
+      "r": 0.20000000298023224,
+      "g": 0.800000011920929,
+      "b": 0.800000011920929
+    },
+    {
+      "name": "fus.bf",
+      "inputFluid": [
+        ["BALEFIRE",15],
+        ["AMAT",5]
+      ],
+      "outputItem": [
+        ["single",["hbm:powder_balefire"]]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:fluid_icon",1,41],
+      "named": true,
+      "ignitionTemp": 1000000,
+      "outputTemp": 12500000,
+      "outputFlux": 2000.0,
+      "r": 0.20000000298023224,
+      "g": 1.0,
+      "b": 0.20000000298023224
+    },
+    {
+      "name": "fus.stellar",
+      "inputFluid": [
+        ["STELLAR_FLUX",10]
+      ],
+      "outputItem": [
+        ["single",["hbm:powder_gold"]]
+      ],
+      "duration": 100,
+      "power": 25000,
+      "icon": ["hbm:fluid_icon",1,181],
+      "named": true,
+      "ignitionTemp": 10000000,
+      "outputTemp": 50000000,
+      "outputFlux": 10000.0,
+      "r": 1.0,
+      "g": 0.4000000059604645,
+      "b": 0.10000000149011612
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Realistic Torches",
+	x: -1.0d,
+	y: -1.0d,
+	description: "Torches now burn out",
+	text: [
+		"Realistic Torches complicates early gameplay by causing torches to burn out after a configurable amount of time, ",
+		"prompting players to switch to more permanent light sources early on.",
+		"",
+		"To light a torch after crafting, use a matchbox or flint and steel.",
+		"Torches will burn out after a predetermined amount of time (60 minutes in real time by default).",
+		"Torches are extinguished when rained on.",
+		"Torches created in default structures will be replaced with unlit torches.",
+		"Glowstone can be used to craft torches that are permanently lighted.",
+		"Light-emitting blocks and items will emit light when held."
+	],
+	dependencies: [
+		"5c35d6e2"
+	],
+	tasks: [{
+		uid: "4a0a0075",
+		type: "item",
+		items: [{
+			item: "realistictorches:torch_unlit"
+		}]
+	}]
+}

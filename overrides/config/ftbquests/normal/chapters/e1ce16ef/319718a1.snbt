@@ -1,0 +1,17 @@
+{
+	x: 18.5d,
+	y: -7.5d,
+	text: [
+		"Houses reactions between fluids."
+	],
+	dependencies: [
+		"e3ef6357"
+	],
+	tasks: [{
+		uid: "46fef7e7",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:chemical_reactor"
+		}]
+	}]
+}

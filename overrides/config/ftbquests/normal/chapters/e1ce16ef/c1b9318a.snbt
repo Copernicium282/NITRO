@@ -1,0 +1,45 @@
+{
+	title: "Black Lung",
+	icon: "hbm:powder_coal",
+	x: 9.0d,
+	y: -3.0d,
+	description: "Use trench masks or gas masks",
+	text: [
+		"Black Lung, or silicosis, is formed  upon mining a coal ore, Coal Dust is spawned, which can wreak havoc on your lungs, ",
+		"causing you to suffer weakness, and begin coughing blood and soot. ",
+		"Protecting yourself from these deadly dust particles is quite simple however. All you need is a simple to craft a trench mask.",
+		" Cloth can be created from wool and string in the crafting table, and then held and right-clicked to urinate on them, to get a urinated cloth. ",
+		"Using it, you can then create a Trench Mask.",
+		"",
+		"Gas masks having an Airborne Particles trait (also including the trench mask) will protect you from coal dust. ",
+		"(use armor modification table to equip filter to gas mask once crafted)",
+		"",
+		"Using SiOX Cancer Medication will reset the disease to 25%, from which it will heal in around ten minutes."
+	],
+	dependencies: [
+		"cc0b2d12"
+	],
+	tasks: [{
+		uid: "1505410d",
+		type: "item",
+		items: [{
+			id: "hbm:mask_piss",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7bc7805",
+		type: "item",
+		item: {
+			id: "hbm:mask_piss",
+			tag: {}
+		}
+	},
+	{
+		uid: "11f562ed",
+		type: "item",
+		item: "hbm:siox"
+	}]
+}

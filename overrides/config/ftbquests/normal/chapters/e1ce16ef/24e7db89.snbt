@@ -1,0 +1,40 @@
+{
+	title: "Oil Processing: Part 1",
+	x: 29.0d,
+	y: 0.5d,
+	description: "Refining Crude Oil into fractions",
+	text: [
+		"The Oil Refinery splits the Hot Crude Oil (made by heating crude oil in an boiler) into four different products and one by-product. Power the refinery,",
+		" then pump in Hot Crude Oil from a Boiler. Refined petroleum products can be pumped out into tanks or Chemical Plants for further refinement or",
+		" storage.",
+		"",
+		"NOTE: If any of the products reach their capacity in the internal buffer and are not consumed quickly enough, the refinery will become backed up and",
+		" stop working. Heavier products (heavy oil and light oil) are produced a lot more than the lighter products (naphtha and petroleum).",
+		" Sulfur is also produced, and this can be incredibly useful, since it is an alternative to mining.",
+		"",
+		"When shot with an explosive, it will get damaged and can be repaired with a blowtorch and steelplates."
+	],
+	dependencies: [
+		"73a589d4"
+	],
+	tasks: [{
+		uid: "601b4e73",
+		type: "item",
+		items: [{
+			item: "hbm:machine_refinery"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "d969a9da",
+		type: "item",
+		item: "hbm:fluid_duct_mk2",
+		count: 64
+	},
+	{
+		uid: "ebc2f95d",
+		type: "item",
+		item: "hbm:machine_fluidtank",
+		count: 4
+	}]
+}
