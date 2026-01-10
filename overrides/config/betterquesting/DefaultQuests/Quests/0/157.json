@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    23
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In this world of Minecraft, you find that it has become §cvery hard§f to break trees by punching with your hand!\n\nInstead, §bgo and dig some §9Gravel§b until you get some §9flint§b. §9Right-click§f with the flint in your hand onto any kind of §9Stone block§b, and you get some §9Flint shards§b!\n§bUse these Flint shards§f with some sticks to make a §9flint knife§f.\n\nUsing the knife, you can get some §9Plant Fibres§f which will be useful to make all sorts of §9flint tools§f such as Pickaxes, Hatchets, etc., that also use sticks and strings that can be obtained easily.\n\nSo to get §9planks§f from §9wood§f, you need to grab a §9flint hatchet§f and put the logs on the ground.\nOnce done, §9right-click§f the top of the wood with the hatchet to get §9planks§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:sapling"
+      },
+      "name:8": "No Tree Punching",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 157,
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "notreepunching:axe/flint"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "notreepunching:knife/flint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

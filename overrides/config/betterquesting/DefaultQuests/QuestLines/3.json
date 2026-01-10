@@ -1,0 +1,16 @@
+{
+  "lineID:3": 3,
+  "order:3": 4,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Delve into Hypothetical Physics, Quantum Computing, Magic and maybe even destroy the world, who knows?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:icf"
+      },
+      "name:8": "End Game",
+      "visibility:8": "HIDDEN"
+    }
+  },
+  "quests:9": {}
+}

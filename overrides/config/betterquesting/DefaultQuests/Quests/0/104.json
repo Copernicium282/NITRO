@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    165
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eWith §6Casting§f unlocked, you can now produce §bkey firearm components§f such as §bbarrels§f and §bgrips§f. These parts form the §6foundation§f of most weapon assemblies.\n\n§6Ammo Press§f is used to manufacture §bgun ammunition§f. Different ammo types require §especific materials and molds§f, making this machine §6essential§f for maintaining a reliable weapons supply.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_ammo_press"
+      },
+      "name:8": "Ammo Press and Guns",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 104,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_ammo_press"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

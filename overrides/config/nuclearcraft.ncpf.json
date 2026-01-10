@@ -1344,22 +1344,6 @@
                   }
                 },
                 {
-                  "name": "minecraft:ender_eye",
-                  "type": "legacy_item",
-                  "modules": {
-                    "nuclearcraft:overhaul_msr:irradiator_stats": {
-                      "heat": 0.0,
-                      "output": {
-                        "name": "ncsteamadditions:core_of_transformation",
-                        "metadata": 0,
-                        "type": "legacy_item",
-                        "modules": {}
-                      },
-                      "efficiency": 0.0
-                    }
-                  }
-                },
-                {
                   "oredict": "waferSilicon",
                   "type": "oredict",
                   "modules": {
@@ -5578,12 +5562,6 @@
               "modules": {}
             },
             {
-              "name": "ncsteamadditions:core_of_transformation",
-              "metadata": 0,
-              "type": "legacy_item",
-              "modules": {}
-            },
-            {
               "oredict": "siliconNDoped",
               "type": "oredict",
               "modules": {}
@@ -7553,6 +7531,78 @@
                       "self_priming": true
                     }
                   }
+                },
+                {
+                  "name": "contenttweaker:li_infused_schrabidate_quad_rod",
+                  "type": "legacy_item",
+                  "modules": {
+                    "nuclearcraft:overhaul_sfr:fuel_stats": {
+                      "heat": 500,
+                      "output": {
+                        "name": "contenttweaker:rod_dilithium_pure",
+                        "type": "legacy_item",
+                        "modules": {}
+                      },
+                      "efficiency": 4.0,
+                      "criticality": 200,
+                      "time": 3000,
+                      "self_priming": true
+                    }
+                  }
+                },
+                {
+                  "name": "contenttweaker:pellet_fuel_hes",
+                  "type": "legacy_item",
+                  "modules": {
+                    "nuclearcraft:overhaul_sfr:fuel_stats": {
+                      "heat": 130,
+                      "output": {
+                        "name": "contenttweaker:pellet_depleted_fuel_hes",
+                        "type": "legacy_item",
+                        "modules": {}
+                      },
+                      "efficiency": 2.0,
+                      "criticality": 40,
+                      "time": 288000,
+                      "self_priming": true
+                    }
+                  }
+                },
+                {
+                  "name": "contenttweaker:pellet_fuel_mes",
+                  "type": "legacy_item",
+                  "modules": {
+                    "nuclearcraft:overhaul_sfr:fuel_stats": {
+                      "heat": 70,
+                      "output": {
+                        "name": "contenttweaker:pellet_depleted_fuel_mes",
+                        "type": "legacy_item",
+                        "modules": {}
+                      },
+                      "efficiency": 1.9,
+                      "criticality": 60,
+                      "time": 384000,
+                      "self_priming": true
+                    }
+                  }
+                },
+                {
+                  "name": "contenttweaker:pellet_fuel_les",
+                  "type": "legacy_item",
+                  "modules": {
+                    "nuclearcraft:overhaul_sfr:fuel_stats": {
+                      "heat": 30,
+                      "output": {
+                        "name": "contenttweaker:pellet_depleted_fuel_les",
+                        "type": "legacy_item",
+                        "modules": {}
+                      },
+                      "efficiency": 1.8,
+                      "criticality": 80,
+                      "time": 576000,
+                      "self_priming": true
+                    }
+                  }
                 }
               ]
             },
@@ -7783,22 +7833,6 @@
                         "modules": {}
                       },
                       "efficiency": 0.5
-                    }
-                  }
-                },
-                {
-                  "name": "minecraft:ender_eye",
-                  "type": "legacy_item",
-                  "modules": {
-                    "nuclearcraft:overhaul_sfr:irradiator_stats": {
-                      "heat": 0.0,
-                      "output": {
-                        "name": "ncsteamadditions:core_of_transformation",
-                        "metadata": 0,
-                        "type": "legacy_item",
-                        "modules": {}
-                      },
-                      "efficiency": 0.0
                     }
                   }
                 },
@@ -10408,6 +10442,26 @@
               "modules": {}
             },
             {
+              "name": "contenttweaker:rod_dilithium_pure",
+              "type": "legacy_item",
+              "modules": {}
+            },
+            {
+              "name": "contenttweaker:pellet_depleted_fuel_hes",
+              "type": "legacy_item",
+              "modules": {}
+            },
+            {
+              "name": "contenttweaker:pellet_depleted_fuel_mes",
+              "type": "legacy_item",
+              "modules": {}
+            },
+            {
+              "name": "contenttweaker:pellet_depleted_fuel_les",
+              "type": "legacy_item",
+              "modules": {}
+            },
+            {
               "oredict": "dustTBP",
               "type": "oredict",
               "modules": {}
@@ -10420,12 +10474,6 @@
             {
               "oredict": "dustPolonium",
               "type": "oredict",
-              "modules": {}
-            },
-            {
-              "name": "ncsteamadditions:core_of_transformation",
-              "metadata": 0,
-              "type": "legacy_item",
               "modules": {}
             },
             {

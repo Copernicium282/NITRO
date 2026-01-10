@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    9
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Essential Tools§f play a major role in progressing through the mod. While many exist, a few are §6critical to survival and advancement§f.\n\n§bTungsten Reachers§f reduce §cradiation exposure§f from items carried in your inventory and allow you to §ahandle extremely hot materials§f safely.\n\n§bCrowbar§f is used to §6open sealed crates§f found in structures, yielding loot such as §bfood§f and §bammunition§f.\n\n§bScrewdriver§f serves multiple purposes. It can §6rotate conveyor blocks§f, is required to §6construct a Chicago Pile§f, and—when combined with §bBobby Pins§f—can be used to §aunlock safes§f hidden throughout the world.\n\n§bArmor Modification Table§f allows you to §6install upgrades§f into armor. The most important modification is §6Cladding§f, which §areduces radiation intake§f. Most armor modifications are §efound in chests§f or can be §ecrafted§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_armor_table"
+      },
+      "name:8": "Useful Tools and Armor Modifications",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 8,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:reacher"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crowbar"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:screwdriver"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pin"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_armor_table"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

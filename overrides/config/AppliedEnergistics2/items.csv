@@ -1201,509 +1201,6 @@ biomesoplenty:green_dye, Green Dye
 biomesoplenty:white_dye, White Dye
 biomesoplenty:black_dye, Black Dye
 biomesoplenty:earth, Earth
-thermalfoundation:ore:0, Copper Ore
-thermalfoundation:ore:1, Tin Ore
-thermalfoundation:ore:2, Silver Ore
-thermalfoundation:ore:3, Lead Ore
-thermalfoundation:ore:4, Aluminum Ore
-thermalfoundation:ore:5, Nickel Ore
-thermalfoundation:ore:6, Platinum Ore
-thermalfoundation:ore:7, Iridium Ore
-thermalfoundation:ore:8, Mana Infused Ore
-thermalfoundation:ore_fluid:0, Oil Sand
-thermalfoundation:ore_fluid:1, Oil Shale
-thermalfoundation:ore_fluid:2, Destabilized Redstone Ore
-thermalfoundation:ore_fluid:3, Energized Netherrack
-thermalfoundation:ore_fluid:4, Resonant End Stone
-thermalfoundation:ore_fluid:5, Oil Sand
-thermalfoundation:storage:0, Block of Copper
-thermalfoundation:storage:1, Block of Tin
-thermalfoundation:storage:2, Block of Silver
-thermalfoundation:storage:3, Block of Lead
-thermalfoundation:storage:4, Block of Aluminum
-thermalfoundation:storage:5, Block of Nickel
-thermalfoundation:storage:6, Block of Platinum
-thermalfoundation:storage:7, Block of Iridium
-thermalfoundation:storage:8, Block of Mana Infused Metal
-thermalfoundation:storage_alloy:0, Block of Steel
-thermalfoundation:storage_alloy:1, Block of Electrum
-thermalfoundation:storage_alloy:2, Block of Invar
-thermalfoundation:storage_alloy:3, Block of Bronze
-thermalfoundation:storage_alloy:4, Block of Constantan
-thermalfoundation:storage_alloy:5, Block of Signalum
-thermalfoundation:storage_alloy:6, Block of Lumium
-thermalfoundation:storage_alloy:7, Block of Enderium
-thermalfoundation:storage_resource:0, Block of Charcoal
-thermalfoundation:storage_resource:1, Block of Coal Coke
-thermalfoundation:glass:0, Hardened Copper Glass
-thermalfoundation:glass:1, Hardened Tin Glass
-thermalfoundation:glass:2, Hardened Silver Glass
-thermalfoundation:glass:3, Hardened Glass
-thermalfoundation:glass:4, Hardened Aluminum Glass
-thermalfoundation:glass:5, Hardened Nickel Glass
-thermalfoundation:glass:6, Hardened Platinum Glass
-thermalfoundation:glass:7, Hardened Iridium Glass
-thermalfoundation:glass:8, Hardened Mana Infused Glass
-thermalfoundation:glass_alloy:0, Hardened Steel Glass
-thermalfoundation:glass_alloy:1, Hardened Electrum Glass
-thermalfoundation:glass_alloy:2, Hardened Invar Glass
-thermalfoundation:glass_alloy:3, Hardened Bronze Glass
-thermalfoundation:glass_alloy:4, Hardened Constantan Glass
-thermalfoundation:glass_alloy:5, Hardened Signalum Glass
-thermalfoundation:glass_alloy:6, Hardened Lumium Glass
-thermalfoundation:glass_alloy:7, Hardened Enderium Glass
-thermalfoundation:rockwool:0, Black Rockwool
-thermalfoundation:rockwool:1, Red Rockwool
-thermalfoundation:rockwool:2, Green Rockwool
-thermalfoundation:rockwool:3, Brown Rockwool
-thermalfoundation:rockwool:4, Blue Rockwool
-thermalfoundation:rockwool:5, Purple Rockwool
-thermalfoundation:rockwool:6, Cyan Rockwool
-thermalfoundation:rockwool:7, Light Gray Rockwool
-thermalfoundation:rockwool:8, Gray Rockwool
-thermalfoundation:rockwool:9, Pink Rockwool
-thermalfoundation:rockwool:10, Lime Rockwool
-thermalfoundation:rockwool:11, Yellow Rockwool
-thermalfoundation:rockwool:12, Light Blue Rockwool
-thermalfoundation:rockwool:13, Magenta Rockwool
-thermalfoundation:rockwool:14, Orange Rockwool
-thermalfoundation:rockwool:15, White Rockwool
-thermalfoundation:wrench:0, Crescent Hammer
-thermalfoundation:meter:0, Multimeter
-thermalfoundation:upgrade:0, Hardened Upgrade Kit
-thermalfoundation:upgrade:1, Reinforced Upgrade Kit
-thermalfoundation:upgrade:2, Signalum Upgrade Kit
-thermalfoundation:upgrade:3, Resonant Upgrade Kit
-thermalfoundation:upgrade:33, Reinforced Conversion Kit
-thermalfoundation:upgrade:34, Signalum Conversion Kit
-thermalfoundation:upgrade:35, Resonant Conversion Kit
-thermalfoundation:upgrade:256, Creative Conversion Kit
-thermalfoundation:security:0, Signalum Security Lock
-thermalfoundation:diagram_redprint, Redprint
-thermalfoundation:tome_lexicon, Forge Lexicon
-thermalfoundation:tome_experience, Tome of Knowledge
-thermalfoundation:coin:0, Iron Coin
-thermalfoundation:coin:1, Gold Coin
-thermalfoundation:coin:64, Copper Coin
-thermalfoundation:coin:65, Tin Coin
-thermalfoundation:coin:66, Silver Coin
-thermalfoundation:coin:67, Lead Coin
-thermalfoundation:coin:68, Aluminum Coin
-thermalfoundation:coin:69, Nickel Coin
-thermalfoundation:coin:70, Platinum Coin
-thermalfoundation:coin:71, Iridium Coin
-thermalfoundation:coin:72, Mana Infused Coin
-thermalfoundation:coin:96, Steel Coin
-thermalfoundation:coin:97, Electrum Coin
-thermalfoundation:coin:98, Invar Coin
-thermalfoundation:coin:99, Bronze Coin
-thermalfoundation:coin:100, Constantan Coin
-thermalfoundation:coin:101, Signalum Coin
-thermalfoundation:coin:102, Lumium Coin
-thermalfoundation:coin:103, Enderium Coin
-thermalfoundation:fertilizer:0, Phyto-Gro
-thermalfoundation:fertilizer:1, Rich Phyto-Gro
-thermalfoundation:fertilizer:2, Fluxed Phyto-Gro
-thermalfoundation:bait:0, Aqua-Chow
-thermalfoundation:bait:1, Rich Aqua-Chow
-thermalfoundation:bait:2, Fluxed Aqua-Chow
-thermalfoundation:dye:0, Black Pigment
-thermalfoundation:dye:1, Red Pigment
-thermalfoundation:dye:2, Green Pigment
-thermalfoundation:dye:3, Brown Pigment
-thermalfoundation:dye:4, Blue Pigment
-thermalfoundation:dye:5, Purple Pigment
-thermalfoundation:dye:6, Cyan Pigment
-thermalfoundation:dye:7, Light Gray Pigment
-thermalfoundation:dye:8, Gray Pigment
-thermalfoundation:dye:9, Pink Pigment
-thermalfoundation:dye:10, Lime Pigment
-thermalfoundation:dye:11, Yellow Pigment
-thermalfoundation:dye:12, Light Blue Pigment
-thermalfoundation:dye:13, Magenta Pigment
-thermalfoundation:dye:14, Orange Pigment
-thermalfoundation:dye:15, White Pigment
-thermalfoundation:material:0, Pulverized Iron
-thermalfoundation:material:1, Pulverized Gold
-thermalfoundation:material:16, Diamond Nugget
-thermalfoundation:material:17, Emerald Nugget
-thermalfoundation:material:22, Wooden Gear
-thermalfoundation:material:23, Stone Gear
-thermalfoundation:material:24, Iron Gear
-thermalfoundation:material:25, Gold Gear
-thermalfoundation:material:26, Diamond Gear
-thermalfoundation:material:27, Emerald Gear
-thermalfoundation:material:32, Iron Plate
-thermalfoundation:material:33, Gold Plate
-thermalfoundation:material:64, Pulverized Copper
-thermalfoundation:material:65, Pulverized Tin
-thermalfoundation:material:66, Pulverized Silver
-thermalfoundation:material:67, Pulverized Lead
-thermalfoundation:material:68, Pulverized Aluminum
-thermalfoundation:material:69, Pulverized Nickel
-thermalfoundation:material:70, Pulverized Platinum
-thermalfoundation:material:71, Pulverized Iridium
-thermalfoundation:material:72, Pulverized Mana Infused Metal
-thermalfoundation:material:96, Steel Blend
-thermalfoundation:material:97, Electrum Blend
-thermalfoundation:material:98, Invar Blend
-thermalfoundation:material:99, Bronze Blend
-thermalfoundation:material:100, Constantan Blend
-thermalfoundation:material:101, Signalum Blend
-thermalfoundation:material:102, Lumium Blend
-thermalfoundation:material:103, Enderium Blend
-thermalfoundation:material:128, Copper Ingot
-thermalfoundation:material:129, Tin Ingot
-thermalfoundation:material:130, Silver Ingot
-thermalfoundation:material:131, Lead Ingot
-thermalfoundation:material:132, Aluminum Ingot
-thermalfoundation:material:133, Nickel Ingot
-thermalfoundation:material:134, Platinum Ingot
-thermalfoundation:material:135, Iridium Ingot
-thermalfoundation:material:136, Mana Infused Ingot
-thermalfoundation:material:160, Steel Ingot
-thermalfoundation:material:161, Electrum Ingot
-thermalfoundation:material:162, Invar Ingot
-thermalfoundation:material:163, Bronze Ingot
-thermalfoundation:material:164, Constantan Ingot
-thermalfoundation:material:165, Signalum Ingot
-thermalfoundation:material:166, Lumium Ingot
-thermalfoundation:material:167, Enderium Ingot
-thermalfoundation:material:192, Copper Nugget
-thermalfoundation:material:193, Tin Nugget
-thermalfoundation:material:194, Silver Nugget
-thermalfoundation:material:195, Lead Nugget
-thermalfoundation:material:196, Aluminum Nugget
-thermalfoundation:material:197, Nickel Nugget
-thermalfoundation:material:198, Platinum Nugget
-thermalfoundation:material:199, Iridium Nugget
-thermalfoundation:material:200, Mana Infused Nugget
-thermalfoundation:material:224, Steel Nugget
-thermalfoundation:material:225, Electrum Nugget
-thermalfoundation:material:226, Invar Nugget
-thermalfoundation:material:227, Bronze Nugget
-thermalfoundation:material:228, Constantan Nugget
-thermalfoundation:material:229, Signalum Nugget
-thermalfoundation:material:230, Lumium Nugget
-thermalfoundation:material:231, Enderium Nugget
-thermalfoundation:material:256, Copper Gear
-thermalfoundation:material:257, Tin Gear
-thermalfoundation:material:258, Silver Gear
-thermalfoundation:material:259, Lead Gear
-thermalfoundation:material:260, Aluminum Gear
-thermalfoundation:material:261, Nickel Gear
-thermalfoundation:material:262, Platinum Gear
-thermalfoundation:material:263, Iridium Gear
-thermalfoundation:material:264, Mana Infused Gear
-thermalfoundation:material:288, Steel Gear
-thermalfoundation:material:289, Electrum Gear
-thermalfoundation:material:290, Invar Gear
-thermalfoundation:material:291, Bronze Gear
-thermalfoundation:material:292, Constantan Gear
-thermalfoundation:material:293, Signalum Gear
-thermalfoundation:material:294, Lumium Gear
-thermalfoundation:material:295, Enderium Gear
-thermalfoundation:material:320, Copper Plate
-thermalfoundation:material:321, Tin Plate
-thermalfoundation:material:322, Silver Plate
-thermalfoundation:material:323, Lead Plate
-thermalfoundation:material:324, Aluminum Plate
-thermalfoundation:material:325, Nickel Plate
-thermalfoundation:material:326, Platinum Plate
-thermalfoundation:material:327, Iridium Plate
-thermalfoundation:material:328, Mana Infused Plate
-thermalfoundation:material:352, Steel Plate
-thermalfoundation:material:353, Electrum Plate
-thermalfoundation:material:354, Invar Plate
-thermalfoundation:material:355, Bronze Plate
-thermalfoundation:material:356, Constantan Plate
-thermalfoundation:material:357, Signalum Plate
-thermalfoundation:material:358, Lumium Plate
-thermalfoundation:material:359, Enderium Plate
-thermalfoundation:material:512, Redstone Servo
-thermalfoundation:material:513, Redstone Reception Coil
-thermalfoundation:material:514, Redstone Transmission Coil
-thermalfoundation:material:515, Redstone Conductance Coil
-thermalfoundation:material:640, Tool Casing
-thermalfoundation:material:656, Drill Head
-thermalfoundation:material:657, Saw Blade
-thermalfoundation:material:768, Pulverized Coal
-thermalfoundation:material:769, Pulverized Charcoal
-thermalfoundation:material:770, Pulverized Obsidian
-thermalfoundation:material:771, Sulfur
-thermalfoundation:material:772, Niter
-thermalfoundation:material:800, Sawdust
-thermalfoundation:material:801, Compressed Sawdust
-thermalfoundation:material:802, Coal Coke
-thermalfoundation:material:816, Pulped Biomass
-thermalfoundation:material:817, Rich Biomass
-thermalfoundation:material:818, Pulped Bioblend
-thermalfoundation:material:819, Rich Bioblend
-thermalfoundation:material:832, Rosin
-thermalfoundation:material:833, Tar
-thermalfoundation:material:864, Slag
-thermalfoundation:material:865, Rich Slag
-thermalfoundation:material:866, Cinnabar
-thermalfoundation:material:892, Bitumen
-thermalfoundation:material:893, Destabilized Clathrate
-thermalfoundation:material:894, Energized Clathrate
-thermalfoundation:material:895, Resonant Clathrate
-thermalfoundation:material:1024, Pyrotheum Dust
-thermalfoundation:material:1025, Cryotheum Dust
-thermalfoundation:material:1026, Aerotheum Dust
-thermalfoundation:material:1027, Petrotheum Dust
-thermalfoundation:material:1028, Mana Dust
-thermalfoundation:material:2048, Blizz Rod
-thermalfoundation:material:2049, Blizz Powder
-thermalfoundation:material:2050, Blitz Rod
-thermalfoundation:material:2051, Blitz Powder
-thermalfoundation:material:2052, Basalz Rod
-thermalfoundation:material:2053, Basalz Powder
-thermalfoundation:geode:0, Geode
-thermalfoundation:armor.helmet_copper, Copper Helmet
-thermalfoundation:armor.plate_copper, Copper Chestplate
-thermalfoundation:armor.legs_copper, Copper Leggings
-thermalfoundation:armor.boots_copper, Copper Boots
-thermalfoundation:armor.helmet_tin, Tin Helmet
-thermalfoundation:armor.plate_tin, Tin Chestplate
-thermalfoundation:armor.legs_tin, Tin Leggings
-thermalfoundation:armor.boots_tin, Tin Boots
-thermalfoundation:armor.helmet_silver, Silver Helmet
-thermalfoundation:armor.plate_silver, Silver Chestplate
-thermalfoundation:armor.legs_silver, Silver Leggings
-thermalfoundation:armor.boots_silver, Silver Boots
-thermalfoundation:armor.helmet_lead, Lead Helmet
-thermalfoundation:armor.plate_lead, Lead Chestplate
-thermalfoundation:armor.legs_lead, Lead Leggings
-thermalfoundation:armor.boots_lead, Lead Boots
-thermalfoundation:armor.helmet_aluminum, Aluminum Helmet
-thermalfoundation:armor.plate_aluminum, Aluminum Chestplate
-thermalfoundation:armor.legs_aluminum, Aluminum Leggings
-thermalfoundation:armor.boots_aluminum, Aluminum Boots
-thermalfoundation:armor.helmet_nickel, Nickel Helmet
-thermalfoundation:armor.plate_nickel, Nickel Chestplate
-thermalfoundation:armor.legs_nickel, Nickel Leggings
-thermalfoundation:armor.boots_nickel, Nickel Boots
-thermalfoundation:armor.helmet_platinum, Platinum Helmet
-thermalfoundation:armor.plate_platinum, Platinum Chestplate
-thermalfoundation:armor.legs_platinum, Platinum Leggings
-thermalfoundation:armor.boots_platinum, Platinum Boots
-thermalfoundation:armor.helmet_steel, Steel Helmet
-thermalfoundation:armor.plate_steel, Steel Chestplate
-thermalfoundation:armor.legs_steel, Steel Leggings
-thermalfoundation:armor.boots_steel, Steel Boots
-thermalfoundation:armor.helmet_electrum, Electrum Helmet
-thermalfoundation:armor.plate_electrum, Electrum Chestplate
-thermalfoundation:armor.legs_electrum, Electrum Leggings
-thermalfoundation:armor.boots_electrum, Electrum Boots
-thermalfoundation:armor.helmet_invar, Invar Helmet
-thermalfoundation:armor.plate_invar, Invar Chestplate
-thermalfoundation:armor.legs_invar, Invar Leggings
-thermalfoundation:armor.boots_invar, Invar Boots
-thermalfoundation:armor.helmet_bronze, Bronze Helmet
-thermalfoundation:armor.plate_bronze, Bronze Chestplate
-thermalfoundation:armor.legs_bronze, Bronze Leggings
-thermalfoundation:armor.boots_bronze, Bronze Boots
-thermalfoundation:armor.helmet_constantan, Constantan Helmet
-thermalfoundation:armor.plate_constantan, Constantan Chestplate
-thermalfoundation:armor.legs_constantan, Constantan Leggings
-thermalfoundation:armor.boots_constantan, Constantan Boots
-thermalfoundation:tool.sword_copper, Copper Sword
-thermalfoundation:tool.shovel_copper, Copper Shovel
-thermalfoundation:tool.pickaxe_copper, Copper Pickaxe
-thermalfoundation:tool.axe_copper, Copper Axe
-thermalfoundation:tool.hoe_copper, Copper Hoe
-thermalfoundation:tool.bow_copper, Copper Reinforced Bow
-thermalfoundation:tool.fishing_rod_copper, Copper Fishing Rod
-thermalfoundation:tool.shears_copper, Copper Shears
-thermalfoundation:tool.sickle_copper, Copper Sickle
-thermalfoundation:tool.hammer_copper, Copper Hammer
-thermalfoundation:tool.excavator_copper, Copper Excavator
-thermalfoundation:tool.shield_copper, Copper Shield
-thermalfoundation:tool.sword_tin, Tin Sword
-thermalfoundation:tool.shovel_tin, Tin Shovel
-thermalfoundation:tool.pickaxe_tin, Tin Pickaxe
-thermalfoundation:tool.axe_tin, Tin Axe
-thermalfoundation:tool.hoe_tin, Tin Hoe
-thermalfoundation:tool.bow_tin, Tin Reinforced Bow
-thermalfoundation:tool.fishing_rod_tin, Tin Fishing Rod
-thermalfoundation:tool.shears_tin, Tin Shears
-thermalfoundation:tool.sickle_tin, Tin Sickle
-thermalfoundation:tool.hammer_tin, Tin Hammer
-thermalfoundation:tool.excavator_tin, Tin Excavator
-thermalfoundation:tool.shield_tin, Tin Shield
-thermalfoundation:tool.sword_silver, Silver Sword
-thermalfoundation:tool.shovel_silver, Silver Shovel
-thermalfoundation:tool.pickaxe_silver, Silver Pickaxe
-thermalfoundation:tool.axe_silver, Silver Axe
-thermalfoundation:tool.hoe_silver, Silver Hoe
-thermalfoundation:tool.bow_silver, Silver Reinforced Bow
-thermalfoundation:tool.fishing_rod_silver, Silver Fishing Rod
-thermalfoundation:tool.shears_silver, Silver Shears
-thermalfoundation:tool.sickle_silver, Silver Sickle
-thermalfoundation:tool.hammer_silver, Silver Hammer
-thermalfoundation:tool.excavator_silver, Silver Excavator
-thermalfoundation:tool.shield_silver, Silver Shield
-thermalfoundation:tool.sword_lead, Lead Sword
-thermalfoundation:tool.shovel_lead, Lead Shovel
-thermalfoundation:tool.pickaxe_lead, Lead Pickaxe
-thermalfoundation:tool.axe_lead, Lead Axe
-thermalfoundation:tool.hoe_lead, Lead Hoe
-thermalfoundation:tool.bow_lead, Lead Reinforced Bow
-thermalfoundation:tool.fishing_rod_lead, Lead Fishing Rod
-thermalfoundation:tool.shears_lead, Lead Shears
-thermalfoundation:tool.sickle_lead, Lead Sickle
-thermalfoundation:tool.hammer_lead, Lead Hammer
-thermalfoundation:tool.excavator_lead, Lead Excavator
-thermalfoundation:tool.shield_lead, Lead Shield
-thermalfoundation:tool.sword_aluminum, Aluminum Sword
-thermalfoundation:tool.shovel_aluminum, Aluminum Shovel
-thermalfoundation:tool.pickaxe_aluminum, Aluminum Pickaxe
-thermalfoundation:tool.axe_aluminum, Aluminum Axe
-thermalfoundation:tool.hoe_aluminum, Aluminum Hoe
-thermalfoundation:tool.bow_aluminum, Aluminum Reinforced Bow
-thermalfoundation:tool.fishing_rod_aluminum, Aluminum Fishing Rod
-thermalfoundation:tool.shears_aluminum, Aluminum Shears
-thermalfoundation:tool.sickle_aluminum, Aluminum Sickle
-thermalfoundation:tool.hammer_aluminum, Aluminum Hammer
-thermalfoundation:tool.excavator_aluminum, Aluminum Excavator
-thermalfoundation:tool.shield_aluminum, Aluminum Shield
-thermalfoundation:tool.sword_nickel, Nickel Sword
-thermalfoundation:tool.shovel_nickel, Nickel Shovel
-thermalfoundation:tool.pickaxe_nickel, Nickel Pickaxe
-thermalfoundation:tool.axe_nickel, Nickel Axe
-thermalfoundation:tool.hoe_nickel, Nickel Hoe
-thermalfoundation:tool.bow_nickel, Nickel Reinforced Bow
-thermalfoundation:tool.fishing_rod_nickel, Nickel Fishing Rod
-thermalfoundation:tool.shears_nickel, Nickel Shears
-thermalfoundation:tool.sickle_nickel, Nickel Sickle
-thermalfoundation:tool.hammer_nickel, Nickel Hammer
-thermalfoundation:tool.excavator_nickel, Nickel Excavator
-thermalfoundation:tool.shield_nickel, Nickel Shield
-thermalfoundation:tool.sword_platinum, Platinum Sword
-thermalfoundation:tool.shovel_platinum, Platinum Shovel
-thermalfoundation:tool.pickaxe_platinum, Platinum Pickaxe
-thermalfoundation:tool.axe_platinum, Platinum Axe
-thermalfoundation:tool.hoe_platinum, Platinum Hoe
-thermalfoundation:tool.bow_platinum, Platinum Reinforced Bow
-thermalfoundation:tool.fishing_rod_platinum, Platinum Fishing Rod
-thermalfoundation:tool.shears_platinum, Platinum Shears
-thermalfoundation:tool.sickle_platinum, Platinum Sickle
-thermalfoundation:tool.hammer_platinum, Platinum Hammer
-thermalfoundation:tool.excavator_platinum, Platinum Excavator
-thermalfoundation:tool.shield_platinum, Platinum Shield
-thermalfoundation:tool.sword_steel, Steel Sword
-thermalfoundation:tool.shovel_steel, Steel Shovel
-thermalfoundation:tool.pickaxe_steel, Steel Pickaxe
-thermalfoundation:tool.axe_steel, Steel Axe
-thermalfoundation:tool.hoe_steel, Steel Hoe
-thermalfoundation:tool.bow_steel, Steel Reinforced Bow
-thermalfoundation:tool.fishing_rod_steel, Steel Fishing Rod
-thermalfoundation:tool.shears_steel, Steel Shears
-thermalfoundation:tool.sickle_steel, Steel Sickle
-thermalfoundation:tool.hammer_steel, Steel Hammer
-thermalfoundation:tool.excavator_steel, Steel Excavator
-thermalfoundation:tool.shield_steel, Steel Shield
-thermalfoundation:tool.sword_electrum, Electrum Sword
-thermalfoundation:tool.shovel_electrum, Electrum Shovel
-thermalfoundation:tool.pickaxe_electrum, Electrum Pickaxe
-thermalfoundation:tool.axe_electrum, Electrum Axe
-thermalfoundation:tool.hoe_electrum, Electrum Hoe
-thermalfoundation:tool.bow_electrum, Electrum Reinforced Bow
-thermalfoundation:tool.fishing_rod_electrum, Electrum Fishing Rod
-thermalfoundation:tool.shears_electrum, Electrum Shears
-thermalfoundation:tool.sickle_electrum, Electrum Sickle
-thermalfoundation:tool.hammer_electrum, Electrum Hammer
-thermalfoundation:tool.excavator_electrum, Electrum Excavator
-thermalfoundation:tool.shield_electrum, Electrum Shield
-thermalfoundation:tool.sword_invar, Invar Sword
-thermalfoundation:tool.shovel_invar, Invar Shovel
-thermalfoundation:tool.pickaxe_invar, Invar Pickaxe
-thermalfoundation:tool.axe_invar, Invar Axe
-thermalfoundation:tool.hoe_invar, Invar Hoe
-thermalfoundation:tool.bow_invar, Invar Reinforced Bow
-thermalfoundation:tool.fishing_rod_invar, Invar Fishing Rod
-thermalfoundation:tool.shears_invar, Invar Shears
-thermalfoundation:tool.sickle_invar, Invar Sickle
-thermalfoundation:tool.hammer_invar, Invar Hammer
-thermalfoundation:tool.excavator_invar, Invar Excavator
-thermalfoundation:tool.shield_invar, Invar Shield
-thermalfoundation:tool.sword_bronze, Bronze Sword
-thermalfoundation:tool.shovel_bronze, Bronze Shovel
-thermalfoundation:tool.pickaxe_bronze, Bronze Pickaxe
-thermalfoundation:tool.axe_bronze, Bronze Axe
-thermalfoundation:tool.hoe_bronze, Bronze Hoe
-thermalfoundation:tool.bow_bronze, Bronze Reinforced Bow
-thermalfoundation:tool.fishing_rod_bronze, Bronze Fishing Rod
-thermalfoundation:tool.shears_bronze, Bronze Shears
-thermalfoundation:tool.sickle_bronze, Bronze Sickle
-thermalfoundation:tool.hammer_bronze, Bronze Hammer
-thermalfoundation:tool.excavator_bronze, Bronze Excavator
-thermalfoundation:tool.shield_bronze, Bronze Shield
-thermalfoundation:tool.sword_constantan, Constantan Sword
-thermalfoundation:tool.shovel_constantan, Constantan Shovel
-thermalfoundation:tool.pickaxe_constantan, Constantan Pickaxe
-thermalfoundation:tool.axe_constantan, Constantan Axe
-thermalfoundation:tool.hoe_constantan, Constantan Hoe
-thermalfoundation:tool.bow_constantan, Constantan Reinforced Bow
-thermalfoundation:tool.fishing_rod_constantan, Constantan Fishing Rod
-thermalfoundation:tool.shears_constantan, Constantan Shears
-thermalfoundation:tool.sickle_constantan, Constantan Sickle
-thermalfoundation:tool.hammer_constantan, Constantan Hammer
-thermalfoundation:tool.excavator_constantan, Constantan Excavator
-thermalfoundation:tool.shield_constantan, Constantan Shield
-thermalfoundation:tool.shears_wood, Wooden Shears
-thermalfoundation:tool.sickle_wood, Wooden Sickle
-thermalfoundation:tool.hammer_wood, Wooden Hammer
-thermalfoundation:tool.excavator_wood, Wooden Excavator
-thermalfoundation:tool.bow_stone, Stone Reinforced Bow
-thermalfoundation:tool.fishing_rod_stone, Stone Fishing Rod
-thermalfoundation:tool.shears_stone, Stone Shears
-thermalfoundation:tool.sickle_stone, Stone Sickle
-thermalfoundation:tool.hammer_stone, Stone Hammer
-thermalfoundation:tool.excavator_stone, Stone Excavator
-thermalfoundation:tool.shield_stone, Stone Shield
-thermalfoundation:tool.bow_iron, Iron Reinforced Bow
-thermalfoundation:tool.fishing_rod_iron, Iron Fishing Rod
-thermalfoundation:tool.sickle_iron, Iron Sickle
-thermalfoundation:tool.hammer_iron, Iron Hammer
-thermalfoundation:tool.excavator_iron, Iron Excavator
-thermalfoundation:tool.shield_iron, Iron Shield
-thermalfoundation:tool.bow_diamond, Diamond Reinforced Bow
-thermalfoundation:tool.fishing_rod_diamond, Diamond Fishing Rod
-thermalfoundation:tool.shears_diamond, Diamond Shears
-thermalfoundation:tool.sickle_diamond, Diamond Sickle
-thermalfoundation:tool.hammer_diamond, Diamond Hammer
-thermalfoundation:tool.excavator_diamond, Diamond Excavator
-thermalfoundation:tool.shield_diamond, Diamond Shield
-thermalfoundation:tool.bow_gold, Gold Reinforced Bow
-thermalfoundation:tool.fishing_rod_gold, Gold Fishing Rod
-thermalfoundation:tool.shears_gold, Gold Shears
-thermalfoundation:tool.sickle_gold, Gold Sickle
-thermalfoundation:tool.hammer_gold, Gold Hammer
-thermalfoundation:tool.excavator_gold, Gold Excavator
-thermalfoundation:tool.shield_gold, Gold Shield
-thermalfoundation:horse_armor_copper, Copper Horse Armor
-thermalfoundation:horse_armor_tin, Tin Horse Armor
-thermalfoundation:horse_armor_silver, Silver Horse Armor
-thermalfoundation:horse_armor_lead, Lead Horse Armor
-thermalfoundation:horse_armor_aluminum, Aluminum Horse Armor
-thermalfoundation:horse_armor_nickel, Nickel Horse Armor
-thermalfoundation:horse_armor_platinum, Platinum Horse Armor
-thermalfoundation:horse_armor_steel, Steel Horse Armor
-thermalfoundation:horse_armor_electrum, Electrum Horse Armor
-thermalfoundation:horse_armor_invar, Invar Horse Armor
-thermalfoundation:horse_armor_bronze, Bronze Horse Armor
-thermalfoundation:horse_armor_constantan, Constantan Horse Armor
-thermalfoundation:fluid_crude_oil, Crude Oil
-thermalfoundation:fluid_redstone, Destabilized Redstone
-thermalfoundation:fluid_glowstone, Energized Glowstone
-thermalfoundation:fluid_ender, Resonant Ender
-thermalfoundation:fluid_pyrotheum, Blazing Pyrotheum
-thermalfoundation:fluid_cryotheum, Gelid Cryotheum
-thermalfoundation:fluid_aerotheum, Zephyrean Aerotheum
-thermalfoundation:fluid_petrotheum, Tectonic Petrotheum
-thermalfoundation:fluid_mana, Primal Mana
 nuclearcraft:ore:0, Copper Ore
 nuclearcraft:ore:1, Tin Ore
 nuclearcraft:ore:2, Lead Ore
@@ -4063,6 +3560,7 @@ hbm:acid_block, Acid
 hbm:schrabidic_block, Schrabidic Acid
 hbm:corium_block, Corium
 hbm:volcanic_lava_block, Volcanic Lava
+hbm:bromine_block, tile.bromine_block.name
 hbm:sulfuric_acid_block, Sulfuric Acid
 hbm:redstone_sword, Redstone Sword
 hbm:big_sword, Great Sword
@@ -9068,36 +8566,6 @@ pressure:canister:0, Canister - Molten Lithium-7
 pressure:canister:0, Canister - Molten Boron-10
 pressure:canister:0, Canister - Molten Boron-11
 pressure:canister:0, Canister - Molten Au-198
-pressure:canister:0, Canister - LEUF6
-pressure:canister:0, Canister - MEUF6
-pressure:canister:0, Canister - HEUF6
-pressure:canister:0, Canister - Molten Soldering Alloy
-pressure:canister:0, Canister - Steam
-pressure:canister:0, Canister - Creosote Oil
-pressure:canister:0, Canister - Liquifacted Coal
-pressure:canister:0, Canister - Crude Oil
-pressure:canister:0, Canister - Naphtha
-pressure:canister:0, Canister - Refined Fuel
-pressure:canister:0, Canister - Sap
-pressure:canister:0, Canister - Syrup
-pressure:canister:0, Canister - Resin
-pressure:canister:0, Canister - Tree Oil
-pressure:canister:0, Canister - Seed Oil
-pressure:canister:0, Canister - Biocrude
-pressure:canister:0, Canister - Grassoline
-pressure:canister:0, Canister - Mushroom Stew
-pressure:canister:0, Canister - Essence of Knowledge
-pressure:canister:0, Canister - Potion
-pressure:canister:0, Canister - Splash Potion
-pressure:canister:0, Canister - Lingering Potion
-pressure:canister:0, Canister - Destabilized Redstone
-pressure:canister:0, Canister - Energized Glowstone
-pressure:canister:0, Canister - Resonant Ender
-pressure:canister:0, Canister - Blazing Pyrotheum
-pressure:canister:0, Canister - Gelid Cryotheum
-pressure:canister:0, Canister - Zephyrean Aerotheum
-pressure:canister:0, Canister - Tectonic Petrotheum
-pressure:canister:0, Canister - Primal Mana
 pressure:canister:0, Canister - Oxygen
 pressure:canister:0, Canister - Hydrogen
 pressure:canister:0, Canister - Deuterium
@@ -9429,7 +8897,7 @@ pressure:canister:0, Canister - Hot Eutectic NaK-Gold Mixture
 pressure:canister:0, Canister - Molten Prismarine
 pressure:canister:0, Canister - Eutectic NaK-Prismarine Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Prismarine Mixture
-pressure:canister:0, Canister - Slime
+pressure:canister:0, Canister - Molten Slime
 pressure:canister:0, Canister - Eutectic NaK-Slime Mixture
 pressure:canister:0, Canister - Hot Eutectic NaK-Slime Mixture
 pressure:canister:0, Canister - Molten End Stone
@@ -9553,6 +9021,32 @@ pressure:canister:0, Canister - Positronium
 pressure:canister:0, Canister - Muonium
 pressure:canister:0, Canister - Tauonium
 pressure:canister:0, Canister - Glueballs
+pressure:canister:0, Canister - Steam
+pressure:canister:0, Canister - Creosote Oil
+pressure:canister:0, Canister - Liquifacted Coal
+pressure:canister:0, Canister - Crude Oil
+pressure:canister:0, Canister - Naphtha
+pressure:canister:0, Canister - Refined Fuel
+pressure:canister:0, Canister - Sap
+pressure:canister:0, Canister - Syrup
+pressure:canister:0, Canister - Resin
+pressure:canister:0, Canister - Tree Oil
+pressure:canister:0, Canister - Seed Oil
+pressure:canister:0, Canister - Biocrude
+pressure:canister:0, Canister - Grassoline
+pressure:canister:0, Canister - Mushroom Stew
+pressure:canister:0, Canister - Essence of Knowledge
+pressure:canister:0, Canister - Potion
+pressure:canister:0, Canister - Splash Potion
+pressure:canister:0, Canister - Lingering Potion
+pressure:canister:0, Canister - Destabilized Redstone
+pressure:canister:0, Canister - Energized Glowstone
+pressure:canister:0, Canister - Resonant Ender
+pressure:canister:0, Canister - Blazing Pyrotheum
+pressure:canister:0, Canister - Gelid Cryotheum
+pressure:canister:0, Canister - Zephyrean Aerotheum
+pressure:canister:0, Canister - Tectonic Petrotheum
+pressure:canister:0, Canister - Primal Mana
 pressure:canister:0, Canister - Molten TNT
 pressure:canister:0, Canister - Molten Baratol
 pressure:canister:0, Canister - Witherite Water
@@ -9560,11 +9054,6 @@ pressure:canister:0, Canister - Barium Nitrate Solution
 pressure:canister:0, Canister - Deuterium-Tritium Mixture
 pressure:canister:0, Canister - Rocket Fuel
 pressure:canister:0, Canister - Enriched Lava
-pressure:canister:0, Canister - SCP-354 (The Red Pool)
-pressure:canister:0, Canister - SCP-006 (Fountain of Youth)
-pressure:canister:0, Canister - Shadow Liquid
-pressure:canister:0, Canister - Swamp Water
-pressure:canister:0, Canister - Hydrochloric Acid
 pressure:configurator, Fluid Filter Configurator
 pressure:pipe, High Pressure Pipe
 pressure:check_valve, High Pressure Check Valve
@@ -9976,6 +9465,509 @@ reccomplex:maze_generator, Maze Generator
 reccomplex:weighted_command_block, tile.spawn_command.name
 reccomplex:spawn_script, Script Block
 reccomplex:inspector, Inspector
+thermalfoundation:ore:0, Copper Ore
+thermalfoundation:ore:1, Tin Ore
+thermalfoundation:ore:2, Silver Ore
+thermalfoundation:ore:3, Lead Ore
+thermalfoundation:ore:4, Aluminum Ore
+thermalfoundation:ore:5, Nickel Ore
+thermalfoundation:ore:6, Platinum Ore
+thermalfoundation:ore:7, Iridium Ore
+thermalfoundation:ore:8, Mana Infused Ore
+thermalfoundation:ore_fluid:0, Oil Sand
+thermalfoundation:ore_fluid:1, Oil Shale
+thermalfoundation:ore_fluid:2, Destabilized Redstone Ore
+thermalfoundation:ore_fluid:3, Energized Netherrack
+thermalfoundation:ore_fluid:4, Resonant End Stone
+thermalfoundation:ore_fluid:5, Oil Sand
+thermalfoundation:storage:0, Block of Copper
+thermalfoundation:storage:1, Block of Tin
+thermalfoundation:storage:2, Block of Silver
+thermalfoundation:storage:3, Block of Lead
+thermalfoundation:storage:4, Block of Aluminum
+thermalfoundation:storage:5, Block of Nickel
+thermalfoundation:storage:6, Block of Platinum
+thermalfoundation:storage:7, Block of Iridium
+thermalfoundation:storage:8, Block of Mana Infused Metal
+thermalfoundation:storage_alloy:0, Block of Steel
+thermalfoundation:storage_alloy:1, Block of Electrum
+thermalfoundation:storage_alloy:2, Block of Invar
+thermalfoundation:storage_alloy:3, Block of Bronze
+thermalfoundation:storage_alloy:4, Block of Constantan
+thermalfoundation:storage_alloy:5, Block of Signalum
+thermalfoundation:storage_alloy:6, Block of Lumium
+thermalfoundation:storage_alloy:7, Block of Enderium
+thermalfoundation:storage_resource:0, Block of Charcoal
+thermalfoundation:storage_resource:1, Block of Coal Coke
+thermalfoundation:glass:0, Hardened Copper Glass
+thermalfoundation:glass:1, Hardened Tin Glass
+thermalfoundation:glass:2, Hardened Silver Glass
+thermalfoundation:glass:3, Hardened Glass
+thermalfoundation:glass:4, Hardened Aluminum Glass
+thermalfoundation:glass:5, Hardened Nickel Glass
+thermalfoundation:glass:6, Hardened Platinum Glass
+thermalfoundation:glass:7, Hardened Iridium Glass
+thermalfoundation:glass:8, Hardened Mana Infused Glass
+thermalfoundation:glass_alloy:0, Hardened Steel Glass
+thermalfoundation:glass_alloy:1, Hardened Electrum Glass
+thermalfoundation:glass_alloy:2, Hardened Invar Glass
+thermalfoundation:glass_alloy:3, Hardened Bronze Glass
+thermalfoundation:glass_alloy:4, Hardened Constantan Glass
+thermalfoundation:glass_alloy:5, Hardened Signalum Glass
+thermalfoundation:glass_alloy:6, Hardened Lumium Glass
+thermalfoundation:glass_alloy:7, Hardened Enderium Glass
+thermalfoundation:rockwool:0, Black Rockwool
+thermalfoundation:rockwool:1, Red Rockwool
+thermalfoundation:rockwool:2, Green Rockwool
+thermalfoundation:rockwool:3, Brown Rockwool
+thermalfoundation:rockwool:4, Blue Rockwool
+thermalfoundation:rockwool:5, Purple Rockwool
+thermalfoundation:rockwool:6, Cyan Rockwool
+thermalfoundation:rockwool:7, Light Gray Rockwool
+thermalfoundation:rockwool:8, Gray Rockwool
+thermalfoundation:rockwool:9, Pink Rockwool
+thermalfoundation:rockwool:10, Lime Rockwool
+thermalfoundation:rockwool:11, Yellow Rockwool
+thermalfoundation:rockwool:12, Light Blue Rockwool
+thermalfoundation:rockwool:13, Magenta Rockwool
+thermalfoundation:rockwool:14, Orange Rockwool
+thermalfoundation:rockwool:15, White Rockwool
+thermalfoundation:wrench:0, Crescent Hammer
+thermalfoundation:meter:0, Multimeter
+thermalfoundation:upgrade:0, Hardened Upgrade Kit
+thermalfoundation:upgrade:1, Reinforced Upgrade Kit
+thermalfoundation:upgrade:2, Signalum Upgrade Kit
+thermalfoundation:upgrade:3, Resonant Upgrade Kit
+thermalfoundation:upgrade:33, Reinforced Conversion Kit
+thermalfoundation:upgrade:34, Signalum Conversion Kit
+thermalfoundation:upgrade:35, Resonant Conversion Kit
+thermalfoundation:upgrade:256, Creative Conversion Kit
+thermalfoundation:security:0, Signalum Security Lock
+thermalfoundation:diagram_redprint, Redprint
+thermalfoundation:tome_lexicon, Forge Lexicon
+thermalfoundation:tome_experience, Tome of Knowledge
+thermalfoundation:coin:0, Iron Coin
+thermalfoundation:coin:1, Gold Coin
+thermalfoundation:coin:64, Copper Coin
+thermalfoundation:coin:65, Tin Coin
+thermalfoundation:coin:66, Silver Coin
+thermalfoundation:coin:67, Lead Coin
+thermalfoundation:coin:68, Aluminum Coin
+thermalfoundation:coin:69, Nickel Coin
+thermalfoundation:coin:70, Platinum Coin
+thermalfoundation:coin:71, Iridium Coin
+thermalfoundation:coin:72, Mana Infused Coin
+thermalfoundation:coin:96, Steel Coin
+thermalfoundation:coin:97, Electrum Coin
+thermalfoundation:coin:98, Invar Coin
+thermalfoundation:coin:99, Bronze Coin
+thermalfoundation:coin:100, Constantan Coin
+thermalfoundation:coin:101, Signalum Coin
+thermalfoundation:coin:102, Lumium Coin
+thermalfoundation:coin:103, Enderium Coin
+thermalfoundation:fertilizer:0, Phyto-Gro
+thermalfoundation:fertilizer:1, Rich Phyto-Gro
+thermalfoundation:fertilizer:2, Fluxed Phyto-Gro
+thermalfoundation:bait:0, Aqua-Chow
+thermalfoundation:bait:1, Rich Aqua-Chow
+thermalfoundation:bait:2, Fluxed Aqua-Chow
+thermalfoundation:dye:0, Black Pigment
+thermalfoundation:dye:1, Red Pigment
+thermalfoundation:dye:2, Green Pigment
+thermalfoundation:dye:3, Brown Pigment
+thermalfoundation:dye:4, Blue Pigment
+thermalfoundation:dye:5, Purple Pigment
+thermalfoundation:dye:6, Cyan Pigment
+thermalfoundation:dye:7, Light Gray Pigment
+thermalfoundation:dye:8, Gray Pigment
+thermalfoundation:dye:9, Pink Pigment
+thermalfoundation:dye:10, Lime Pigment
+thermalfoundation:dye:11, Yellow Pigment
+thermalfoundation:dye:12, Light Blue Pigment
+thermalfoundation:dye:13, Magenta Pigment
+thermalfoundation:dye:14, Orange Pigment
+thermalfoundation:dye:15, White Pigment
+thermalfoundation:material:0, Pulverized Iron
+thermalfoundation:material:1, Pulverized Gold
+thermalfoundation:material:16, Diamond Nugget
+thermalfoundation:material:17, Emerald Nugget
+thermalfoundation:material:22, Wooden Gear
+thermalfoundation:material:23, Stone Gear
+thermalfoundation:material:24, Iron Gear
+thermalfoundation:material:25, Gold Gear
+thermalfoundation:material:26, Diamond Gear
+thermalfoundation:material:27, Emerald Gear
+thermalfoundation:material:32, Iron Plate
+thermalfoundation:material:33, Gold Plate
+thermalfoundation:material:64, Pulverized Copper
+thermalfoundation:material:65, Pulverized Tin
+thermalfoundation:material:66, Pulverized Silver
+thermalfoundation:material:67, Pulverized Lead
+thermalfoundation:material:68, Pulverized Aluminum
+thermalfoundation:material:69, Pulverized Nickel
+thermalfoundation:material:70, Pulverized Platinum
+thermalfoundation:material:71, Pulverized Iridium
+thermalfoundation:material:72, Pulverized Mana Infused Metal
+thermalfoundation:material:96, Steel Blend
+thermalfoundation:material:97, Electrum Blend
+thermalfoundation:material:98, Invar Blend
+thermalfoundation:material:99, Bronze Blend
+thermalfoundation:material:100, Constantan Blend
+thermalfoundation:material:101, Signalum Blend
+thermalfoundation:material:102, Lumium Blend
+thermalfoundation:material:103, Enderium Blend
+thermalfoundation:material:128, Copper Ingot
+thermalfoundation:material:129, Tin Ingot
+thermalfoundation:material:130, Silver Ingot
+thermalfoundation:material:131, Lead Ingot
+thermalfoundation:material:132, Aluminum Ingot
+thermalfoundation:material:133, Nickel Ingot
+thermalfoundation:material:134, Platinum Ingot
+thermalfoundation:material:135, Iridium Ingot
+thermalfoundation:material:136, Mana Infused Ingot
+thermalfoundation:material:160, Steel Ingot
+thermalfoundation:material:161, Electrum Ingot
+thermalfoundation:material:162, Invar Ingot
+thermalfoundation:material:163, Bronze Ingot
+thermalfoundation:material:164, Constantan Ingot
+thermalfoundation:material:165, Signalum Ingot
+thermalfoundation:material:166, Lumium Ingot
+thermalfoundation:material:167, Enderium Ingot
+thermalfoundation:material:192, Copper Nugget
+thermalfoundation:material:193, Tin Nugget
+thermalfoundation:material:194, Silver Nugget
+thermalfoundation:material:195, Lead Nugget
+thermalfoundation:material:196, Aluminum Nugget
+thermalfoundation:material:197, Nickel Nugget
+thermalfoundation:material:198, Platinum Nugget
+thermalfoundation:material:199, Iridium Nugget
+thermalfoundation:material:200, Mana Infused Nugget
+thermalfoundation:material:224, Steel Nugget
+thermalfoundation:material:225, Electrum Nugget
+thermalfoundation:material:226, Invar Nugget
+thermalfoundation:material:227, Bronze Nugget
+thermalfoundation:material:228, Constantan Nugget
+thermalfoundation:material:229, Signalum Nugget
+thermalfoundation:material:230, Lumium Nugget
+thermalfoundation:material:231, Enderium Nugget
+thermalfoundation:material:256, Copper Gear
+thermalfoundation:material:257, Tin Gear
+thermalfoundation:material:258, Silver Gear
+thermalfoundation:material:259, Lead Gear
+thermalfoundation:material:260, Aluminum Gear
+thermalfoundation:material:261, Nickel Gear
+thermalfoundation:material:262, Platinum Gear
+thermalfoundation:material:263, Iridium Gear
+thermalfoundation:material:264, Mana Infused Gear
+thermalfoundation:material:288, Steel Gear
+thermalfoundation:material:289, Electrum Gear
+thermalfoundation:material:290, Invar Gear
+thermalfoundation:material:291, Bronze Gear
+thermalfoundation:material:292, Constantan Gear
+thermalfoundation:material:293, Signalum Gear
+thermalfoundation:material:294, Lumium Gear
+thermalfoundation:material:295, Enderium Gear
+thermalfoundation:material:320, Copper Plate
+thermalfoundation:material:321, Tin Plate
+thermalfoundation:material:322, Silver Plate
+thermalfoundation:material:323, Lead Plate
+thermalfoundation:material:324, Aluminum Plate
+thermalfoundation:material:325, Nickel Plate
+thermalfoundation:material:326, Platinum Plate
+thermalfoundation:material:327, Iridium Plate
+thermalfoundation:material:328, Mana Infused Plate
+thermalfoundation:material:352, Steel Plate
+thermalfoundation:material:353, Electrum Plate
+thermalfoundation:material:354, Invar Plate
+thermalfoundation:material:355, Bronze Plate
+thermalfoundation:material:356, Constantan Plate
+thermalfoundation:material:357, Signalum Plate
+thermalfoundation:material:358, Lumium Plate
+thermalfoundation:material:359, Enderium Plate
+thermalfoundation:material:512, Redstone Servo
+thermalfoundation:material:513, Redstone Reception Coil
+thermalfoundation:material:514, Redstone Transmission Coil
+thermalfoundation:material:515, Redstone Conductance Coil
+thermalfoundation:material:640, Tool Casing
+thermalfoundation:material:656, Drill Head
+thermalfoundation:material:657, Saw Blade
+thermalfoundation:material:768, Pulverized Coal
+thermalfoundation:material:769, Pulverized Charcoal
+thermalfoundation:material:770, Pulverized Obsidian
+thermalfoundation:material:771, Sulfur
+thermalfoundation:material:772, Niter
+thermalfoundation:material:800, Sawdust
+thermalfoundation:material:801, Compressed Sawdust
+thermalfoundation:material:802, Coal Coke
+thermalfoundation:material:816, Pulped Biomass
+thermalfoundation:material:817, Rich Biomass
+thermalfoundation:material:818, Pulped Bioblend
+thermalfoundation:material:819, Rich Bioblend
+thermalfoundation:material:832, Rosin
+thermalfoundation:material:833, Tar
+thermalfoundation:material:864, Slag
+thermalfoundation:material:865, Rich Slag
+thermalfoundation:material:866, Cinnabar
+thermalfoundation:material:892, Bitumen
+thermalfoundation:material:893, Destabilized Clathrate
+thermalfoundation:material:894, Energized Clathrate
+thermalfoundation:material:895, Resonant Clathrate
+thermalfoundation:material:1024, Pyrotheum Dust
+thermalfoundation:material:1025, Cryotheum Dust
+thermalfoundation:material:1026, Aerotheum Dust
+thermalfoundation:material:1027, Petrotheum Dust
+thermalfoundation:material:1028, Mana Dust
+thermalfoundation:material:2048, Blizz Rod
+thermalfoundation:material:2049, Blizz Powder
+thermalfoundation:material:2050, Blitz Rod
+thermalfoundation:material:2051, Blitz Powder
+thermalfoundation:material:2052, Basalz Rod
+thermalfoundation:material:2053, Basalz Powder
+thermalfoundation:geode:0, Geode
+thermalfoundation:armor.helmet_copper, Copper Helmet
+thermalfoundation:armor.plate_copper, Copper Chestplate
+thermalfoundation:armor.legs_copper, Copper Leggings
+thermalfoundation:armor.boots_copper, Copper Boots
+thermalfoundation:armor.helmet_tin, Tin Helmet
+thermalfoundation:armor.plate_tin, Tin Chestplate
+thermalfoundation:armor.legs_tin, Tin Leggings
+thermalfoundation:armor.boots_tin, Tin Boots
+thermalfoundation:armor.helmet_silver, Silver Helmet
+thermalfoundation:armor.plate_silver, Silver Chestplate
+thermalfoundation:armor.legs_silver, Silver Leggings
+thermalfoundation:armor.boots_silver, Silver Boots
+thermalfoundation:armor.helmet_lead, Lead Helmet
+thermalfoundation:armor.plate_lead, Lead Chestplate
+thermalfoundation:armor.legs_lead, Lead Leggings
+thermalfoundation:armor.boots_lead, Lead Boots
+thermalfoundation:armor.helmet_aluminum, Aluminum Helmet
+thermalfoundation:armor.plate_aluminum, Aluminum Chestplate
+thermalfoundation:armor.legs_aluminum, Aluminum Leggings
+thermalfoundation:armor.boots_aluminum, Aluminum Boots
+thermalfoundation:armor.helmet_nickel, Nickel Helmet
+thermalfoundation:armor.plate_nickel, Nickel Chestplate
+thermalfoundation:armor.legs_nickel, Nickel Leggings
+thermalfoundation:armor.boots_nickel, Nickel Boots
+thermalfoundation:armor.helmet_platinum, Platinum Helmet
+thermalfoundation:armor.plate_platinum, Platinum Chestplate
+thermalfoundation:armor.legs_platinum, Platinum Leggings
+thermalfoundation:armor.boots_platinum, Platinum Boots
+thermalfoundation:armor.helmet_steel, Steel Helmet
+thermalfoundation:armor.plate_steel, Steel Chestplate
+thermalfoundation:armor.legs_steel, Steel Leggings
+thermalfoundation:armor.boots_steel, Steel Boots
+thermalfoundation:armor.helmet_electrum, Electrum Helmet
+thermalfoundation:armor.plate_electrum, Electrum Chestplate
+thermalfoundation:armor.legs_electrum, Electrum Leggings
+thermalfoundation:armor.boots_electrum, Electrum Boots
+thermalfoundation:armor.helmet_invar, Invar Helmet
+thermalfoundation:armor.plate_invar, Invar Chestplate
+thermalfoundation:armor.legs_invar, Invar Leggings
+thermalfoundation:armor.boots_invar, Invar Boots
+thermalfoundation:armor.helmet_bronze, Bronze Helmet
+thermalfoundation:armor.plate_bronze, Bronze Chestplate
+thermalfoundation:armor.legs_bronze, Bronze Leggings
+thermalfoundation:armor.boots_bronze, Bronze Boots
+thermalfoundation:armor.helmet_constantan, Constantan Helmet
+thermalfoundation:armor.plate_constantan, Constantan Chestplate
+thermalfoundation:armor.legs_constantan, Constantan Leggings
+thermalfoundation:armor.boots_constantan, Constantan Boots
+thermalfoundation:tool.sword_copper, Copper Sword
+thermalfoundation:tool.shovel_copper, Copper Shovel
+thermalfoundation:tool.pickaxe_copper, Copper Pickaxe
+thermalfoundation:tool.axe_copper, Copper Axe
+thermalfoundation:tool.hoe_copper, Copper Hoe
+thermalfoundation:tool.bow_copper, Copper Reinforced Bow
+thermalfoundation:tool.fishing_rod_copper, Copper Fishing Rod
+thermalfoundation:tool.shears_copper, Copper Shears
+thermalfoundation:tool.sickle_copper, Copper Sickle
+thermalfoundation:tool.hammer_copper, Copper Hammer
+thermalfoundation:tool.excavator_copper, Copper Excavator
+thermalfoundation:tool.shield_copper, Copper Shield
+thermalfoundation:tool.sword_tin, Tin Sword
+thermalfoundation:tool.shovel_tin, Tin Shovel
+thermalfoundation:tool.pickaxe_tin, Tin Pickaxe
+thermalfoundation:tool.axe_tin, Tin Axe
+thermalfoundation:tool.hoe_tin, Tin Hoe
+thermalfoundation:tool.bow_tin, Tin Reinforced Bow
+thermalfoundation:tool.fishing_rod_tin, Tin Fishing Rod
+thermalfoundation:tool.shears_tin, Tin Shears
+thermalfoundation:tool.sickle_tin, Tin Sickle
+thermalfoundation:tool.hammer_tin, Tin Hammer
+thermalfoundation:tool.excavator_tin, Tin Excavator
+thermalfoundation:tool.shield_tin, Tin Shield
+thermalfoundation:tool.sword_silver, Silver Sword
+thermalfoundation:tool.shovel_silver, Silver Shovel
+thermalfoundation:tool.pickaxe_silver, Silver Pickaxe
+thermalfoundation:tool.axe_silver, Silver Axe
+thermalfoundation:tool.hoe_silver, Silver Hoe
+thermalfoundation:tool.bow_silver, Silver Reinforced Bow
+thermalfoundation:tool.fishing_rod_silver, Silver Fishing Rod
+thermalfoundation:tool.shears_silver, Silver Shears
+thermalfoundation:tool.sickle_silver, Silver Sickle
+thermalfoundation:tool.hammer_silver, Silver Hammer
+thermalfoundation:tool.excavator_silver, Silver Excavator
+thermalfoundation:tool.shield_silver, Silver Shield
+thermalfoundation:tool.sword_lead, Lead Sword
+thermalfoundation:tool.shovel_lead, Lead Shovel
+thermalfoundation:tool.pickaxe_lead, Lead Pickaxe
+thermalfoundation:tool.axe_lead, Lead Axe
+thermalfoundation:tool.hoe_lead, Lead Hoe
+thermalfoundation:tool.bow_lead, Lead Reinforced Bow
+thermalfoundation:tool.fishing_rod_lead, Lead Fishing Rod
+thermalfoundation:tool.shears_lead, Lead Shears
+thermalfoundation:tool.sickle_lead, Lead Sickle
+thermalfoundation:tool.hammer_lead, Lead Hammer
+thermalfoundation:tool.excavator_lead, Lead Excavator
+thermalfoundation:tool.shield_lead, Lead Shield
+thermalfoundation:tool.sword_aluminum, Aluminum Sword
+thermalfoundation:tool.shovel_aluminum, Aluminum Shovel
+thermalfoundation:tool.pickaxe_aluminum, Aluminum Pickaxe
+thermalfoundation:tool.axe_aluminum, Aluminum Axe
+thermalfoundation:tool.hoe_aluminum, Aluminum Hoe
+thermalfoundation:tool.bow_aluminum, Aluminum Reinforced Bow
+thermalfoundation:tool.fishing_rod_aluminum, Aluminum Fishing Rod
+thermalfoundation:tool.shears_aluminum, Aluminum Shears
+thermalfoundation:tool.sickle_aluminum, Aluminum Sickle
+thermalfoundation:tool.hammer_aluminum, Aluminum Hammer
+thermalfoundation:tool.excavator_aluminum, Aluminum Excavator
+thermalfoundation:tool.shield_aluminum, Aluminum Shield
+thermalfoundation:tool.sword_nickel, Nickel Sword
+thermalfoundation:tool.shovel_nickel, Nickel Shovel
+thermalfoundation:tool.pickaxe_nickel, Nickel Pickaxe
+thermalfoundation:tool.axe_nickel, Nickel Axe
+thermalfoundation:tool.hoe_nickel, Nickel Hoe
+thermalfoundation:tool.bow_nickel, Nickel Reinforced Bow
+thermalfoundation:tool.fishing_rod_nickel, Nickel Fishing Rod
+thermalfoundation:tool.shears_nickel, Nickel Shears
+thermalfoundation:tool.sickle_nickel, Nickel Sickle
+thermalfoundation:tool.hammer_nickel, Nickel Hammer
+thermalfoundation:tool.excavator_nickel, Nickel Excavator
+thermalfoundation:tool.shield_nickel, Nickel Shield
+thermalfoundation:tool.sword_platinum, Platinum Sword
+thermalfoundation:tool.shovel_platinum, Platinum Shovel
+thermalfoundation:tool.pickaxe_platinum, Platinum Pickaxe
+thermalfoundation:tool.axe_platinum, Platinum Axe
+thermalfoundation:tool.hoe_platinum, Platinum Hoe
+thermalfoundation:tool.bow_platinum, Platinum Reinforced Bow
+thermalfoundation:tool.fishing_rod_platinum, Platinum Fishing Rod
+thermalfoundation:tool.shears_platinum, Platinum Shears
+thermalfoundation:tool.sickle_platinum, Platinum Sickle
+thermalfoundation:tool.hammer_platinum, Platinum Hammer
+thermalfoundation:tool.excavator_platinum, Platinum Excavator
+thermalfoundation:tool.shield_platinum, Platinum Shield
+thermalfoundation:tool.sword_steel, Steel Sword
+thermalfoundation:tool.shovel_steel, Steel Shovel
+thermalfoundation:tool.pickaxe_steel, Steel Pickaxe
+thermalfoundation:tool.axe_steel, Steel Axe
+thermalfoundation:tool.hoe_steel, Steel Hoe
+thermalfoundation:tool.bow_steel, Steel Reinforced Bow
+thermalfoundation:tool.fishing_rod_steel, Steel Fishing Rod
+thermalfoundation:tool.shears_steel, Steel Shears
+thermalfoundation:tool.sickle_steel, Steel Sickle
+thermalfoundation:tool.hammer_steel, Steel Hammer
+thermalfoundation:tool.excavator_steel, Steel Excavator
+thermalfoundation:tool.shield_steel, Steel Shield
+thermalfoundation:tool.sword_electrum, Electrum Sword
+thermalfoundation:tool.shovel_electrum, Electrum Shovel
+thermalfoundation:tool.pickaxe_electrum, Electrum Pickaxe
+thermalfoundation:tool.axe_electrum, Electrum Axe
+thermalfoundation:tool.hoe_electrum, Electrum Hoe
+thermalfoundation:tool.bow_electrum, Electrum Reinforced Bow
+thermalfoundation:tool.fishing_rod_electrum, Electrum Fishing Rod
+thermalfoundation:tool.shears_electrum, Electrum Shears
+thermalfoundation:tool.sickle_electrum, Electrum Sickle
+thermalfoundation:tool.hammer_electrum, Electrum Hammer
+thermalfoundation:tool.excavator_electrum, Electrum Excavator
+thermalfoundation:tool.shield_electrum, Electrum Shield
+thermalfoundation:tool.sword_invar, Invar Sword
+thermalfoundation:tool.shovel_invar, Invar Shovel
+thermalfoundation:tool.pickaxe_invar, Invar Pickaxe
+thermalfoundation:tool.axe_invar, Invar Axe
+thermalfoundation:tool.hoe_invar, Invar Hoe
+thermalfoundation:tool.bow_invar, Invar Reinforced Bow
+thermalfoundation:tool.fishing_rod_invar, Invar Fishing Rod
+thermalfoundation:tool.shears_invar, Invar Shears
+thermalfoundation:tool.sickle_invar, Invar Sickle
+thermalfoundation:tool.hammer_invar, Invar Hammer
+thermalfoundation:tool.excavator_invar, Invar Excavator
+thermalfoundation:tool.shield_invar, Invar Shield
+thermalfoundation:tool.sword_bronze, Bronze Sword
+thermalfoundation:tool.shovel_bronze, Bronze Shovel
+thermalfoundation:tool.pickaxe_bronze, Bronze Pickaxe
+thermalfoundation:tool.axe_bronze, Bronze Axe
+thermalfoundation:tool.hoe_bronze, Bronze Hoe
+thermalfoundation:tool.bow_bronze, Bronze Reinforced Bow
+thermalfoundation:tool.fishing_rod_bronze, Bronze Fishing Rod
+thermalfoundation:tool.shears_bronze, Bronze Shears
+thermalfoundation:tool.sickle_bronze, Bronze Sickle
+thermalfoundation:tool.hammer_bronze, Bronze Hammer
+thermalfoundation:tool.excavator_bronze, Bronze Excavator
+thermalfoundation:tool.shield_bronze, Bronze Shield
+thermalfoundation:tool.sword_constantan, Constantan Sword
+thermalfoundation:tool.shovel_constantan, Constantan Shovel
+thermalfoundation:tool.pickaxe_constantan, Constantan Pickaxe
+thermalfoundation:tool.axe_constantan, Constantan Axe
+thermalfoundation:tool.hoe_constantan, Constantan Hoe
+thermalfoundation:tool.bow_constantan, Constantan Reinforced Bow
+thermalfoundation:tool.fishing_rod_constantan, Constantan Fishing Rod
+thermalfoundation:tool.shears_constantan, Constantan Shears
+thermalfoundation:tool.sickle_constantan, Constantan Sickle
+thermalfoundation:tool.hammer_constantan, Constantan Hammer
+thermalfoundation:tool.excavator_constantan, Constantan Excavator
+thermalfoundation:tool.shield_constantan, Constantan Shield
+thermalfoundation:tool.shears_wood, Wooden Shears
+thermalfoundation:tool.sickle_wood, Wooden Sickle
+thermalfoundation:tool.hammer_wood, Wooden Hammer
+thermalfoundation:tool.excavator_wood, Wooden Excavator
+thermalfoundation:tool.bow_stone, Stone Reinforced Bow
+thermalfoundation:tool.fishing_rod_stone, Stone Fishing Rod
+thermalfoundation:tool.shears_stone, Stone Shears
+thermalfoundation:tool.sickle_stone, Stone Sickle
+thermalfoundation:tool.hammer_stone, Stone Hammer
+thermalfoundation:tool.excavator_stone, Stone Excavator
+thermalfoundation:tool.shield_stone, Stone Shield
+thermalfoundation:tool.bow_iron, Iron Reinforced Bow
+thermalfoundation:tool.fishing_rod_iron, Iron Fishing Rod
+thermalfoundation:tool.sickle_iron, Iron Sickle
+thermalfoundation:tool.hammer_iron, Iron Hammer
+thermalfoundation:tool.excavator_iron, Iron Excavator
+thermalfoundation:tool.shield_iron, Iron Shield
+thermalfoundation:tool.bow_diamond, Diamond Reinforced Bow
+thermalfoundation:tool.fishing_rod_diamond, Diamond Fishing Rod
+thermalfoundation:tool.shears_diamond, Diamond Shears
+thermalfoundation:tool.sickle_diamond, Diamond Sickle
+thermalfoundation:tool.hammer_diamond, Diamond Hammer
+thermalfoundation:tool.excavator_diamond, Diamond Excavator
+thermalfoundation:tool.shield_diamond, Diamond Shield
+thermalfoundation:tool.bow_gold, Gold Reinforced Bow
+thermalfoundation:tool.fishing_rod_gold, Gold Fishing Rod
+thermalfoundation:tool.shears_gold, Gold Shears
+thermalfoundation:tool.sickle_gold, Gold Sickle
+thermalfoundation:tool.hammer_gold, Gold Hammer
+thermalfoundation:tool.excavator_gold, Gold Excavator
+thermalfoundation:tool.shield_gold, Gold Shield
+thermalfoundation:horse_armor_copper, Copper Horse Armor
+thermalfoundation:horse_armor_tin, Tin Horse Armor
+thermalfoundation:horse_armor_silver, Silver Horse Armor
+thermalfoundation:horse_armor_lead, Lead Horse Armor
+thermalfoundation:horse_armor_aluminum, Aluminum Horse Armor
+thermalfoundation:horse_armor_nickel, Nickel Horse Armor
+thermalfoundation:horse_armor_platinum, Platinum Horse Armor
+thermalfoundation:horse_armor_steel, Steel Horse Armor
+thermalfoundation:horse_armor_electrum, Electrum Horse Armor
+thermalfoundation:horse_armor_invar, Invar Horse Armor
+thermalfoundation:horse_armor_bronze, Bronze Horse Armor
+thermalfoundation:horse_armor_constantan, Constantan Horse Armor
+thermalfoundation:fluid_crude_oil, Crude Oil
+thermalfoundation:fluid_redstone, Destabilized Redstone
+thermalfoundation:fluid_glowstone, Energized Glowstone
+thermalfoundation:fluid_ender, Resonant Ender
+thermalfoundation:fluid_pyrotheum, Blazing Pyrotheum
+thermalfoundation:fluid_cryotheum, Gelid Cryotheum
+thermalfoundation:fluid_aerotheum, Zephyrean Aerotheum
+thermalfoundation:fluid_petrotheum, Tectonic Petrotheum
+thermalfoundation:fluid_mana, Primal Mana
 thermaldynamics:duct_0:0, Leadstone Fluxduct
 thermaldynamics:duct_0:1, Hardened Fluxduct
 thermaldynamics:duct_0:2, Redstone Energy Fluxduct
@@ -10710,73 +10702,6 @@ thermaldynamics:cover:0, Nether Terrarium Cover
 thermaldynamics:cover:0, Ender Terrarium Cover
 thermaldynamics:cover:0, Copper Ore Cover
 thermaldynamics:cover:0, Tin Ore Cover
-thermaldynamics:cover:0, Silver Ore Cover
-thermaldynamics:cover:0, Lead Ore Cover
-thermaldynamics:cover:0, Aluminum Ore Cover
-thermaldynamics:cover:0, Nickel Ore Cover
-thermaldynamics:cover:0, Platinum Ore Cover
-thermaldynamics:cover:0, Iridium Ore Cover
-thermaldynamics:cover:0, Mana Infused Ore Cover
-thermaldynamics:cover:0, Oil Sand Cover
-thermaldynamics:cover:0, Oil Shale Cover
-thermaldynamics:cover:0, Destabilized Redstone Ore Cover
-thermaldynamics:cover:0, Energized Netherrack Cover
-thermaldynamics:cover:0, Resonant End Stone Cover
-thermaldynamics:cover:0, Oil Sand Cover
-thermaldynamics:cover:0, Block of Copper Cover
-thermaldynamics:cover:0, Block of Tin Cover
-thermaldynamics:cover:0, Block of Silver Cover
-thermaldynamics:cover:0, Block of Lead Cover
-thermaldynamics:cover:0, Block of Aluminum Cover
-thermaldynamics:cover:0, Block of Nickel Cover
-thermaldynamics:cover:0, Block of Platinum Cover
-thermaldynamics:cover:0, Block of Iridium Cover
-thermaldynamics:cover:0, Block of Mana Infused Metal Cover
-thermaldynamics:cover:0, Block of Steel Cover
-thermaldynamics:cover:0, Block of Electrum Cover
-thermaldynamics:cover:0, Block of Invar Cover
-thermaldynamics:cover:0, Block of Bronze Cover
-thermaldynamics:cover:0, Block of Constantan Cover
-thermaldynamics:cover:0, Block of Signalum Cover
-thermaldynamics:cover:0, Block of Lumium Cover
-thermaldynamics:cover:0, Block of Enderium Cover
-thermaldynamics:cover:0, Block of Charcoal Cover
-thermaldynamics:cover:0, Block of Coal Coke Cover
-thermaldynamics:cover:0, Hardened Copper Glass Cover
-thermaldynamics:cover:0, Hardened Tin Glass Cover
-thermaldynamics:cover:0, Hardened Silver Glass Cover
-thermaldynamics:cover:0, Hardened Glass Cover
-thermaldynamics:cover:0, Hardened Aluminum Glass Cover
-thermaldynamics:cover:0, Hardened Nickel Glass Cover
-thermaldynamics:cover:0, Hardened Platinum Glass Cover
-thermaldynamics:cover:0, Hardened Iridium Glass Cover
-thermaldynamics:cover:0, Hardened Mana Infused Glass Cover
-thermaldynamics:cover:0, Hardened Steel Glass Cover
-thermaldynamics:cover:0, Hardened Electrum Glass Cover
-thermaldynamics:cover:0, Hardened Invar Glass Cover
-thermaldynamics:cover:0, Hardened Bronze Glass Cover
-thermaldynamics:cover:0, Hardened Constantan Glass Cover
-thermaldynamics:cover:0, Hardened Signalum Glass Cover
-thermaldynamics:cover:0, Hardened Lumium Glass Cover
-thermaldynamics:cover:0, Hardened Enderium Glass Cover
-thermaldynamics:cover:0, Black Rockwool Cover
-thermaldynamics:cover:0, Red Rockwool Cover
-thermaldynamics:cover:0, Green Rockwool Cover
-thermaldynamics:cover:0, Brown Rockwool Cover
-thermaldynamics:cover:0, Blue Rockwool Cover
-thermaldynamics:cover:0, Purple Rockwool Cover
-thermaldynamics:cover:0, Cyan Rockwool Cover
-thermaldynamics:cover:0, Light Gray Rockwool Cover
-thermaldynamics:cover:0, Gray Rockwool Cover
-thermaldynamics:cover:0, Pink Rockwool Cover
-thermaldynamics:cover:0, Lime Rockwool Cover
-thermaldynamics:cover:0, Yellow Rockwool Cover
-thermaldynamics:cover:0, Light Blue Rockwool Cover
-thermaldynamics:cover:0, Magenta Rockwool Cover
-thermaldynamics:cover:0, Orange Rockwool Cover
-thermaldynamics:cover:0, White Rockwool Cover
-thermaldynamics:cover:0, Copper Ore Cover
-thermaldynamics:cover:0, Tin Ore Cover
 thermaldynamics:cover:0, Lead Ore Cover
 thermaldynamics:cover:0, Thorium Ore Cover
 thermaldynamics:cover:0, Uranium Ore Cover
@@ -11461,6 +11386,73 @@ thermaldynamics:cover:0, Solid (12) Cover
 thermaldynamics:cover:0, Solid (13) Cover
 thermaldynamics:cover:0, Solid (14) Cover
 thermaldynamics:cover:0, Solid (15) Cover
+thermaldynamics:cover:0, Copper Ore Cover
+thermaldynamics:cover:0, Tin Ore Cover
+thermaldynamics:cover:0, Silver Ore Cover
+thermaldynamics:cover:0, Lead Ore Cover
+thermaldynamics:cover:0, Aluminum Ore Cover
+thermaldynamics:cover:0, Nickel Ore Cover
+thermaldynamics:cover:0, Platinum Ore Cover
+thermaldynamics:cover:0, Iridium Ore Cover
+thermaldynamics:cover:0, Mana Infused Ore Cover
+thermaldynamics:cover:0, Oil Sand Cover
+thermaldynamics:cover:0, Oil Shale Cover
+thermaldynamics:cover:0, Destabilized Redstone Ore Cover
+thermaldynamics:cover:0, Energized Netherrack Cover
+thermaldynamics:cover:0, Resonant End Stone Cover
+thermaldynamics:cover:0, Oil Sand Cover
+thermaldynamics:cover:0, Block of Copper Cover
+thermaldynamics:cover:0, Block of Tin Cover
+thermaldynamics:cover:0, Block of Silver Cover
+thermaldynamics:cover:0, Block of Lead Cover
+thermaldynamics:cover:0, Block of Aluminum Cover
+thermaldynamics:cover:0, Block of Nickel Cover
+thermaldynamics:cover:0, Block of Platinum Cover
+thermaldynamics:cover:0, Block of Iridium Cover
+thermaldynamics:cover:0, Block of Mana Infused Metal Cover
+thermaldynamics:cover:0, Block of Steel Cover
+thermaldynamics:cover:0, Block of Electrum Cover
+thermaldynamics:cover:0, Block of Invar Cover
+thermaldynamics:cover:0, Block of Bronze Cover
+thermaldynamics:cover:0, Block of Constantan Cover
+thermaldynamics:cover:0, Block of Signalum Cover
+thermaldynamics:cover:0, Block of Lumium Cover
+thermaldynamics:cover:0, Block of Enderium Cover
+thermaldynamics:cover:0, Block of Charcoal Cover
+thermaldynamics:cover:0, Block of Coal Coke Cover
+thermaldynamics:cover:0, Hardened Copper Glass Cover
+thermaldynamics:cover:0, Hardened Tin Glass Cover
+thermaldynamics:cover:0, Hardened Silver Glass Cover
+thermaldynamics:cover:0, Hardened Glass Cover
+thermaldynamics:cover:0, Hardened Aluminum Glass Cover
+thermaldynamics:cover:0, Hardened Nickel Glass Cover
+thermaldynamics:cover:0, Hardened Platinum Glass Cover
+thermaldynamics:cover:0, Hardened Iridium Glass Cover
+thermaldynamics:cover:0, Hardened Mana Infused Glass Cover
+thermaldynamics:cover:0, Hardened Steel Glass Cover
+thermaldynamics:cover:0, Hardened Electrum Glass Cover
+thermaldynamics:cover:0, Hardened Invar Glass Cover
+thermaldynamics:cover:0, Hardened Bronze Glass Cover
+thermaldynamics:cover:0, Hardened Constantan Glass Cover
+thermaldynamics:cover:0, Hardened Signalum Glass Cover
+thermaldynamics:cover:0, Hardened Lumium Glass Cover
+thermaldynamics:cover:0, Hardened Enderium Glass Cover
+thermaldynamics:cover:0, Black Rockwool Cover
+thermaldynamics:cover:0, Red Rockwool Cover
+thermaldynamics:cover:0, Green Rockwool Cover
+thermaldynamics:cover:0, Brown Rockwool Cover
+thermaldynamics:cover:0, Blue Rockwool Cover
+thermaldynamics:cover:0, Purple Rockwool Cover
+thermaldynamics:cover:0, Cyan Rockwool Cover
+thermaldynamics:cover:0, Light Gray Rockwool Cover
+thermaldynamics:cover:0, Gray Rockwool Cover
+thermaldynamics:cover:0, Pink Rockwool Cover
+thermaldynamics:cover:0, Lime Rockwool Cover
+thermaldynamics:cover:0, Yellow Rockwool Cover
+thermaldynamics:cover:0, Light Blue Rockwool Cover
+thermaldynamics:cover:0, Magenta Rockwool Cover
+thermaldynamics:cover:0, Orange Rockwool Cover
+thermaldynamics:cover:0, White Rockwool Cover
 tombmanygraves:death_list, Death Inventory List
 trinity:fluid_witherite_water, Witherite Water
 trinity:fluid_nitric_oxide, Nitric Oxide
@@ -14804,56 +14796,6 @@ appliedenergistics2:facade:0, Cable Facade - Mud Bricks
 appliedenergistics2:facade:0, Cable Facade - Sacred Oak Wood Planks
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Tin Ore
-appliedenergistics2:facade:0, Cable Facade - Silver Ore
-appliedenergistics2:facade:0, Cable Facade - Lead Ore
-appliedenergistics2:facade:0, Cable Facade - Aluminum Ore
-appliedenergistics2:facade:0, Cable Facade - Nickel Ore
-appliedenergistics2:facade:0, Cable Facade - Platinum Ore
-appliedenergistics2:facade:0, Cable Facade - Iridium Ore
-appliedenergistics2:facade:0, Cable Facade - Mana Infused Ore
-appliedenergistics2:facade:0, Cable Facade - Oil Sand
-appliedenergistics2:facade:0, Cable Facade - Oil Shale
-appliedenergistics2:facade:0, Cable Facade - Destabilized Redstone Ore
-appliedenergistics2:facade:0, Cable Facade - Energized Netherrack
-appliedenergistics2:facade:0, Cable Facade - Resonant End Stone
-appliedenergistics2:facade:0, Cable Facade - Oil Sand
-appliedenergistics2:facade:0, Cable Facade - Block of Copper
-appliedenergistics2:facade:0, Cable Facade - Block of Tin
-appliedenergistics2:facade:0, Cable Facade - Block of Silver
-appliedenergistics2:facade:0, Cable Facade - Block of Lead
-appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
-appliedenergistics2:facade:0, Cable Facade - Block of Nickel
-appliedenergistics2:facade:0, Cable Facade - Block of Platinum
-appliedenergistics2:facade:0, Cable Facade - Block of Iridium
-appliedenergistics2:facade:0, Cable Facade - Block of Mana Infused Metal
-appliedenergistics2:facade:0, Cable Facade - Block of Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Electrum
-appliedenergistics2:facade:0, Cable Facade - Block of Invar
-appliedenergistics2:facade:0, Cable Facade - Block of Bronze
-appliedenergistics2:facade:0, Cable Facade - Block of Constantan
-appliedenergistics2:facade:0, Cable Facade - Block of Signalum
-appliedenergistics2:facade:0, Cable Facade - Block of Lumium
-appliedenergistics2:facade:0, Cable Facade - Block of Enderium
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
-appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
-appliedenergistics2:facade:0, Cable Facade - Black Rockwool
-appliedenergistics2:facade:0, Cable Facade - Red Rockwool
-appliedenergistics2:facade:0, Cable Facade - Green Rockwool
-appliedenergistics2:facade:0, Cable Facade - Brown Rockwool
-appliedenergistics2:facade:0, Cable Facade - Blue Rockwool
-appliedenergistics2:facade:0, Cable Facade - Purple Rockwool
-appliedenergistics2:facade:0, Cable Facade - Cyan Rockwool
-appliedenergistics2:facade:0, Cable Facade - Light Gray Rockwool
-appliedenergistics2:facade:0, Cable Facade - Gray Rockwool
-appliedenergistics2:facade:0, Cable Facade - Pink Rockwool
-appliedenergistics2:facade:0, Cable Facade - Lime Rockwool
-appliedenergistics2:facade:0, Cable Facade - Yellow Rockwool
-appliedenergistics2:facade:0, Cable Facade - Light Blue Rockwool
-appliedenergistics2:facade:0, Cable Facade - Magenta Rockwool
-appliedenergistics2:facade:0, Cable Facade - Orange Rockwool
-appliedenergistics2:facade:0, Cable Facade - White Rockwool
-appliedenergistics2:facade:0, Cable Facade - Copper Ore
-appliedenergistics2:facade:0, Cable Facade - Tin Ore
 appliedenergistics2:facade:0, Cable Facade - Lead Ore
 appliedenergistics2:facade:0, Cable Facade - Thorium Ore
 appliedenergistics2:facade:0, Cable Facade - Uranium Ore
@@ -15388,6 +15330,56 @@ appliedenergistics2:facade:0, Cable Facade - Solid (12)
 appliedenergistics2:facade:0, Cable Facade - Solid (13)
 appliedenergistics2:facade:0, Cable Facade - Solid (14)
 appliedenergistics2:facade:0, Cable Facade - Solid (15)
+appliedenergistics2:facade:0, Cable Facade - Copper Ore
+appliedenergistics2:facade:0, Cable Facade - Tin Ore
+appliedenergistics2:facade:0, Cable Facade - Silver Ore
+appliedenergistics2:facade:0, Cable Facade - Lead Ore
+appliedenergistics2:facade:0, Cable Facade - Aluminum Ore
+appliedenergistics2:facade:0, Cable Facade - Nickel Ore
+appliedenergistics2:facade:0, Cable Facade - Platinum Ore
+appliedenergistics2:facade:0, Cable Facade - Iridium Ore
+appliedenergistics2:facade:0, Cable Facade - Mana Infused Ore
+appliedenergistics2:facade:0, Cable Facade - Oil Sand
+appliedenergistics2:facade:0, Cable Facade - Oil Shale
+appliedenergistics2:facade:0, Cable Facade - Destabilized Redstone Ore
+appliedenergistics2:facade:0, Cable Facade - Energized Netherrack
+appliedenergistics2:facade:0, Cable Facade - Resonant End Stone
+appliedenergistics2:facade:0, Cable Facade - Oil Sand
+appliedenergistics2:facade:0, Cable Facade - Block of Copper
+appliedenergistics2:facade:0, Cable Facade - Block of Tin
+appliedenergistics2:facade:0, Cable Facade - Block of Silver
+appliedenergistics2:facade:0, Cable Facade - Block of Lead
+appliedenergistics2:facade:0, Cable Facade - Block of Aluminum
+appliedenergistics2:facade:0, Cable Facade - Block of Nickel
+appliedenergistics2:facade:0, Cable Facade - Block of Platinum
+appliedenergistics2:facade:0, Cable Facade - Block of Iridium
+appliedenergistics2:facade:0, Cable Facade - Block of Mana Infused Metal
+appliedenergistics2:facade:0, Cable Facade - Block of Steel
+appliedenergistics2:facade:0, Cable Facade - Block of Electrum
+appliedenergistics2:facade:0, Cable Facade - Block of Invar
+appliedenergistics2:facade:0, Cable Facade - Block of Bronze
+appliedenergistics2:facade:0, Cable Facade - Block of Constantan
+appliedenergistics2:facade:0, Cable Facade - Block of Signalum
+appliedenergistics2:facade:0, Cable Facade - Block of Lumium
+appliedenergistics2:facade:0, Cable Facade - Block of Enderium
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
+appliedenergistics2:facade:0, Cable Facade - Block of Coal Coke
+appliedenergistics2:facade:0, Cable Facade - Black Rockwool
+appliedenergistics2:facade:0, Cable Facade - Red Rockwool
+appliedenergistics2:facade:0, Cable Facade - Green Rockwool
+appliedenergistics2:facade:0, Cable Facade - Brown Rockwool
+appliedenergistics2:facade:0, Cable Facade - Blue Rockwool
+appliedenergistics2:facade:0, Cable Facade - Purple Rockwool
+appliedenergistics2:facade:0, Cable Facade - Cyan Rockwool
+appliedenergistics2:facade:0, Cable Facade - Light Gray Rockwool
+appliedenergistics2:facade:0, Cable Facade - Gray Rockwool
+appliedenergistics2:facade:0, Cable Facade - Pink Rockwool
+appliedenergistics2:facade:0, Cable Facade - Lime Rockwool
+appliedenergistics2:facade:0, Cable Facade - Yellow Rockwool
+appliedenergistics2:facade:0, Cable Facade - Light Blue Rockwool
+appliedenergistics2:facade:0, Cable Facade - Magenta Rockwool
+appliedenergistics2:facade:0, Cable Facade - Orange Rockwool
+appliedenergistics2:facade:0, Cable Facade - White Rockwool
 appliedenergistics2:facade:0, Cable Facade - Compression Charge
 appliedenergistics2:facade:0, Cable Facade - Baratol
 appliedenergistics2:facade:0, Cable Facade - Dirty Bomb
@@ -17491,25 +17483,12 @@ appliedenergistics2:facade:0, Cable Facade - Orange Wool
 appliedenergistics2:facade:0, Cable Facade - Wool
 appliedenergistics2:facade:0, Cable Facade - Wool
 appliedenergistics2:facade:0, Cable Facade - Kitchen Floor
-appliedenergistics2:facade:0, Cable Facade - EFab Base
-appliedenergistics2:facade:0, Cable Facade - Crushing Wheels
 appliedenergistics2:facade:0, Cable Facade - Andesite Cobblestone
 appliedenergistics2:facade:0, Cable Facade - Granite Cobblestone
 appliedenergistics2:facade:0, Cable Facade - Diorite Cobblestone
 appliedenergistics2:facade:0, Cable Facade - Marble Cobblestone
 appliedenergistics2:facade:0, Cable Facade - Limestone Cobblestone
 appliedenergistics2:facade:0, Cable Facade - tile.notreepunching:cobblestone.basalt.name
-appliedenergistics2:facade:0, Cable Facade - Metal Floor A
-appliedenergistics2:facade:0, Cable Facade - Hard Metal Wall
-appliedenergistics2:facade:0, Cable Facade - Dark Concrete
-appliedenergistics2:facade:0, Cable Facade - 106 Goop
-appliedenergistics2:facade:0, Cable Facade - Metal Panel 1
-appliedenergistics2:facade:0, Cable Facade - Metal Panel 2
-appliedenergistics2:facade:0, Cable Facade - Metal Panel 3
-appliedenergistics2:facade:0, Cable Facade - Metal Panel 4
-appliedenergistics2:facade:0, Cable Facade - Metal Panels
-appliedenergistics2:facade:0, Cable Facade - Metal Floor B
-appliedenergistics2:facade:0, Cable Facade - Gross Mess
 appliedenergistics2:facade:0, Cable Facade - Oak Trim
 appliedenergistics2:facade:0, Cable Facade - Spruce Trim
 appliedenergistics2:facade:0, Cable Facade - Birch Trim
@@ -17525,130 +17504,6 @@ appliedenergistics2:facade:0, Cable Facade - Honey Block
 appliedenergistics2:facade:0, Cable Facade - Honeycomb Block
 appliedenergistics2:facade:0, Cable Facade - Pressed Wax Block
 appliedenergistics2:facade:0, Cable Facade - Waxcomb Block
-appliedenergistics2:facade:0, Cable Facade - SCP-914 Clockworks Part
-appliedenergistics2:facade:0, Cable Facade - SCP-914 Chamber Part
-appliedenergistics2:facade:0, Cable Facade - Copper Tube
-appliedenergistics2:facade:0, Cable Facade - SCP-009 (Red Ice)
-appliedenergistics2:facade:0, Cable Facade - SCP-143 Leaves (The Bladewood Grove)
-appliedenergistics2:facade:0, Cable Facade - SCP-143 Log (The Bladewood Grove)
-appliedenergistics2:facade:0, Cable Facade - SCP-409 (Contagious Crystal)
-appliedenergistics2:facade:0, Cable Facade - SCP-087 Stair Platform (The Stairwell)
-appliedenergistics2:facade:0, Cable Facade - SCP-087 Wall (The Stairwell)
-appliedenergistics2:facade:0, Cable Facade - SCP-087-1 Spawner
-appliedenergistics2:facade:0, Cable Facade - Ceiling
-appliedenergistics2:facade:0, Cable Facade - Ceiling Grate
-appliedenergistics2:facade:0, Cable Facade - Ceiling Tile
-appliedenergistics2:facade:0, Cable Facade - Containment Floor
-appliedenergistics2:facade:0, Cable Facade - Floor A
-appliedenergistics2:facade:0, Cable Facade - Floor B
-appliedenergistics2:facade:0, Cable Facade - Plaster Wall
-appliedenergistics2:facade:0, Cable Facade - Foundation Vent
-appliedenergistics2:facade:0, Cable Facade - Wall A
-appliedenergistics2:facade:0, Cable Facade - Wall B
-appliedenergistics2:facade:0, Cable Facade - Wall C
-appliedenergistics2:facade:0, Cable Facade - Wall D
-appliedenergistics2:facade:0, Cable Facade - Wall E
-appliedenergistics2:facade:0, Cable Facade - Wall F
-appliedenergistics2:facade:0, Cable Facade - Wall G
-appliedenergistics2:facade:0, Cable Facade - White Wall
-appliedenergistics2:facade:0, Cable Facade - Reinforced Wall A
-appliedenergistics2:facade:0, Cable Facade - Reinforced Wall B
-appliedenergistics2:facade:0, Cable Facade - Reinforced Wall C
-appliedenergistics2:facade:0, Cable Facade - Steel
-appliedenergistics2:facade:0, Cable Facade - SCP-1162 (A Hole in the Wall)
-appliedenergistics2:facade:0, Cable Facade - Exterior Bottom
-appliedenergistics2:facade:0, Cable Facade - Exterior Middle
-appliedenergistics2:facade:0, Cable Facade - Exterior Top
-appliedenergistics2:facade:0, Cable Facade - Medical Bottom
-appliedenergistics2:facade:0, Cable Facade - Medical Middle
-appliedenergistics2:facade:0, Cable Facade - Office Bottom
-appliedenergistics2:facade:0, Cable Facade - Office Top
-appliedenergistics2:facade:0, Cable Facade - Pipe Wall
-appliedenergistics2:facade:0, Cable Facade - Old White Wall
-appliedenergistics2:facade:0, Cable Facade - Reinforced Iron
-appliedenergistics2:facade:0, Cable Facade - Sublevel Wall A
-appliedenergistics2:facade:0, Cable Facade - Sublevel Wall B
-appliedenergistics2:facade:0, Cable Facade - Sublevel Wall C
-appliedenergistics2:facade:0, Cable Facade - Reinforced Sublevel Wall A
-appliedenergistics2:facade:0, Cable Facade - Reinforced Sublevel Wall B
-appliedenergistics2:facade:0, Cable Facade - Reinforced Sublevel Wall C
-appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Block
-appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Corridor A
-appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Corridor B
-appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Corridor C
-appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Corridor Floor
-appliedenergistics2:facade:0, Cable Facade - Pocket Dimension Floor
-appliedenergistics2:facade:0, Cable Facade - Bag Wall
-appliedenergistics2:facade:0, Cable Facade - Eye Block
-appliedenergistics2:facade:0, Cable Facade - Cogs (914)
-appliedenergistics2:facade:0, Cable Facade - Metal (914)
-appliedenergistics2:facade:0, Cable Facade - Vanqar Tree Leaves (860)
-appliedenergistics2:facade:0, Cable Facade - Vanqar Tree Log (860)
-appliedenergistics2:facade:0, Cable Facade - Path (860)
-appliedenergistics2:facade:0, Cable Facade - Dirt (860)
-appliedenergistics2:facade:0, Cable Facade - Telekill Ore
-appliedenergistics2:facade:0, Cable Facade - Gel Block
-appliedenergistics2:facade:0, Cable Facade - SCP-002 Metal (The "Living" Room)
-appliedenergistics2:facade:0, Cable Facade - Ventilation
-appliedenergistics2:facade:0, Cable Facade - Grate
-appliedenergistics2:facade:0, Cable Facade - Heat Resistant Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Telekill
-appliedenergistics2:facade:0, Cable Facade - SCP-143 Planks (The Bladewood Grove)
-appliedenergistics2:facade:0, Cable Facade - SCP-124 (Fertile Soil)
-appliedenergistics2:facade:0, Cable Facade - Cooler
-appliedenergistics2:facade:0, Cable Facade - SCP-553 Nest (Crystalline Butterflies)
-appliedenergistics2:facade:0, Cable Facade - White Pipe
-appliedenergistics2:facade:0, Cable Facade - Orange Pipe
-appliedenergistics2:facade:0, Cable Facade - Magenta Pipe
-appliedenergistics2:facade:0, Cable Facade - Light Blue Pipe
-appliedenergistics2:facade:0, Cable Facade - Yellow Pipe
-appliedenergistics2:facade:0, Cable Facade - Lime Pipe
-appliedenergistics2:facade:0, Cable Facade - Pink Pipe
-appliedenergistics2:facade:0, Cable Facade - Gray Pipe
-appliedenergistics2:facade:0, Cable Facade - Silver Pipe
-appliedenergistics2:facade:0, Cable Facade - Cyan Pipe
-appliedenergistics2:facade:0, Cable Facade - Purple Pipe
-appliedenergistics2:facade:0, Cable Facade - Blue Pipe
-appliedenergistics2:facade:0, Cable Facade - Brown Pipe
-appliedenergistics2:facade:0, Cable Facade - Green Pipe
-appliedenergistics2:facade:0, Cable Facade - Red Pipe
-appliedenergistics2:facade:0, Cable Facade - Black Pipe
-appliedenergistics2:facade:0, Cable Facade - Magnetized Block
-appliedenergistics2:facade:0, Cable Facade - Corroded Metal
-appliedenergistics2:facade:0, Cable Facade - Swamp Grass
-appliedenergistics2:facade:0, Cable Facade - Electric Wool
-appliedenergistics2:facade:0, Cable Facade - SCP-015 Connector (Pipe Nightmare)
-appliedenergistics2:facade:0, Cable Facade - Armory Top A
-appliedenergistics2:facade:0, Cable Facade - Armory Bottom A
-appliedenergistics2:facade:0, Cable Facade - Armory Top B
-appliedenergistics2:facade:0, Cable Facade - Armory Bottom B
-appliedenergistics2:facade:0, Cable Facade - Laboratory Top A
-appliedenergistics2:facade:0, Cable Facade - Laboratory Bottom A
-appliedenergistics2:facade:0, Cable Facade - Laboratory Top B
-appliedenergistics2:facade:0, Cable Facade - Laboratory Bottom B
-appliedenergistics2:facade:0, Cable Facade - Metal Panel A
-appliedenergistics2:facade:0, Cable Facade - Metal Panel B
-appliedenergistics2:facade:0, Cable Facade - Metal Panel C
-appliedenergistics2:facade:0, Cable Facade - Metal Sublevel
-appliedenergistics2:facade:0, Cable Facade - Green Panel A
-appliedenergistics2:facade:0, Cable Facade - Green Panel B
-appliedenergistics2:facade:0, Cable Facade - Green Panel C
-appliedenergistics2:facade:0, Cable Facade - Green Panel D
-appliedenergistics2:facade:0, Cable Facade - Metal Floor A
-appliedenergistics2:facade:0, Cable Facade - Metal Floor B
-appliedenergistics2:facade:0, Cable Facade - Metal Wall A
-appliedenergistics2:facade:0, Cable Facade - Metal Wall B
-appliedenergistics2:facade:0, Cable Facade - Steel Floor
-appliedenergistics2:facade:0, Cable Facade - Reinforced Granite
-appliedenergistics2:facade:0, Cable Facade - Reinforced Quartz
-appliedenergistics2:facade:0, Cable Facade - Stone Puzzle Cube (345)
-appliedenergistics2:facade:0, Cable Facade - Bacon Cheeseburger that Demands Justification (3808)
-appliedenergistics2:facade:0, Cable Facade - ???
-appliedenergistics2:facade:0, Cable Facade - ???
-appliedenergistics2:facade:0, Cable Facade - Jade Ore
-appliedenergistics2:facade:0, Cable Facade - SCP-447
-appliedenergistics2:facade:0, Cable Facade - SCP-1689
-appliedenergistics2:facade:0, Cable Facade - Block Of Potatoes
 appliedenergistics2:crystal_seed:0, Certus Quartz Seed
 appliedenergistics2:crystal_seed:600, Nether Quartz Seed
 appliedenergistics2:crystal_seed:1200, Fluix Seed
@@ -17884,6 +17739,8 @@ betterquesting:extra_life:0, Extra Life
 betterquesting:extra_life:1, Half Heart
 betterquesting:extra_life:2, Quarter Heart
 betterquesting:guide_book, Better Questing Starter Guide
+bq_standard:loot_chest, Loot Chest
+betterquesting:quest_book, Quest Book
 betterquesting:submit_station, Object Submission Station (OSS)
 chisel:auto_chisel, Auto Chisel
 chisel:chisel_iron, Chisel
@@ -17946,139 +17803,6 @@ cookingforblockheads:ice_unit, Ice Unit
 cookingforblockheads:preservation_chamber, Preservation Chamber
 coroutil:repairing_block, Repairing Block
 coroutil:item_repairing_gel, Repairing Gel
-efab:upgrade_armory, Armory Upgrade
-efab:upgrade_magic, Magic Upgrade
-efab:upgrade_power, Power Upgrade
-efab:upgrade_digital, Digital Upgrade
-efab:base, EFab Base
-efab:gearbox, Gear Box
-efab:pipes, Pipes
-efab:grid, EFab Crafting Grid
-efab:tank, Tank
-efab:tank2, Advanced Tank
-efab:boiler, Boiler
-efab:steamengine, Steam Engine
-efab:rfcontrol, RF Control
-efab:rfstorage, RF Storage
-efab:rfstorage_advanced, Advanced RF Storage
-efab:processor, Processor
-efab:monitor, Monitor
-efab:autocrafting_monitor, Autocrafting Monitor
-efab:storage, Item Storage
-efab:crafter, Crafter
-efab:power_optimizer, Power Optimizer
-itemfilters:filter, Item Filter
-itemfilters:missing, Missing Item
-ftbquests:screen, Task Screen
-ftbquests:progress_detector, Quest Progress Detector
-ftbquests:detector:0, Redstone Detector
-ftbquests:detector:1, Player Detector
-ftbquests:progress_screen, Progress Screen
-ftbquests:chest, Quest Chest
-ftbquests:loot_crate_storage, Loot Crate Storage
-ftbquests:loot_crate_opener, Loot Crate Opener
-ftbquests:barrier, Quest Barrier
-ftbquests:reward_collector, Reward Collector
-ftbquests:book, Quest Book
-ftbquests:lootcrate, Loot Crate
-ftbquests:custom_icon, Custom Icon
-modularmachinery:itemblueprint, Machine Blueprint
-modularmachinery:itemmodularium, Modularium
-modularmachinery:itemconstructtool, Construct Selection Tool
-modularmachinery:machine_projector, Machine Projector
-modularmachinery:blockcontroller, Machine Controller
-modularmachinery:blockfactorycontroller, Factory Controller
-modularmachinery:blockcasing:0, Machine Casing
-modularmachinery:blockcasing:1, Machine Vent
-modularmachinery:blockcasing:2, Firebox Casing
-modularmachinery:blockcasing:3, Machine Gearbox
-modularmachinery:blockcasing:4, Reinforced Machine Casing
-modularmachinery:blockcasing:5, Machine Circuitry
-modularmachinery:blockinputbus:0, Tiny Item Input
-modularmachinery:blockinputbus:1, Small Item Input
-modularmachinery:blockinputbus:2, Normal Item Input
-modularmachinery:blockinputbus:3, Reinforced Item Input
-modularmachinery:blockinputbus:4, Big Item Input
-modularmachinery:blockinputbus:5, Huge Item Input
-modularmachinery:blockinputbus:6, Ludicrous Item Input
-modularmachinery:blockoutputbus:0, Tiny Item Output
-modularmachinery:blockoutputbus:1, Small Item Output
-modularmachinery:blockoutputbus:2, Normal Item Output
-modularmachinery:blockoutputbus:3, Reinforced Item Output
-modularmachinery:blockoutputbus:4, Big Item Output
-modularmachinery:blockoutputbus:5, Huge Item Output
-modularmachinery:blockoutputbus:6, Ludicrous Item Output
-modularmachinery:blockfluidinputhatch:0, Tiny Fluid Input Hatch
-modularmachinery:blockfluidinputhatch:1, Small Fluid Input Hatch
-modularmachinery:blockfluidinputhatch:2, Normal Fluid Input Hatch
-modularmachinery:blockfluidinputhatch:3, Reinforced Fluid Input Hatch
-modularmachinery:blockfluidinputhatch:4, Big Fluid Input Hatch
-modularmachinery:blockfluidinputhatch:5, Huge Fluid Input Hatch
-modularmachinery:blockfluidinputhatch:6, Ludicrous Fluid Input Hatch
-modularmachinery:blockfluidinputhatch:7, Vacuum Fluid Input Hatch
-modularmachinery:blockfluidoutputhatch:0, Tiny Fluid Output Hatch
-modularmachinery:blockfluidoutputhatch:1, Small Fluid Output Hatch
-modularmachinery:blockfluidoutputhatch:2, Normal Fluid Output Hatch
-modularmachinery:blockfluidoutputhatch:3, Reinforced Fluid Output Hatch
-modularmachinery:blockfluidoutputhatch:4, Big Fluid Output Hatch
-modularmachinery:blockfluidoutputhatch:5, Huge Fluid Output Hatch
-modularmachinery:blockfluidoutputhatch:6, Ludicrous Fluid Output Hatch
-modularmachinery:blockfluidoutputhatch:7, Vacuum Fluid Output Hatch
-modularmachinery:blockenergyinputhatch:0, Tiny Energy Input Hatch
-modularmachinery:blockenergyinputhatch:1, Small Energy Input Hatch
-modularmachinery:blockenergyinputhatch:2, Normal Energy Input Hatch
-modularmachinery:blockenergyinputhatch:3, Reinforced Energy Input Hatch
-modularmachinery:blockenergyinputhatch:4, Big Energy Input Hatch
-modularmachinery:blockenergyinputhatch:5, Huge Energy Input Hatch
-modularmachinery:blockenergyinputhatch:6, Ludicrous Energy Input Hatch
-modularmachinery:blockenergyinputhatch:7, Ultimate Energy Input Hatch
-modularmachinery:blockenergyoutputhatch:0, Tiny Energy Output Hatch
-modularmachinery:blockenergyoutputhatch:1, Small Energy Output Hatch
-modularmachinery:blockenergyoutputhatch:2, Normal Energy Output Hatch
-modularmachinery:blockenergyoutputhatch:3, Reinforced Energy Output Hatch
-modularmachinery:blockenergyoutputhatch:4, Big Energy Output Hatch
-modularmachinery:blockenergyoutputhatch:5, Huge Energy Output Hatch
-modularmachinery:blockenergyoutputhatch:6, Ludicrous Energy Output Hatch
-modularmachinery:blockenergyoutputhatch:7, Ultimate Energy Output Hatch
-modularmachinery:blocksmartinterface:0, Smart Data Interface (Number)
-modularmachinery:blockparallelcontroller:0, §aNormal Parallel Controller
-modularmachinery:blockparallelcontroller:1, §6Reinforced Parallel Controller
-modularmachinery:blockparallelcontroller:2, §bElite Parallel Controller
-modularmachinery:blockparallelcontroller:3, §5Super Parallel Controller
-modularmachinery:blockparallelcontroller:4, §cUltimate Parallel Controller
-modularmachinery:blockupgradebus:0, §aNormal Upgrade Bus
-modularmachinery:blockupgradebus:1, §6Reinforced Upgrade Bus
-modularmachinery:blockupgradebus:2, §bElite Upgrade Bus
-modularmachinery:blockupgradebus:3, §5Super Upgrade Bus
-modularmachinery:blockupgradebus:4, §eUltimate Upgrade Bus
-modularmachinery:blockmeitemoutputbus, ME Machinery Item Output Bus
-modularmachinery:blockmeiteminputbus, ME Machinery Item Input Bus
-modularmachinery:blockmefluidoutputbus, ME Machinery Fluid Output Bus
-modularmachinery:blockmefluidinputbus, ME Machinery Fluid Input Bus
-modularmachinery:blockmepatternprovider, ME Machinery Pattern Provider
-modularmachinery:blockmepatternmirrorimage, ME Machinery Pattern Mirror Image
-modularmachinery:steam_condenser_mk2_controller, tile.null.name
-modularmachinery:steam_condenser_mk1_controller, tile.null.name
-modularmachinery:decay_pool_controller, tile.null.name
-modularmachinery:catalytic_chem_reactor_controller, tile.null.name
-modularmachinery:converter_controller, tile.null.name
-modularmachinery:transformer_controller, tile.null.name
-modularmachinery:fluid_irradiator_controller, tile.null.name
-modularmachinery:steam_condenser_mk3_controller, tile.null.name
-modularmachinery:fluid_pressurizer_controller, tile.null.name
-modularmachinery:lava_pump_controller, tile.null.name
-modularmachinery:circuit_assembler_controller, tile.null.name
-modularmachinery:iron_centrifuge_controller, tile.null.name
-modularmachinery:silex_controller, tile.null.name
-modularmachinery:water_pump_controller, tile.null.name
-modularmachinery:gas_centrifuge_controller, tile.null.name
-modularmachinery:digamma_controller, tile.null.name
-modularmachinery:alloy_furnace_controller, tile.null.name
-modularmachinery:researcher_controller, tile.null.name
-modularmachinery:crushing_wheels:0, Crushing Wheels
-gugu-utils:environmenthatch, Environment Sensor
-gugu-utils:energyoutputport, Energy Output Port
-gugu-utils:constructionranged, Ranged Construction Selection Tool
 mts:mts.invisible_seat, item.mts.invisible_seat.name
 mts:mts.invisible_standing, item.mts.invisible_standing.name
 mts:mts.invisible_wheel, item.mts.invisible_wheel.name
@@ -18637,10 +18361,30 @@ ironjetpacks:steel_jetpack, Jetpack
 ironjetpacks:diamond_jetpack, Jetpack
 ironjetpacks:platinum_jetpack, Jetpack
 ironjetpacks:emerald_jetpack, Jetpack
+itemfilters:filter, Item Filter
+itemfilters:missing, Missing Item
+modulardiversity:blockbiomedetector, Biome Detector
+modulardiversity:blockdaylightdetector, Time Detector
+modulardiversity:blockweatherdetector, Weather Detector
 moreavaritia:infinitympick, Infinity-1 Pick
 moreavaritia:infinitymhoe, Infinity-1 Hoe
 moreavaritia:infinitymsword, Infinity-1 Sword
 moreavaritia:balancedinfinitysword, Infinity Sword (Balanced)
+mutantbeasts:chemical_x, Chemical X
+mutantbeasts:creeper_minion_tracker, Creeper Minion Tracker
+mutantbeasts:creeper_shard, Creeper Shard
+mutantbeasts:endersoul_hand, Endersoul Hand
+mutantbeasts:hulk_hammer, Hulk Hammer
+mutantbeasts:mutant_skeleton_arms, Mutant Skeleton Arms
+mutantbeasts:mutant_skeleton_limb, Mutant Skeleton Limb
+mutantbeasts:mutant_skeleton_shoulder_pad, Mutant Skeleton Shoulder Pad
+mutantbeasts:mutant_skeleton_rib, Mutant Skeleton Rib
+mutantbeasts:mutant_skeleton_rib_cage, Mutant Skeleton Rib Cage
+mutantbeasts:mutant_skeleton_pelvis, Mutant Skeleton Pelvis
+mutantbeasts:mutant_skeleton_skull, Mutant Skeleton Skull
+mutantbeasts:mutant_skeleton_chestplate, Mutant Skeleton Chestplate
+mutantbeasts:mutant_skeleton_leggings, Mutant Skeleton Leggings
+mutantbeasts:mutant_skeleton_boots, Mutant Skeleton Boots
 notreepunching:cobblestone/andesite, Andesite Cobblestone
 notreepunching:cobblestone/granite, Granite Cobblestone
 notreepunching:cobblestone/diorite, Diorite Cobblestone
@@ -18697,47 +18441,11 @@ notreepunching:saw/bronze, Bronze Saw
 notreepunching:saw/steel, Steel Saw
 pollutantpump:pump, Pollutant Pump
 pollutantpump:pipe, Pump Pipe
-questbook:itemquestbook, Quest Book
 rflux:lightblock_on, Light Block (on)
 rflux:lightblock_off, Light Block (off)
 rflux:flatlightblock_on, Flat Light Block (on)
 rflux:flatlightblock_off, Flat Light Block (off)
 rflux:invisible_block, tile.rflux.invisibleblock.name
-scple:glue, Glue
-scple:document, Document
-scple:metal_floor_a, Metal Floor A
-scple:hard_metal_wall, Hard Metal Wall
-scple:dark_concrete, Dark Concrete
-scple:puddle106, 106 Goop
-scple:mp1, Metal Panel 1
-scple:mp2, Metal Panel 2
-scple:mp3, Metal Panel 3
-scple:mp4, Metal Panel 4
-scple:metal_panel, Metal Panels
-scple:metal_floor_b, Metal Floor B
-scple:scp173_chamber_blood, Gross Mess
-bq_standard:loot_chest, Loot Chest
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -18788,6 +18496,27 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 storagedrawers:framingtable, Framing Table
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 architecturecraft:sawblade, Circular Saw Blade
 architecturecraft:largepulley, Large Pulley
 architecturecraft:chisel, Architect's Chisel
@@ -18819,18 +18548,7 @@ contenttweaker:pellet_depleted_fuel_mes, MES Fuel Pellet [Depleted]
 contenttweaker:pellet_depleted_fuel_les, LES Fuel Pellet [Depleted]
 contenttweaker:li_infused_schrabidate_quad_rod,  Lithium-Infused Ferric Schrabidate Quad Fuel Rod
 contenttweaker:rod_dilithium_pure, Pure Dilithium Rod
-contenttweaker:gallium_dust, Gallium Dust
-contenttweaker:vacuum_tube, Vacuum Tube
-contenttweaker:gallium_arsenide_dust, Gallium Arsenide Dust
-contenttweaker:coated_circuit_board, Coated Circuit Board
-contenttweaker:basic_circuit_board, Basic Circuit Board
-contenttweaker:basic_resistor, Resistor
-contenttweaker:glass_lens_blank, Blank Glass Lens
-contenttweaker:glass_lens_red, Red Glass Lens
-contenttweaker:redstonic_circuit_board, Redstone Circuit Board
-contenttweaker:advanced_circuit_board, Advanced Circuit Board
-contenttweaker:soldering_alloy, Soldering Alloy
-contenttweaker:diode, Diode
+contenttweaker:expensive_versatile_circuit, Multipurpose Advanced SoC
 contenttweaker:speed_upgrade_research, Speed Upgrade Research
 contenttweaker:energy_upgrade_research, Energy Upgrade Research
 contenttweaker:enderium_gem, Enderium Crystal
@@ -18839,59 +18557,62 @@ contenttweaker:powder_pr147_tiny, Tiny Pile of Promethium-147 Powder
 contenttweaker:powder_eu155_tiny, Tiny Pile of Europium-155 Powder
 contenttweaker:powder_ru106_tiny, Tiny Pile of Ruthenium-106 Powder
 mcjtylib_ng:multipart, tile.mcjtylib_ng.multipart.name
-exchangers:tuberous_exchanger, Tuberous Exchanger
-exchangers:creative_exchanger, Creative Exchanger
-exchangers:wooden_exchanger, Wooden Exchanger
-exchangers:stone_exchanger, Stone Exchanger
-exchangers:golden_exchanger, Golden Exchanger
-exchangers:iron_exchanger, Iron Exchanger
-exchangers:diamond_exchanger, Diamond Exchanger
-exchangers:emerald_exchanger, Emerald Exchanger
-exchangers:obsidian_exchanger, Obsidian Exchanger
-exchangers:end_exchanger, End Exchanger
-exchangers:exchanger_core_tier1, Exchanger Core (Tier 1)
-exchangers:exchanger_core_tier2, Exchanger Core (Tier 2)
-exchangers:exchanger_core_tier3, Exchanger Core (Tier 3)
-exchangers:conductive_iron_exchanger, Conductive Iron Exchanger
-exchangers:pulsating_iron_exchanger, Pulsating Iron Exchanger
-exchangers:electrical_steel_exchanger, Electrical Steel Exchanger
-exchangers:energetic_exchanger, Energetic Exchanger
-exchangers:dark_steel_exchanger, Dark Steel Exchanger
-exchangers:vibrant_exchanger, Vibrant Exchanger
-exchangers:end_steel_exchanger, End Steel Exchanger
-exchangers:eio_exchanger_core_tier1, Ender IO Exchanger Core (Tier 1)
-exchangers:eio_exchanger_core_tier2, Ender IO Exchanger Core (Tier 2)
-exchangers:eio_exchanger_core_tier3, Ender IO Exchanger Core (Tier 3)
-exchangers:crude_steel_exchanger, Crude Steel Exchanger
-exchangers:energetic_silver_exchanger, Energetic Silver Exchanger
-exchangers:vivid_exchanger, Vivid Exchanger
-exchangers:crystalline_exchanger, Crystalline Exchanger
-exchangers:melodic_exchanger, Melodic Exchanger
-exchangers:stellar_exchanger, Stellar Exchanger
-exchangers:eio_endergy_exchanger_core_tier1, Ender IO Endergy Exchanger Core (Tier 1)
-exchangers:eio_endergy_exchanger_core_tier2, Ender IO Endergy Exchanger Core (Tier 2)
-exchangers:eio_endergy_exchanger_core_tier3, Ender IO Endergy Exchanger Core (Tier 3)
-exchangers:leadstone_exchanger, Leadstone Exchanger
-exchangers:hardened_exchanger, Hardened Exchanger
-exchangers:reinforced_exchanger, Reinforced Exchanger
-exchangers:signalum_exchanger, Signalum Exchanger
-exchangers:resonant_exchanger, Resonant Exchanger
-exchangers:te_exchanger_core_tier1, Thermal Expansion Exchanger Core (Tier 1)
-exchangers:te_exchanger_core_tier2, Thermal Expansion Exchanger Core (Tier 2)
-exchangers:te_exchanger_core_tier3, Thermal Expansion Exchanger Core (Tier 3)
-exchangers:basic_exchanger, Basic Exchanger
-exchangers:advanced_exchanger, Advanced Exchanger
-exchangers:elite_exchanger, Elite Exchanger
-exchangers:ultimate_exchanger, Ultimate Exchanger
-exchangers:mekanism_exchanger_core_tier1, Mekanism Exchanger Core (Tier 1)
-exchangers:mekanism_exchanger_core_tier2, Mekanism Exchanger Core (Tier 2)
-exchangers:mekanism_exchanger_core_tier3, Mekanism Exchanger Core (Tier 3)
-exchangers:lv_exchanger, LV Exchanger
-exchangers:mv_exchanger, MV Exchanger
-exchangers:hv_exchanger, HV Exchanger
-exchangers:ie_exchanger_core_tier1, Immersive Engineering Exchanger Core (Tier 1)
-exchangers:ie_exchanger_core_tier2, Immersive Engineering Exchanger Core (Tier 2)
-exchangers:ie_exchanger_core_tier3, Immersive Engineering Exchanger Core (Tier 3)
+modularmachinery:blockcontroller, Machine Controller
+modularmachinery:blockcasing:0, Machine Casing
+modularmachinery:blockcasing:1, Machine Vent
+modularmachinery:blockcasing:2, Firebox Casing
+modularmachinery:blockcasing:3, Machine Gearbox
+modularmachinery:blockcasing:4, Reinforced Machine Casing
+modularmachinery:blockcasing:5, Machine Circuitry
+modularmachinery:blockinputbus:0, Tiny Item Input
+modularmachinery:blockinputbus:1, Small Item Input
+modularmachinery:blockinputbus:2, Normal Item Input
+modularmachinery:blockinputbus:3, Reinforced Item Input
+modularmachinery:blockinputbus:4, Big Item Input
+modularmachinery:blockinputbus:5, Huge Item Input
+modularmachinery:blockinputbus:6, Ludicrous Item Input
+modularmachinery:blockoutputbus:0, Tiny Item Output
+modularmachinery:blockoutputbus:1, Small Item Output
+modularmachinery:blockoutputbus:2, Normal Item Output
+modularmachinery:blockoutputbus:3, Reinforced Item Output
+modularmachinery:blockoutputbus:4, Big Item Output
+modularmachinery:blockoutputbus:5, Huge Item Output
+modularmachinery:blockoutputbus:6, Ludicrous Item Output
+modularmachinery:blockfluidinputhatch:0, Tiny Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:1, Small Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:2, Normal Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:3, Reinforced Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:4, Big Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:5, Huge Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:6, Ludicrous Fluid Input Hatch
+modularmachinery:blockfluidinputhatch:7, Vacuum Fluid Input Hatch
+modularmachinery:blockfluidoutputhatch:0, Tiny Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:1, Small Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:2, Normal Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:3, Reinforced Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:4, Big Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:5, Huge Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:6, Ludicrous Fluid Output Hatch
+modularmachinery:blockfluidoutputhatch:7, Vacuum Fluid Output Hatch
+modularmachinery:blockenergyinputhatch:0, Tiny Energy Input Hatch
+modularmachinery:blockenergyinputhatch:1, Small Energy Input Hatch
+modularmachinery:blockenergyinputhatch:2, Normal Energy Input Hatch
+modularmachinery:blockenergyinputhatch:3, Reinforced Energy Input Hatch
+modularmachinery:blockenergyinputhatch:4, Big Energy Input Hatch
+modularmachinery:blockenergyinputhatch:5, Huge Energy Input Hatch
+modularmachinery:blockenergyinputhatch:6, Ludicrous Energy Input Hatch
+modularmachinery:blockenergyinputhatch:7, Ultimate Energy Input Hatch
+modularmachinery:blockenergyoutputhatch:0, Tiny Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:1, Small Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:2, Normal Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:3, Reinforced Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:4, Big Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:5, Huge Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:6, Ludicrous Energy Output Hatch
+modularmachinery:blockenergyoutputhatch:7, Ultimate Energy Output Hatch
+modularmachinery:itemblueprint, Machine Blueprint
+modularmachinery:itemmodularium, Modularium
+modularmachinery:itemconstructtool, Construct Selection Tool
 harvestcraft:blackberryitem, Blackberry
 harvestcraft:blackberryseeditem, Blackberry Seed
 harvestcraft:blueberryitem, Blueberry
@@ -20208,233 +19929,6 @@ minecraft:salmon, Raw Salmon
 minecraft:cooked_salmon, Cooked Salmon
 minecraft:clownfish, Clownfish
 minecraft:pufferfish, Pufferfish
-modularmachineryaddons:blockradiationproviderinput, Radiation Input Hatch
-modularmachineryaddons:blockradiationprovideroutput, Radiation Output Hatch
-modularmachineryaddons:blockscrubberproviderinput, Scrubber Hatch
-modularmachineryaddons:blockbiomeproviderinput, Biome Hatch
-modularmachineryaddons:blockdimensionproviderinput, Dimension Hatch
-modularmachineryaddons:advancedconstructtool, Advanced Wrench
-modularmachineryaddons:advancedmachineassembler, Advanced Machine Assembler
-modularmachineryaddons:advancedmachinedisassembler, Advanced Machine Disassembler
-modularmachineryaddons:radiationsponge, Radiation Sponge
-modularmachineryaddons:inactiveradiationsponge, Inactive Radiation Sponge
-scp:020_container, SCP-020 Container
-scp:coffeemachine, SCP-294 (The Coffee Machine)
-scp:vending_machine, SCP-261 (Pan-Dimensional Vending)
-scp:clockwork_base, SCP-914 Clockworks Part
-scp:chamber_block, SCP-914 Chamber Part
-scp:copper_tube, Copper Tube
-scp:control_panel, SCP-914 (The Clockworks)
-scp:red_ice, SCP-009 (Red Ice)
-scp:metal914, Metal (914)
-scp:cogs914, Cogs (914)
-scp:tree_leaves, SCP-143 Leaves (The Bladewood Grove)
-scp:tree_trunk, SCP-143 Log (The Bladewood Grove)
-scp:sapling, SCP-143 Sapling (The Bladewood Grove)
-scp:sapling860, Vanqar Tree Sapling (860)
-scp:log860, Vanqar Tree Log (860)
-scp:path860, Path (860)
-scp:dirt860, Dirt (860)
-scp:leaves860, Vanqar Tree Leaves (860)
-scp:card_reader, Card Reader
-scp:replicating_crystal, SCP-409 (Contagious Crystal)
-scp:explosive_cactus, SCP-822 (Landmine Cacti)
-scp:stairs087, SCP-087 Stairs (The Stairwell)
-scp:wall087, SCP-087 Wall (The Stairwell)
-scp:platform087, SCP-087 Stair Platform (The Stairwell)
-scp:fence087, SCP-087 Fence (The Stairwell)
-scp:scp087_spawner, SCP-087-1 Spawner
-scp:document_machine, Document Crafter
-scp:foundationceiling, Ceiling
-scp:foundationceilinggrate, Ceiling Grate
-scp:foundationceilingtile, Ceiling Tile
-scp:foundationcontainmentfloor, Containment Floor
-scp:foundationfloora, Floor A
-scp:foundationfloorb, Floor B
-scp:foundationmeshfloor, Mesh Floor
-scp:foundationplasterwall, Plaster Wall
-scp:foundationvent, Foundation Vent
-scp:foundationwalla, Wall A
-scp:foundationwallb, Wall B
-scp:foundationwallc, Wall C
-scp:foundationwalld, Wall D
-scp:foundationwalle, Wall E
-scp:foundationwallf, Wall F
-scp:foundationwallg, Wall G
-scp:foundationwhitewall, White Wall
-scp:reinforcedwalla, Reinforced Wall A
-scp:reinforcedwallb, Reinforced Wall B
-scp:reinforcedwallc, Reinforced Wall C
-scp:steel, Steel
-scp:foundationexteriorbottom, Exterior Bottom
-scp:foundationexteriormiddle, Exterior Middle
-scp:foundationexteriortop, Exterior Top
-scp:foundationmedicalmiddle, Medical Middle
-scp:foundationmedicalbottom, Medical Bottom
-scp:foundationofficetop, Office Top
-scp:foundationofficebottom, Office Bottom
-scp:foundationpipewall, Pipe Wall
-scp:foundationoldwhitewall, Old White Wall
-scp:personal_computer, Personal Computer
-scp:sublevelwall, Sublevel Wall A
-scp:sublevelwall_b, Sublevel Wall B
-scp:sublevelwall_c, Sublevel Wall C
-scp:reinforced_sublevelwall_a, Reinforced Sublevel Wall A
-scp:reinforced_sublevelwall_b, Reinforced Sublevel Wall B
-scp:reinforced_sublevelwall_c, Reinforced Sublevel Wall C
-scp:pd, Pocket Dimension Block
-scp:pdcorridorc, Pocket Dimension Corridor C
-scp:pdcorridora, Pocket Dimension Corridor A
-scp:pdcorridorb, Pocket Dimension Corridor B
-scp:pdcorridorfloor, Pocket Dimension Corridor Floor
-scp:pdfloor, Pocket Dimension Floor
-scp:bag_wall, Bag Wall
-scp:eye, Eye Block
-scp:hole_in_the_wall, SCP-1162 (A Hole in the Wall)
-scp:reinforced_iron, Reinforced Iron
-scp:table, Table
-scp:lamp, Lamp
-scp:computer, Computer
-scp:scp330, SCP-330 (Take Only Two)
-scp:shelf, Shelf
-scp:file_cabinet, File Cabinet
-scp:item_plate, Item Display Plate
-scp:sliding_door, Sliding Door
-scp:sliding_door2, Containment Door
-scp:anti106door, Magnetized Door
-scp:bloodstone, SCP-472 (The Bloodstone)
-scp:infinite_pizza, SCP-458 (The Never-Ending Pizza Box)
-scp:small_lamp, Small Lamp
-scp:opaque_trapdoor, Opaque Trapdoor
-scp:telekill_ore, Telekill Ore
-scp:gel_block, Gel Block
-scp:living_room_flesh1, SCP-002 Flesh A (The "Living" Room)
-scp:living_room_flesh2, SCP-002 Flesh B (The "Living" Room)
-scp:living_room_flesh3, SCP-002 Flesh C (The "Living" Room)
-scp:living_room_flesh4, SCP-002 Flesh D (The "Living" Room)
-scp:living_room_metal, SCP-002 Metal (The "Living" Room)
-scp:ventilation, Ventilation
-scp:grate, Grate
-scp:sublevel_stairs, Sublevel Wall Stairs
-scp:wall_a_stairs, Wall A Stairs
-scp:floor_a_stairs, Floor A Stairs
-scp:floor_b_stairs, Floor B Stairs
-scp:white_wall_stairs, White Stairs
-scp:re_wall_a_stairs, Reinforced Wall A Stairs
-scp:re_wall_b_stairs, Reinforced Wall B Stairs
-scp:re_wall_c_stairs, Reinforced Wall C Stairs
-scp:008_container, SCP-008 Samples
-scp:heat_resistant_alloy, Heat Resistant Alloy
-scp:telekill_block, Block of Telekill
-scp:sturdy_planks, SCP-143 Planks (The Bladewood Grove)
-scp:blast_glass, Blast Resistant Glass
-scp:fertile_soil, SCP-124 (Fertile Soil)
-scp:hunter_in_the_dark, SCP-689 (Haunter in the Dark)
-scp:cooler, Cooler
-scp:butterfly_nest, SCP-553 Nest (Crystalline Butterflies)
-scp:living_room_coffee_table, Living Room Coffee Table
-scp:heavy_button, Heavy Button
-scp:ceiling_lamp, Ceiling Lamp
-scp:damaged_ceiling_lamp, Damaged Ceiling Lamp
-scp:corroded_metal, Corroded Metal
-scp:blocker106, Magnetized Block
-scp:living_room_plant_pot, Living Room Plant Pot
-scp:living_room_glass, Living Room Glass
-scp:one_way_glass_0, White Observation Pane
-scp:one_way_glass_1, Orange Observation Pane
-scp:one_way_glass_2, Magenta Observation Pane
-scp:one_way_glass_3, Light Blue Observation Pane
-scp:one_way_glass_4, Yellow Observation Pane
-scp:one_way_glass_5, Lime Observation Pane
-scp:one_way_glass_6, Pink Observation Pane
-scp:one_way_glass_7, Gray Observation Pane
-scp:one_way_glass_8, Silver Observation Pane
-scp:one_way_glass_9, Cyan Observation Pane
-scp:one_way_glass_10, Purple Observation Pane
-scp:one_way_glass_11, Blue  Observation Pane
-scp:one_way_glass_12, Brown Observation Pane
-scp:one_way_glass_13, Green Observation Pane
-scp:one_way_glass_14, Red Observation Pane
-scp:one_way_glass_15, Black Observation Pane
-scp:one_way_glass_cube_0, White Observation Glass
-scp:one_way_glass_cube_1, Orange Observation Glass
-scp:one_way_glass_cube_2, Magenta Observation Glass
-scp:one_way_glass_cube_3, Light Blue Observation Glass
-scp:one_way_glass_cube_4, Yellow Observation Glass
-scp:one_way_glass_cube_5, Lime Observation Glass
-scp:one_way_glass_cube_6, Pink Observation Glass
-scp:one_way_glass_cube_7, Gray Observation Glass
-scp:one_way_glass_cube_8, Silver Observation Glass
-scp:one_way_glass_cube_9, Cyan Observation Glass
-scp:one_way_glass_cube_10, Purple Observation Glass
-scp:one_way_glass_cube_11, Blue Observation Glass
-scp:one_way_glass_cube_12, Brown Observation Glass
-scp:one_way_glass_cube_13, Green Observation Glass
-scp:one_way_glass_cube_14, Red Observation Glass
-scp:one_way_glass_cube_15, Black Observation Glass
-scp:pipe_10, Purple Pipe
-scp:pipe_1, Orange Pipe
-scp:pipe_6, Pink Pipe
-scp:pipe_9, Cyan Pipe
-scp:pipe_0, White Pipe
-scp:pipe_4, Yellow Pipe
-scp:pipe_2, Magenta Pipe
-scp:pipe_5, Lime Pipe
-scp:pipe_3, Light Blue Pipe
-scp:pipe_8, Silver Pipe
-scp:pipe_13, Green Pipe
-scp:pipe_15, Black Pipe
-scp:pipe_7, Gray Pipe
-scp:pipe_12, Brown Pipe
-scp:pipe_11, Blue Pipe
-scp:pipe_14, Red Pipe
-scp:swamp_grass, Swamp Grass
-scp:002_tv, Living Room TV
-scp:electric_wool, Electric Wool
-scp:data_bank, Data Bank
-scp:siren, Siren
-scp:block_chair, Chair
-scp:block_chair2, Armed Chair
-scp:vermin_suppressor, SCP-997 (Vermin Suppressor)
-scp:chicken_coop143, SCP-143-FR (Mesozoic chicken coop)
-scp:scp079, SCP-079 (Old AI)
-scp:scp012, SCP-012 (A Bad Composition)
-scp:scp1074, SCP-1074 (Stendhal's Nightmare)
-scp:chains, Chains
-scp:containmentbox, Containment Box
-scp:scp902, SCP-902 (The Final Countdown)
-scp:pipeconnector, SCP-015 Connector (Pipe Nightmare)
-scp:foundationarmorytopa, Armory Top A
-scp:foundationarmorybottoma, Armory Bottom A
-scp:foundationarmorytopb, Armory Top B
-scp:foundationarmorybottomb, Armory Bottom B
-scp:foundationlaboratorytopa, Laboratory Top A
-scp:foundationlaboratorybottoma, Laboratory Bottom A
-scp:foundationlaboratorytopb, Laboratory Top B
-scp:foundationlaboratorybottomb, Laboratory Bottom B
-scp:foundationmetal_panel_a, Metal Panel A
-scp:foundationmetal_panel_b, Metal Panel B
-scp:foundationmetal_panel_c, Metal Panel C
-scp:foundationmetal_sublevel, Metal Sublevel
-scp:reinforcedgranite, Reinforced Granite
-scp:reinforcedquartz, Reinforced Quartz
-scp:toilet, Toilet
-scp:foundationgreen_panel_a, Green Panel A
-scp:foundationgreen_panel_b, Green Panel B
-scp:foundationgreen_panel_c, Green Panel C
-scp:foundationgreen_panel_d, Green Panel D
-scp:foundationmetal_floor_a, Metal Floor A
-scp:foundationmetal_floor_b, Metal Floor B
-scp:foundationmetal_wall_a, Metal Wall A
-scp:foundationmetal_wall_b, Metal Wall B
-scp:foundationsteelfloor, Steel Floor
-scp:pipenightmare, SCP-015 (Pipe Nightmare)
-scp:item_generator, SCP-1437 (A Hole to Another Place)
-scp:desk, Desk
-scp:fountain_of_youth_liquid, SCP-006 (Fountain of Youth)
-scp:spider_fluid, SCP-538 Liquid
-scp:swamp_water, tile.swamp_water.name
-scp:h_cl_fluid, tile.h_cl_fluid.name
 beneath:teleporterbeneath, Beneath Teleporter
 theoneprobe:probe, The One Probe
 theoneprobe:creativeprobe, The Creative Probe
@@ -20442,314 +19936,3 @@ theoneprobe:probenote, The One Probe Read Me
 theoneprobe:diamond_helmet_probe:0, Diamond Helmet with Probe
 theoneprobe:gold_helmet_probe:0, Gold Helmet with Probe
 theoneprobe:iron_helmet_probe:0, Iron Helmet with Probe
-zerascp:scp012, A Bad Composition (012)
-zerascp:scp402, Obsidian Absorber (402)
-zerascp:scp357, Hungry Clay (357)
-zerascp:scp269, Dialysis Bracelet (269)
-zerascp:scp447, Ball of Green Slime (447-1)
-zerascp:scp714b, Jaded Ring (714)
-zerascp:scp1033ru, Circle of Protection (1033-RU)
-zerascp:scp113, The Gender-Switcher (113)
-zerascp:scp345, Stone Puzzle Cube (345)
-zerascp:scp012sl, Bang! (012-SL)
-zerascp:scp132, Broken Desert (132)
-zerascp:scp3890_portal, tile.scp3890_portal.name
-zerascp:scp3890, SCP-012-SLA
-zerascp:scp019it, E-15 Chimera (019-IT)
-zerascp:scp3808, Bacon Cheeseburger that Demands Justification (3808)
-zerascp:anomalousducka, Anomalous Duck
-zerascp:anomalousduckb, Anomalous Duck
-zerascp:anomalousduckc, Anomalous Duck
-zerascp:anomalousduckd, Anomalous Duck
-zerascp:anomalousducke, Anomalous Duck
-zerascp:anomalousduckf, Anomalous Duck
-zerascp:anomalousduckg, Anomalous Duck
-zerascp:anomalousduckh, Anomalous Duck
-zerascp:scp287, Clark's Third Favorite Sword (287)
-zerascp:scp055item, [unknown] (055)
-zerascp:scp001, Sheaf of Papers (001)
-zerascp:scp248, 110% (248)
-zerascp:scp310, Eternal Flame (310)
-zerascp:scp014j, A Fork (014-J)
-zerascp:scpj, Procrastinati (___-J)
-zerascp:scpbigegg, Big Egg (Big Egg)
-zerascp:scp007j, Unidentified Muffin Creature (007-J)
-zerascp:label, Label ___
-zerascp:label000, Label 000
-zerascp:label001, Label 001
-zerascp:label012, Label 012
-zerascp:label012sl, Label 012-SL
-zerascp:label014j, Label 014-J
-zerascp:label019it, Label 019-IT
-zerascp:label055, Label 055
-zerascp:label113, Label 113
-zerascp:label132, Label 132
-zerascp:label248, Label 248
-zerascp:label269, Label 269
-zerascp:label287, Label 287
-zerascp:label310, Label 310
-zerascp:label345, Label 345
-zerascp:label347, Label 347
-zerascp:label357, Label 357
-zerascp:label402, Label 402
-zerascp:label447, Label 447
-zerascp:label714, Label 714
-zerascp:label1033ru, Label 1033-RU
-zerascp:label3808, Label 3808
-zerascp:label3890, Label 3890
-zerascp:labelbigegg, Label Big Egg
-zerascp:labelduck, Label Duck
-zerascp:scp012block, A Bad Composition (012)
-zerascp:scp184, The Architect (184)
-zerascp:scp743, A Chocolate Fountain (743)
-zerascp:scp020, Unseen Mold (020)
-zerascp:scp215helmet, Paranoia-Inducing Spectacles (215)
-zerascp:scp205, Shadow Lamps (205)
-zerascp:scp789j, The Butt Ghost (789-J)
-zerascp:scp1074, Stendhal's Nightmare (1074)
-zerascp:scp1356, Rubber Ducky (1356)
-zerascp:egg006j, Spawn WHAT THE F*** IS THAT (006-J)
-zerascp:egg347, Spawn The Invisible Woman (347)
-zerascp:egg372, Spawn Peripheral Jumper (372)
-zerascp:egg895, Spawn Camera Disruption (895)
-zerascp:label006j, Label 006-J
-zerascp:label007j, Label 007-J
-zerascp:label020, Label 020
-zerascp:label184, Label 184
-zerascp:label205, Label 205
-zerascp:label215, Label 215
-zerascp:label372, Label 372
-zerascp:label743, Label 743
-zerascp:label789j, Label 789-J
-zerascp:label895, Label 895
-zerascp:label1074, Label 1074
-zerascp:label1356, Label 1356
-zerascp:scp860, Blue Key (860)
-zerascp:scp8601_portal, tile.scp8601_portal.name
-zerascp:scp8601, SCP-860
-zerascp:label860, Label 860
-zerascp:scp1499helmet, The Gas Mask (1499)
-zerascp:block1499tower, ???
-zerascp:block1499ground, ???
-zerascp:dimension1499_portal, tile.dimension1499_portal.name
-zerascp:dimension1499, SCP-1499
-zerascp:label1499, Label 1499
-zerascp:scp31081, SCP-3108-1
-zerascp:scp3108, The Nerfing Gun (3108)
-zerascp:label3108, Label 3108
-zerascp:scp19161, SCP-1916-1
-zerascp:scp19162, SCP-1916-2
-zerascp:scp19163, SCP-1916-3
-zerascp:scp19164, SCP-1916-4
-zerascp:scp19165, SCP-1916-5
-zerascp:scp19166, SCP-1916-6
-zerascp:scp1916, Zero-Gee-Whiz! Moon Rocks (1916)
-zerascp:label1916, Label 1916
-zerascp:egg527, Spawn Mr. Fish (527)
-zerascp:label527, Label 527
-zerascp:scp2396a, SCP-2396-A
-zerascp:egg2396, Spawn Ms. Sweetie (2396)
-zerascp:label2396, Label 2396
-zerascp:eggroombaduck, Spawn Roomba Duck
-zerascp:jadeore, Jade Ore
-zerascp:jade, Jade
-zerascp:diamondsword110, Diamond Sword (110%)
-zerascp:ironsword110, Iron Sword (110%)
-zerascp:stonesword110, Stone Sword (110%)
-zerascp:goldsword110, Gold Sword (110%)
-zerascp:woodensword110, Wooden Sword (110%)
-zerascp:scp357block, SCP-357 Block
-zerascp:slime, Slime Block
-zerascp:scp447block, SCP-447
-zerascp:scp463, SCP-463 (A Spoon that Bends People
-zerascp:label463, Label 463
-zerascp:scp038log, SCP-038 Log
-zerascp:scp2200, SCP-2200
-zerascp:scp1689, SCP-1689
-zerascp:blockofpotatoes, Block Of Potatoes
-zerascp:scp038sapling, SCP-038 Sapling
-zerascp:label038, Label 038
-zerascp:label2200, Label 2200
-zerascp:label1689, Label1689
-scp:document_safe, item.document_safe.name
-scp:document_euclid, item.document_euclid.name
-scp:document_keter, item.document_keter.name
-scp:document_thaumiel, item.document_thaumiel.name
-scp:panacea_pills, item.panacea_pills.name
-scp:super_toothbrush, item.super_toothbrush.name
-scp:water_canteen, item.water_canteen.name
-scp:processed_log, item.processed_log.name
-scp:tree_petals, item.tree_petals.name
-scp:tree_material, item.tree_material.name
-scp:hazard_suit, item.hazard_suit.name
-scp:vengefulapple, item.vengefulapple.name
-scp:sturdy_helmet, item.sturdy_helmet.name
-scp:sturdy_chestplate, item.sturdy_chestplate.name
-scp:sturdy_leggings, item.sturdy_leggings.name
-scp:sturdy_boots, item.sturdy_boots.name
-scp:sturdy_sword, item.sturdy_sword.name
-scp:sturdy_axe, item.sturdy_axe.name
-scp:sturdy_pickaxe, item.sturdy_pickaxe.name
-scp:sturdy_shovel, item.sturdy_shovel.name
-scp:sturdy_hoe, item.sturdy_hoe.name
-scp:ash, Pile of Ashes
-scp:burnt_bone, item.burnt_bone.name
-scp:door860, item.door860.name
-scp:valve_door, item.valve_door.name
-scp:door087, item.door087.name
-scp:blast_door, item.blast_door.name
-scp:office_door, item.office_door.name
-scp:door002, item.door002.name
-scp:label, item.label.name
-scp:level1card, item.level1card.name
-scp:level2card, item.level2card.name
-scp:level3card, item.level3card.name
-scp:level4card, item.level4card.name
-scp:level5card, item.level5card.name
-scp:screwdriver, Screwdriver
-scp:330a, item.330a.name
-scp:330b, item.330b.name
-scp:330c, item.330c.name
-scp:330d, item.330d.name
-scp:330e, item.330e.name
-scp:330f, item.330f.name
-scp:330g, item.330g.name
-scp:pizza, item.pizza.name
-scp:dragonegg:0, Blobworm Egg
-scp:dragonegg:1, Glowdrake Egg
-scp:dragonegg:2, Goowyvern Egg
-scp:dragonegg:3, Gunkwyvern Egg
-scp:dragonegg:4, Oozedrake Egg
-scp:dragonegg:5, Slimybelly Egg
-scp:organ:0, Heart
-scp:organ:1, Kidney
-scp:organ:2, Lung
-scp:nightvision_goggles, item.nightvision_goggles.name
-scp:battery, item.battery.name
-scp:3d_specs, item.3d_specs.name
-scp:disease_encyclopedia, item.disease_encyclopedia.name
-scp:cowbell, item.cowbell.name
-scp:flashlight, item.flashlight.name
-scp:paper_scrap, item.paper_scrap.name
-scp:recipe_viewer, item.recipe_viewer.name
-scp:syringe_empty, Empty Syringe
-scp:syringe, item.syringe.name
-scp:arrow_proof_vest, item.arrow_proof_vest.name
-scp:unusual_battery, item.unusual_battery.name
-scp:unusual_ingot, item.unusual_ingot.name
-scp:blue_key, item.blue_key.name
-scp:telekill_diamond_helmet, item.telekill_diamond_helmet.name
-scp:telekill_diamond_chestplate, item.telekill_diamond_chestplate.name
-scp:telekill_diamond_leggings, item.telekill_diamond_leggings.name
-scp:telekill_diamond_boots, item.telekill_diamond_boots.name
-scp:telekill_sword, item.telekill_sword.name
-scp:telekill_axe, item.telekill_axe.name
-scp:telekill_pickaxe, item.telekill_pickaxe.name
-scp:telekill_shovel, item.telekill_shovel.name
-scp:telekill_hoe, item.telekill_hoe.name
-scp:monster_pot, item.monster_pot.name
-scp:broken_telekill_sword, item.broken_telekill_sword.name
-scp:deadly_painting, item.deadly_painting.name
-scp:skeleton_key, item.skeleton_key.name
-scp:chefs_knife, item.chefs_knife.name
-scp:spawn_egg, Spawn
-scp:living_room_lamp, item.living_room_lamp.name
-scp:living_room_arm_chair, item.living_room_arm_chair.name
-scp:living_room_table, item.living_room_table.name
-scp:bat_fur, item.bat_fur.name
-scp:teleport_tester, item.teleport_tester.name
-scp:cog, item.cog.name
-scp:blank_document, item.blank_document.name
-scp:info_tablet, item.info_tablet.name
-scp:plant_cow_seeds, item.plant_cow_seeds.name
-scp:thunder_meat, item.thunder_meat.name
-scp:raw_thunder_meat, item.raw_thunder_meat.name
-scp:pied_pipe, item.pied_pipe.name
-scp:baton, item.baton.name
-scp:cheese, Cheese
-scp:deathdocument, item.deathdocument.name
-scp:swat_helmet, item.swat_helmet.name
-scp:swat_chest, item.swat_chest.name
-scp:swat_leggings, item.swat_leggings.name
-scp:swat_boots, item.swat_boots.name
-scp:scp020vial, item.scp020vial.name
-scp:token_living_room, item.token_living_room.name
-scp:token_skeleton_key, item.token_skeleton_key.name
-scp:token_fountain_of_youth, item.token_fountain_of_youth.name
-scp:token_zombie_virus, item.token_zombie_virus.name
-scp:token_red_ice, item.token_red_ice.name
-scp:token_monster_pot, item.token_monster_pot.name
-scp:token_black_shuck, item.token_black_shuck.name
-scp:token_vermin_master, item.token_vermin_master.name
-scp:token_plague_doctor, item.token_plague_doctor.name
-scp:token_young_girl, item.token_young_girl.name
-scp:token_worlds_best_tothbrush, item.token_worlds_best_tothbrush.name
-scp:token_old_ai, item.token_old_ai.name
-scp:token_stairwell, item.token_stairwell.name
-scp:token_shy_guy, item.token_shy_guy.name
-scp:token_old_man, item.token_old_man.name
-scp:token_infinite_canteen, item.token_infinite_canteen.name
-scp:token_dragon_snails, item.token_dragon_snails.name
-scp:token_fertile_soil, item.token_fertile_soil.name
-scp:token_eye_pods, item.token_eye_pods.name
-scp:token_bladewood_grove, item.token_bladewood_grove.name
-scp:token_telekill_alloy, item.token_telekill_alloy.name
-scp:token_painting, item.token_painting.name
-scp:token_sculpture, item.token_sculpture.name
-scp:token_3d_specs, item.token_3d_specs.name
-scp:token_allosaurus, item.token_allosaurus.name
-scp:token_pan-dimensional_vending_machine, item.token_pan-dimensional_vending_machine.name
-scp:token_eyes_in_the_dark, item.token_eyes_in_the_dark.name
-scp:token_coffee_machine, item.token_coffee_machine.name
-scp:token_take_only_two, item.token_take_only_two.name
-scp:token_pterry_the_pterodactyl, item.token_pterry_the_pterodactyl.name
-scp:token_red_pool, item.token_red_pool.name
-scp:token_contagious_crystal, item.token_contagious_crystal.name
-scp:token_pizza_box, item.token_pizza_box.name
-scp:token_bloodstone, item.token_bloodstone.name
-scp:token_panacea, item.token_panacea.name
-scp:token_rusty_cowbell, item.token_rusty_cowbell.name
-scp:token_shadow_spiders, item.token_shadow_spiders.name
-scp:token_ice_spider, item.token_ice_spider.name
-scp:token_crystalline_butterflies, item.token_crystalline_butterflies.name
-scp:token_chefs_knife, item.token_chefs_knife.name
-scp:token_haunter_in_the_dark, item.token_haunter_in_the_dark.name
-scp:token_landmine_cactus, item.token_landmine_cactus.name
-scp:token_clockworks, item.token_clockworks.name
-scp:token_with_many_voices, item.token_with_many_voices.name
-scp:token_sleep_killer, item.token_sleep_killer.name
-scp:token_big_foot, item.token_big_foot.name
-scp:token_encyclopedia_of_diseases, item.token_encyclopedia_of_diseases.name
-scp:token_builder_bear, item.token_builder_bear.name
-scp:token_hole_in_the_wall, item.token_hole_in_the_wall.name
-scp:token_absence_of_shark, item.token_absence_of_shark.name
-scp:token_hole_to_another_place, item.token_hole_to_another_place.name
-scp:token_pink_flamingo, item.token_pink_flamingo.name
-scp:token4307, item.token4307.name
-scp:token143_fr, item.token143_fr.name
-scp:token160, item.token160.name
-scp:token529, item.token529.name
-scp:token573, item.token573.name
-scp:token594, item.token594.name
-scp:token718, item.token718.name
-scp:token811, item.token811.name
-scp:token843, item.token843.name
-scp:token912, item.token912.name
-scp:token997, item.token997.name
-scp:token2295, item.token2295.name
-scp:token3199, item.token3199.name
-scp:token682, item.token682.name
-scp:token059-fr, item.token059-fr.name
-scp:token015, item.token015.name
-scp:token524, item.token524.name
-scp:token012, item.token012.name
-scp:token1032-ru, item.token1032-ru.name
-scp:token2521, item.token2521.name
-scp:token2761, item.token2761.name
-scp:token902, item.token902.name
-scp:token020, item.token020.name
-scp:token1074, item.token1074.name
-scp:token098, item.token098.name
-scp:tranq_arrow, Tranquilizing Arrow
-scp:npctool, item.npctool.name
-scp:rodent_tail, item.rodent_tail.name

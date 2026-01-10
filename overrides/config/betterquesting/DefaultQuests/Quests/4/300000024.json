@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    300000037
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Alloy Furnace is used to make alloys, as well as being a crafting component in the recipe for a bunch of other machines.§6Alloy Furnace§f is a §6basic processing machine§f used to §6combine multiple materials into alloys§f. It serves as the §eentry point§f for alloy production in NuclearCraft.\n\n§eThe Alloy Furnace processes§f §bitems only§f (no fluids) and is primarily used to create §6foundational alloys§f required for early and mid-game progression. Many of these alloys are §cmandatory§f for unlocking more advanced machines and systems.\n\n§eIn addition to its processing role§f, the Alloy Furnace is also a §6key component§f in unlocking §bmultiple higher-tier machines§f, making it an §aessential early investment§f even after its direct alloy recipes are no longer in heavy use.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:alloy_furnace"
+      },
+      "name:8": "Alloy Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 300000024,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:alloy_furnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

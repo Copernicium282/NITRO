@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    31,
+    26
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Energy Storage Block§f is the §6most basic power buffer§f available. The standard variant can store up to §61 MHE§f and is used to §astore and distribute electricity§f.\n\n§eEnergy Storage Blocks can power§f §bmachines§f, §bcharge batteries§f, and supply §btools§f such as the §bImpact Drill§f, making them a §6core part§f of any electrical setup.\n\n§eCharging methods§f:\n§b• Insert a charged battery§f  \n§b• Connect via §bRed Copper Cable§f to a §bpower source§f (such as a Wood-Burning Generator)\n\n§6Power Control§f\n\n§eEach storage block has a §6transfer mode§f that controls how energy flows:\n§b• Input§f – only receives power  \n§b• Output§f – only supplies power  \n§b• Buffer§f – both receives and outputs power  \n§b• None§f – disables all power transfer  \n\n§eTransfer modes can be §6toggled via redstone§f, allowing automated control.\n\n§6Energy Priority§f\n\n§eStorage blocks also support §6priority settings§f, which determine how power is distributed:\n§b• Low Priority§f (§edefault§f) – §eMachines fill first§f, storage charges last  \n§b• Medium Priority§f – §eStorage and machines charge equally§f  \n§b• High Priority§f – §cStorage fills first§f, machines receive power only afterward  \n\n§aProper use of priorities§f helps stabilize power networks and §aprevent brownouts§f in larger systems.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_battery"
+      },
+      "name:8": "Energy Storage Block",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 325,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {}
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_battery"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

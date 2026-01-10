@@ -1,8 +1,8 @@
 {
   "recipes": [
     {
-      "input": ["PETROLEUM",2000],
-      "output": ["PETROLEUM",2000,1]
+      "input": ["PERFLUOROMETHYL",1000],
+      "output": ["PERFLUOROMETHYL",1000,1]
     },
     {
       "input": ["BLOOD",1000,3],
@@ -17,8 +17,8 @@
       "output": ["LPG",1000]
     },
     {
-      "input": ["PERFLUOROMETHYL",1000],
-      "output": ["PERFLUOROMETHYL",1000,1]
+      "input": ["PETROLEUM",2000],
+      "output": ["PETROLEUM",2000,1]
     }
   ]
 }

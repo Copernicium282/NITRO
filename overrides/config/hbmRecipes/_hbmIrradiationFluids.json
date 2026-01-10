@@ -1,12 +1,12 @@
 {
   "recipes": [
     {
-      "input": ["GAS",1000],
-      "output": ["SYNGAS",1000]
-    },
-    {
       "input": ["LIGHTOIL_CRACK",1000],
       "output": ["REFORMGAS",1000]
+    },
+    {
+      "input": ["GAS",1000],
+      "output": ["SYNGAS",1000]
     },
     {
       "input": ["LIGHTOIL",1000],

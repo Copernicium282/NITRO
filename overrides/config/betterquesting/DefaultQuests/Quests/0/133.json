@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    4
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Mining Charges§f are explosives designed specifically for §6ore extraction§f. Unlike regular blasts, they §ado not destroy drops§f, making them ideal for early deep mining before proper tools are available.\n\n§eA standard mining charge explodes instantly when powered by §credstone§f. It affects an area of about §e3 blocks§f and §adoes not harm entities§f, focusing only on breaking terrain.\n\n§eThere are §6three variants§f of mining charges:\n\n§b• Mining Charge§f – §eInstant detonation, basic mining explosive§f.  \n§b• Timed Mining Charge§f – §eDelayed explosion, easier and safer to place§f.  \n§b• Semtex Mining Charge§f – §cStronger blast§f with §6Fortune III§f applied to drops.\n\n§eThe §bTimed Mining Charge§e offers no extra mining bonuses beyond its delay, while the §bSemtex variant§e trades cost for §ahigher yield§f.\n\n§eCrafting options vary by materials available:\n§b• Mining Charges§f can be made using §6flint§f with §bmetal plates§f and §bdynamite§f, or upgraded recipes using §bsemtex§f or §bC-4§f, which are §amore efficient§f and produce §612 charges at once§f.\n§b• Timed Mining Charges§f are crafted from a §6time bomb§f and §bflint§f.\n§b• Semtex Mining Charges§f are assembled using §bsticks of semtex§f and §bduct tape§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:det_miner"
+      },
+      "name:8": "Mining Charge",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 133,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:det_miner"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

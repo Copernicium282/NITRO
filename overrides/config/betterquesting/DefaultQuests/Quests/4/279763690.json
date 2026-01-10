@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    300000037
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Redstone-Controlled Lights§f provide configurable lighting options, with optional §bredstone§f control for automation setups.\n\n§eThe basic light§f requires §ano RF power§f and emits light equivalent to §bGlowstone§f. In addition, there are §6two advanced tiers§f that illuminate a §alarger area§f than Glowstone but §crequire RF§f to operate.\n\n§eLights are available in §6two form factors§f:\n§b• Flat (panel) variant§f  \n§b• Full block variant§f  \n\n§eEach variant supports §65 different colors§f, allowing flexible integration into both §abuilds§f and §etechnical layouts§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "rflux:lightblock_on"
+      },
+      "name:8": "RF Lux"
+    }
+  },
+  "questID:3": 279763690,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:battery_advanced_cell",
+          "tag:10": {
+            "charge:4": 60000
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "rflux:lightblock_off",
+          "tag:10": {
+            "color:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "rflux:flatlightblock_off",
+          "tag:10": {
+            "color:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    150
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Realistic Torches complicates early gameplay by §ccausing torches to burn out after 1 minecraft day (20 minutes), \n§f§b§aprompting players to switch to more permanent light sources early on.§f\n\nTo§b light a torch §fafter crafting, §buse a matchbox or flint and steel.§f\n\n§cTorches are extinguished when rain occurs and water comes in contact with it.§f\n\n§bGlowstone can be used to craft torches that are permanently lighted.§f\n\n§aLight-emitting blocks and items will emit light when held.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "realistictorches:torch_unlit"
+      },
+      "name:8": "Realistic Torches",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 151,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "realistictorches:matchbox"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

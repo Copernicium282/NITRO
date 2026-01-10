@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    151
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Zombie Awareness makes zombies §6more intelligent§f overall. Here are some of the things you need to be aware of:\n\n§c⁕ Blood Scents§f: §aTaking damage causes you to spill blood§f, and if your health is low, you\u0027ll §coccasionally bleed out§f.\n\n§c⁕ Sound Sources attract zombies§f: §aMining blocks generates noise§f, alerting nearby zombies to your presence.\n\n§c⁕ Light Sources also attract zombies§f: §aExposed light sources can be seen from a great distance§f, drawing zombies to investigate if they have a §eclear line of sight§f.\n\n§c⁕ Group Spawning at night§f: §aExpect zombies to spawn in groups§f during the night, leading to §crandom invasions§f.\n\n§c⁕ Wandering Hordes at night§f: §aLarge groups of mobs will roam the terrain§f unpredictably at night.\n\n§c⁕ Faster Zombies§f: §aZombies may randomly receive a speed boost§f, making their movement §cunpredictable§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "minecraft:skull"
+      },
+      "name:8": "Zombie Awareness",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 152,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:titanium_sword"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

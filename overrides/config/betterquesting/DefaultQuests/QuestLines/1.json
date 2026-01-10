@@ -1,0 +1,16 @@
+{
+  "lineID:3": 1,
+  "order:3": 2,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Refine oil to create plastics using byproducts, advanced circuitry and so much more.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_well"
+      },
+      "name:8": "Oil Age",
+      "visibility:8": "HIDDEN"
+    }
+  },
+  "quests:9": {}
+}

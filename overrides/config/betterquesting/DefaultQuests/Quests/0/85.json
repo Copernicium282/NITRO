@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    29
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Boiler§f is a §6heat-driven processing machine§f used to §6heat fluids§f for §bsteam generation§f and §boil refining§f. It requires an §6external heat source§f (such as a §bFirebox§f) placed §eunderneath§f to operate.\n\n§eThe Boiler is §6essential for progression§f, especially for §boil processing§f. It contains a §616,000 mB input tank§f and an output tank whose size depends on how much the fluid §eexpands when heated§f.\n\n§cThe Boiler will explode§f if its §coutput tank becomes full§f.  \n§a(The Industrial Boiler does not explode.)§f\n\n§6Operation:§f\n\n§ePlace a heat source below the Boiler§f, then §9right-click with a §bFluid Identifier§f to select which fluid to process (for example, §bCrude Oil§f).\n\n§eThe Boiler has §63 fluid ports§f:\n§b• One on top§f  \n§b• Two on the sides§f  \n\n§eHeat transfer rate§f: §6ΔT × 0.01 TU/t§f\n\n§6Steam Handling:§f\n\n§eWhen used by machines§f (such as §bReactors§f or §bChemical Factories§f), Steam exits as §bLow-Pressure Steam§f. This can be §arecycled at 100% efficiency§f back into water using a §bSteam Condenser§f.\n\n§aClosed-loop water systems are strongly recommended§f, especially for reactors.\n\n§6Applications:§f\n\n§b• Heating Crude, Cracked, or Desulfurized Oil§f for use in an §bOil Refinery§f  \n§b• Boiling Water§f to produce §6Steam§f  \n§b• Converting Steam§f into §eDense Steam or other variants§f, when applicable  \n\n§eAfter Steam completes power generation§f, remaining heat and pressure are §cinsufficient for reuse§f. §bSteam Condensers§f release this waste heat and condense Steam back into water.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:heat_boiler"
+      },
+      "name:8": "Boiler and Steam Condenser",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 85,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heat_boiler"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_condenser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

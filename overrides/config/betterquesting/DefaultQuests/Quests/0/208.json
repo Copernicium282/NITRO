@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    33
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Automatic Buzz Saw§f is an automation machine designed to §6harvest trees.§. It operates on §bburnable oils§f instead of electricity, making it suitable for early-to-mid game setups.\n\n§eWhen active§f, the Buzz Saw will §6chop down trees§f within a §610-block radius§f and §areplant saplings automatically§f. It also supports §bfarming operations§f, harvesting crops and §areplanting seeds§f without player input.\n\n§eThis machine is commonly used to automate renewable resources§f such as §bwood§f, §blatex§f, §bhemp§f, and §bmustard willows§f, providing a §asteady supply§f of basic materials for processing chains.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_autosaw"
+      },
+      "name:8": "Automatic Buzz Saw",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 208,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_autosaw"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

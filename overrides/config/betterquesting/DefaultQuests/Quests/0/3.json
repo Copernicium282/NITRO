@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Anvils§f §c(not the vanilla kind)§f are §6tiered crafting stations§f used to create §bmachines§f, §bstructures§f, and select §bitems§f. Each higher tier unlocks §emore recipes§f, though some tiers currently act only as §eprogression steps§f without added functionality.\n\n§eAnvil tiers roughly follow the mod’s §6material progression§f, making them a §auseful indicator§f of what you should work toward next. They are §ccompletely separate§f from vanilla anvils and §cshare none of their mechanics§f.\n\n§6Crafting:§:\n\n§e§bIron§e and §bLead Anvils§e can be crafted directly from their §6blocks§f and §6ingots§f. Higher-tier anvils require §610 ingots§f of the new material combined with an existing §bIron or Lead Anvil§f inside another anvil’s §9GUI§f.\n\n§eEach upgrade replaces the previous anvil§f, gradually advancing your crafting capabilities as new materials become available.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:anvil_iron"
+      },
+      "name:8": "Iron Anvil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 3,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:anvil_iron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

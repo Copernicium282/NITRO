@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "One thing that you can do before engaging in the progression, as well as something you should always do if you have the time, is§6 looting structures.§f\n\n§cYou shouldn\u0027t solely rely on structures for your resources, §f§abut they give you a head-start when it comes to progressing through the mod, as well as the modpack.\n§f\n§a§a§2§4§5§6§7§8§9§2§a§bHere\u0027s a list of structures which are great for raiding in early-game:\n\n§9Antennas: §fA common structure with a few resources, mainly §9steel ingots, wires and analog circuits.§f\n\n§9Radio stations:§f A great source of §9concrete §fand §9steel,§f the small side building also has §9tanks filled with diesel.§f\nThe chests often also contain §9revolvers §fand sometimes §9weaker shotguns §fwhich are fantastic alternatives to your stinky old vanilla bow.\n\n§9Relay stations:§f Huge antenna-like structures with§9 loads and loads of steel.§f\n§bSteel sets are only marginally better than iron§f - but with steel so easily accessible and in such quantities,§a you\u0027ll be able to make steel tools quickly.\n\n§9Crashed space ships: §fSomewhat§6 rare§f and §bfilled with items that aren\u0027t very useful in early game,§f they still contain a §9considerable amount of steel §fand a §6chest full of rare items,§f more often than§9 not consumables§f and§9 rocket launchers.\n\nCrashed vertibirds: §fHelicopters that are buried in the desert, they are a §9good source of steel §fand §9often contain parts for power armor.\n\nFactories: §fLarge structures made of brick which have §9many machines §fand§f§9 chests full of raw materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:deco_steel"
+      },
+      "name:8": "Things to do before you start",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 161,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:iron_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:radiorec"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    300000037
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Fluid Mixer§f is a §6fluid-processing machine§f used to §6combine molten liquids§f into §bnew molten alloys§f or §bmolten compounds§f.\n\n§eThe Fluid Mixer§f works by taking §btwo fluid inputs§f and producing a §6single output fluid§f. It is commonly used in §bmolten alloy production chains§f, as well as in §bMolten Salt Reactor (MSR)§f workflows for §bFLiBe-based nuclear salts§f and §bNaK-based molten coolants§f, among other applications.\n\n§eThis machine§f is a §6core component§f of molten liquid processing setups, typically operating alongside the §bMelter§f and §bIngot Former§f to enable §afully automated alloy and compound production§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:salt_mixer"
+      },
+      "name:8": "Fluid Mixer"
+    }
+  },
+  "questID:3": 678790510,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:salt_mixer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

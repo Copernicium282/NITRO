@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eOne press at NTM runs on §belectricity§e, another uses §bhydraulic force§e, while the third relies on §bpneumatic energy§e — each built for the same job.§f Machines differ only by §6their power source.\n\n§eBullets can be stamped from presses§f, just like §bthin metal sheets§f or §bwires. §eShaping unsmeltable powder is another job they handle — no melting needed.§f\n\n§6Burner Press§f\n\n§eAfter fuel enters the press, it gets used up along with §6saved actions§f. §eWaiting quietly, the machine stays idle without the right §bstamp§e and §bmaterial§e together.§f Only then does anything happen next.\n\n§eOnce started, the machine keeps going until all material is pressed§f, gradually §amoving faster§f. §eBecause of this pattern, handling §6several pieces together§e works better.§f If only §cone item§f goes through at a time, §cmomentum drops sharply§f§c, and you waste fuel.§\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_press"
+      },
+      "name:8": "Burner Press",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_press"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

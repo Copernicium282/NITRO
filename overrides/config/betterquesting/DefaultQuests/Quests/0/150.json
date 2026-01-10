@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    23
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Comforts mod introduces §asleeping bags§f and §ahammocks§f to Minecraft.\nThese items §afunction similarly to beds§f, but do not change the player\u0027s spawn place, allowing them to §aremain at home base§f.\nThey are available in §b16 different colors§f, exactly like beds!\n§aSleeping bags§f can be §alayered§f, making them ideal for adventures, whilst §ahammocks§f serve as a bed for the day, transitioning between day and night.§f\n\n§eTo make a hammock§f, you\u0027ll need some §bhammock cloth§f. You\u0027ll also need §6two pairs of rope and nails§f.\nYou now need to §bfind some blocks that are exactly four spaces apart§f.\nOnce you\u0027ve selected an appropriate position, §barrange the two pairs of rope and nails§f on the logs, facing each other.\nNow, grab your §bhammock cloth§f and §9right-click§f one of the ropes or nails to take a quick nap!\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "comforts:sleeping_bag"
+      },
+      "name:8": "Comforts",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 150,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:smore"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "comforts:sleeping_bag"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
