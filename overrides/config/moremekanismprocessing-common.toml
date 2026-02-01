@@ -70,6 +70,10 @@
 		#Range: 0 ~ 5
 		processingLevel = 5
 
+	[ores.thorium]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
 	[ores.sulfur]
 		#Range: 0 ~ 5
 		processingLevel = 5
@@ -111,6 +115,10 @@
 		#    e.g.) "ingredient":{"tag":"forge:dusts/quartz"}},"amount":8
 		#Range: 0 ~ 5
 		processingLevel = 0
+
+	[ores.magnesium]
+		#Range: 0 ~ 5
+		processingLevel = 5
 
 	[ores.draconium]
 		#Range: 0 ~ 5
@@ -155,6 +163,10 @@
 		processingLevel = 0
 
 	[ores.silver]
+		#Range: 0 ~ 5
+		processingLevel = 5
+
+	[ores.boron]
 		#Range: 0 ~ 5
 		processingLevel = 5
 

@@ -1,0 +1,14 @@
+[Performance]
+	#The number of CPU threads to allocate to performing physics calculations.
+	#Range: 1 ~ 12
+	MaxThreads = 2
+
+	#The maximum distance, in chunks, where physics calculations are performed.
+	#Range: 1 ~ 32
+	ChunkUpdateRange = 6
+
+[Defaults]
+	#The name of the world definition that should be used as the default.
+	#A value MUST be specified and match a configured world definition.
+	DefaultWorldDefinition = "overworld"
+

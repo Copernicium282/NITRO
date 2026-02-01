@@ -72,6 +72,11 @@
 		#default : 66ff66
 		color = ""
 
+	[ores.thorium]
+		#if empty, use default
+		#default : 2e2e2e
+		color = ""
+
 	[ores.sulfur]
 		#if empty, use default
 		#default : d8cc51
@@ -110,6 +115,11 @@
 	[ores.quartz]
 		#if empty, use default
 		#default : ebe3db
+		color = ""
+
+	[ores.magnesium]
+		#if empty, use default
+		#default : e7b9e5
 		color = ""
 
 	[ores.draconium]
@@ -155,6 +165,11 @@
 	[ores.silver]
 		#if empty, use default
 		#default : d8e4ed
+		color = ""
+
+	[ores.boron]
+		#if empty, use default
+		#default : 7c7c7c
 		color = ""
 
 	[ores.redstone]

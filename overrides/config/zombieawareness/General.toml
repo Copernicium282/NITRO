@@ -2,17 +2,17 @@
 #General mod settings
 [general]
 	#Effects how far monsters will sense sound sources from
-	#Range: > -2147483648
+	#Range: > 0
 	soundStrength = 60
 	#Block mining before it breaks cause sound senses to spawn
 	blockHittingEvent_Active = true
 	#The amount of delay in game ticks between processing mobs with enhanced AI, less is more frequent [performance sensitive]
-	#Range: > -2147483648
+	#Range: > 0
 	tickRateAILoop = 10
 	#skips line of sight check on targetting [performance sensitive]
 	seeThroughWalls = false
 	#Effects how far monsters will sense scents from
-	#Range: > -2147483648
+	#Range: > 0
 	scentStrength = 60
 	#Always target closest player [performance sensitive]
 	omniscient = false
@@ -22,10 +22,10 @@
 	#Block breaks cause sound senses to spawn
 	blockBreakEvent_Active = true
 	#how frequently the mod iterates all players, effects rates, less is more frequent
-	#Range: > -2147483648
+	#Range: > 0
 	tickRatePlayerLoop = 20
 	#Odds of hitting a block causing a sound sense, rolled per tick
-	#Range: > -2147483648
+	#Range: > 0
 	blockHittingEvent_OddsTo1 = 20
 	#Only spawn sound senses for players, if false, machines and other things will cause them too
 	blockBreakEvent_PlayersOnly = false
@@ -34,23 +34,23 @@
 	zombieRandSpeedBoost = 0.3
 	#Prevent non zombies from being attracted to light
 	awareness_Light_OnlyZombies = true
-	#No comment
+	#-
 	debugConsole = false
-	#No comment
+	#-
 	debugConsoleSuperDetailed = false
 	#Max strength allowed for a sense, in case senses get a super high base strength or large buff
-	#Range: > -2147483648
+	#Range: > 0
 	senseMaxStrength = 300
 	#Custom targetting sight range on top of vanilla sight based targetting
-	#Range: > -2147483648
+	#Range: > 0
 	sightRange = 16
 	#Max awareness range for zombies
-	#Range: > -2147483648
+	#Range: > 0
 	maxPFRangeSense = 64
 	#max rate of spawning sound sources in milliseconds
-	#Range: > -2147483648
+	#Range: > 0
 	frequentSoundThreshold = 1000
-	#No comment
+	#-
 	debugConsoleOmniscient = false
 	#Minimum distance required between active sense sources, prevents spamming sources [performance sensitive]
 	#Range: 4.9E-324 ~ 1.7976931348623157E308

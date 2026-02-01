@@ -1,0 +1,9 @@
+#A list of dimension IDs that should be affected by this definition.
+Dimensions = ["minecraft:the_nether"]
+
+[Physics]
+	#The force of gravity to apply to the dimension(s) within this definition.
+	#Note: This value is currently only used for calculations of forces, and does not physically affect the gravity of the dimension(s).
+	#Range: 0.0 ~ 100.0
+	GravityForce = 9.779999732971191
+

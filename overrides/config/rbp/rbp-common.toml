@@ -1,120 +1,49 @@
+[ChunkAnalysis]
+	#Whether chunk analysis should be enabled (full physics scans on the blocks of a chunk).
+	#Disabling chunk analysis can help to improve performance.
+	Enabled = true
 
-[defaults]
-	#Whether blocks without specified block definitions should be given one by default (helpful for applying physics to mod blocks automatically).
-	ApplyDefaultBlocks = false
+	#The range at which chunk analysis updates will be scheduled, based on nearby players.
+	#Reducing this value can help improve performance.
+	#Range: 0 ~ 32
+	ActiveRange = 4
 
-	#A list of block IDs and namespace IDs which will be prevented from receiving a default physics definition.
-	ApplyDefaultBlocksBlacklist = ["minecraft"]
-
-	#Whether dimensions without specified world definitions should be given one by default (helpful for applying physics to mod dimensions automatically).
-	ApplyDefaultWorlds = false
-
-	#A list of dimension IDs which will be prevented from receiving a default world definition.
-	ApplyDefaultWorldsBlacklist = []
-
-	[defaults.default_block]
-		#The strength of the block[s] as a beam supporting blocks above.
-		#Range: 0.0 ~ 1.0
-		BeamStrength = 0.0
-
-		#The chance of the block[s] breaking after falling and landing.
-		#Range: 0.0 ~ 1.0
-		BreakChanceOnLanded = 0.2
-
-		#Whether the block[s] should break instead of falling.
-		BreakOnFalling = false
-
-		#The minimum velocity, in meters per tick, the block[s] must land at before they have a chance of breaking.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		BreakVelocityMinOnLanded = 0.5
-
-		#The damage the block[s] will cause to entities after falling and landing on them.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		EntityDamage = 2.0
-
-		#Whether the block[s] should have a fake full-block collision box.
-		FakeFullBlock = false
-
-		#Whether the block[s] should be allowed to float on water.
-		FloatsOnWater = false
-
-		#Whether the block[s] should be allowed to attach to the side of other blocks.
-		IsAttachable = true
-
-		#Whether the block[s] should be allowed to attach to the bottom of other blocks.
-		IsHangable = true
-
-		#The mass of the block[s], in kilograms.
-		#Range: > 1
-		Mass = 650
-
-		#Whether the block[s] will receive chunk updates.
-		ReceivesChunkUpdates = true
-
-		#Whether the block[s] will receive neighbouring block updates.
-		ReceivesNeighbourUpdates = true
-
-		#The chance of the block[s] sliding after falling and landing.
-		#Range: 0.0 ~ 1.0
-		SlideChanceOnLanded = 0.6
-
-		#The chance of the block[s] sliding after being placed.
-		#Range: 0.0 ~ 1.0
-		SlideChanceOnPlaced = 0.0
-
-		#The maximum mass the block[s] can support horizontally and vertically.
-		#Range: > 0
-		SupportMass = 3000
-
-[main]
-	#The chance of crushable blocks dropping their items when crushed.
+[Physics]
+	#The chance of blocks dropping their items when breaking due to physics.
 	#Range: 0.0 ~ 1.0
-	CrushedBlockItemDropChance = 1.0
-
-	#The chance of falling blocks dropping their items when broken.
-	#Range: 0.0 ~ 1.0
-	FallingBlockItemDropChance = 1.0
+	BrokenBlockItemDropChance = 1.0
 
 	#Whether falling blocks that fall into the same position should be relocated instead of broken.
 	FallingBlockRelocation = true
 
-	#Whether falling blocks should emit sounds.
-	FallingBlockSounds = true
+	#Whether blocks should be able to connect to each other diagonally. Only blocks with 'CanAttachDiagonally' enabled will be affected.
+	DiagonalBlockConnections = true
 
-	#Whether physics for vanilla falling blocks should be overridden.
-	OverrideVanillaPhysics = true
+	#Whether blocks should be able to be crushed if the weight above them exceeds their strength.
+	BlocksCanBeCrushed = true
 
-	#Specifies which physics engine to use for block physics calculations.
-	#	0: Default
-	#	1: Legacy
-	#	2: Simple
-	#Range: 0 ~ 2
-	PhysicsEngine = 0
+	#A global dampening factor to apply to the base damage of entities when struck by falling blocks.
+	#	+ Increase this value to reduce the damage applied to entities when struck by falling blocks.
+	#	- Lower this value to increase the damage applied to entities when struck by falling blocks.
+	#Range: 1 ~ 5000
+	FallingBlockDamageDampening = 500
 
-[performance]
-	#Dictates the requirements for a chunk update (a full physics update on all its blocks).
-	#	0: Chunks will update as they are loaded. (worst performance)
-	#	1: Chunks will only update whenever the player enters or interacts with a chunk.
-	#	2: Chunks will only update whenever the player interacts with a chunk.
-	#	3: Chunks will not receive initial updates. (best performance)
-	#Range: 0 ~ 3
-	ChunkUpdateMode = 0
+[Performance]
+	#The maximum number of falling blocks that can be added to a level within a single tick.
+	#Range: 1 ~ 50
+	FallingBlockRate = 2
 
-	#The maximum distance, in chunks, where block physics are updated.
-	#	+ Raise this value to allow blocks to fall from further away.
-	#	- Lower this value to help improve performance.
-	#Range: 0 ~ 32
-	ChunkUpdateRange = 4
+	#Whether to perform more detailed integrity scans on blocks.
+	#When the support of a block is removed, but is not touching the block it was supporting, a scan can be performed on all potentially affected nearby blocks to recalculate physics.
+	DetailedIntegrityScans = true
 
-	#The maximum amount of falling blocks, per update, which can be added to the world.
-	#	+ Raise this value to allow for faster falling structures.
-	#	- Lower this value to help improve performance.
-	#Range: 0 ~ 100
-	FallingBlockFallRate = 2
+[Audio]
+	#The volume at which to sound falling blocks that have impacted with the ground.
+	#Range: 0.0 ~ 1.0
+	BlockImpactVolume = 1.0
 
-	#The delay, in ticks, between movement update processing.
-	#	+ Raise this value to help improve performance.
-	#	- Lower this value to allow for faster falling structures.
-	#Range: 0 ~ 20
-	TickSkips = 0
+[Defaults]
+	#Specifies the default world definition to give to dimensions that do not have one specified.
+	#Leave this empty if you do not wish to apply physics to dimensions that do not have a specified world definition.
+	DefaultWorldDefinition = ""
 

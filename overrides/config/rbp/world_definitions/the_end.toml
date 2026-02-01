@@ -1,24 +1,41 @@
+#A list of dimension IDs that should be affected by this definition.
+Dimensions = []
 
-[the_end]
-	#The maximum altitude that chunk updates will occur on blocks in the dimension[s].
-	#Range: 0 ~ 255
-	ChunkUpdateAltitudeMax = 255
+#Whether block physics should be enabled for the dimension(s).
+PhysicsEnabled = true
 
-	#The minumum altitude that chunk updates will occur on blocks in the dimension[s].
-	#Range: 0 ~ 255
-	ChunkUpdateAltitudeMin = 0
+[ChunkAnalysis]
+	#Whether chunk analysis should be enabled (full physics scans on the blocks of a chunk).
+	#Disabling chunk analysis can help to improve performance.
+	Enabled = true
 
-	#A list of dimension IDs to be affected by this definition.
-	Dimensions = ["minecraft:the_end"]
+	#The maximum altitude that chunk analysis updates will occur on blocks.
+	#Range: > -2147483648
+	MaxAltitude = 256
 
-	#The maximum altitude that block neighbour updates will occur on blocks in the dimension[s].
-	#Range: 0 ~ 255
-	NeighbourUpdateAltitudeMax = 255
+	#The minimum altitude that chunk analysis updates will occur on blocks.
+	#Range: > -2147483648
+	MinAltitude = 0
 
-	#The minimum altitude that block neighbour updates will occur on blocks in the dimensions[s].
-	#Range: 0 ~ 255
-	NeighbourUpdateAltitudeMin = 0
+[Physics]
+	#Specifies which physics engine to use for block physics calculations.
+	#Please take care when changing physics engines on existing worlds.
+	#	 realistic: The most realistic experience.
+	#	 legacy: The old physics engine used in versions prior to 1.12.2-2.0.0.
+	#	 simple: A more casual experience. Blocks will only fall if they are not connected to anything.
+	PhysicsEngine = "realistic"
 
-	#A list of block IDs and block definition names which will be excluded from the dimension[s].
-	PhysicsBlacklist = ["end_stone", "obsidian"]
+	[Physics.CaveStrengthening]
+		#Whether cave strengthen calculations should accept liquid pockets as stable areas.
+		IgnoreLiquidPockets = false
+
+		#A factor of additional strengthening to apply to caves.
+		#Range: 0 ~ 5
+		StrengthenFactor = 3
+
+[Defaults]
+	#Specifies the default block definition to give to blocks that do not have one specified.
+	#Leave this empty if you do not wish to apply physics to blocks that do not have a specified block definition.
+	#Note: Setting this to a block definition that has been blacklisted will only allow it to be applied to blocks that are not within that original block definition.
+	DefaultBlockDefinition = ""
 
