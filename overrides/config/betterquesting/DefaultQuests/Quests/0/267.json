@@ -21,7 +21,8 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 4,
-          "id:8": "hbm:radaway"
+          "id:8": "hbm:radaway",
+          "Damage:2": 0
         }
       }
     }

@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    10261,
+    10039,
+    50030
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6FEnSU§f (Field-amplified Energy Storage Unit) is the §bultimate energy storage§f system.\n\n§eCapacity:§f Stores massive amounts of HE - far beyond any other storage solution.\n\n§eConstruction:§f\n• Requires §bDineutronium§f components\n• End-game materials needed\n• Significant power infrastructure investment\n\n§eUses:§f\n• Buffer for massive power spikes\n• Store energy from intermittent sources\n• Support high-power machinery\n• Essential for end-game operations\n\n§aTip:§f Use FEnSU as the backbone of your late-game power infrastructure. It can handle the massive energy demands of end-game machinery.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_battery_redd"
+      },
+      "name:8": "FEnSU"
+    }
+  },
+  "questID:3": 10278,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon",
+          "Damage:2": 0
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "hbm:fusion_core",
+          "Damage:2": 0
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_battery_redd"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

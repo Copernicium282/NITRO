@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    10066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Desh Servo Set§f is a component for §bautomated machinery§f and robotics.\n\n§eUses:§f\n• Required for automated machine components\n• Essential for transport drones and conveyors\n• Used in assembly machine recipes\n\n§eCrafting:§f\n• Made from §bDesh§f and electrical components\n• Requires mid-tier manufacturing\n\n§aTip:§f Keep a stock of servo sets for automation projects.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:servo_set_desh"
+      },
+      "name:8": "Desh Servo Set"
+    }
+  },
+  "questID:3": 10011,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:servo_set_desh"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:syringe_metal_stimpak",
+          "Damage:2": 0
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "hbm:bottle_nuka",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

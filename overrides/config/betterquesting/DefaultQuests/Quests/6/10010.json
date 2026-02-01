@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    10032,
+    10082,
+    50022
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6PWR§f (Pressurized Water Reactor) is a 3D modular fission reactor.\n\n§eTask Requirements:§f\n• §bPWR Controller§f\n• §bPWR Ports§f (x2)\n• §bPWR Fuel§f\n• §bPWR Neutron Source§f\n\n§eKey Differences from RBMK:§f\n• §b3D modular design§f - not grid-based\n• Uses §bexternal boilers§f for steam (not internal)\n• §aSafest meltdown§f of all reactor types\n• Pressurized water coolant loop\n\n§eSetup:§f\n1. Build vessel with PWR blocks\n2. Add Controller for operation\n3. Connect Ports for coolant/steam\n4. Insert fuel and neutron source\n\n§eCoolant Loop:§f\nPWR → External Boiler → Steam → Turbines → Power\n\n§aTip:§f More forgiving than RBMK - good for learning reactor mechanics.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pwr_controller"
+      },
+      "name:8": "PWR"
+    }
+  },
+  "questID:3": 10010,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_lead",
+          "Damage:2": 0
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "hbm:radaway",
+          "Damage:2": 0
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pwr_controller"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "hbm:pwr_port"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pwr_fuel"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pwr_neutron_source"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

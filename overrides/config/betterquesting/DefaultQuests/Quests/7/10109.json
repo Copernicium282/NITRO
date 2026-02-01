@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    10024,
+    10088
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Quantum Processing Unit§f is the §bmid-tier quantum computing§f component.\n\n§eTask:§f Craft 1x §bhbm:circuit§f (QPU tier)\n\n§eChain Position:§f\nSSQP → §bQuantum Processing Unit§f (this) → Quantum Computer → Gerald\n\n§eQuantities Needed:§f\n• Multiple QPUs per Quantum Computer\n• 64 Quantum Computers for Gerald\n• Plan for hundreds of QPUs total\n\n§aTip:§f This is a mid-chain component - focus on automating the full chain.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 15,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Quantum Processing Unit"
+    }
+  },
+  "questID:3": 10109,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

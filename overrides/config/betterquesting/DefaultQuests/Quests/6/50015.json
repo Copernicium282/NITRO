@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    50017,
+    10067
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RBMK Fuel Processing§f enables reprocessing of reactor waste.\n\n§eProcess:§f\n1. Use §bNuclear Waste Disposal Drum§f for waste decay\n2. Process with §bSILEX§f for isotope separation\n3. Extract valuable materials\n\n§eProducts:§f\nRBMK fuels yield many materials through reprocessing:\n• Uranium isotopes\n• Plutonium\n• Rare elements (Technetium, Bismuth via SILEX)\n\n§aTip:§f Don't waste spent RBMK fuel - it contains valuable materials.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "hbm:weapon_mod_test"
+      },
+      "name:8": "RBMK Fuel Processing"
+    }
+  },
+  "questID:3": 50015,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_lead",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

@@ -5,20 +5,33 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import mods.nuclearcraft.Centrifuge;
 import mods.nuclearcraft.Crystallizer;
+import mods.nuclearcraft.IngotFormer;
+import mods.nuclearcraft.SaltMixer;
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.AlloyFurnace;
 import mods.nuclearcraft.FissionIrradiator;
 import mods.nuclearcraft.FuelReprocessor;
 import mods.ncsteamadditions.steam_crusher;
 
-//NCSteamAdditions Tweaks
-mods.nuclearcraft.FissionIrradiator.removeRecipeWithOutput(<ncsteamadditions:core_of_transformation>);
-mods.ncsteamadditions.steam_crusher.addRecipe(<hbm:machine_schrabidium_transmutator>, <liquid:schrabidic>*1000, <ncsteamadditions:core_of_transformation>*4);
-recipes.removeByRecipeName("ncsteamadditions:tile.ncsteamadditions.heat_exchanger");
-recipes.addShaped("Heat Exchanger", <ncsteamadditions:heat_exchanger>,
-[[<minecraft:glass_pane>, <nuclearcraft:heat_exchanger_tube_thermoconducting>, <minecraft:glass_pane>],
-[<ncsteamadditions:copper_sheet>, <nuclearcraft:heat_exchanger_tube_thermoconducting>, <ncsteamadditions:copper_sheet>],
-[<minecraft:iron_bars>, <ncsteamadditions:pipe>, <minecraft:iron_bars>]]);
+// HBM Integration
+// Gate Basic plating to require crucible
+recipes.remove(<nuclearcraft:part:0>*2);
+// added hbm anvil recipe via cast steel plate to 4 basic plating
+
+// make Solenoid and Copper Coil equivalent
+recipes.remove(<nuclearcraft:part:4>*2);
+// added hbm anvil recipe via 1 copper coil to 1 solenoid
+
+// make Electric Motor and Motor equivalent
+recipes.remove(<nuclearcraft:part:8>);
+// added hbm anvil recipe via 1 Electric Motor to 1 Motor
+
+// Servomechanism uses motors
+recipes.removeByRecipeName("nuclearcraft:part_7");
+recipes.addShaped("Servo", <nuclearcraft:part:7>,
+[[null, null, null],
+[<hbm:motor>, <minecraft:redstone>, <hbm:motor>],
+[<nuclearcraft:alloy:6>, <ore:ingotSteel>, <nuclearcraft:alloy:6>]]);
 
 //some recipes
 mods.nuclearcraft.Crystallizer.addRecipe(<liquid:polonium>*576, <nuclearcraft:fission_dust:2>*4);
@@ -59,7 +72,11 @@ mods.nuclearcraft.Extractor.addRecipe(<nuclearcraft:part:13>*2, <nuclearcraft:fl
 //Sic-Sic Ceramic Composite Matrix ingot making
 mods.nuclearcraft.AlloyFurnace.addRecipe(<nuclearcraft:alloy:14>*2, <nuclearcraft:fluid_sic_vapor>*2, <nuclearcraft:alloy:14>*1);
 
-//Recipes modification
+// Make decay hastener more hard to craft
+recipes.removeByRecipeName("nuclearcraft:assembler");
+mods.nuclearcraft.Assembler.addRecipe(<nuclearcraft:part:10>, <nuclearcraft:part:1>*4, <nuclearcraft:upgrade:0>*16, <hbm:nugget_euphemium>, <nuclearcraft:assembler>);
+
+//Basic Recipes modification
 
 recipes.removeByRecipeName("nuclearcraft:solar_panel_basic_1");
 recipes.addShaped("BasicSolarPanel", <nuclearcraft:solar_panel_basic>,
@@ -76,7 +93,7 @@ recipes.addShaped("DecayHastener", <nuclearcraft:decay_hastener>,
 recipes.removeByRecipeName("nuclearcraft:voltaic_pile_basic");
 recipes.addShaped("VoltaicPileBasic", <nuclearcraft:voltaic_pile_basic>.withTag({energyStorage: {energy: 0 as long, capacity: 160000 as long}}),
 [[<nuclearcraft:part>, <nuclearcraft:ingot:7>, <nuclearcraft:part>],
-[<nuclearcraft:part:4>, <hbm:battery_red_cell_6>, <nuclearcraft:part:4>],
+[<nuclearcraft:part:4>, <nuclearcraft:lithium_ion_cell>, <nuclearcraft:part:4>],
 [<nuclearcraft:part>, <nuclearcraft:ingot:7>, <nuclearcraft:part>]]);
 
 recipes.addShaped("MolybdenumDust", <nuclearcraft:fission_dust:6>,

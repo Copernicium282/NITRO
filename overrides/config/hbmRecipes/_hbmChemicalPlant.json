@@ -345,6 +345,84 @@
       "power": 100
     },
     {
+      "name": "chem.batterylead",
+      "inputItem": [
+        ["dict","plateSteel",4],
+        ["dict","ingotLead",4]
+      ],
+      "inputFluid": [
+        ["SULFURIC_ACID",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:battery_pack",1,1]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "chem.batterylithium",
+      "inputItem": [
+        ["dict","dustLithium",12],
+        ["dict","dustCobalt",8],
+        ["dict","ingotAnyPlastic",4]
+      ],
+      "inputFluid": [
+        ["OXYGEN",2000]
+      ],
+      "outputItem": [
+        ["single",["hbm:battery_pack",1,2]]
+      ],
+      "duration": 100,
+      "power": 1000
+    },
+    {
+      "name": "chem.batterysodium",
+      "inputItem": [
+        ["dict","dustSodium",24],
+        ["dict","dustIron",24],
+        ["dict","ingotAnyHardPlastic",12]
+      ],
+      "outputItem": [
+        ["single",["hbm:battery_pack",1,3]]
+      ],
+      "duration": 100,
+      "power": 10000
+    },
+    {
+      "name": "chem.batteryschrabidium",
+      "inputItem": [
+        ["dict","dustSchrabidium",24],
+        ["dict","plateTripleAnyBismoidBronze",8]
+      ],
+      "inputFluid": [
+        ["HELIUM4",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:battery_pack",1,4]]
+      ],
+      "duration": 100,
+      "power": 25000
+    },
+    {
+      "name": "chem.batteryquantum",
+      "inputItem": [
+        ["dict","wireDenseBSCCO",24],
+        ["item","hbm:pellet_charged",32],
+        ["item","hbm:ingot_cft",16]
+      ],
+      "inputFluid": [
+        ["PERFLUOROMETHYL_COLD",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:battery_pack",1,5]]
+      ],
+      "outputFluid": [
+        ["PERFLUOROMETHYL",8000]
+      ],
+      "duration": 100,
+      "power": 100000
+    },
+    {
       "name": "chem.desh",
       "inputItem": [
         ["item","hbm:powder_desh_mix"]
@@ -821,6 +899,20 @@
       "duration": 100,
       "power": 10000,
       "icon": ["hbm:fluid_icon",1,41]
+    },
+    {
+      "name": "chem.dhc",
+      "inputFluid": [
+        ["DEUTERIUM",500],
+        ["REFORMGAS",250],
+        ["SYNGAS",250]
+      ],
+      "outputFluid": [
+        ["DHC",500]
+      ],
+      "duration": 400,
+      "power": 500,
+      "icon": ["hbm:fluid_icon",1,205]
     },
     {
       "name": "chem.osmiridiumdeath",

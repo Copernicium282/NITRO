@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    10032,
+    10064,
+    10066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6PUREX§f (Plutonium Uranium Reduction EXtraction) is a 5x5x5 pseudo-multiblock for advanced nuclear fuel reprocessing.\n\n§ePurpose:§f\n• Reprocess depleted fuel to recover §bPlutonium§f and §bUranium§f\n• §bVitrify liquid nuclear waste§f into stable glass\n• Extract §bSchrabidium§f from advanced fuels\n\n§eRequired Fluids:§f §bNitric Acid§f and §bKerosene§f (fed into 3 input slots)\n\n§eRecipe Groups (Auto-Switch):§f\n1. Reprocessing §bZIRNOX Fuel§f\n2. Reprocessing §bPlate Fuel§f\n3. Reprocessing §bPWR Fuel§f\n4. Reprocessing §bWatz Pellets§f\n5. §bSchrabidium Extraction§f\n\n§eSchrabidium Extraction:§f From §bSchraranium§f, ZIRNOX plutonium fuel, or PWR MEP/MEN fuel - §amore efficient than centrifuging§f.\n\n§aPower:§f Internal buffer of §b1.0 MHE§f - dedicate power infrastructure.\n\n§aTips:§f\n• §aAuto-Switch Groups§f - Set to one recipe and machine auto-switches within that group\n• Use §bTemplate Button§f (like Chemical Plant) to lock recipes\n• Higher yields than lower-tier reprocessing methods",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_purex"
+      },
+      "name:8": "PUREX"
+    }
+  },
+  "questID:3": 50016,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_purex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_lead",
+          "Damage:2": 0
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "hbm:radaway",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

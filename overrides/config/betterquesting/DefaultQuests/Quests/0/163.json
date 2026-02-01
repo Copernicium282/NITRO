@@ -28,14 +28,8 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "ironbackpacks:backpack",
-          "tag:10": {
-            "packInfo:10": {
-              "spec:8": "STORAGE",
-              "type:8": "ironbackpacks:iron",
-              "upgrade:9": {}
-            }
-          }
+          "id:8": "hbm:crate_supply",
+          "Damage:2": 0
         }
       }
     }

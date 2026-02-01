@@ -1,0 +1,89 @@
+{
+  "preRequisites:11": [
+    10032
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Refinery Power§f covers energy requirements for petroleum processing.\n\n§eKey Points:§f\n• Oil Refinery itself needs no power (thermodynamic)\n• Boilers need fuel to heat oil\n• Supporting equipment needs electricity\n\n§ePower Planning:§f\n• Calculate total chain requirements\n• Include pumps, mixers, furnaces\n• Ensure stable power supply\n\n§aTip:§f A refinery complex needs dedicated power infrastructure.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_turbofan"
+      },
+      "name:8": "Refinery Power"
+    }
+  },
+  "questID:3": 10075,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_combustion_engine"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_turbofan"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "hbm:machine_turbinegas",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_flare"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heater_oilburner"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:definitelyfood",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

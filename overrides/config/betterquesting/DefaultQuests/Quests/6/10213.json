@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    10006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Leviathan Steam Turbine§f processes §bmassive amounts of Steam§f for power generation.\n\n§ePower Class:§f\n§aFar more powerful than Industrial Steam Turbines§f - the ultimate turbine.\n\n§eCapability:§f\n• Only limited by fluid transfer rates\n• Handles enormous steam throughput\n• Maximum power extraction\n\n§eUse Cases:§f\n• Fusion Reactor steam output\n• Multiple large boilers\n• Industrial-scale power generation\n\n§aTip:§f The final turbine upgrade - handles anything you can feed it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_chungus"
+      },
+      "name:8": "Leviathan Steam Turbine"
+    }
+  },
+  "questID:3": 10213,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_chungus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon",
+          "Damage:2": 0
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "hbm:fusion_core",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

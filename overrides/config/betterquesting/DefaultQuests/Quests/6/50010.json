@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    10067,
+    50023,
+    50018
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Uranium-238§f is the most common uranium isotope in HBM's Nuclear Tech.\n\n§eUses:§f\n• §bFerrouranium§f alloy production\n• §bMOX fuel§f (Mixed Oxide) for reactors\n• §bDepleted Uranium ammunition§f - armor-piercing rounds\n• §bWatz absorber pellets§f\n• Conversion to §bSchrabidium§f in §bExposure Chamber§f (with Higgs Boson)\n\n§eObtaining:§f\n• Standard uranium ore processing\n• Gas Centrifuge byproduct (primary output)\n• Nuclear fuel reprocessing\n\n§aTip:§f Don't discard U-238 - it has many valuable applications.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_u238"
+      },
+      "name:8": "Uranium-238"
+    }
+  },
+  "questID:3": 50010,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_u238"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:radaway",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

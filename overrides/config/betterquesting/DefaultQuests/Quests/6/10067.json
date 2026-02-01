@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    10032,
+    10064,
+    10066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6FEL§f and §6SILEX§f work together for advanced isotope separation.\n\n§eTask Requirements:§f\n• §bFEL Machine§f (Free Electron Laser)\n• §bSILEX Machine§f (Separation of Isotopes by Laser Excitation)\n• §bCO2-Desh Laser Crystal§f\n\n§eFEL (7x3x3 multiblock):§f\nGenerates high-intensity laser beams. Wavelength/power set by laser crystal.\n\n§eSILEX:§f\nUses FEL laser to separate isotopes from liquid compounds.\n• Place §b2+ blocks from FEL§f in laser path\n• §aOne beam powers up to 5 SILEXes§f\n\n§eCrystal Power Requirements:§f\n• §bCO2-Desh§f - 75 kHE/s\n• §bBiSmUTh§f - 300 kHE/s\n• §bSpark§f - 4.8 MHE/s\n\n§eSILEX Capabilities:§f\n• Uranium/Plutonium enrichment\n• Nuclear waste processing\n• Mineral extraction (Lapis → Cobalt)\n\n§c§4WARNING:§f Laser destroys most blocks! Use §bConcrete§f or §bQuartz Glass§f walls.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_fel"
+      },
+      "name:8": "FEL and SILEX"
+    }
+  },
+  "questID:3": 10067,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_fel"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_silex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:laser_crystal_co2"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon",
+          "Damage:2": 0
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gun_am180",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

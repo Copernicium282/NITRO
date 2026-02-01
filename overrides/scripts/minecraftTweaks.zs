@@ -14,7 +14,7 @@ mods.nuclearcraft.Pressurizer.addRecipe(<hbm:powder_coltan>*1, <minecraft:ghast_
 recipes.removeByRecipeName("rflux:lightblock_off");
 recipes.addShaped("UpgradedRFLUXlight", <rflux:lightblock_off>.withTag({color: 0}),
 [[<nuclearcraft:part:0>, <minecraft:glowstone_dust>, <nuclearcraft:part:0>],
-[<minecraft:glowstone_dust>, <hbm:battery_red_cell>.withTag({charge: 0 as long}), <minecraft:glowstone_dust>],
+[<minecraft:glowstone_dust>, <nuclearcraft:lithium_ion_cell>, <minecraft:glowstone_dust>],
 [<nuclearcraft:part:0>, <minecraft:glowstone_dust>, <nuclearcraft:part:0>]]);
 
 //Flint from gravel

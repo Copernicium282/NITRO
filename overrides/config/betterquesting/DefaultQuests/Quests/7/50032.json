@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    10109
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Particle Accelerator§f accelerates particles to near-light speeds for high-energy physics research and material production.\n\n§eCapabilities:§f\n• Produces §bexotic particles§f (Higgs Boson, W-Boson, Z-Boson)\n• Creates §bAntimatter§f\n• Enables §bnuclear transmutation§f\n• Generates §bionized particles§f\n\n§eOperation:§f\n• Requires massive power input\n• Accelerates particles through electromagnetic fields\n• Collisions produce rare particles and materials\n\n§eKey Products:§f\n• §bHiggs Boson Capsules§f - for Exposure Chamber transmutation\n• §bAntimatter§f - for high-energy fuels and explosives\n• §bIonized Particles§f - for various research recipes\n\n§c§4HIGH POWER CONSUMPTION:§f The accelerator draws enormous amounts of energy. Dedicate substantial power infrastructure.\n\n§aTips:§f\n• Combine with §bExposure Chamber§f for Schrabidium production\n• Automate particle capsule collection\n• Essential for end-game progression\n• Consider multiple units for bulk production",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pa_detector"
+      },
+      "name:8": "Particle Accelerator"
+    }
+  },
+  "questID:3": 50032,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon",
+          "Damage:2": 0
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pa_detector"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pa_source"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pa_dipole"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pa_quadrupole"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pa_rfc"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pa_beamline"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

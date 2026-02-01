@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    10058
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Balefire§f is an extremely dangerous thermonuclear material.\n\n§eTask Requirements:§f\n• §bBalefire Egg Shard§f\n• §bDefuser§f\n\n§eProperties:§f\n• Burns with nuclear intensity\n• Creates persistent radiation\n• Cannot be extinguished normally\n• Self-sustaining reaction\n\n§eUses:§f\n• §bBalefire Bombs§f - Devastating explosives\n• §bBF Rocket Fuel§f (Balefire + Antimatter) - Most powerful fuel\n\n§c§4EXTREME DANGER:§f\nHandle with maximum radiation protection!\nEffects are catastrophic and long-lasting.\n\n§aTip:§f Only use when you truly need ultimate destructive power.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:egg_balefire_shard"
+      },
+      "name:8": "Balefire"
+    }
+  },
+  "questID:3": 50008,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:egg_balefire_shard"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:defuser"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon",
+          "Damage:2": 0
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "hbm:grenade_nuclear",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

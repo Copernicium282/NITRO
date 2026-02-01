@@ -2,24 +2,9 @@
   "comment": "Inputs are always 100mB, set output quantities accordingly. The steam in/outputs are fixed, using 200mB of steam per 100mB of input.",
   "recipes": [
     {
-      "input": "DIESEL",
-      "output1": ["KEROSENE",40],
-      "output2": ["PETROLEUM",30]
-    },
-    {
-      "input": "BITUMEN",
-      "output1": ["OIL",80],
-      "output2": ["AROMATICS",20]
-    },
-    {
       "input": "XYLENE",
       "output1": ["AROMATICS",80],
       "output2": ["PETROLEUM",20]
-    },
-    {
-      "input": "HEATINGOIL_VACUUM",
-      "output1": ["HEATINGOIL",80],
-      "output2": ["REFORMGAS",20]
     },
     {
       "input": "REFORMATE",
@@ -27,19 +12,9 @@
       "output2": ["REFORMGAS",60]
     },
     {
-      "input": "KEROSENE",
-      "output1": ["PETROLEUM",60],
-      "output2": ["NONE",0]
-    },
-    {
       "input": "WOODOIL",
       "output1": ["HEATINGOIL",40],
       "output2": ["AROMATICS",10]
-    },
-    {
-      "input": "OIL",
-      "output1": ["CRACKOIL",80],
-      "output2": ["PETROLEUM",20]
     },
     {
       "input": "SMEAR",
@@ -47,14 +22,39 @@
       "output2": ["PETROLEUM",40]
     },
     {
+      "input": "GAS",
+      "output1": ["PETROLEUM",30],
+      "output2": ["UNSATURATEDS",20]
+    },
+    {
+      "input": "DIESEL",
+      "output1": ["KEROSENE",40],
+      "output2": ["PETROLEUM",30]
+    },
+    {
+      "input": "HEATINGOIL_VACUUM",
+      "output1": ["HEATINGOIL",80],
+      "output2": ["REFORMGAS",20]
+    },
+    {
+      "input": "OIL",
+      "output1": ["CRACKOIL",80],
+      "output2": ["PETROLEUM",20]
+    },
+    {
+      "input": "BITUMEN",
+      "output1": ["OIL",80],
+      "output2": ["AROMATICS",20]
+    },
+    {
       "input": "DIESEL_CRACK",
       "output1": ["KEROSENE",40],
       "output2": ["PETROLEUM",30]
     },
     {
-      "input": "GAS",
-      "output1": ["PETROLEUM",30],
-      "output2": ["UNSATURATEDS",20]
+      "input": "KEROSENE",
+      "output1": ["PETROLEUM",60],
+      "output2": ["NONE",0]
     }
   ]
 }

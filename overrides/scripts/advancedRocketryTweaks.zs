@@ -44,9 +44,9 @@ recipes.addShaped("SolarPanel", <advancedrocketry:solarpanel>,
 
 recipes.removeByRecipeName("advancedrocketry:warpcore");
 recipes.addShaped("CostlyWarpCore", <advancedrocketry:warpcore>,
-[[<libvulpes:productplate:10>, <hbm:circuit_schrabidium>, <libvulpes:productplate:10>],
+[[<libvulpes:productplate:10>, <hbm:circuit:11>, <libvulpes:productplate:10>],
 [<ore:plateSteel>, <hbm:block_schrabidium>, <ore:plateSteel>],
-[<libvulpes:productplate:10>, <hbm:circuit_schrabidium>, <libvulpes:productplate:10>]]);
+[<libvulpes:productplate:10>, <hbm:circuit:11>, <libvulpes:productplate:10>]]);
 
 recipes.removeByRecipeName("advancedrocketry:engine");
 recipes.addShaped("rocketmotor", <advancedrocketry:rocketmotor>,
@@ -56,9 +56,9 @@ recipes.addShaped("rocketmotor", <advancedrocketry:rocketmotor>,
 
 recipes.removeByRecipeName("advancedrocketry:advengine");
 recipes.addShaped("advrocketmotor", <advancedrocketry:advrocketmotor>,
-[[null, <hbm:hull_big_titanium>, null],
+[[null, <hbm:bolt:33>, null],
 [<ore:plateTitaniumIridium>, <hbm:mp_thruster_10_solid>, <ore:plateTitaniumIridium>],
-[null, <hbm:hull_big_titanium>, null]]);
+[null, <hbm:bolt:33>, null]]);
 
 recipes.removeByRecipeName("advancedrocketry:bipropellantengine");
 recipes.addShaped("bipropellantrocketmotor", <advancedrocketry:bipropellantrocketmotor>,
@@ -68,13 +68,13 @@ recipes.addShaped("bipropellantrocketmotor", <advancedrocketry:bipropellantrocke
 
 recipes.removeByRecipeName("advancedrocketry:advbipropellantengine");
 recipes.addShaped("advbipropellantrocketmotor", <advancedrocketry:advbipropellantrocketmotor>,
-[[null, <hbm:hull_big_titanium>, null],
+[[null, <hbm:bolt:33>, null],
 [<ore:plateTitaniumIridium>, <hbm:mp_thruster_15_hydrogen>, <ore:plateTitaniumIridium>],
-[null, <hbm:hull_big_titanium>, null]]);
+[null, <hbm:bolt:33>, null]]);
 
 recipes.removeByRecipeName("advancedrocketry:nuclearengine");
 recipes.addShaped("nuclearrocketmotor", <advancedrocketry:nuclearrocketmotor>,
-[[null, <hbm:hull_big_titanium>, null],
+[[null, <hbm:bolt:33>, null],
 [<ore:plateTitaniumAluminide>, <hbm:mp_thruster_15_balefire_large>, <ore:plateTitaniumAluminide>],
 [null, <ore:gemDilithium>, null]]);
 
@@ -106,7 +106,7 @@ recipes.addShaped("oxidizerfueltank", <advancedrocketry:oxidizerfueltank>,
 
 recipes.addShaped("nuclearfissioncore", <advancedrocketry:nuclearcore>,
 [[<ore:plateTitanium>, <hbm:fuse>, <ore:plateTitanium>],
-[<ore:plateTitanium>, <hbm:reactor_element>, <ore:plateTitanium>],
+[<ore:plateTitanium>, <hbm:machine_reactor_small_new>, <ore:plateTitanium>],
 [<ore:plateTitanium>, <ore:gemDilithium>, <ore:plateTitanium>]]);
 
 recipes.removeByRecipeName("advancedrocketry:satellite");
@@ -129,7 +129,7 @@ recipes.addShaped("planetidchipupgraded", <advancedrocketry:planetidchip>,
 
 recipes.removeByRecipeName("advancedrocketry:spacestationchip");
 recipes.addShaped("spacestationidchipupgraded", <advancedrocketry:spacestationchip>,
-[[<hbm:circuit_bismuth>, <libvulpes:linker>, null],
+[[<contenttweaker:expensive_versatile_circuit>, <libvulpes:linker>, null],
 [null, null, null],
 [null, null, null]]);
 

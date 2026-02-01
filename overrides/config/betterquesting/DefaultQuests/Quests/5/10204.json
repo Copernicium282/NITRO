@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    10064,
+    10032
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Electrolysis Machine§f is a large multiblock for §bhigh-efficiency fluid separation§f and §badvanced ore processing§f. Critical for maximizing resource yields.\n\n§eMode 1 (Fluid Separation):§f\nAccepts compatible fluids and splits into two products:\n• §b2000mB Water§f → 200mB §bLiquid Oxygen§f + 200mB §bLiquid Hydrogen§f\n• §b2000mB Heavy Water§f → 200mB Liquid Oxygen + 200mB §bDeuterium§f\n• §b250mB Potassium Chloride Solution§f → 125mB §bChlorine Gas§f + 1 Dust\n• §b250mB Calcium Chloride Solution§f → 125mB Chlorine Gas + 125mB Calcium Solution\n\n§eMode 2 (Ore Processing):§f\nRequires §bNitric Acid§f - processes ore-derived crystals for maximum yield:\n• §aMain Output (Green):§f §e6 ingots§f of molten metal\n• §aSecondary (Red):§f §e2 ingots§f of molten metal\n• §aByproduct:§f §e3 nuggets§f (typically Lithium)\n\n§eOutlet mechanics§f same as Crucible - direct piping or mold casting.\n\n§ePower:§f Consumes §e200kHE/s§f (requires dedicated energy infrastructure).\n\n§aTips:§f\n• Place §bStrand Caster§f directly underneath for rapid ingot casting\n• Use as §bfinal step§f in ore processing chain (after Ore Acidizer crystals)\n• §aInstall Power Saving upgrade (level 2+)§f to significantly reduce consumption with minimal speed penalty",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_electrolyser"
+      },
+      "name:8": "Electrolysis Machine"
+    }
+  },
+  "questID:3": 10204,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_electrolyser"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

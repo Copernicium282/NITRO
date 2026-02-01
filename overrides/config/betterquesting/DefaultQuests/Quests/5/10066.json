@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    10047
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Desh§f is a high-tier metal with exceptional properties.\n\n§eObtaining:§f\n• Meteor mining\n• Advanced processing\n\n§eProperties:§f\n• High durability\n• Essential for mid-to-late game\n• Used in many advanced recipes\n\n§eUses:§f\n• §bDesh Anvil§f\n• §bDesh Servo Sets§f\n• Various advanced components\n\n§aTip:§f Desh is gated behind meteor finds - explore for schrabidic meteors.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_desh"
+      },
+      "name:8": "Desh"
+    }
+  },
+  "questID:3": 10066,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_desh"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_supply",
+          "Damage:2": 0
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gun_carbine",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

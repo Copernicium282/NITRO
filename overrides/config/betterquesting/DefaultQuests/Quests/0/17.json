@@ -21,7 +21,8 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "hbm:machine_battery_potato"
+          "id:8": "hbm:crate_supply",
+          "Damage:2": 0
         }
       }
     }

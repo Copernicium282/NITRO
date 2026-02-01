@@ -70,16 +70,6 @@ low_quality_steam_3.addFluidInput(<liquid:low_quality_steam> * 800);
 low_quality_steam_3.addFluidOutput(<liquid:water> * 25);
 low_quality_steam_3.build();
 
-//Copper Solenoid Alt recipe
-mods.nuclearcraft.Manufactory.addRecipe(<hbm:coil_copper>, <nuclearcraft:part:4>);
-
-//Steel pipes cheap
-recipes.removeByRecipeName("hbm:pipes_steel");
-recipes.addShaped("CheapSteelPipes", <hbm:pipes_steel>,
-[[null, <hbm:hull_small_steel>, null],
-[null, <hbm:hull_small_steel>, null],
-[null, <hbm:hull_small_steel>, null]]);
-
 //Biomass Production
 //Biomass Pam Oredict
 val pamHarvestcraft = <ore:pamHarvestcraft>;

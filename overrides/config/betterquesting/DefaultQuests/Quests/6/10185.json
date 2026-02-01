@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    10166,
+    10086
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Solid Mud Brick§f is a basic construction material.\n\n§eObtaining:§f\n• Crafting from mud and clay\n• Simple production\n\n§eUses:§f\n• Early builds\n• Some specialty recipes\n• Decorative construction\n\n§aTip:§f Simple building material for early-game structures.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_mud"
+      },
+      "name:8": "Solid Mud Brick"
+    }
+  },
+  "questID:3": 10185,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_mud"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:syringe_metal_stimpak",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

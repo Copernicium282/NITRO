@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    10048,
+    10032,
+    10103,
+    10039,
+    10060
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Neutrino Lens§f focuses neutrino beams for specialized purposes.\n\n§eFunction:§f\n• Neutrino manipulation\n• Advanced physics experiments\n• Specialized detection\n\n§eUses:§f\n• End-game research\n• Exotic physics applications\n\n§aTip:§f Specialized component for high-end physics machinery.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:neutrino_lens",
+        "tag:10": {}
+      },
+      "name:8": "Neutrino Lens"
+    }
+  },
+  "questID:3": 10112,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:sat_scanner",
+          "tag:10": {}
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:neutrino_lens",
+          "tag:10": {}
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_satlinker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_weapon",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

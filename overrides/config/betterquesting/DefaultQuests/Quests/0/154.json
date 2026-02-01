@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Pam\u0027s HarvestCraft significantly expands Minecraft\u0027s §6food system§f, adding:\n\n§6Ingredients§f: §280 new crops§f (like cotton), §226 garden bushes§f, and §250 fruit/item trees§f.\n§6Resources§f: §219 new fish§f, plus a §2beekeeping system§f for items like §2candles§f, §2wax§f, and §2honey§f.\n§6Variety§f: Over §21400 new foods and items§f, along with §are-balanced vanilla recipes§f.\n§6Utility Blocks§f: Includes §2placeable cakes§f, a §2Presser§f for resource production (§2honey§f, §2paper§f), a §2Market§f for §2buying seeds/spawners§f, §2Shipping§f for selling goods, and §2Ground/Water Traps§f for catching resources with bait.\n§6Streamlined Gameplay§f: §2Plant crops directly using items§f, convert water/milk to fresh versions easily, use tofu for vegetarian recipes, and §9right-click§f to harvest and replant crops.\n\n§6Cooking for Blockheads§f complements this with a §2cooking book§f and a §2functional kitchen§f.\nUse the book or §2Cooking Table§f to quickly find recipes based on your ingredients and cook with §aone click§f.\n§bThe modular kitchen§f can be upgraded for extra storage or an oven.\nYou can even capture a §bcow in a jar§f (using an anvil, cow, and jar) for §6infinite milk§f.\n",
+      "desc:8": "Pam's HarvestCraft significantly expands Minecraft's §6food system§f, adding:\n\n§6Ingredients§f: §280 new crops§f (like cotton), §226 garden bushes§f, and §250 fruit/item trees§f.\n§6Resources§f: §219 new fish§f, plus a §2beekeeping system§f for items like §2candles§f, §2wax§f, and §2honey§f.\n§6Variety§f: Over §21400 new foods and items§f, along with §are-balanced vanilla recipes§f.\n§6Utility Blocks§f: Includes §2placeable cakes§f, a §2Presser§f for resource production (§2honey§f, §2paper§f), a §2Market§f for §2buying seeds/spawners§f, §2Shipping§f for selling goods, and §2Ground/Water Traps§f for catching resources with bait.\n§6Streamlined Gameplay§f: §2Plant crops directly using items§f, convert water/milk to fresh versions easily, use tofu for vegetarian recipes, and §9right-click§f to harvest and replant crops.\n\n§6Cooking for Blockheads§f complements this with a §2cooking book§f and a §2functional kitchen§f.\nUse the book or §2Cooking Table§f to quickly find recipes based on your ingredients and cook with §aone click§f.\n§bThe modular kitchen§f can be upgraded for extra storage or an oven.\nYou can even capture a §bcow in a jar§f (using an anvil, cow, and jar) for §6infinite milk§f.\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "harvestcraft:mcpamitem"
       },
-      "name:8": "Pam\u0027s Harvestcraft",
+      "name:8": "Pam's Harvestcraft",
       "visibility:8": "ALWAYS"
     }
   },
@@ -20,8 +20,9 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 4,
-          "id:8": "harvestcraft:mcpamitem"
+          "Count:3": 8,
+          "id:8": "hbm:definitelyfood",
+          "Damage:2": 0
         }
       }
     }

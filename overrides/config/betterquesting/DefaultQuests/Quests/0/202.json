@@ -30,5 +30,18 @@
       },
       "taskID:8": "bq_standard:retrieval"
     }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:gas_mask_filter",
+          "Damage:2": 0
+        }
+      }
+    }
   }
 }

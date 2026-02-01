@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    10066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nuclear Blast Furnace§f uses nuclear heat for ultra-high-temperature smelting.\n\n§eCapabilities:§f\n• Much higher temperatures than electric arc\n• Can process materials other furnaces cannot\n• Essential for certain exotic materials\n\n§eOperation:§f\n• Requires nuclear fuel\n• Emits radiation during operation\n• Handle output carefully\n\n§aTip:§f Use for materials requiring extreme heat processing.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_difurnace_rtg_off"
+      },
+      "name:8": "Nuclear Blast Furnace"
+    }
+  },
+  "questID:3": 10101,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_difurnace_rtg_off"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_weapon",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

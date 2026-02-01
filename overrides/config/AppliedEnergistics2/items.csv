@@ -2286,6 +2286,7 @@ hbm:concrete_colored_ext:4, Builder's Choice Concrete - Manly Pink
 hbm:concrete_colored_ext:5, Builder's Choice Concrete - Hazard Stripe
 hbm:concrete_colored_ext:6, Builder's Choice Concrete - Desert Storm
 hbm:concrete_colored_ext:7, Builder's Choice Concrete - Bronze Plating
+hbm:rebar, Rebar
 hbm:concrete_rebar, Reinforced Concrete
 hbm:concrete_super:0, Über Concrete
 hbm:concrete_super:1, Über Concrete
@@ -2332,30 +2333,30 @@ hbm:brick_obsidian_stairs, Obsidian Brick Stairs
 hbm:cmb_brick_reinforced_stairs, Reinforced CMB Brick Stairs
 hbm:concrete_stairs, Concrete Tile Stairs
 hbm:concrete_smooth_stairs, Concrete Stairs
-hbm:concrete_colored_stairs:0, White Concrete Stairs
-hbm:concrete_colored_stairs:1, Orange Concrete Stairs
-hbm:concrete_colored_stairs:2, Magenta Concrete Stairs
-hbm:concrete_colored_stairs:3, Light Blue Concrete Stairs
-hbm:concrete_colored_stairs:4, Yellow Concrete Stairs
-hbm:concrete_colored_stairs:5, Lime Concrete Stairs
-hbm:concrete_colored_stairs:6, Pink Concrete Stairs
-hbm:concrete_colored_stairs:7, Gray Concrete Stairs
-hbm:concrete_colored_stairs:8, Silver Concrete Stairs
-hbm:concrete_colored_stairs:9, Cyan Concrete Stairs
-hbm:concrete_colored_stairs:10, Purple Concrete Stairs
-hbm:concrete_colored_stairs:11, Blue Concrete Stairs
-hbm:concrete_colored_stairs:12, Brown Concrete Stairs
-hbm:concrete_colored_stairs:13, Green Concrete Stairs
-hbm:concrete_colored_stairs:14, Red Concrete Stairs
-hbm:concrete_colored_stairs:15, Black Concrete Stairs
-hbm:concrete_colored_ext_stairs:0, Builder's Choice Concrete - Industrial Tinge Stairs
-hbm:concrete_colored_ext_stairs:1, Builder's Choice Concrete - Industrial Stripe Stairs
-hbm:concrete_colored_ext_stairs:2, Builder's Choice Concrete - Deep Indigo Stairs
-hbm:concrete_colored_ext_stairs:3, Builder's Choice Concrete - Mysterious Purple Stairs
-hbm:concrete_colored_ext_stairs:4, Builder's Choice Concrete - Manly Pink Stairs
-hbm:concrete_colored_ext_stairs:5, Builder's Choice Concrete - Hazard Stripe Stairs
-hbm:concrete_colored_ext_stairs:6, Builder's Choice Concrete - Desert Storm Stairs
-hbm:concrete_colored_ext_stairs:7, Builder's Choice Concrete - Bronze Plating Stairs
+hbm:concrete_colored_stairs_white, White Concrete Stairs
+hbm:concrete_colored_stairs_orange, Orange Concrete Stairs
+hbm:concrete_colored_stairs_magenta, Magenta Concrete Stairs
+hbm:concrete_colored_stairs_light_blue, Light Blue Concrete Stairs
+hbm:concrete_colored_stairs_yellow, Yellow Concrete Stairs
+hbm:concrete_colored_stairs_lime, Lime Concrete Stairs
+hbm:concrete_colored_stairs_pink, Pink Concrete Stairs
+hbm:concrete_colored_stairs_gray, Gray Concrete Stairs
+hbm:concrete_colored_stairs_silver, Silver Concrete Stairs
+hbm:concrete_colored_stairs_cyan, Cyan Concrete Stairs
+hbm:concrete_colored_stairs_purple, Purple Concrete Stairs
+hbm:concrete_colored_stairs_blue, Blue Concrete Stairs
+hbm:concrete_colored_stairs_brown, Brown Concrete Stairs
+hbm:concrete_colored_stairs_green, Green Concrete Stairs
+hbm:concrete_colored_stairs_red, Red Concrete Stairs
+hbm:concrete_colored_stairs_black, Black Concrete Stairs
+hbm:concrete_colored_ext_stairs_machine, Builder's Choice Concrete - Industrial Tinge Stairs
+hbm:concrete_colored_ext_stairs_machine_stripe, Builder's Choice Concrete - Industrial Stripe Stairs
+hbm:concrete_colored_ext_stairs_indigo, Builder's Choice Concrete - Deep Indigo Stairs
+hbm:concrete_colored_ext_stairs_purple, Builder's Choice Concrete - Mysterious Purple Stairs
+hbm:concrete_colored_ext_stairs_pink, Builder's Choice Concrete - Manly Pink Stairs
+hbm:concrete_colored_ext_stairs_hazard, Builder's Choice Concrete - Hazard Stripe Stairs
+hbm:concrete_colored_ext_stairs_sand, Builder's Choice Concrete - Desert Storm Stairs
+hbm:concrete_colored_ext_stairs_bronze, Builder's Choice Concrete - Bronze Plating Stairs
 hbm:concrete_asbestos_stairs, Asbestos Concrete Stairs
 hbm:ducrete_smooth_stairs, Ducrete Tile Stairs
 hbm:ducrete_stairs, Ducrete Stairs
@@ -2427,8 +2428,6 @@ hbm:ore_beryllium, Beryllium Ore
 hbm:ore_lignite, Lignite Ore
 hbm:ore_asbestos, Asbestos Ore
 hbm:ore_rare, Rare Earth Ore
-hbm:ore_coal_oil, Oily Coal Ore
-hbm:ore_coal_oil_burning, Burning Oily Coal Ore
 hbm:cluster_iron, Iron Ore Cluster
 hbm:cluster_titanium, Titanium Ore Cluster
 hbm:cluster_aluminium, Aluminium Ore Cluster
@@ -2436,12 +2435,7 @@ hbm:cluster_copper, Copper Ore Cluster
 hbm:ore_cobalt, Cobalt Ore
 hbm:ore_cinnabar, Cinnabar Ore
 hbm:ore_coltan, Coltan Ore
-hbm:ore_reiium, Reiite
-hbm:ore_weidanium, Weidite
 hbm:ore_australium, Australian Ore
-hbm:ore_verticium, Dollar Green Mineral
-hbm:ore_unobtainium, Brightblende Ore
-hbm:ore_daffergon, Dellite
 hbm:stone_depth, Depth Rock
 hbm:ore_depth_cinnabar, Depth Cinnabar Ore
 hbm:ore_depth_zirconium, Depth Zirconium Ore
@@ -2670,33 +2664,8 @@ hbm:block_waste_painted, Painted Block of Nuclear Waste
 hbm:block_waste_vitrified, Vitrified Block of Nuclear Waste
 hbm:waste_mycelium, Glowing Mycelium
 hbm:waste_earth, Dead Grass
-hbm:waste_dirt, Contaminated Dirt
-hbm:waste_gravel, Contaminated Gravel
-hbm:waste_sandstone:0, Contaminated Sandstone
-hbm:waste_sandstone:1, Contaminated Sandstone
-hbm:waste_sandstone:2, Contaminated Sandstone
-hbm:waste_sandstone:3, Contaminated Sandstone
-hbm:waste_sandstone:4, Contaminated Sandstone
-hbm:waste_sandstone:5, Contaminated Sandstone
-hbm:waste_sandstone:6, Contaminated Sandstone
-hbm:waste_sand, Contaminated Sand
 hbm:waste_trinitite, Trinitite Ore
-hbm:waste_red_sandstone:0, Contaminated Red Sandstone
-hbm:waste_red_sandstone:1, Contaminated Red Sandstone
-hbm:waste_red_sandstone:2, Contaminated Red Sandstone
-hbm:waste_red_sandstone:3, Contaminated Red Sandstone
-hbm:waste_red_sandstone:4, Contaminated Red Sandstone
-hbm:waste_red_sandstone:5, Contaminated Red Sandstone
-hbm:waste_red_sandstone:6, Contaminated Red Sandstone
-hbm:waste_sand_red, Contaminated Red Sand
 hbm:waste_trinitite_red, Red Trinitite Ore
-hbm:waste_terracotta:0, Contaminated Terracotta
-hbm:waste_terracotta:1, Contaminated Terracotta
-hbm:waste_terracotta:2, Contaminated Terracotta
-hbm:waste_terracotta:3, Contaminated Terracotta
-hbm:waste_terracotta:4, Contaminated Terracotta
-hbm:waste_terracotta:5, Contaminated Terracotta
-hbm:waste_terracotta:6, Contaminated Terracotta
 hbm:waste_log, Charred Log
 hbm:waste_planks, Charred Wooden Planks
 hbm:waste_leaves, Dead Leaves
@@ -2730,15 +2699,6 @@ hbm:frozen_grass, Frozen Grass
 hbm:frozen_log, Frozen Log
 hbm:frozen_planks, Frozen Planks
 hbm:frozen_dirt, Frozen Dirt
-hbm:waste_snow, Contaminated Snow
-hbm:waste_snow_block:0, Contaminated Block of Snow
-hbm:waste_snow_block:1, Contaminated Block of Snow
-hbm:waste_snow_block:2, Contaminated Block of Snow
-hbm:waste_snow_block:3, Contaminated Block of Snow
-hbm:waste_snow_block:4, Contaminated Block of Snow
-hbm:waste_snow_block:5, Contaminated Block of Snow
-hbm:waste_snow_block:6, Contaminated Block of Snow
-hbm:waste_ice, Contaminated Ice
 hbm:fallout, Fallout
 hbm:block_fallout, Block of Fallout
 hbm:foam_layer, Foam layer
@@ -2762,6 +2722,7 @@ hbm:sellafield:1, Hot Sellafite
 hbm:sellafield:2, Boiling Sellafite
 hbm:sellafield:3, Blazing Sellafite
 hbm:sellafield:4, Infernal Sellafite
+hbm:sellafield:5, Sellafite-Corium
 hbm:geysir_water, Water Geysir
 hbm:geysir_chlorine, Cloud Geysir
 hbm:geysir_vapor, Vapor Geysir
@@ -2905,12 +2866,7 @@ hbm:block_graphite_detector:11, Pile Neutron Detector
 hbm:block_graphite_detector:12, Pile Neutron Detector
 hbm:block_graphite_detector:13, Pile Neutron Detector
 hbm:block_graphite_detector:14, Pile Neutron Detector
-hbm:block_reiium, Block of Reiium
-hbm:block_weidanium, Block of Weidanium
 hbm:block_australium, Block of Australium
-hbm:block_verticium, Block of Verticium
-hbm:block_unobtainium, Block of Unobtainium
-hbm:block_daffergon, Block of Daffergon
 hbm:depth_brick, Depth Bricks
 hbm:depth_tiles, Depth Tiles
 hbm:depth_nether_brick, Nether Depth Bricks
@@ -3058,7 +3014,7 @@ hbm:glass_polarized, Polarized Glass
 hbm:seal_frame, Silo Hatch Frame
 hbm:seal_controller, Silo Hatch Opener
 hbm:seal_hatch, Silo Hatch
-hbm:silo_hatch, Silo Hatch
+hbm:silo_hatch_drillgon, tile.silo_hatch_drillgon.name
 hbm:vault_door, Vault-Tec Blast Door
 hbm:blast_door, Sliding Blast Door
 hbm:sliding_blast_door, Sliding Blast Door
@@ -3075,6 +3031,8 @@ hbm:large_vehicle_door, Large Vehicle Door
 hbm:round_airlock_door, Round Airlock Door
 hbm:secure_access_door, Secure Access Door
 hbm:transition_seal, Transition Seal
+hbm:silo_hatch, Silo Hatch
+hbm:silo_hatch_large, Large Silo Hatch
 hbm:keypad_test, tile.keypad_test.name
 hbm:barbed_wire, Barbed Wire
 hbm:barbed_wire_fire, Flaming Barbed Wire
@@ -3113,8 +3071,10 @@ hbm:soyuz_capsule, Cargo Landing Capsule
 hbm:crate_supply, Supply Crate
 hbm:book_guide, Hbm's Nuclear Tech Mod Manual [LEGACY]
 hbm:machine_steam_engine, Steam Engine
-hbm:machine_battery_potato, Potato Battery Block
-hbm:machine_battery, Energy Storage Block
+hbm:machine_battery_socket, Battery Socket
+hbm:machine_battery_redd, FEnSU
+hbm:machine_battery_potato, Potato Battery Block (LEGACY)
+hbm:machine_battery, Energy Storage Block (LEGACY)
 hbm:machine_lithium_battery, Li-Ion Energy Storage Block
 hbm:machine_schrabidium_battery, Schrabidium Energy Storage Block
 hbm:machine_dineutronium_battery, Spark Energy Storage Block
@@ -3263,7 +3223,6 @@ hbm:machine_turbofan, Turbofan
 hbm:machine_wood_burner, Wood-Burning Generator
 hbm:machine_turbine_gas, Combined Cycle Gas Turbine
 hbm:machine_combustion_engine, Industrial Combustion Engine
-hbm:machine_schrabidium_transmutator, Schrabidium Transmutation Device
 hbm:machine_teleporter, Teleporter
 hbm:teleanchor, Teleportation Anchor
 hbm:field_disturber, High Energy Field Jammer
@@ -3305,7 +3264,6 @@ hbm:heater_oilburner, Fluid Burner
 hbm:heater_electric, Electric Heater
 hbm:heater_heatex, Heat Exchanging Heater
 hbm:machine_ashpit, Ashpit
-hbm:heater_rt, Radioisotope Thermal Heater
 hbm:furnace_iron, Iron Furnace
 hbm:furnace_steel, Steel Furnace
 hbm:furnace_combination, Combination Oven
@@ -3322,14 +3280,10 @@ hbm:foundry_outlet, Foundry Outlet
 hbm:machine_industrial_boiler, Industrial Boiler
 hbm:radsensor, Radiation Sensor
 hbm:machine_rtg_grey, RT Generator
-hbm:machine_amgen, Ambience Radiation Generator
-hbm:machine_geo, Geothermal Electric Generator
 hbm:machine_minirtg, Radio Isotope Cell
 hbm:rtg_polonium, PT Isotope Cell
 hbm:machine_radiolysis, Radioisotope Thermoelectric Generator and Radiolysis Chamber
 hbm:machine_hephaestus, Geothermal Heat Exchanger
-hbm:machine_spp_bottom, ZPE Potential Generator (Bottom)
-hbm:machine_spp_top, ZPE Potential Generator (Top)
 hbm:marker_structure, Multiblock Structure Marker
 hbm:muffler, Muffler
 hbm:struct_launcher, Launch Pad Component Block
@@ -3337,7 +3291,6 @@ hbm:struct_scaffold, Launch Pad Scaffold Block
 hbm:struct_launcher_core, Compact Launcher Core Component
 hbm:struct_launcher_core_large, Launch Table Core Component
 hbm:struct_soyuz_core, Soyuz Launcher Core Component
-hbm:struct_iter_core, Fusion Reactor Core Component
 hbm:struct_plasma_core, Plasma Heater Core Component
 hbm:struct_torus_core, Fusion Reactor Vessel Core Component
 hbm:struct_watz_core, Watz Powerplant Core Component
@@ -3354,10 +3307,6 @@ hbm:pwr_casing, PWR Pressure Vessel
 hbm:pwr_port, PWR Access Port
 hbm:pwr_controller, PWR Controller
 hbm:pwr_block, PWR
-hbm:fusion_conductor:0, Superconducting Magnet
-hbm:fusion_conductor:1, tile.fusion_conductor_tooled.name
-hbm:fusion_center, Central Magnet Piece
-hbm:fusion_motor, Magnet Motor Piece
 hbm:fusion_heater, Plasma Heater Component
 hbm:fusion_hatch, Duct Deco Block
 hbm:fusion_core_block, Fusion Reactor Control
@@ -3439,10 +3388,14 @@ hbm:deco_sat_scanner, Satellite with Depth-Resource Scanning Module (Deco Block)
 hbm:deco_sat_laser, Orbital Death Ray (Deco Block)
 hbm:deco_sat_foeq, PEAF - Mk.I FOEQ Duna Probe with experimental Nuclear Propulsion (Deco Block)
 hbm:deco_sat_resonator, Xenium Resonator Satellite (Deco Block)
-hbm:absorber, Radiation Absorber
-hbm:absorber_red, Enhanced Radiation Absorber
-hbm:absorber_green, Advanced Radiation Absorber
-hbm:absorber_pink, Elite Radiation Absorber
+hbm:rad_absorber:0, Radiation Absorber
+hbm:rad_absorber:1, Enhanced Radiation Absorber
+hbm:rad_absorber:2, Advanced Radiation Absorber
+hbm:rad_absorber:3, Elite Radiation Absorber
+hbm:absorber, Radiation Absorber (LEGACY)
+hbm:absorber_red, Enhanced Radiation Absorber (LEGACY)
+hbm:absorber_green, Advanced Radiation Absorber (LEGACY)
+hbm:absorber_pink, Elite Radiation Absorber (LEGACY)
 hbm:decon, Player Decontaminator
 hbm:decon_digamma, Digamma Decontaminator
 hbm:volcano_core, Volcano Core
@@ -3459,6 +3412,10 @@ hbm:stone_resource:2, Hematite
 hbm:stone_resource:3, Malachite
 hbm:stone_resource:4, Limestone
 hbm:stone_resource:5, Bauxite
+hbm:stalagmite:0, Sulfurous Stalagmite
+hbm:stalagmite:1, Asbestos Stalagmite
+hbm:stalactite:0, Sulfurous Stalactite
+hbm:stalactite:1, Asbestos Stalactite
 hbm:gas_radon, Radon Gas
 hbm:gas_radon_dense, Dense Radon Gas
 hbm:gas_radon_tomb, Tomb Gas
@@ -3472,6 +3429,9 @@ hbm:ancient_scrap, Ancient Scrap Metal
 hbm:railgun_plasma, Railgun
 hbm:fluid_duct_paintable, Paintable Coated Universal Fluid Duct
 hbm:fluid_duct_gauge, Flow Gauge Pipe
+hbm:fluid_valve, Fluid Valve
+hbm:fluid_switch, Redstone Fluid Valve
+hbm:fluid_counter_valve, Fluid Valve with Counter
 hbm:fluid_pump, Flow Control Pump
 hbm:machine_drain, Drainage Pipe
 hbm:radio_torch_sender, Redstone-over-Radio Transmitter
@@ -3595,6 +3555,7 @@ hbm:radar_linker, Radar Linker
 hbm:settings_tool, Settings Tool
 hbm:pollution_detector, Pollution Detector
 hbm:ore_density_scanner, Bedrock Ore Density Scanner
+hbm:rebar_placer, Rebar Placer
 hbm:syringe_empty, Empty Syringe
 hbm:syringe_awesome, AWESOME
 hbm:syringe_antidote, Antidote
@@ -3781,26 +3742,60 @@ hbm:fusion_shield_tungsten, Tungsten Fusion Reactor Blanket
 hbm:fusion_shield_desh, Desh Fusion Reactor Blanket
 hbm:fusion_shield_chlorophyte, Chlorophyte-Metallized Fusion Reactor Blanket
 hbm:fusion_shield_vaporwave, Vaporwave Fusion Reactor Blanket
-hbm:battery_sc_uranium, Self-Charging Uranium-238 Battery
-hbm:battery_sc_technetium, Self-Charging Technetium-99 Battery
-hbm:battery_sc_plutonium, Self-Charging Plutonium-238 Battery
-hbm:battery_sc_polonium, Self-Charging Polonium-210 Battery
-hbm:battery_sc_gold, Self-Charging Gold-198 Battery
-hbm:battery_sc_lead, Self-Charging Lead-209 Battery
-hbm:battery_sc_americium, Self-Charging Americium-241 Battery
+hbm:battery_sc:0, Empty Self-Charging Battery
+hbm:battery_sc:1, Spent Fuel Self-Charging Battery
+hbm:battery_sc:2, Radium-226 Self-Charging Battery
+hbm:battery_sc:3, Technetium-99 Self-Charging Battery
+hbm:battery_sc:4, Cobalt-60 Self-Charging Battery
+hbm:battery_sc:5, Plutonium-238 Self-Charging Battery
+hbm:battery_sc:6, Polonium-210 Self-Charging Battery
+hbm:battery_sc:7, Gold-198 Self-Charging Battery
+hbm:battery_sc:8, Lead-209 Self-Charging Battery
+hbm:battery_sc:9, Americium-241 Self-Charging Battery
+hbm:battery_sc_uranium, Self-Charging Uranium-238 Battery (LEGACY)
+hbm:battery_sc_technetium, Self-Charging Technetium-99 Battery (LEGACY)
+hbm:battery_sc_plutonium, Self-Charging Plutonium-238 Battery (LEGACY)
+hbm:battery_sc_polonium, Self-Charging Polonium-210 Battery (LEGACY)
+hbm:battery_sc_gold, Self-Charging Gold-198 Battery (LEGACY)
+hbm:battery_sc_lead, Self-Charging Lead-209 Battery (LEGACY)
+hbm:battery_sc_americium, Self-Charging Americium-241 Battery (LEGACY)
+hbm:battery_pack:0, Redstone Battery
+hbm:battery_pack:0, Redstone Battery
+hbm:battery_pack:1, Lead-Acid Battery
+hbm:battery_pack:1, Lead-Acid Battery
+hbm:battery_pack:2, Lithium-Ion Battery
+hbm:battery_pack:2, Lithium-Ion Battery
+hbm:battery_pack:3, Sodium-Iron Battery
+hbm:battery_pack:3, Sodium-Iron Battery
+hbm:battery_pack:4, Schrabidium Battery
+hbm:battery_pack:4, Schrabidium Battery
+hbm:battery_pack:5, Quantum Battery
+hbm:battery_pack:5, Quantum Battery
+hbm:battery_pack:6, Copper Capacitor
+hbm:battery_pack:6, Copper Capacitor
+hbm:battery_pack:7, Gold Capacitor
+hbm:battery_pack:7, Gold Capacitor
+hbm:battery_pack:8, Niobium Capacitor
+hbm:battery_pack:8, Niobium Capacitor
+hbm:battery_pack:9, Tantalum Capacitor
+hbm:battery_pack:9, Tantalum Capacitor
+hbm:battery_pack:10, Bismuth Capacitor
+hbm:battery_pack:10, Bismuth Capacitor
+hbm:battery_pack:11, Spark Capacitor
+hbm:battery_pack:11, Spark Capacitor
 hbm:battery_creative, Infinite Battery
-hbm:battery_generic, Battery
-hbm:battery_red_cell, Redstone Power Cell
-hbm:battery_red_cell_6, Sixfold Redstone Power Cell
-hbm:battery_red_cell_24, 24-Fold Redstone Power Cell
-hbm:battery_advanced, Advanced Battery
-hbm:battery_advanced_cell, Advanced Power Cell
-hbm:battery_advanced_cell_4, Quadruple Advanced Power Cell
-hbm:battery_advanced_cell_12, Twelvefold Advanced Power Cell
-hbm:battery_lithium, Lithium-Ion Battery
-hbm:battery_lithium_cell, Lithium-Ion Power Cell
-hbm:battery_lithium_cell_3, Triple Lithium-Ion Power Cell
-hbm:battery_lithium_cell_6, Sixfold Lithium-Ion Power Cell
+hbm:battery_generic, Battery (LEGACY)
+hbm:battery_red_cell, Redstone Power Cell (LEGACY)
+hbm:battery_red_cell_6, Sixfold Redstone Power Cell (LEGACY)
+hbm:battery_red_cell_24, 24-Fold Redstone Power Cell (LEGACY)
+hbm:battery_advanced, Advanced Battery (LEGACY)
+hbm:battery_advanced_cell, Advanced Power Cell (LEGACY)
+hbm:battery_advanced_cell_4, Quadruple Advanced Power Cell (LEGACY)
+hbm:battery_advanced_cell_12, Twelvefold Advanced Power Cell (LEGACY)
+hbm:battery_lithium, Lithium-Ion Battery (LEGACY)
+hbm:battery_lithium_cell, Lithium-Ion Power Cell (LEGACY)
+hbm:battery_lithium_cell_3, Triple Lithium-Ion Power Cell (LEGACY)
+hbm:battery_lithium_cell_6, Sixfold Lithium-Ion Power Cell (LEGACY)
 hbm:battery_schrabidium, Schrabidium Battery
 hbm:battery_schrabidium_cell, Schrabidium Power Cell
 hbm:battery_schrabidium_cell_2, Double Schrabidium Power Cell
@@ -3816,10 +3811,6 @@ hbm:battery_spark_cell_10000, Spark Solid Space-Time Crystal
 hbm:battery_spark_cell_power, Spark Ludicrous Physics-Defying Energy Storage Unit
 hbm:battery_potato, Potato Battery
 hbm:battery_potatos, PotatOS
-hbm:battery_su, SU-Battery
-hbm:battery_su_l, Large SU-Battery
-hbm:battery_steam, Steam Powered Energy Storage Tank
-hbm:battery_steam_large, Large Steam Powered Energy Storage Tank
 hbm:hev_battery, Suit Battery
 hbm:fusion_core, Fusion Core
 hbm:energy_core, Makeshift Energy Core
@@ -3915,7 +3906,10 @@ hbm:canister_fuel:130, Canister: hbmfluid.elbowgrease
 hbm:canister_napalm, Napalm B
 hbm:gas_empty, Empty Gas Tank
 hbm:gas_full:38, Gas Tank:: Liquid Hydrogen
+hbm:gas_full:8, Gas Tank:: Deuterium
+hbm:gas_full:9, Gas Tank:: Tritium
 hbm:gas_full:57, Gas Tank:: Helium-3
+hbm:gas_full:165, Gas Tank:: Helium-4
 hbm:gas_full:39, Gas Tank:: Liquid Oxygen
 hbm:gas_full:40, Gas Tank:: Xenon Gas
 hbm:gas_full:97, Gas Tank:: Chlorine Gas
@@ -4037,7 +4031,7 @@ hbm:fluid_tank_full:131, Universal Fluid Tank: hbmfluid.nmasstetranol
 hbm:fluid_tank_full:141, Universal Fluid Tank: Fish Oil
 hbm:fluid_tank_full:142, Universal Fluid Tank: Sunflower Seed Oil
 hbm:fluid_tank_full:28, Universal Fluid Tank: NITAN© 100 Octane Super Fuel
-hbm:fluid_tank_full:205, Universal Fluid Tank: hbmfluid.dhc
+hbm:fluid_tank_full:205, Universal Fluid Tank: Deuterated Hydrocarbon
 hbm:fluid_tank_full:86, Universal Fluid Tank: hbmfluid.hydrazine
 hbm:fluid_tank_full:41, Universal Fluid Tank: BF Rocket Fuel
 hbm:fluid_tank_full:161, Universal Fluid Tank: hbmfluid.morkite
@@ -4217,7 +4211,7 @@ hbm:fluid_tank_lead_full:131, Hazardous Material Tank: hbmfluid.nmasstetranol
 hbm:fluid_tank_lead_full:141, Hazardous Material Tank: Fish Oil
 hbm:fluid_tank_lead_full:142, Hazardous Material Tank: Sunflower Seed Oil
 hbm:fluid_tank_lead_full:28, Hazardous Material Tank: NITAN© 100 Octane Super Fuel
-hbm:fluid_tank_lead_full:205, Hazardous Material Tank: hbmfluid.dhc
+hbm:fluid_tank_lead_full:205, Hazardous Material Tank: Deuterated Hydrocarbon
 hbm:fluid_tank_lead_full:86, Hazardous Material Tank: hbmfluid.hydrazine
 hbm:fluid_tank_lead_full:41, Hazardous Material Tank: BF Rocket Fuel
 hbm:fluid_tank_lead_full:161, Hazardous Material Tank: hbmfluid.morkite
@@ -4400,7 +4394,7 @@ hbm:fluid_barrel_full:131, Fluid Barrel: hbmfluid.nmasstetranol
 hbm:fluid_barrel_full:141, Fluid Barrel: Fish Oil
 hbm:fluid_barrel_full:142, Fluid Barrel: Sunflower Seed Oil
 hbm:fluid_barrel_full:28, Fluid Barrel: NITAN© 100 Octane Super Fuel
-hbm:fluid_barrel_full:205, Fluid Barrel: hbmfluid.dhc
+hbm:fluid_barrel_full:205, Fluid Barrel: Deuterated Hydrocarbon
 hbm:fluid_barrel_full:86, Fluid Barrel: hbmfluid.hydrazine
 hbm:fluid_barrel_full:41, Fluid Barrel: BF Rocket Fuel
 hbm:fluid_barrel_full:161, Fluid Barrel: hbmfluid.morkite
@@ -4581,7 +4575,7 @@ hbm:fluid_pack_full:131, Packaged hbmfluid.nmasstetranol
 hbm:fluid_pack_full:141, Packaged Fish Oil
 hbm:fluid_pack_full:142, Packaged Sunflower Seed Oil
 hbm:fluid_pack_full:28, Packaged NITAN© 100 Octane Super Fuel
-hbm:fluid_pack_full:205, Packaged hbmfluid.dhc
+hbm:fluid_pack_full:205, Packaged Deuterated Hydrocarbon
 hbm:fluid_pack_full:86, Packaged hbmfluid.hydrazine
 hbm:fluid_pack_full:41, Packaged BF Rocket Fuel
 hbm:fluid_pack_full:161, Packaged hbmfluid.morkite
@@ -4728,7 +4722,7 @@ hbm:disperser_canister:131, Disperser Canister: hbmfluid.nmasstetranol
 hbm:disperser_canister:141, Disperser Canister: Fish Oil
 hbm:disperser_canister:142, Disperser Canister: Sunflower Seed Oil
 hbm:disperser_canister:28, Disperser Canister: NITAN© 100 Octane Super Fuel
-hbm:disperser_canister:205, Disperser Canister: hbmfluid.dhc
+hbm:disperser_canister:205, Disperser Canister: Deuterated Hydrocarbon
 hbm:disperser_canister:86, Disperser Canister: hbmfluid.hydrazine
 hbm:disperser_canister:162, Disperser Canister: hbmfluid.dicyanoacetylene
 hbm:disperser_canister:35, Disperser Canister: Hydrogen Peroxide
@@ -6187,7 +6181,6 @@ hbm:rocket_fuel, Solid Fuel (Rocket Propellant)
 hbm:briquette:0, Coal Briquette
 hbm:briquette:1, Lignite Briquette
 hbm:briquette:2, Sawdust Briquette
-hbm:briquette_lignite, Lignite Briquette
 hbm:coke:0, Coal Coke
 hbm:coke:1, Lignite Coke
 hbm:coke:2, Petroleum Coke
@@ -6253,12 +6246,12 @@ hbm:ring_pull, Ring Pull
 hbm:bomb_waffle, Waffle of Mass Destruction
 hbm:schnitzel_vegan, Vegan Schnitzel
 hbm:cotton_candy, Radioactive Cotton Candy
-hbm:apple_lead, Lead Apple
-hbm:apple_lead1, Lead Apple
-hbm:apple_lead2, Lead Apple
-hbm:apple_schrabidium, Schrabidium Apple
-hbm:apple_schrabidium1, Schrabidium Apple
-hbm:apple_schrabidium2, Schrabidium Apple
+hbm:apple_lead:0, Lead Apple
+hbm:apple_lead:1, Lead Apple
+hbm:apple_lead:2, Lead Apple
+hbm:apple_schrabidium:0, Schrabidium Apple
+hbm:apple_schrabidium:1, Schrabidium Apple
+hbm:apple_schrabidium:2, Schrabidium Apple
 hbm:tem_flakes:0, Tem Flakes
 hbm:glowing_stew, Glowing Mushroom Stew
 hbm:balefire_scrambled, Scrambled Balefire Egg
@@ -6703,7 +6696,7 @@ hbm:ff_fluid_duct:131, Fluid Duct: hbmfluid.nmasstetranol
 hbm:ff_fluid_duct:141, Fluid Duct: Fish Oil
 hbm:ff_fluid_duct:142, Fluid Duct: Sunflower Seed Oil
 hbm:ff_fluid_duct:28, Fluid Duct: NITAN© 100 Octane Super Fuel
-hbm:ff_fluid_duct:205, Fluid Duct: hbmfluid.dhc
+hbm:ff_fluid_duct:205, Fluid Duct: Deuterated Hydrocarbon
 hbm:ff_fluid_duct:86, Fluid Duct: hbmfluid.hydrazine
 hbm:ff_fluid_duct:41, Fluid Duct: BF Rocket Fuel
 hbm:ff_fluid_duct:161, Fluid Duct: hbmfluid.morkite
@@ -7558,7 +7551,7 @@ hbm:fluid_icon:131, hbmfluid.nmasstetranol
 hbm:fluid_icon:141, Fish Oil
 hbm:fluid_icon:142, Sunflower Seed Oil
 hbm:fluid_icon:28, NITAN© 100 Octane Super Fuel
-hbm:fluid_icon:205, hbmfluid.dhc
+hbm:fluid_icon:205, Deuterated Hydrocarbon
 hbm:fluid_icon:86, hbmfluid.hydrazine
 hbm:fluid_icon:41, BF Rocket Fuel
 hbm:fluid_icon:161, hbmfluid.morkite
@@ -8097,6 +8090,7 @@ hbm:item_expensive:3, Radiation Resistant Plating
 hbm:item_expensive:4, Reinforced Ferrouranium Panels
 hbm:item_expensive:5, Mainframe
 hbm:item_expensive:6, Bronze Structural Elements
+hbm:item_expensive:7, Plastic Panels
 hbm:chemical_dye:0, Chemical Dye (Black)
 hbm:chemical_dye:1, Chemical Dye (Red)
 hbm:chemical_dye:2, Chemical Dye (Green)
@@ -10810,7 +10804,29 @@ thermaldynamics:cover:0, Reinforced CMB Brick Stairs Cover
 thermaldynamics:cover:0, Concrete Tile Stairs Cover
 thermaldynamics:cover:0, Concrete Stairs Cover
 thermaldynamics:cover:0, White Concrete Stairs Cover
+thermaldynamics:cover:0, Orange Concrete Stairs Cover
+thermaldynamics:cover:0, Magenta Concrete Stairs Cover
+thermaldynamics:cover:0, Light Blue Concrete Stairs Cover
+thermaldynamics:cover:0, Yellow Concrete Stairs Cover
+thermaldynamics:cover:0, Lime Concrete Stairs Cover
+thermaldynamics:cover:0, Pink Concrete Stairs Cover
+thermaldynamics:cover:0, Gray Concrete Stairs Cover
+thermaldynamics:cover:0, Silver Concrete Stairs Cover
+thermaldynamics:cover:0, Cyan Concrete Stairs Cover
+thermaldynamics:cover:0, Purple Concrete Stairs Cover
+thermaldynamics:cover:0, Blue Concrete Stairs Cover
+thermaldynamics:cover:0, Brown Concrete Stairs Cover
+thermaldynamics:cover:0, Green Concrete Stairs Cover
+thermaldynamics:cover:0, Red Concrete Stairs Cover
+thermaldynamics:cover:0, Black Concrete Stairs Cover
 thermaldynamics:cover:0, Builder's Choice Concrete - Industrial Tinge Stairs Cover
+thermaldynamics:cover:0, Builder's Choice Concrete - Industrial Stripe Stairs Cover
+thermaldynamics:cover:0, Builder's Choice Concrete - Deep Indigo Stairs Cover
+thermaldynamics:cover:0, Builder's Choice Concrete - Mysterious Purple Stairs Cover
+thermaldynamics:cover:0, Builder's Choice Concrete - Manly Pink Stairs Cover
+thermaldynamics:cover:0, Builder's Choice Concrete - Hazard Stripe Stairs Cover
+thermaldynamics:cover:0, Builder's Choice Concrete - Desert Storm Stairs Cover
+thermaldynamics:cover:0, Builder's Choice Concrete - Bronze Plating Stairs Cover
 thermaldynamics:cover:0, Asbestos Concrete Stairs Cover
 thermaldynamics:cover:0, Ducrete Tile Stairs Cover
 thermaldynamics:cover:0, Ducrete Stairs Cover
@@ -10879,8 +10895,6 @@ thermaldynamics:cover:0, Beryllium Ore Cover
 thermaldynamics:cover:0, Lignite Ore Cover
 thermaldynamics:cover:0, Asbestos Ore Cover
 thermaldynamics:cover:0, Rare Earth Ore Cover
-thermaldynamics:cover:0, Oily Coal Ore Cover
-thermaldynamics:cover:0, Burning Oily Coal Ore Cover
 thermaldynamics:cover:0, Iron Ore Cluster Cover
 thermaldynamics:cover:0, Titanium Ore Cluster Cover
 thermaldynamics:cover:0, Aluminium Ore Cluster Cover
@@ -10888,12 +10902,7 @@ thermaldynamics:cover:0, Copper Ore Cluster Cover
 thermaldynamics:cover:0, Cobalt Ore Cover
 thermaldynamics:cover:0, Cinnabar Ore Cover
 thermaldynamics:cover:0, Coltan Ore Cover
-thermaldynamics:cover:0, Reiite Cover
-thermaldynamics:cover:0, Weidite Cover
 thermaldynamics:cover:0, Australian Ore Cover
-thermaldynamics:cover:0, Dollar Green Mineral Cover
-thermaldynamics:cover:0, Brightblende Ore Cover
-thermaldynamics:cover:0, Dellite Cover
 thermaldynamics:cover:0, Depth Rock Cover
 thermaldynamics:cover:0, Depth Cinnabar Ore Cover
 thermaldynamics:cover:0, Depth Zirconium Ore Cover
@@ -11071,15 +11080,8 @@ thermaldynamics:cover:0, Painted Block of Nuclear Waste Cover
 thermaldynamics:cover:0, Vitrified Block of Nuclear Waste Cover
 thermaldynamics:cover:0, Glowing Mycelium Cover
 thermaldynamics:cover:0, Dead Grass Cover
-thermaldynamics:cover:0, Contaminated Dirt Cover
-thermaldynamics:cover:0, Contaminated Gravel Cover
-thermaldynamics:cover:0, Contaminated Sandstone Cover
-thermaldynamics:cover:0, Contaminated Sand Cover
 thermaldynamics:cover:0, Trinitite Ore Cover
-thermaldynamics:cover:0, Contaminated Red Sandstone Cover
-thermaldynamics:cover:0, Contaminated Red Sand Cover
 thermaldynamics:cover:0, Red Trinitite Ore Cover
-thermaldynamics:cover:0, Contaminated Terracotta Cover
 thermaldynamics:cover:0, Charred Log Cover
 thermaldynamics:cover:0, Charred Wooden Planks Cover
 thermaldynamics:cover:0, Waste Grass Cover
@@ -11096,9 +11098,6 @@ thermaldynamics:cover:0, Frozen Grass Cover
 thermaldynamics:cover:0, Frozen Log Cover
 thermaldynamics:cover:0, Frozen Planks Cover
 thermaldynamics:cover:0, Frozen Dirt Cover
-thermaldynamics:cover:0, Contaminated Snow Cover
-thermaldynamics:cover:0, Contaminated Block of Snow Cover
-thermaldynamics:cover:0, Contaminated Ice Cover
 thermaldynamics:cover:0, Fallout Cover
 thermaldynamics:cover:0, Block of Fallout Cover
 thermaldynamics:cover:0, Foam layer Cover
@@ -11134,12 +11133,7 @@ thermaldynamics:cover:0, Block of Red Phosphorus Cover
 thermaldynamics:cover:0, Foam Cover
 thermaldynamics:cover:0, Block of Coal Coke Cover
 thermaldynamics:cover:0, Block of Graphite Cover
-thermaldynamics:cover:0, Block of Reiium Cover
-thermaldynamics:cover:0, Block of Weidanium Cover
 thermaldynamics:cover:0, Block of Australium Cover
-thermaldynamics:cover:0, Block of Verticium Cover
-thermaldynamics:cover:0, Block of Unobtainium Cover
-thermaldynamics:cover:0, Block of Daffergon Cover
 thermaldynamics:cover:0, Depth Bricks Cover
 thermaldynamics:cover:0, Depth Tiles Cover
 thermaldynamics:cover:0, Nether Depth Bricks Cover
@@ -11249,7 +11243,6 @@ thermaldynamics:cover:0, Sandbags Cover
 thermaldynamics:cover:0, Teleportation Anchor Cover
 thermaldynamics:cover:0, High Energy Field Jammer Cover
 thermaldynamics:cover:0, Capacitor Bus Cover
-thermaldynamics:cover:0, ZPE Potential Generator (Top) Cover
 thermaldynamics:cover:0, Muffler Cover
 thermaldynamics:cover:0, Launch Pad Component Block Cover
 thermaldynamics:cover:0, Launch Pad Scaffold Block Cover
@@ -11263,10 +11256,6 @@ thermaldynamics:cover:0, PWR Neutron Source Cover
 thermaldynamics:cover:0, PWR Neutron Reflector Cover
 thermaldynamics:cover:0, PWR Pressure Vessel Cover
 thermaldynamics:cover:0, PWR Access Port Cover
-thermaldynamics:cover:0, Superconducting Magnet Cover
-thermaldynamics:cover:0, tile.fusion_conductor_tooled.name Cover
-thermaldynamics:cover:0, Central Magnet Piece Cover
-thermaldynamics:cover:0, Magnet Motor Piece Cover
 thermaldynamics:cover:0, Plasma Heater Component Cover
 thermaldynamics:cover:0, Duct Deco Block Cover
 thermaldynamics:cover:0, Fusion Reactor Control Cover
@@ -11297,14 +11286,17 @@ thermaldynamics:cover:0, Dense Mese Coil Cover
 thermaldynamics:cover:0, Particle Accelerator Analysis Chamber Wall Cover
 thermaldynamics:cover:0, Particle Accelerator Analysis Chamber Window Cover
 thermaldynamics:cover:0, Radiation Absorber Cover
-thermaldynamics:cover:0, Enhanced Radiation Absorber Cover
-thermaldynamics:cover:0, Advanced Radiation Absorber Cover
-thermaldynamics:cover:0, Elite Radiation Absorber Cover
+thermaldynamics:cover:0, Radiation Absorber (LEGACY) Cover
+thermaldynamics:cover:0, Enhanced Radiation Absorber (LEGACY) Cover
+thermaldynamics:cover:0, Advanced Radiation Absorber (LEGACY) Cover
+thermaldynamics:cover:0, Elite Radiation Absorber (LEGACY) Cover
 thermaldynamics:cover:0, Volcano Core Cover
 thermaldynamics:cover:0, Taint Cover
 thermaldynamics:cover:0, Cloud Residue Cover
 thermaldynamics:cover:0, Chlorine Gas Cover
 thermaldynamics:cover:0, Sulfurous Stone Cover
+thermaldynamics:cover:0, Sulfurous Stalagmite Cover
+thermaldynamics:cover:0, Sulfurous Stalactite Cover
 thermaldynamics:cover:0, Radon Gas Cover
 thermaldynamics:cover:0, Dense Radon Gas Cover
 thermaldynamics:cover:0, Tomb Gas Cover
@@ -14912,8 +14904,6 @@ appliedenergistics2:facade:0, Cable Facade - Beryllium Ore
 appliedenergistics2:facade:0, Cable Facade - Lignite Ore
 appliedenergistics2:facade:0, Cable Facade - Asbestos Ore
 appliedenergistics2:facade:0, Cable Facade - Rare Earth Ore
-appliedenergistics2:facade:0, Cable Facade - Oily Coal Ore
-appliedenergistics2:facade:0, Cable Facade - Burning Oily Coal Ore
 appliedenergistics2:facade:0, Cable Facade - Iron Ore Cluster
 appliedenergistics2:facade:0, Cable Facade - Titanium Ore Cluster
 appliedenergistics2:facade:0, Cable Facade - Aluminium Ore Cluster
@@ -14921,12 +14911,7 @@ appliedenergistics2:facade:0, Cable Facade - Copper Ore Cluster
 appliedenergistics2:facade:0, Cable Facade - Cobalt Ore
 appliedenergistics2:facade:0, Cable Facade - Cinnabar Ore
 appliedenergistics2:facade:0, Cable Facade - Coltan Ore
-appliedenergistics2:facade:0, Cable Facade - Reiite
-appliedenergistics2:facade:0, Cable Facade - Weidite
 appliedenergistics2:facade:0, Cable Facade - Australian Ore
-appliedenergistics2:facade:0, Cable Facade - Dollar Green Mineral
-appliedenergistics2:facade:0, Cable Facade - Brightblende Ore
-appliedenergistics2:facade:0, Cable Facade - Dellite
 appliedenergistics2:facade:0, Cable Facade - Depth Rock
 appliedenergistics2:facade:0, Cable Facade - Depth Cinnabar Ore
 appliedenergistics2:facade:0, Cable Facade - Depth Zirconium Ore
@@ -15088,15 +15073,8 @@ appliedenergistics2:facade:0, Cable Facade - Painted Block of Nuclear Waste
 appliedenergistics2:facade:0, Cable Facade - Vitrified Block of Nuclear Waste
 appliedenergistics2:facade:0, Cable Facade - Glowing Mycelium
 appliedenergistics2:facade:0, Cable Facade - Dead Grass
-appliedenergistics2:facade:0, Cable Facade - Contaminated Dirt
-appliedenergistics2:facade:0, Cable Facade - Contaminated Gravel
-appliedenergistics2:facade:0, Cable Facade - Contaminated Sandstone
-appliedenergistics2:facade:0, Cable Facade - Contaminated Sand
 appliedenergistics2:facade:0, Cable Facade - Trinitite Ore
-appliedenergistics2:facade:0, Cable Facade - Contaminated Red Sandstone
-appliedenergistics2:facade:0, Cable Facade - Contaminated Red Sand
 appliedenergistics2:facade:0, Cable Facade - Red Trinitite Ore
-appliedenergistics2:facade:0, Cable Facade - Contaminated Terracotta
 appliedenergistics2:facade:0, Cable Facade - Charred Log
 appliedenergistics2:facade:0, Cable Facade - Charred Wooden Planks
 appliedenergistics2:facade:0, Cable Facade - Burning Grass
@@ -15109,8 +15087,6 @@ appliedenergistics2:facade:0, Cable Facade - Frozen Grass
 appliedenergistics2:facade:0, Cable Facade - Frozen Log
 appliedenergistics2:facade:0, Cable Facade - Frozen Planks
 appliedenergistics2:facade:0, Cable Facade - Frozen Dirt
-appliedenergistics2:facade:0, Cable Facade - Contaminated Block of Snow
-appliedenergistics2:facade:0, Cable Facade - Contaminated Ice
 appliedenergistics2:facade:0, Cable Facade - Block of Fallout
 appliedenergistics2:facade:0, Cable Facade - Block of Boron
 appliedenergistics2:facade:0, Cable Facade - Block of Lanthanium
@@ -15144,12 +15120,7 @@ appliedenergistics2:facade:0, Cable Facade - Block of Graphite
 appliedenergistics2:facade:0, Cable Facade - Drilled Graphite
 appliedenergistics2:facade:0, Cable Facade - Pile Control Rod
 appliedenergistics2:facade:0, Cable Facade - Pile Lithium Fuel (Bred)
-appliedenergistics2:facade:0, Cable Facade - Block of Reiium
-appliedenergistics2:facade:0, Cable Facade - Block of Weidanium
 appliedenergistics2:facade:0, Cable Facade - Block of Australium
-appliedenergistics2:facade:0, Cable Facade - Block of Verticium
-appliedenergistics2:facade:0, Cable Facade - Block of Unobtainium
-appliedenergistics2:facade:0, Cable Facade - Block of Daffergon
 appliedenergistics2:facade:0, Cable Facade - Depth Bricks
 appliedenergistics2:facade:0, Cable Facade - Depth Tiles
 appliedenergistics2:facade:0, Cable Facade - Nether Depth Bricks
@@ -15225,7 +15196,6 @@ appliedenergistics2:facade:0, Cable Facade - Drill Pipe
 appliedenergistics2:facade:0, Cable Facade - Teleportation Anchor
 appliedenergistics2:facade:0, Cable Facade - High Energy Field Jammer
 appliedenergistics2:facade:0, Cable Facade - Capacitor Bus
-appliedenergistics2:facade:0, Cable Facade - ZPE Potential Generator (Top)
 appliedenergistics2:facade:0, Cable Facade - Muffler
 appliedenergistics2:facade:0, Cable Facade - Launch Pad Component Block
 appliedenergistics2:facade:0, Cable Facade - Launch Pad Scaffold Block
@@ -15238,9 +15208,6 @@ appliedenergistics2:facade:0, Cable Facade - PWR Neutron Source
 appliedenergistics2:facade:0, Cable Facade - PWR Neutron Reflector
 appliedenergistics2:facade:0, Cable Facade - PWR Pressure Vessel
 appliedenergistics2:facade:0, Cable Facade - PWR Access Port
-appliedenergistics2:facade:0, Cable Facade - Superconducting Magnet
-appliedenergistics2:facade:0, Cable Facade - Central Magnet Piece
-appliedenergistics2:facade:0, Cable Facade - Magnet Motor Piece
 appliedenergistics2:facade:0, Cable Facade - Plasma Heater Component
 appliedenergistics2:facade:0, Cable Facade - Duct Deco Block
 appliedenergistics2:facade:0, Cable Facade - Fusion Reactor Control
@@ -15269,9 +15236,10 @@ appliedenergistics2:facade:0, Cable Facade - Dense Mese Coil
 appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Analysis Chamber Wall
 appliedenergistics2:facade:0, Cable Facade - Particle Accelerator Analysis Chamber Window
 appliedenergistics2:facade:0, Cable Facade - Radiation Absorber
-appliedenergistics2:facade:0, Cable Facade - Enhanced Radiation Absorber
-appliedenergistics2:facade:0, Cable Facade - Advanced Radiation Absorber
-appliedenergistics2:facade:0, Cable Facade - Elite Radiation Absorber
+appliedenergistics2:facade:0, Cable Facade - Radiation Absorber (LEGACY)
+appliedenergistics2:facade:0, Cable Facade - Enhanced Radiation Absorber (LEGACY)
+appliedenergistics2:facade:0, Cable Facade - Advanced Radiation Absorber (LEGACY)
+appliedenergistics2:facade:0, Cable Facade - Elite Radiation Absorber (LEGACY)
 appliedenergistics2:facade:0, Cable Facade - Volcano Core
 appliedenergistics2:facade:0, Cable Facade - Volcano Core
 appliedenergistics2:facade:0, Cable Facade - Volcano Core
@@ -18307,59 +18275,59 @@ ironjetpacks:elite_coil, Elite Coil
 ironjetpacks:ultimate_coil, Ultimate Coil
 ironjetpacks:creative_cell, Energy Cell
 ironjetpacks:wood_cell, Energy Cell
-ironjetpacks:copper_cell, Energy Cell
 ironjetpacks:stone_cell, Energy Cell
-ironjetpacks:bronze_cell, Energy Cell
-ironjetpacks:iron_cell, Energy Cell
+ironjetpacks:copper_cell, Energy Cell
 ironjetpacks:silver_cell, Energy Cell
-ironjetpacks:electrum_cell, Energy Cell
-ironjetpacks:gold_cell, Energy Cell
-ironjetpacks:invar_cell, Energy Cell
+ironjetpacks:iron_cell, Energy Cell
+ironjetpacks:bronze_cell, Energy Cell
 ironjetpacks:steel_cell, Energy Cell
-ironjetpacks:diamond_cell, Energy Cell
+ironjetpacks:invar_cell, Energy Cell
+ironjetpacks:gold_cell, Energy Cell
+ironjetpacks:electrum_cell, Energy Cell
 ironjetpacks:platinum_cell, Energy Cell
+ironjetpacks:diamond_cell, Energy Cell
 ironjetpacks:emerald_cell, Energy Cell
 ironjetpacks:creative_thruster, Thruster
 ironjetpacks:wood_thruster, Thruster
-ironjetpacks:copper_thruster, Thruster
 ironjetpacks:stone_thruster, Thruster
-ironjetpacks:bronze_thruster, Thruster
-ironjetpacks:iron_thruster, Thruster
+ironjetpacks:copper_thruster, Thruster
 ironjetpacks:silver_thruster, Thruster
-ironjetpacks:electrum_thruster, Thruster
-ironjetpacks:gold_thruster, Thruster
-ironjetpacks:invar_thruster, Thruster
+ironjetpacks:iron_thruster, Thruster
+ironjetpacks:bronze_thruster, Thruster
 ironjetpacks:steel_thruster, Thruster
-ironjetpacks:diamond_thruster, Thruster
+ironjetpacks:invar_thruster, Thruster
+ironjetpacks:gold_thruster, Thruster
+ironjetpacks:electrum_thruster, Thruster
 ironjetpacks:platinum_thruster, Thruster
+ironjetpacks:diamond_thruster, Thruster
 ironjetpacks:emerald_thruster, Thruster
 ironjetpacks:creative_capacitor, Capacitor
 ironjetpacks:wood_capacitor, Capacitor
-ironjetpacks:copper_capacitor, Capacitor
 ironjetpacks:stone_capacitor, Capacitor
-ironjetpacks:bronze_capacitor, Capacitor
-ironjetpacks:iron_capacitor, Capacitor
+ironjetpacks:copper_capacitor, Capacitor
 ironjetpacks:silver_capacitor, Capacitor
-ironjetpacks:electrum_capacitor, Capacitor
-ironjetpacks:gold_capacitor, Capacitor
-ironjetpacks:invar_capacitor, Capacitor
+ironjetpacks:iron_capacitor, Capacitor
+ironjetpacks:bronze_capacitor, Capacitor
 ironjetpacks:steel_capacitor, Capacitor
-ironjetpacks:diamond_capacitor, Capacitor
+ironjetpacks:invar_capacitor, Capacitor
+ironjetpacks:gold_capacitor, Capacitor
+ironjetpacks:electrum_capacitor, Capacitor
 ironjetpacks:platinum_capacitor, Capacitor
+ironjetpacks:diamond_capacitor, Capacitor
 ironjetpacks:emerald_capacitor, Capacitor
 ironjetpacks:creative_jetpack, Jetpack
 ironjetpacks:wood_jetpack, Jetpack
-ironjetpacks:copper_jetpack, Jetpack
 ironjetpacks:stone_jetpack, Jetpack
-ironjetpacks:bronze_jetpack, Jetpack
-ironjetpacks:iron_jetpack, Jetpack
+ironjetpacks:copper_jetpack, Jetpack
 ironjetpacks:silver_jetpack, Jetpack
-ironjetpacks:electrum_jetpack, Jetpack
-ironjetpacks:gold_jetpack, Jetpack
-ironjetpacks:invar_jetpack, Jetpack
+ironjetpacks:iron_jetpack, Jetpack
+ironjetpacks:bronze_jetpack, Jetpack
 ironjetpacks:steel_jetpack, Jetpack
-ironjetpacks:diamond_jetpack, Jetpack
+ironjetpacks:invar_jetpack, Jetpack
+ironjetpacks:gold_jetpack, Jetpack
+ironjetpacks:electrum_jetpack, Jetpack
 ironjetpacks:platinum_jetpack, Jetpack
+ironjetpacks:diamond_jetpack, Jetpack
 ironjetpacks:emerald_jetpack, Jetpack
 itemfilters:filter, Item Filter
 itemfilters:missing, Missing Item
@@ -18446,6 +18414,27 @@ rflux:lightblock_off, Light Block (off)
 rflux:flatlightblock_on, Flat Light Block (on)
 rflux:flatlightblock_off, Flat Light Block (off)
 rflux:invisible_block, tile.rflux.invisibleblock.name
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -18496,27 +18485,6 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 storagedrawers:framingtable, Framing Table
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 architecturecraft:sawblade, Circular Saw Blade
 architecturecraft:largepulley, Large Pulley
 architecturecraft:chisel, Architect's Chisel

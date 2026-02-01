@@ -13,6 +13,28 @@
     },
     {
       "inputs": [
+        ["item","hbm:motor"]
+      ],
+      "outputs": [
+        ["nuclearcraft:part:8",1.0]
+      ],
+      "tierLower": 3,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:coil_copper"]
+      ],
+      "outputs": [
+        ["nuclearcraft:part:1",1.0]
+      ],
+      "tierLower": 3,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
         ["dict","ingotIron"]
       ],
       "outputs": [

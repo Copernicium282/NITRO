@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    10058,
+    10060
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Industrial Boiler§f heats water into steam or heats oil for refining.\n\n§eTask:§f Craft 1x §bIndustrial Boiler§f\n\n§eCapacities:§f\n• §b64,000 mB§f input tank\n• Water → Steam at §e1:10 ratio§f (1000 mB water = 10,000 mB steam)\n• §aDoes NOT explode§f when output is full (unlike standard boiler)\n\n§eSetup:§f\n• Place boiler on top of a heat source:\n  - §bFirebox§f - Solid fuels (coal, wood)\n  - §bFluid Burner§f - Liquid fuels (diesel, kerosene)\n  - §bElectric Heater§f - Uses HE power\n• Heat transfer based on temperature difference (ΔT × 0.01 TU/t)\n• Right-click with fluid item to switch between water/oil heating\n\n§eFunctions:§f\n1. §bSteam Production§f - For turbines and power generation\n2. §bOil Heating§f - Heat crude oil for refinery input\n\n§aTip:§f Essential for both power generation AND oil processing chains.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_industrial_boiler"
+      },
+      "name:8": "Industrial Boiler"
+    }
+  },
+  "questID:3": 10063,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_industrial_boiler"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

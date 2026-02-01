@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    10047
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tanks and Barrels§f store fluids for industrial operations.\n\n§eTypes:§f\n• §bFluid Tanks§f - General liquid storage\n• §bBarrels§f - Compact item storage\n• §bPressurized Tanks§f - Gas storage\n\n§eSpecial Storage:§f\n• §bHeavy Magnetic Storage Tank§f - Antimatter (required!)\n• §bNuclear Waste Barrels§f - Radioactive waste\n\n§aTip:§f Always use appropriate container type for your fluid.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_fluidtank"
+      },
+      "name:8": "Tanks and Barrels"
+    }
+  },
+  "questID:3": 10094,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_fluidtank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:barrel_steel"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

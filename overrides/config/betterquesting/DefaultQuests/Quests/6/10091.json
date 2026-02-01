@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    10048,
+    10066,
+    10006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Advanced Oil Processing§f covers late-game petroleum equipment for maximum fuel efficiency.\n\n§eTask Requirements:§f\n• §bCatalytic Reformer§f - Upgrades low-value petroleum to high-quality products\n• §bCatalytic Converter§f - Required catalyst item for both machines\n• §bHydrotreater§f - Desulfurizes petroleum fluids\n\n§eCatalytic Reformer:§f\n• Power: §e400 kHE/s§f | Input: 2000 mB/s\n• Converts Naphtha → §bReformate§f + Petroleum Gas + §bLiquid Hydrogen§f (byproduct)\n• Requires §bCatalytic Converter§f in GUI as catalyst\n\n§eHydrotreater:§f\n• Power: §e200 kHE/s§f | Input: 1000 mB/s\n• Desulfurizes Crude Oil/Cracked Oil using §bPressurized Liquid Hydrogen§f\n• Outputs desulfurized fluids + §bSour Gas§f (for sulfur)\n• Also requires §bCatalytic Converter§f in GUI\n\n§eCatalytic Converter Crafting:§f\n§bPVC bars§f + §bCobalt powder§f + §bBismuth ingots§f\n\n§aSynergy:§f Reformer produces hydrogen → pressurize → feed to Hydrotreater → desulfurized oil → refinery → more naphtha → back to Reformer. Closed-loop efficiency!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_catalytic_reformer"
+      },
+      "name:8": "Advanced Oil Processing"
+    }
+  },
+  "questID:3": 10091,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_catalytic_reformer"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:catalytic_converter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_hydrotreater"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:catalytic_converter"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_metal",
+          "Damage:2": 0
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "hbm:syringe_metal_stimpak",
+          "Damage:2": 0
+        }
+      }
+    }
+  }
+}

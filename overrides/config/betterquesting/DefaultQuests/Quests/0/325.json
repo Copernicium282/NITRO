@@ -5,12 +5,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§6Energy Storage Block§f is the §6most basic power buffer§f available. The standard variant can store up to §61 MHE§f and is used to §astore and distribute electricity§f.\n\n§eEnergy Storage Blocks can power§f §bmachines§f, §bcharge batteries§f, and supply §btools§f such as the §bImpact Drill§f, making them a §6core part§f of any electrical setup.\n\n§eCharging methods§f:\n§b• Insert a charged battery§f  \n§b• Connect via §bRed Copper Cable§f to a §bpower source§f (such as a Wood-Burning Generator)\n\n§6Power Control§f\n\n§eEach storage block has a §6transfer mode§f that controls how energy flows:\n§b• Input§f – only receives power  \n§b• Output§f – only supplies power  \n§b• Buffer§f – both receives and outputs power  \n§b• None§f – disables all power transfer  \n\n§eTransfer modes can be §6toggled via redstone§f, allowing automated control.\n\n§6Energy Priority§f\n\n§eStorage blocks also support §6priority settings§f, which determine how power is distributed:\n§b• Low Priority§f (§edefault§f) – §eMachines fill first§f, storage charges last  \n§b• Medium Priority§f – §eStorage and machines charge equally§f  \n§b• High Priority§f – §cStorage fills first§f, machines receive power only afterward  \n\n§aProper use of priorities§f helps stabilize power networks and §aprevent brownouts§f in larger systems.\n",
+      "desc:8": "§6Energy Storage Blocks§f were previously used as the §6primary power buffers§f for storing and distributing electricity.  \n§cThese blocks are now considered outdated§f and have been §ereplaced by a more flexible system§f.\n\n§6Battery Socket§f is the §6new standard energy storage interface§f. It is used to hold §6Batteries§f or §6Capacitors§f, allowing players to tailor energy storage to their needs instead of relying on a single fixed buffer.\n\n§6Batteries§f provide §ahigh total energy storage§f, making them ideal for §elong-term power reserves§f.  \n§cHowever§f, they have a §6slower discharge rate§f, meaning only a limited amount of stored energy can be output to the grid at once.\n\n§6Capacitors§f, on the other hand, offer §alower total storage§f but feature a §6much faster discharge rate§f.  \nThis makes them better suited for §ehandling sudden power spikes§f or §bfeeding machines that demand high throughput§f.\n\n§eBy mixing Batteries and Capacitors§f within Battery Sockets, players can §abalance capacity and output§f, creating §6more stable and adaptable power networks§f than the old Energy Storage Block system allowed.\n",
       "icon:10": {
         "Count:3": 1,
         "id:8": "hbm:machine_battery"
       },
-      "name:8": "Energy Storage Block",
+      "name:8": "Batteries",
       "visibility:8": "ALWAYS"
     }
   },
@@ -19,7 +19,13 @@
     "0:10": {
       "index:3": 0,
       "rewardID:8": "bq_standard:item",
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply",
+          "Damage:2": 0
+        }
+      }
     }
   },
   "tasks:9": {
