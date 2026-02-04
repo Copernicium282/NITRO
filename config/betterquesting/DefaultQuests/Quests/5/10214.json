@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    10064,
+    10032
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cyclotron§f bombards §belement powders§f with §belement boxes§f to create heavier elements. A reliable but expensive method for large-scale advanced material production.\n\n§ePower Consumption:§f §e20 MHE/s§f - requires substantial energy infrastructure.\n\n§eOperation:§f\n• Insert element powders and element boxes\n• Machine accelerates particles and bombards powders\n• Creates heavier elements through nuclear transmutation\n• §aCan produce §bAntimatter§f as a byproduct§f for certain operations\n\n§eKey Products:§f\n• Heavy elements not obtainable through chemical processing\n• §bAntimatter§f for advanced fuel and end-game recipes\n• §bIonized Particles§f for further processing\n\n§aTips:§f\n• Install §bmax-level Power Saving upgrades§f to reduce both recipe time and power consumption\n• Install §bmax-level Speed upgrades§f for faster processing\n• Consider automation - many recipes require bulk production\n• Use the antimatter for §bBF Rocket Fuel§f or advanced research",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_cyclotron"
+      },
+      "name:8": "Cyclotron"
+    }
+  },
+  "questID:3": 10214,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_metal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_cyclotron"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

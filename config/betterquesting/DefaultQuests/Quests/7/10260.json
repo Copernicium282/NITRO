@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    10252,
+    10253,
+    50008
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Spark Laser Crystal§f focuses energy for §bICF systems§f and §bFEL§f amplification.\n\n§eIn FEL:§f\nRequires §b4.8 MHE/s§f - second highest power tier.\n\n§eIn ICF:§f\nPrecision-grown crystals amplify laser output for fusion ignition.\n\n§eCrafting:§f\nRequires advanced materials including Spark components.\n\n§aTip:§f A major stepping stone before Digamma crystals - powerful but significantly safer to produce.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:laser_crystal_bale"
+      },
+      "name:8": "Spark Laser Crystal"
+    }
+  },
+  "questID:3": 10260,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:laser_crystal_bale"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

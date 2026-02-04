@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    10142
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Big-Ass Tank 9000§f provides §bmassive fluid storage capacity§f.\n\n§eCapacity:§f\nFar exceeds standard tanks - when you need serious storage.\n\n§eUses:§f\n• Large-scale fluid operations\n• Buffer for industrial processes\n• Emergency reserves\n\n§aTip:§f For when standard tanks aren\u0027t cutting it - truly massive storage.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_bat9000"
+      },
+      "name:8": "Big-Ass Tank 9000"
+    }
+  },
+  "questID:3": 10143,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_bat9000"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

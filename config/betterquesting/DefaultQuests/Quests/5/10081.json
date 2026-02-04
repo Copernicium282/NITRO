@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    10066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Hydraulic Fracking Tower§f extracts oil from depleted or difficult deposits.\n\n§eFunction:§f\n• Accesses oil inaccessible to derricks/pumpjacks\n• Uses hydraulic pressure to fracture rock\n• Extracts remaining oil reserves\n\n§eSide Effects:§f\n• Creates §bOily Dirt§f in environment\n• Environmental contamination (can be processed for Arsenic)\n\n§aTip:§f Use when conventional extraction is depleted.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_fracking_tower"
+      },
+      "name:8": "Hydraulic Fracking Tower"
+    }
+  },
+  "questID:3": 10081,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_fracking_tower"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

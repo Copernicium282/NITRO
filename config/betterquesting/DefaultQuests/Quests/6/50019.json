@@ -1,0 +1,236 @@
+{
+  "preRequisites:11": [
+    50025,
+    10139
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nuclear Bombs§f become craftable with proper components.\n\n§eRequirements:§f\n• §bTantalum Control Units§f - Detonation system\n• §bFissile Materials§f - Nuclear core\n• Appropriate casing\n\n§eDetonation:§f\n• Use a §bdetonator§f device\n• Or trigger with §bredstone signal§f\n\n§eTransmutation:§f\n§aNuclear explosions transmute ores§f:\n• §bCoal§f → §bDiamonds§f\n• §bUranium§f → §bSchrabidium§f\n\n§aTip:§f One method for obtaining Schrabidium - controlled detonation near uranium ore.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nuke_man"
+      },
+      "name:8": "Nuclear Bombs"
+    }
+  },
+  "questID:3": 50019,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:crate_weapon"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "hbm:grenade_nuclear"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nuke_gadget"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "hbm:early_explosive_lenses",
+            "orig_meta:3": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gadget_wireing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gadget_core"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nuke_boy"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:boy_shielding"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:boy_target"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:boy_bullet"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:boy_propellant"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "hbm:boy_igniter"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nuke_man"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "hbm:early_explosive_lenses",
+            "orig_meta:3": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:man_igniter"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:man_core"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nuke_mike"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "hbm:explosive_lenses",
+            "orig_meta:3": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:man_core"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:mike_core"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:mike_deut"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "hbm:mike_cooling_unit"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nuke_prototype"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:igniter"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "hbm:cell_sas3",
+            "orig_meta:3": 0
+          }
+        },
+        "3:10": {
+          "Count:3": 4,
+          "Damage:2": 14,
+          "id:8": "hbm:rod_quad"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "Damage:2": 13,
+          "id:8": "hbm:rod_quad"
+        },
+        "5:10": {
+          "Count:3": 2,
+          "Damage:2": 7,
+          "id:8": "hbm:rod_quad"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "6:10": {
+      "index:3": 6,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nuke_fleija"
+        },
+        "1:10": {
+          "Count:3": 6,
+          "id:8": "hbm:fleija_core"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "id:8": "hbm:fleija_propellant"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "id:8": "hbm:fleija_igniter"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "7:10": {
+      "index:3": 7,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nuke_solinium"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "hbm:solinium_igniter"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "hbm:solinium_propellant"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:solinium_core"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    10035,
+    10052,
+    10139
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Soyuz-FG§f is a rocket for orbital missions.\n\n§eFunction:§f\n• Orbital payload delivery\n• Space program vehicle\n• Based on real Soyuz design\n\n§eSetup:§f\n• Construct on §bLaunch Pad§f\n• Load with fuel and payload\n• Launch to orbit\n\n§aTip:§f Required for space exploration and satellite deployment.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:missile_soyuz"
+      },
+      "name:8": "Soyuz-FG"
+    }
+  },
+  "questID:3": 10103,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 2,
+          "id:8": "hbm:bomb_caller"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:missile_soyuz"
+        },
+        "1:10": {
+          "Count:3": 447,
+          "id:8": "hbm:struct_scaffold"
+        },
+        "2:10": {
+          "Count:3": 414,
+          "id:8": "hbm:struct_launcher"
+        },
+        "3:10": {
+          "Count:3": 358,
+          "id:8": "hbm:concrete_smooth"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:struct_soyuz_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

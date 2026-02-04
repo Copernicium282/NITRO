@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    37
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Industrial Mixer§f is a processing machine used to §6combine fluids§f with §bitems§f or other §bfluids§f. It overlaps with some §bChemical Plant§f recipes and can act as a §apractical alternative§f where applicable.\n\n§eThe mixer’s interface contains §63 input slots§f:\n§b• Two fluid inputs§f  \n§b• One item input§f  \n\n§eThe output side accepts a §bFluid Identifier§f, which §6locks the active recipe§f. Without a valid identifier, the mixer §cwill not process§f.\n\n§eCertain fluids support §6alternate recipes§f. These can be selected using the §9recipe toggle button§f on the input side. Notable multi-recipe fluids include:\n\n§b• Fracking Solution§f  \n§e  – Water + Petroleum Gas + Sulfur  \n§e  – Sulfuric Acid + Petroleum Gas  \n\n§b• Biofuel§f  \n§e  – Wood Oil + Fish Oil  \n§e  – Wood Oil + Sunflower Seed Oil  \n\n§b• Nitroglycerin§f  \n§e  – Nitric Acid + Petroleum Gas  \n§e  – Nitric Acid + Fish Oil  \n\n§b• Oxyhydrogen§f  \n§e  – Liquid Hydrogen + Liquid Oxygen  \n§e  – Liquid Hydrogen only  \n\n§b• Engine Lubricant§f  \n§e  – Ethanol + Sunflower Seed Oil  \n§e  – Ethanol + Fish Oil  \n§e  – Heating Oil + Unsaturated Hydrocarbons  \n\n§b• Solvent§f  \n§e  – Aromatic Hydrocarbons + any §64 types of Naphtha§f  \n\n§eThe Industrial Mixer supports §emany additional recipes§f beyond those listed here. For a complete reference, consult §9JEI§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_mixer"
+      },
+      "name:8": "Industrial Mixer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 211,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_mixer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

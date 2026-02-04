@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    10066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Catalytic Cracking Tower§f is a large multiblock structure for §badvanced petroleum refining§f. Breaks heavy hydrocarbons into lighter, more valuable products.\n\n§eBenefits:§f\n• §aBetter yields§f than basic refining\n• Produces §bCracked Oil§f which gives better Refinery output\n• Essential for maximizing crude oil value\n\n§eRequirements:§f\n• Requires §bNiobium§f components (from Coltan processing)\n• High power consumption\n• Significant infrastructure investment\n\n§eProducts:§f\n• Light hydrocarbons for fuel production\n• Aromatic compounds for chemical synthesis\n• Higher-value outputs than direct refining\n\n§aTip:§f Process crude oil through the Cracking Tower §bbefore§f the Refinery for maximum yields.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_catalytic_cracker"
+      },
+      "name:8": "Catalytic Cracking Tower"
+    }
+  },
+  "questID:3": 10059,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:syringe_metal_stimpak"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_catalytic_cracker"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    10035
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Launch Pad§f enables rocket and missile launches.\n\n§eFunction:§f\n• Platform for rocket construction\n• Launching point for missiles\n• Space program foundation\n\n§eCompatible:§f\n• §bSoyuz-FG§f rockets\n• Various missile types\n• Transport rockets\n\n§aTip:§f Essential for space exploration and orbital operations.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:launch_pad_large"
+      },
+      "name:8": "Launch Pad"
+    }
+  },
+  "questID:3": 10107,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:bomb_caller"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:launch_pad_large"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:launch_pad"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

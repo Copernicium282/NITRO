@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    10064,
+    50006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6M1TTY Environment Suit§f provides protection against environmental hazards.\n\n§eProtection:§f\n• Radiation resistance\n• Hazardous material handling\n• Basic nuclear work safety\n\n§eCompared to other suits:§f\n• Better than basic hazmat\n• Stepping stone to higher-tier suits (HEV)\n\n§aTip:§f Use when working with moderately radioactive materials before obtaining HEV suit.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:envsuit_helmet",
+        "tag:10": {
+          "charge:4": 100000
+        }
+      },
+      "name:8": "M1TTY Environment Suit"
+    }
+  },
+  "questID:3": 10014,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gas_mask_m65"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "hbm:gas_mask_filter"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:envsuit_helmet",
+          "tag:10": {
+            "charge:4": 100000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:envsuit_plate",
+          "tag:10": {
+            "charge:4": 100000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:envsuit_legs",
+          "tag:10": {
+            "charge:4": 100000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:envsuit_boots",
+          "tag:10": {
+            "charge:4": 100000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

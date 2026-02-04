@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    10240,
+    10214
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Antimatter§f is exotic matter that annihilates on contact with normal matter.\n\n§eTask:§f Obtain 1x §bAntimatter Barrel§f (barrel_antimatter)\n\n§eObtaining:§f\n• §bParticle Accelerator§f - Primary production method\n• Some Cyclotron reactions produce small amounts\n\n§eStorage:§f\n§c§4CRITICAL:§f Must store in §bHeavy Magnetic Storage Tank§f!\nNormal tanks cause annihilation → explosion.\n\n§eUses:§f\n• §bBalefire Rocket Fuel§f (BF Fuel) - Most powerful rocket fuel\n• Advanced physics experiments\n• End-game energy applications\n\n§aTip:§f Small amounts go a long way. Handle with extreme care.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 33,
+        "id:8": "hbm:fluid_icon"
+      },
+      "name:8": "Antimatter"
+    }
+  },
+  "questID:3": 10027,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_weapon"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "hbm:grenade_nuclear"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "hbm:cell_antimatter",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:barrel_antimatter"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

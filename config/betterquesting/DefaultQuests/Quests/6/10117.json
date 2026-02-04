@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    10111
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Cooling Tower§f provides large-scale heat dissipation.\n\n§eTask:§f Craft 1x §bLarge Cooling Tower§f (machine_tower_large)\n\n§eFunction:§f\n• Massive heat dissipation capacity\n• Essential for reactor cooling at scale\n• Evaporates heat to atmosphere\n\n§eSetup:§f\n• Connect to cooling water loops\n• Requires continuous water supply\n• Returns cooled water to system\n\n§eUse Cases:§f\n• Large reactor installations\n• Industrial process cooling\n• High-capacity heat management\n\n§aTip:§f The large tower handles significantly more heat than auxiliary towers.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_tower_large"
+      },
+      "name:8": "Cooling Tower"
+    }
+  },
+  "questID:3": 10117,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:radaway"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_tower_large"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

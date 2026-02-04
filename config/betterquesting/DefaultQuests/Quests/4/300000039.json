@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    9671766
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nuclear Furnace§f uses §bUranium§f or §bThorium Ingots§f as fuel to §6rapidly smelt items§f. These fuels burn §asignificantly faster§f than conventional sources, making the furnace ideal for §ehigh-throughput smelting§f at the cost of §cradioactive materials§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "nuclearcraft:nuclear_furnace"
+      },
+      "name:8": "Nuclear Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 300000039,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "nuclearcraft:nuclear_furnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

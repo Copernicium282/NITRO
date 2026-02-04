@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    10043
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Oil Refinery§f is the core of petroleum processing. Takes §bhot oil§f and splits it into various fractions based on boiling points. §aPurely thermodynamic§f - requires no electricity, just hot input fluid.\n\n§eSetup:§f\n• Crafted in §bAssembly Machine§f (Steel plates, copper, pipes, vacuum tubes)\n• First heat oil in §bIndustrial Boiler§f to \"Hot\" state\n• Pipe hot oil into Refinery\n\n§eHot Crude Oil (1000mB) yields:§f\n• §b300mB Heavy Oil§f → Lubricant or crack to lighter fractions\n• §b350mB Naphtha§f → Gasoline production\n• §b200mB Light Oil§f → Diesel fuel\n• §b150mB Unsaturated Hydrocarbons§f\n• Byproduct: §bParaffin Wax§f\n\n§eHot Cracked Oil (1000mB) yields:§f\n• 350mB Naphtha\n• 350mB Light Oil\n• 150mB Aromatic Hydrocarbons\n• 150mB Unsaturated Hydrocarbons\n• Byproduct: Paraffin Wax\n\n§eDesulfurized variants§f produce desulfurized outputs + §bSulfur§f byproduct.\n\n§aTips:§f\n• §aNo power needed§f - fuel cost is in the Boiler\n• Repair with §bBlowtorch§f and §bSteel Plates§f if damaged\n• The letters on facets spell \"Fluttershy\" (MLP reference)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_refinery"
+      },
+      "name:8": "Basic Oil Processing"
+    }
+  },
+  "questID:3": 10047,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "hbm:definitelyfood"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_refinery"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_fraction_tower"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    10195,
+    10184,
+    10109
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6ICF§f (Inertial Confinement Fusion) is an advanced fusion system that uses §blasers§f to compress fusion fuel.\n\n§eDifferent from Magnetic Fusion:§f\n• Uses lasers instead of magnetic containment\n• More compact design\n• Requires precision laser equipment\n\n§eComponents:§f\n• §bICF Laser§f - Primary ignition source\n• §bICF Laser Turbocharger§f - Boosts compression power\n• §bSpark Laser Crystal§f - Amplifies output\n• §bICF Fuel Pellets§f - Specialized fusion fuel\n\n§eOperation:§f\n• Lasers focus massive energy onto fuel pellets\n• Compression causes fusion ignition\n• Generates enormous power output\n\n§aTip:§f ICF represents an alternative to magnetic Fusion Reactors - more compact but requiring different infrastructure.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:icf"
+      },
+      "name:8": "ICF"
+    }
+  },
+  "questID:3": 10138,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "hbm:crate_weapon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 960,
+          "Damage:2": 33,
+          "id:8": "hbm:bolt"
+        },
+        "1:10": {
+          "Count:3": 240,
+          "Damage:2": 3,
+          "id:8": "hbm:icf_component"
+        },
+        "2:10": {
+          "Count:3": 240,
+          "Damage:2": 30,
+          "id:8": "hbm:plate_cast"
+        },
+        "3:10": {
+          "Count:3": 117,
+          "Damage:2": 1,
+          "id:8": "hbm:icf_component"
+        },
+        "4:10": {
+          "Count:3": 117,
+          "Damage:2": 46,
+          "id:8": "hbm:plate_cast"
+        },
+        "5:10": {
+          "Count:3": 50,
+          "id:8": "hbm:icf_component"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "hbm:struct_icf_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

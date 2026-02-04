@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    50028,
+    10135
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Versatile Integrated Circuit§f is the §bhighest-tier general circuit§f component.\n\n§ePosition in Chain:§f\nMicrochip → Integrated → Military → §bVersatile§f (this)\n\n§eTask:§f Craft 1x §bhbm:circuit§f (Versatile tier)\n\n§eUses:§f\n• Most advanced machinery\n• End-game equipment\n• Top-tier automation\n\n§aTip:§f The peak of circuit progression - needed for most end-game recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "hbm:circuit"
+      },
+      "name:8": "Versatile Integrated Circuit"
+    }
+  },
+  "questID:3": 10040,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "hbm:circuit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

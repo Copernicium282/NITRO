@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    10138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6ICF Fuels§f are specialized fusion fuel pellets for §bInertial Confinement Fusion§f.\n\n§eFuel Types:§f\n• Different fuel compositions available\n• Varying power outputs and byproducts\n• Choose based on desired output\n\n§eHandler:§f\n• Pellets are compressed by laser for fusion\n• Each type has specific ignition requirements\n• Different fuels yield different products\n\n§aTip:§f Experiment with different fuel types to find the optimal balance for your power needs.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:icf_pellet_depleted"
+      },
+      "name:8": "ICF Fuels"
+    }
+  },
+  "questID:3": 50036,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_lead"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_icf_press"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:icf_pellet_empty"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

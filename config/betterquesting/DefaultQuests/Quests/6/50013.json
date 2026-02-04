@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    10000,
+    10114,
+    10010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Spent Fuel Pool Drum§f cools hot nuclear fuel rods from reactors.\n\n§eCapacity:§f Holds §e12 slots§f of fuel rods.\n\n§eCompatible Reactors:§f\n• §bRBMK§f extracted fuel rods\n• §bZIRNOX§f spent fuel\n• §bPWR§f depleted fuel\n\n§eRequirements:§f\n• §cAt least one side must touch Water§f to function\n• §aMore water contact \u003d faster cooling§f\n\n§aTip:§f Place in or adjacent to water pools for maximum cooling efficiency.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_waste_drum"
+      },
+      "name:8": "Spent Fuel Pool Drum"
+    }
+  },
+  "questID:3": 50013,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:radaway"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_waste_drum"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

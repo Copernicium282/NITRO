@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    29
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Arc Welder§f is a §6core fabrication machine§f used to produce §bstructural components§f such as §bcast plates§f, §bmissile parts§f, and other advanced materials. Some recipes additionally require a §bfluid input§f to function.\n\n§6Usage \u0026 Operation:§f\n\n§eThe Arc Welder features §63 item input slots§f and §61 fluid slot§f. Depending on the recipe, fluids may be §eoptional§f or §cmandatory§f. Each recipe also defines its own §6power consumption§f (measured in §bHE/t§f) and §6processing time§f (measured in §bticks§f).\n\n§6Input / Output Configuration:§f\n\n§eItem slots are §6color-coded:§f\n§c• Red slot§f  \n§e• Yellow slot§f  \n§a• Green slot§f  \n\n§eThese colors correspond directly to the welder’s external ports:§f\n§c• 4 Red ports§f  \n§a• 4 Green ports§f  \n§e• 2 Yellow ports§f  \n\n§eItems must enter through the matching port color§f. §bFluids§f may be inserted through §aany port§f.\n\n§6Primary Uses:§f\n\n§bWelded Plates§f are one of the most important outputs. Each welded plate is made from §62 cast plates§f (each worth §63 ingots§f), totaling §66 ingots per plate§f. These plates are §6mandatory§f for machines such as:\n§b• Oil Refinery§f  \n§b• Watz Power Plant§f  \n§b• Fusion Reactor§f  \n\n§eThe Arc Welder also provides §asimplified recipes§f for frequently used components like §bcircuits§f and §bmotor assemblies§f.\n\n§eAdditionally§f, it is the §6primary machine§f used for assembling §bgeneric missiles§f, making it essential for both §6industrial§f and §cweapon§f progression.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_arc_welder"
+      },
+      "name:8": "Arc Welder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 31,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_arc_welder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

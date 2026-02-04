@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    20
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Multi Fluid Identifier§f is an §6advanced fluid filter§f that allows you to §aselect the target fluid§f directly, without crafting multiple §bFluid Identifiers§f from the §bTemplate Folder§f. This greatly §areduces setup overhead§f in complex fluid systems and is especially useful in §elarge-scale processing lines§f.\n\n§6Settings Tool§f is a utility item used to §6copy and apply machine configurations§f. It allows you to duplicate §einputs, outputs, and behavior settings§f between machines, making it §aindispensable§f when building §6large refineries§f or repeated machine arrays.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:settings_tool"
+      },
+      "name:8": "Multi Fluid Identifier and Settings Tool",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 49,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "hbm:fluid_identifier_multi",
+          "tag:10": {
+            "fluid1:3": 1
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:settings_tool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

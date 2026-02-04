@@ -1,0 +1,37 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6RF to HE Conversion§f is now fully §aseamless§f. By connecting §bThermal Dynamics power cables§f directly to an §bHBM Energy Storage Block§f, §bRF§f is automatically converted into §bHE§f at a §61:1 ratio§f, with no energy loss.\n\n§cHowever§f, the §bHBM Energy Storage Block§f is now considered §eoutdated§f and is now replaced with §bBatteries§f.\n\n§eFor reliable operation§f, it is recommended to use a §bVoltaic Pile§f and a §bMultitool§f to configure the interfaces correctly. Set the §bHE side§f to §6INPUT§f and the §bRF side§f to §6OUTPUT§f.\n\n§cImportant§f: §6Batteries§f must be set to §6OUTPUT ONLY§f using the §eleft-side mode button§f (next to the blue information icon, not the redstone control). If this setting is incorrect, §ctransfer will not occur§f.\n\n§eOnce converted§f, RF-derived energy can be §adistributed normally§f to §bany compatible machine§f.\n\n§eIn addition§f, §6Batteries§f can §acharge RF-based items and blocks§f when placed inside them, allowing smooth integration between §bRF power systems§f and §bHBM power networks§f without the need for extra converters. You can use this feature to charge your machines using a Lithium Ion Cell for now, until you get a voltaic pile.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "thermaldynamics:duct_0"
+      },
+      "name:8": "RF to HE"
+    }
+  },
+  "questID:3": 990917374,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thermaldynamics:duct_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

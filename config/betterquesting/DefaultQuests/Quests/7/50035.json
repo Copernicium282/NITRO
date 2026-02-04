@@ -1,0 +1,73 @@
+{
+  "preRequisites:11": [
+    10138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6ICF Laser§f is the primary ignition source for §bInertial Confinement Fusion§f systems.\n\n§eFunction:§f\n• Focuses massive energy onto fusion fuel pellets\n• Compression triggers fusion ignition\n• Core of the ICF power generation chain\n\n§eRequirements:§f\n• §bSpark Laser Crystal§f for amplification\n• High power input\n• Proper alignment with containment\n\n§aTip:§f Pair with §bICF Laser Turbocharger§f for increased compression power and more efficient fusion ignition.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:icf_controller"
+      },
+      "name:8": "ICF Laser"
+    }
+  },
+  "questID:3": 50035,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 45,
+          "id:8": "hbm:icf_laser_component"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 4,
+          "id:8": "hbm:icf_laser_component"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 3,
+          "id:8": "hbm:icf_laser_component"
+        },
+        "3:10": {
+          "Count:3": 3,
+          "Damage:2": 5,
+          "id:8": "hbm:icf_laser_component"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "hbm:icf_laser_component"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "hbm:icf_controller"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "hbm:icf_laser_component"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

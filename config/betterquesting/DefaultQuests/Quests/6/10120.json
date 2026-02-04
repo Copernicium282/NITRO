@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    10176
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ionized Particles§f are charged particles for research and processing.\n\n§eTask:§f Obtain 1x §bCharged Pellet§f (pellet_charged)\n\n§eObtaining:§f\n• §bParticle Accelerator§f operations\n• §bCyclotron§f byproducts\n• Some reactor processes\n\n§eUses:§f\n• Advanced research recipes\n• Material processing\n• Component for exotic items\n• Fusion fuel precursors\n\n§aTip:§f Collect and store - useful for various end-game recipes.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pellet_charged"
+      },
+      "name:8": "Ionized Particles"
+    }
+  },
+  "questID:3": 10120,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_lead"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pellet_charged"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

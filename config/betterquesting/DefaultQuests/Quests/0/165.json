@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    29
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Crucible Smelting Setup:\n\n§eThe §6Crucible§f is a §6core early-game machine§f in NTM. Many materials §ccannot be processed any other way§f, making it essential to learn early. This guide walks you through building a §6basic foundry setup§f and casting §bCast Copper Plates§f—your first unavoidable crucible product.\n\n§6Prerequisites§f\n\n§eBefore smelting, you must craft a §6Crucible§f using a §bSteel Anvil§f. While the anvil itself is simple, all foundry machines require §6Firebricks§f.\n\n§eFirebricks are smelted from §bFireclay§f, which can be crafted in two ways:\n§b• 3 Clay§f + §b1 Aluminum Powder / Ore§f  \n§b• 2 Clay§f + §b1 Sand§f + §b1 Limestone§f (§asaves aluminum§f)\n\n§eTo build the §6simplest foundry setup§f, you will need:\n§b• 1× Crucible§f  \n§b• 1× Heating Oven or Firebox§f  \n§b• 1× Shallow Foundry Basin§f  \n§e  (Use a normal basin for blocks, steel pipes, or 9× molds)  \n§b• 1× Blank Foundry Mold§f  \n§b• Raw material to cast§f (Copper)  \n§b• Any furnace fuel§f (Coal, wood, etc.)\n\n§6Step 1 – Creating the Foundry Mold§f\n\n§eA §bBlank Foundry Mold§f must be shaped before use. To do this, place:\n§b• The desired output item§f in slot one of §eany anvil§f  \n§b• A Blank Foundry Mold§f in slot two\n\n§eFor this example, a §bCast Iron Plate§f is used to create a §6Cast Plate Mold§f.\n\n§eYou may notice that this requires an existing cast plate.§f This is intentional—§bCast Iron Plates§f have a §esimple but inefficient§f crafting recipe specifically to bootstrap crucible usage.\n\n§6Step 2 – Building the Foundry§f\n\n§eClear a §64×3 block area§f for the setup. Leaving §a1 block of space§f around the crucible is strongly recommended for access.\n\n§eAssembly order:\n§b• Place the Heating Oven or Firebox§f on the ground  \n§b• Place the Crucible§f directly §eon top§f of it  \n§b• Move to the back (green output side)§f  \n§b• Place the Shallow Foundry Basin§f on the ground below the green channel  \n§b• Right-click the basin with the mold§f to insert it\n\n§eTo change molds later§f, either §ebreak the basin§f or use a §bScrewdriver§f to eject it.\n\n§aThis completes the basic foundry setup.§f\n\n§6Step 3 – Operating the Foundry§f\n\n§eInsert §bany furnace fuel§f into the Heating Oven or Firebox.§f Do not worry about wasted fuel—§athe system does not lose TU passively§f.\n\n§eNext, place your §braw material§f (Copper) into the §69 internal slots§f of the Crucible. After a short delay, it will begin §6melting into molten metal§f.\n\n§eOnce enough metal accumulates§f (§63 ingots for cast plates§f), the Crucible will §aautomatically pour§f into the mold.\n\n§eAfter a brief cooldown§f, the metal solidifies. §9Right-click the basin§f to retrieve the finished item.\n\n§aThe process then repeats automatically§f as long as material and heat are available.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:foundry_mold"
+      },
+      "name:8": "Crucible: Tutorial"
+    }
+  },
+  "questID:3": 165,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2900,
+          "id:8": "hbm:plate_cast"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

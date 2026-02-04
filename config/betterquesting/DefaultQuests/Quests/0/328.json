@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    20
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Machine Upgrade Template§f is the §6foundation component§f required to create all §bmachine upgrades§f. No upgrade can be produced without it.\n\n§eMachine upgrades serve more than just efficiency gains§f. While some improve §6speed, power usage, or output§f, others §aunlock entirely new machine functions§f, changing how a machine operates or what it can do.\n\n§eAs progression advances§f, upgrades become §6mandatory§f for automation, optimization, and accessing §chigher-tier mechanics§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:upgrade_template"
+      },
+      "name:8": "Machine Upgrade Template",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 328,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:upgrade_template"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

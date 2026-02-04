@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    10086,
+    10120
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Ferric Schrabidate§f is processed §bSchrabidium§f for advanced recipes.\n\n§eObtaining:§f\n• Processing Schrabidium\n• Chemical conversion\n\n§eUses:§f\n• §bDineutronium§f production (8 Ferric Schrabidate + Sparkticle \u003d 8 DNT)\n• Advanced end-game crafting\n• DFC components\n\n§c§4RADIATION:§f Highly radioactive - full hazmat protection required.\n\n§aTip:§f Essential intermediate for the DNT path.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_schrabidate"
+      },
+      "name:8": "Ferric Schrabidate"
+    }
+  },
+  "questID:3": 10184,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_lead"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "hbm:radaway"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_schrabidate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

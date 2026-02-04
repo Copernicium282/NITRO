@@ -1,0 +1,51 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0,
+    0
+  ],
+  "preRequisites:11": [
+    10240,
+    10166,
+    10010
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Euphemium§f is an extremely rare material with unique properties - second only to §bDineutronium§f.\n\n§eObtaining:§f\n• Rare drops from certain processes\n• Can be produced through advanced nuclear methods\n• Extremely valuable\n\n§eUses:§f\n• High-tier crafting recipes\n• Advanced armor and equipment\n• End-game component production\n\n§c§4HANDLING:§f\nEffects can be unpredictable - use with appropriate caution.\n\n§aTip:§f Save your Euphemium for the most important recipes - it\u0027s difficult to obtain in bulk.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:nugget_euphemium"
+      },
+      "name:8": "Euphemium"
+    }
+  },
+  "questID:3": 10252,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:syringe_awesome"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_euphemium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

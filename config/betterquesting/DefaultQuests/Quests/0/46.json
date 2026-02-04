@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    9
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Mass Storage Units (MSUs)§f are storage blocks designed to hold a §6massive quantity§f of §ba single item§f. They are ideal for §aautocrafting setups§f and other systems that constantly consume common materials.\n\n§eEach MSU can store only §cone item type§f, but offers §6far higher capacity§f than standard storage options, keeping automation lines §asteady and accessible§f.\n\n§bWood MSU§f is crafted using §68 wooden planks§f of any type and an §6iron plate§f. Higher-tier MSUs are made from §brarer materials§f such as §6steel§f, §6desh§f, and §6cadmium/technetium steel§f, and often require §belectronic components§f to assemble.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:mass_storage_iron"
+      },
+      "name:8": "Mass Storage Unit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 46,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:mass_storage_wood"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    10048,
+    10066,
+    10006,
+    10139
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Exposure Chamber§f bombards materials with §bhigh-energy particles§f to transmute elements. The most efficient method for producing §bSchrabidium§f at scale.\n\n§eKey Recipe:§f\n§b8x Uranium-238§f + §b1x Higgs Boson Capsule§f \u003d §b8x Schrabidium Ingots§f\n§a(100% conversion efficiency)§f\n\n§eOperation:§f\n• Requires particles from a §bParticle Accelerator§f\n• Insert target materials and particle capsules\n• High-energy bombardment causes nuclear transmutation\n\n§eOther Uses:§f\n• Various element transmutations\n• Advanced isotope production\n• End-game material processing\n\n§c§4RADIATION HAZARD:§f The chamber emits intense radiation during operation. Full hazmat protection required in vicinity.\n\n§aTips:§f\n• §aBest method for bulk Schrabidium§f production (meteor mining is too slow)\n• Automate Higgs Boson Capsule production for continuous operation\n• Pair with Particle Accelerator for complete transmutation setup",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_exposure_chamber"
+      },
+      "name:8": "Exposure Chamber"
+    }
+  },
+  "questID:3": 10102,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_lead"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_exposure_chamber"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

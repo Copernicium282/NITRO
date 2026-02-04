@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    10102,
+    50032
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Particle Capsules§f contain exotic particles for advanced research and processing.\n\n§eTypes:§f\n• §bHiggs Boson Capsules§f - For Exposure Chamber transmutation (U-238 → Schrabidium)\n• §bSparkticle Capsules§f - For Dineutronium production\n• Various other particle types from Particle Accelerator\n\n§eObtaining:§f\n• §bParticle Accelerator§f operations\n• Some from §bCyclotron§f\n\n§eUses:§f\n• Material transmutation in Exposure Chamber\n• Advanced end-game recipes\n• High-energy physics\n\n§aTip:§f Automate capsule collection from your Particle Accelerator.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:particle_sparkticle"
+      },
+      "name:8": "Particle Capsules"
+    }
+  },
+  "questID:3": 10240,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

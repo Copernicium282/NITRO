@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    85
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Solar Tower Boiler§f uses §6direct sunlight§f to boil §bwater§f into §bsteam§f, functioning only during §edaytime§f. To operate, it requires §bHeliostat Mirrors§f to redirect sunlight into the tower.\n\n§eHeliostat Mirrors must be aimed at the boiler using a §9Mirror Adjustment Tool§f.§f  \n§9Right-click§f the boiler to store its position, then §9right-click§f mirrors to link and aim them automatically.\n\n§eMirror behavior:\n§b• Maximum range§f: §6100 blocks§f (no efficiency loss with distance)  \n§b• Rotation limit§f: §645°§f  \n§eHigher placement of the boiler allows §amore mirrors§f to be linked effectively.\n\n§eAt full sunlight§f, the boiler consumes §61 mB of water§f per §612.5 mirrors§f each tick and produces §6100 mB of steam§f per mB of water used. §eWater consumption is rounded down to whole millibuckets§f.\n\n§eTheoretical maximum steam output§f is §610,000 mB/t§f, though actual output is §climited by internal water and steam buffers§f.\n\n§6Steam Engine:§f\n\n§eSteam Engines convert §bsteam§f into §6electric power.§f\n\n§eThey operate at §685% efficiency§f, outperforming §bStirling Engines§f. However, throughput is §climited§f by an internal capacity of §62000 mB of steam§f.\n\n§eAt maximum rate§f, a Steam Engine processes §62000 mB/t§f, producing approximately §63400 HE/t§f (§668 kHE/s§f).\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_solar_boiler"
+      },
+      "name:8": "Solar Tower Boiler",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 98,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_solar_boiler"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:solar_mirror"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:mirror_tool"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_steam_engine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

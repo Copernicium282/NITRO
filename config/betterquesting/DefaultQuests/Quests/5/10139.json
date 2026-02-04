@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    10043
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Tantalum§f is a rare metal essential for advanced electronics.\n\n§eObtaining:§f\n• Coltan ore processing\n• Complex refining chain\n\n§eUses:§f\n• §bTantalum Control Units§f - nuclear bomb components\n• High-tier capacitors\n• Advanced circuitry\n\n§eTantalum Control Unit:§f\nRequired for crafting nuclear bombs - enables detonation systems.\n\n§aTip:§f Critical material for nuclear weapons development.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:gem_tantalium"
+      },
+      "name:8": "Tantalum"
+    }
+  },
+  "questID:3": 10139,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_weapon"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gun_heavy_revolver"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:coltan_tool"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_tantalium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

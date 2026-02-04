@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    9
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Power Transmission§f starts with §bRed Copper Cables§f, the most basic way to move electricity. They come in §6two forms§f: a §bfull block§f and a §bthin cable§f. The block version also has a §apaintable variant§f, allowing it to §eblend into builds§f more easily.\n\n§eFor cleaner layouts and §6long-distance power transfer§f, §bCable Drums§f paired with §bElectricity Connectors§f can be used. These powerlines are §anon-solid§f and can §apass through floors and walls§f, making them ideal for compact or vertical builds.\n\n§bCapacitors§f function as §6directional power buffers§f. They §astore energy§f like standard storage blocks but also act as §6diodes§f, allowing power to flow in §eonly one direction§f. Any excess power that isn’t consumed by machines or storage is §aretained§f instead of being wasted.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:red_cable"
+      },
+      "name:8": "HE Energy Transfer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 17,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:red_cable"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:red_cable_paintable"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:wiring_red_copper"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:red_connector"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:capacitor_copper"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "hbm:capacitor_bus"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

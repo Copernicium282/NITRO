@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    26
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Hazmat Suits§f are protective armor sets designed to §6shield the player from hazardous environments§f, most notably §cradiation§f. Higher protection tiers can be achieved by reinforcing §bHazmat Cloth§f, allowing the creation of §6more resistant suits§f and eventually §bLiquidator Suits§f.\n\n§eFor protection against airborne dangers§f, a §bGas Mask Filter§f is required. §9Left-click§f with the filter to equip it. Without a filter installed, §cgas-based hazards will still affect you§f even while wearing protective gear.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:hazmat_helmet",
+        "tag:10": {}
+      },
+      "name:8": "Hazmat Suits",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 15,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:radaway"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "hbm:pill_iodine"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 24,
+          "id:8": "hbm:hazmat_cloth"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

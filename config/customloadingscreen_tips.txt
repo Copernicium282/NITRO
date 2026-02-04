@@ -1,0 +1,26 @@
+Connect with other players on the official Discord server, which can be accessed from the Main Menu.
+Contribute or report bugs on GitHub.
+If you're unsure about something, use the JEI search bar for assistance.
+Refer to the quest book for guidance (note that it is a work in progress).
+Be aware that your machines produce visible pollution.
+Never explore without good armor, weapons, and a plan for retreat.
+Sometimes, it is better to flee than to fight certain mobs.
+Research any SCPs you encounter, but proceed with caution.
+You cannot craft a Nether Portal; you'll need to dig down to reach the Nether.
+Dig to bedrock to access The Beneath.
+Avoid building multiblocks on chunk borders.
+A well-designed, compact, and efficient setup is often better than a large, unoptimized one.
+If something feels too tedious, it is likely that you are doing it wrong.
+Automate tasks as soon as possible.
+Embrace more complexity to reduce waiting time.
+Using a Circuit Assembler will make producing circuits more cost-effective.
+Utilize Iron Backpacks for an upgraded inventory.
+HBM tanks can store up to 250,000 mB of fluid.
+With an HBM particle accelerator, you can create Chicken Nuggets (yes, really!).
+Ensure you have hazmat suits and monitoring equipment before building reactors.
+Do not forget to make your daily offering to Duck from HBM!
+Playing with friends is more enjoyable! Be sure to invite them to your Questing Party.
+For better FPS, consider decreasing your render distance.
+Allocate at least 4 GB of RAM for optimal performance.
+Abandon all vanilla knowledge; this modpack operates under its own rules!
+Always make backups of your progress!

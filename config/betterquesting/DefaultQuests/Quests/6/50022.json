@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    10064,
+    10060
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Heat Exchanging Heater§f cools reactor coolants while generating §bTU (Thermal Units)§f.\n\n§eFunction:§f\n• Extracts heat from reactor coolant loops\n• Converts heat to TU for further use\n\n§eUsage:§f\nPlace a §bBoiler§f on top to heat fluids:\n• §bWater§f → §bSteam§f\n• Steam feeds turbines for power\n\n§eTip:§f Essential for converting reactor heat to usable power.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:heater_heatex"
+      },
+      "name:8": "Heat Exchanging Heater"
+    }
+  },
+  "questID:3": 50022,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:syringe_metal_stimpak"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:heater_heatex"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

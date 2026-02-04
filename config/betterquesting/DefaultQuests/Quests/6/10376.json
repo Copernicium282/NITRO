@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    10032,
+    10039,
+    10173,
+    10079
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Radiation-Powered Engine§f converts §bnuclear waste§f into §bdecayed waste§f while generating energy.\n\n§eFunction:§f\n• Uses radiation to generate power\n• Accelerates waste decay\n• §aGuaranteed consistent decay times§f\n\n§eAdvantages:§f\n• Useful for waste processing automation\n• Predictable operation\n• Gets energy from \"free\" radiation\n\n§eBlueprints:§f\nAvailable from structures or §bBobmazon§f orders.\n\n§aTip:§f Great for managing radioactive waste while extracting some value.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_radgen"
+      },
+      "name:8": "Radiation-Powered Engine"
+    }
+  },
+  "questID:3": 10376,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_lead"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_radgen"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

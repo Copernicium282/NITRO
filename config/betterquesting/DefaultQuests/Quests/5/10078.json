@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    10066
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Pumpjack§f is an advanced automated oil extraction device providing §ahigher efficiency§f than derricks.\n\n§eSetup:§f\n• Place directly on §boil deposit§f\n• Connect to fluid pipes or tanks\n• Supply power for continuous operation\n\n§eAdvantages over Derrick:§f\n• §aFaster extraction rate§f\n• §aMore efficient§f on large deposits\n• §aFully automated§f - set and forget\n\n§aTips:§f\n• Use multiple pumpjacks on massive deposits\n• Connect to §bIndustrial Boiler§f for hot oil chain\n• Consider §bFracking Tower§f for depleted deposits",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_pumpjack"
+      },
+      "name:8": "Pumpjack"
+    }
+  },
+  "questID:3": 10078,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "id:8": "hbm:syringe_metal_stimpak"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_pumpjack"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    26,
+    202
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Pollution Detector will monitor and show the levels of pollution present in the environment. High levels of pollution will decrease the visibility, give debuffs to the player and buff mobs, including skeletons spawning with firearms.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:pollution_detector"
+      },
+      "name:8": "Pollution Detector",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 18,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:radaway"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:pollution_detector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    29
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Soldering Station§f is a §6key multiblock machine§f used to §6assemble circuits§f and §bmanufacture machine upgrades§f. It serves as the §ecentral workspace§f for all circuit-related progression.\n\n§eIts first major use§f is crafting §6Analog Circuit Boards§f, which are required by §bearly-game machines§f and systems. As progression continues, the Soldering Station becomes §aessential§f for producing §6advanced circuits§f and §bupgrade components§f that improve machine performance.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_soldering_station"
+      },
+      "name:8": "Soldering Station",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 28,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_soldering_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

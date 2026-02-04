@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    159
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Iron Backpacks revolutionizes portable storage with these features:\n\n§2Tiered backpacks come in four levels §f- each unlocks extra perks like §6expanded space §for §6added upgrade options §fas you climb up. Higher tiers trade basic function for smarter features through gradual progression. One step up brings roomier builds; another favors customization depth. Benefits shift subtly, matching how you use them rather than pushing one-size-fits-all promises.\n§2Visual Equipping§f:§f Backpacks can be equipped and will appear on your character model.\n§2Swap in fresh features anytime§f - build your pack with more than twenty one-of-a-kind tweaks.\n§aThese upgrades bring smarter ways to collect items, refill stock levels, then drop things into storage fast - just a few of countless traits.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ironbackpacks:backpack",
+        "tag:10": {
+          "packInfo:10": {
+            "spec:8": "STORAGE",
+            "type:8": "ironbackpacks:iron",
+            "upgrade:9": {}
+          }
+        }
+      },
+      "name:8": "Backpacks",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 163,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_supply"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ironbackpacks:backpack",
+          "tag:10": {
+            "packInfo:10": {
+              "spec:8": "NONE",
+              "type:8": "ironbackpacks:basic",
+              "upgrade:9": {}
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

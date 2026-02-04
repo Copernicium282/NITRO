@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    10066,
+    10035
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Gas Centrifuge§f processes gaseous fluids for §bUranium Enrichment§f. Unlike standard centrifuges, it\u0027s optimized for hexafluoride cycles.\n\n§eSetup:§f\n• Set a §bFluid ID§f and pump in fluid via ducts/tanks/cells\n• For UF6 enrichment: chain §b2-4 centrifuges§f in sequence\n• §cOutput side faces AWAY§f from player when placed\n• Last two centrifuges §crequire Overclocking upgrade§f\n\n§eOperation:§f Uses §bprobability-based output§f (not 4 items per op like standard):\n• §bUranium-238§f - Highest chance (~80%)\n• §bUranium-235§f - Lower chance (~10%)\n• §bFluorite§f - Lowest chance\n\n§eTwo centrifuges in series§f yield §bU-238§f and §bUranium Fuel§f. §aThe sulfur in the processing line is not consumed.§f\n\n§aTips:§f\n• Check §bNEI§f for recipe probabilities\n• Place ALL centrifuges before starting - recipe switching §cdumps internal tanks§f\n• Machines must be §bdirectly adjacent§f for stage communication",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_gascent"
+      },
+      "name:8": "Gas Centrifuge"
+    }
+  },
+  "questID:3": 50023,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:radaway"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:machine_gascent"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:upgrade_gc_speed"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    300000037
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Advanced Plating§f is a §6high-tier construction component§f used in the crafting of §badvanced machines§f such as §bCrystallizers, Melters, .\n\n§eIt represents a step up§f from basic structural materials and is §6commonly required§f for mid-game NuclearCraft progression.\n\n§eAdvanced Plating§f is primarily used as a §bcrafting material§f rather than a processing component, acting as a §6gatekeeper item§f for higher-complexity machinery and infrastructure.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "nuclearcraft:part"
+      },
+      "name:8": "Advanced Plating"
+    }
+  },
+  "questID:3": 1769217122,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "nuclearcraft:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

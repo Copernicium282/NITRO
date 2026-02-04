@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    10032,
+    10086,
+    50000
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Gravity Gun§f is an advanced technology milestone in HBM\u0027s Nuclear Tech.\n\n§ePrerequisites:§f\nThis quest unlocks after completing:\n• §bIntegrated Circuit Boards§f - Advanced electronics\n• §bSchrabidium§f - Exotic radioactive material\n• §bWeapon Steel§f - Military-grade alloy\n\n§eTask:§f Obtain §bredstone§f to demonstrate basic electronics knowledge.\n\n§eContext:§f This milestone represents mastery of the components needed for advanced HBM devices. The redstone task confirms you understand circuit fundamentals.\n\n§aTip:§f This unlocks further advanced quests in the progression tree.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:redstone"
+      },
+      "name:8": "Gravity Gun"
+    }
+  },
+  "questID:3": 10074,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:stealth_boy"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:redstone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

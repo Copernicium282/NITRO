@@ -1,0 +1,40 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0
+  ],
+  "preRequisites:11": [
+    10147,
+    10091
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Reformate§f is a processed petroleum product from the §bVacuum Refinery§f.\n\n§eObtaining:§f\n• Process petroleum through Vacuum Refinery\n• Part of advanced petrochemical chain\n\n§eUses:§f\n• Creates §bReformate Gas§f for chemical synthesis\n• Path to §bHigh-Performance Solvent§f\n\n§aTip:§f Essential intermediate for accessing the best acidizer solvent tier.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 91,
+        "id:8": "hbm:fluid_icon"
+      },
+      "name:8": "Reformate"
+    }
+  },
+  "questID:3": 10013,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "hbm:definitelyfood"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

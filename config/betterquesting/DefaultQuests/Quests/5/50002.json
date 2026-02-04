@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    50006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6ROR Redstone Fluid Overflow§f is a redstone-controlled fluid management system.\n\n§eFunction:§f\n• Controls fluid flow with redstone\n• Prevents tank overflow\n• Automated fluid routing\n\n§eFeatures:§f\n• Outputs signal when tank is full\n• Can redirect overflow\n• Integration with automation\n\n§aTip:§f Essential for safe fluid handling in automated systems.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:fluid_switch"
+      },
+      "name:8": "ROR Redstone Fluid Overflow"
+    }
+  },
+  "questID:3": 50002,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:syringe_metal_stimpak"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:fluid_switch"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:radio_torch_sender"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "hbm:radio_torch_logic",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:fluid_pump"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

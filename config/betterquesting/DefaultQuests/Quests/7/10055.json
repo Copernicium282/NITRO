@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    10277,
+    10039,
+    50030
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6DFC§f (Digamma Field Containment) is an end-game power generation and containment system harnessing §bDigamma particles§f.\n\n§eCapabilities:§f\n• Contains and harnesses Digamma particle energy\n• High-tier power generation\n• Required for ultimate end-game recipes\n\n§eSetup Requirements:§f\n• Requires §bDNT§f components for construction\n• Needs §bDigamma particles§f as fuel\n• Massive power infrastructure for operation\n\n§c§4EXTREME DANGER:§f\n• Digamma particles are the most dangerous material in the mod\n• Handling requires maximum protection\n• Containment failure has catastrophic consequences\n\n§eUses:§f\n• Ultimate power generation\n• End-game material processing\n• DNT Nanosuit crafting chain\n\n§aTip:§f This represents the absolute end-game. Only attempt once you have mastered all other nuclear technologies.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:dfc_emitter"
+      },
+      "name:8": "DFC"
+    }
+  },
+  "questID:3": 10055,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "hbm:bottle_quantum"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dfc_emitter"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dfc_injector"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dfc_receiver"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dfc_stabilizer"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ams_lens",
+          "tag:10": {}
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "hbm:dfc_core"
+        },
+        "6:10": {
+          "Count:3": 2,
+          "id:8": "hbm:ams_catalyst_blank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

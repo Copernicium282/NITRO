@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    4,
+    3,
+    2
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Blast Furnace§f is a §6fuel-powered alloy furnace§f used to combine §btwo materials§f into advanced metals. It runs on §blava§f or specific §bsolid fuels§f.\n\n§eThe furnace accepts §btwo compatible inputs§f placed in the §etop and bottom slots§f — §aorder does not matter§f. Fuel is inserted into the §eright-side slot§f. Without valid fuel and inputs, the machine §cwill not run§f.\n\n§eInputs may be provided as §bingots§f, §bsolid items§f, or §bpowders§f. However, §acombining powders in a crafting grid first§f is §6more fuel-efficient§f, allowing the alloyed powder to be smelted using other methods.\n\n§eWhile the Blast Furnace has §erelatively few recipes§f, most are §6critical for progression§f:\n\n§b• Steel§f \u003d §6Iron Ore§f + §6Coal§f  \n§b• Steel§f \u003d §6Iron§f + §6Coal§f (§eproduces 1 ingot§f)  \n§b• Red Copper§f \u003d §6Copper§f + §6Redstone§f  \n§b• Advanced Alloy§f \u003d §6Steel§f + §6Red Copper§f\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_difurnace_off"
+      },
+      "name:8": "Blast Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 9,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "hbm:definitelyfood"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_difurnace_off"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_steel"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_red_copper"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_advanced_alloy"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

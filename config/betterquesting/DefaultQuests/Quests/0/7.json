@@ -1,0 +1,31 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Nuclear Integrated Tech Research : Overhauled§f is a §bHBM-NTMCE-focused§f modpack that is in a §eheavy reworking stage§f, aiming to §aintroduce extensive microcrafting§f to help players §6advance through automated crafting chains§f built using §bvarious machines§f from different mods.\n\n§fThis pack was created with the goal of introducing §erealism§f in the §6nuclear-focused§f progression, while §acarefully integrating§f multiple other mods into a cohesive experience.\n\n§eIn the future, I plan to add §6hypothetical machinery§f that exists mostly in theory, such as §bDyson Spheres§f and possibly the §bPenrose Process§f for §6Black Hole energy extraction§f. §aSuggestions are welcome§f on my Discord server.\n\n§fAll said, I wish you §2all the best§f as you begin your journey in this world!\n\n§c(NOTE: Many quests are not yet implemented due to time constraints. You are encouraged to freely explore and test all aspects of the modpack, including exploration, technology, and crafting.)\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:coin_radiation"
+      },
+      "name:8": "Modpack Information"
+    }
+  },
+  "questID:3": 7,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:definitelyfood"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    50021,
+    50018
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Technetium-99§f is a common fission waste product.\n\n§eSources:§f\n• Uranium and Plutonium fission byproduct\n• §bZIRNOX§f reactor (excellent Tc-99 production)\n• Nuclear waste processing via §bSILEX§f\n\n§eUses:§f\n• §bTechnetium Steel§f alloy\n• §bAE2 Storage Components§f - valuable for storage systems\n• Advanced electronics\n\n§aTip:§f ZIRNOX reactors are excellent Tc-99 farms - valuable nuclear \"waste\".",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_technetium"
+      },
+      "name:8": "Technetium-99"
+    }
+  },
+  "questID:3": 50011,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:radaway"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:nugget_technetium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

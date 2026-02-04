@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    4
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§eItems travel easily using §bconveyors§e. These belts §ado not cost much§f yet §eneed careful arrangement§f, thus makeing them §6ideal for automation.\n\n§6Conveyor Belts§f:\n\n§eA §bsingle path§e, §btwo paths§e, or §bthree paths§e of moving belts can be made.§f Each one lines up with §bpushers§f aimed exactly where things feed in.\n\n§eThings move on conveyor belts.§f These blocks §bcarry items§f along their path.§e When something drops nearby, the belt §agrabs it automatically§f. §bEjectors§e also feed items onto them.§f Items get pulled off by special tools called §binserters§f.\n\n§e§bYellow§e ones move stuff §fone after another§f. §e§bRed§e versions carry §6two lines at once§f. §e§bPurple§e handles §6three lanes together§f. §e§bGreen§e runs §afaster than the rest§f. §eItems stay spaced out while riding them§f.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:conveyor"
+      },
+      "name:8": "Conveyor Belt",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 42,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_metal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "hbm:conveyor"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crane_inserter"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crane_ejector"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

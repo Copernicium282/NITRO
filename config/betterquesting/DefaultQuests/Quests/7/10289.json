@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    10260,
+    10135,
+    10103,
+    10287
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Osmiridium§f is an alloy of osmium and iridium with §bexceptional hardness§f.\n\n§eObtaining:§f\n• Alloying osmium and iridium\n• Requires advanced metallurgy setup\n\n§eUses:§f\n• High-tier components requiring extreme durability\n• §bWelded Osmiridium Plate§f production\n• End-game machinery construction\n\n§eTip:§f Save for recipes specifically requiring Osmiridium - its hardness is needed for specific applications.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_osmiridium"
+      },
+      "name:8": "Osmiridium"
+    }
+  },
+  "questID:3": 10289,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_osmiridium"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

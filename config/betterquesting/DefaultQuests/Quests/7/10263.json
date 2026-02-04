@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    10261,
+    10253,
+    10254
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Digamma Laser Crystal§f is an advanced laser component using §bDigamma particles§f.\n\n§ePower:§f\n• §eExponentially more powerful§f than Spark crystals\n• Requires §b6.08 MHE/s§f in FEL\n• Ultimate laser amplification\n\n§c§4DANGER:§f\n• Production is extremely dangerous\n• Requires handling Digamma particles\n• Full hazmat gear mandatory\n\n§eUse in FEL:§f\n• Highest power laser output\n• §aOnly Digamma doesn\u0027t destroy blocks in beam path§f\n• Required for ultimate SILEX processing\n\n§aTip:§f Save this for when you need the absolute maximum laser power.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:laser_crystal_digamma"
+      },
+      "name:8": "Digamma Laser Crystal"
+    }
+  },
+  "questID:3": 10263,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "hbm:crate_weapon"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:laser_crystal_digamma"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

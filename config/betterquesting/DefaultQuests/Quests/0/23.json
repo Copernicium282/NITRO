@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    7
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This iteration of the Questbook was made by §6copernicium282§f (§bir192m2§f on Discord).\n\n§eNotes:§f\n\n§e1) §cThis questbook holds little on §bNTM-CE§c and other mods§f — §echeck JEI§f for details about §bweapons§f, §barmors§f, and similar additions. §eExploration there reveals what\u0027s missing here.§f\n\n§e2) §cUpdating the modpack?§f §cIf new versions changed the questbook§f, remove the §6betterquesting§f folder from the §eworld file§f. §cQuest changes can cause old data to clash§f, so wiping it prevents issues.\n§eOnce removed§f, §aenable cheats§f and type §9\"/bq_admin edit true\"§f. Go to any chapter you prefer, find the §edesigner icon§f (a grid of small boxes), select the quest, and §aconfirm it§f to mark completed quests again.§f\n\n§a§bBig shout-out to the NTM Wiki team§f — details pulled from their pages helped shape the quest content.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:quest_book"
+      },
+      "name:8": "Questbook Information",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 23,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "hbm:definitelyfood"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

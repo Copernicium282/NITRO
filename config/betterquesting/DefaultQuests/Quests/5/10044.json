@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    10082
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Bedrock Ore Processing§f unlocks resources from §bbedrock-level deposits§f using specialized solvents.\n\n§eSolvents (by tier):§f\n• Basic Acidizer Solvent - Common materials\n• Advanced Solvent - Rare materials  \n• §bHigh-Performance Solvent§f - Rarest materials (Bismuth, Technetium-99)\n\n§eProcess:§f\n1. Use §bOre Acidizer§f with bedrock ore samples\n2. Higher-tier solvents yield rarer materials\n3. Install §bEffectiveness upgrade§f to reduce consumption\n\n§aTip:§f Work toward High-Performance Solvent for the best yields.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:machine_ore_slopper"
+      },
+      "name:8": "Bedrock Ore Processing"
+    }
+  },
+  "questID:3": 10044,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_lead"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "hbm:radaway"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_excavator"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:machine_ore_slopper"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ore_density_scanner"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

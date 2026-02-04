@@ -1,0 +1,47 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    10062
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Saturnite§f is a specialized alloy for advanced equipment.\n\n§eObtaining:§f\n• Alloying specific metals\n• Advanced metallurgy\n\n§eUses:§f\n• High-tier equipment\n• Specialized components\n• Advanced weaponry\n\n§aTip:§f Save for recipes specifically requiring Saturnite properties.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:ingot_saturnite"
+      },
+      "name:8": "Saturnite"
+    }
+  },
+  "questID:3": 10073,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:crate_weapon"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "hbm:gun_double_barrel"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:ingot_saturnite"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
