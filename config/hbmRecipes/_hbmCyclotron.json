@@ -8,12 +8,6 @@
       "antimatter": 50
     },
     {
-      "particle": ["hbm:part_plutonium"],
-      "input": ["item","hbm:cell",1,33],
-      "output": ["hbm:cell",1,34],
-      "antimatter": 0
-    },
-    {
       "particle": ["hbm:part_lithium"],
       "input": ["dict","dustLithium"],
       "output": ["hbm:powder_beryllium"],

@@ -175,7 +175,7 @@
         ["item","hbm:powder_magic"],
         ["dict","ingotStarmetal"],
         ["item","hbm:powder_magic"],
-        ["item","hbm:chunk_ore",1,2],
+        ["item","hbm:chunk_ore",1,3],
         ["item","hbm:powder_magic"],
         ["dict","ingotStarmetal"],
         ["item","hbm:powder_magic"],

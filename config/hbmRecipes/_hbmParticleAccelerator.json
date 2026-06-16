@@ -92,6 +92,16 @@
       ]
     },
     {
+      "momentum": 10000,
+      "inputs": [
+        ["item","hbm:item_expensive",1,8],
+        ["dict","ingotSchrabidate"]
+      ],
+      "outputs": [
+        ["hbm:item_expensive",1,9]
+      ]
+    },
+    {
       "momentum": 100,
       "inputs": [
         ["item","minecraft:chicken"],

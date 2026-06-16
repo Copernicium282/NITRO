@@ -1,0 +1,38 @@
+{
+  "recipes": [
+    {
+      "name": "precass.blueprints",
+      "inputItem": [
+        ["item","minecraft:paper",16],
+        ["dict","dyeBlue",16],
+        ["item","minecraft:fish",4,3]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["hbm:blueprint_folder"],1.0,10],
+          [["minecraft:paper",16],1.0,90]
+        ]
+      ],
+      "duration": 6000,
+      "power": 20000
+    },
+    {
+      "name": "precass.beigeprints",
+      "inputItem": [
+        ["item","minecraft:paper",24],
+        ["dict","gemCinnabar",24],
+        ["item","minecraft:fish",8,3]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["hbm:blueprint_folder",1,1],1.0,5],
+          [["minecraft:paper",24],1.0,95]
+        ]
+      ],
+      "duration": 6000,
+      "power": 50000
+    }
+  ]
+}

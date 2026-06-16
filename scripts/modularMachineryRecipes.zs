@@ -242,7 +242,7 @@ recipes.addShaped("gas_centrifuge", <modularmachinery:itemblueprint>.withTag({dy
 [<qmd:ingot_alloy:5>, <qmd:part:3>, <qmd:ingot_alloy:5>]]);
 
 recipes.addShaped("circuit_assembler", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:circuit_assembler"}),
-[[null, <hbm:machine_assembler>, null],
+[[null, <hbm:machine_assembly_machine>, null],
 [null, <modularmachinery:itemmodularium>, null],
 [null, null, null]]);
 

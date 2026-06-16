@@ -1,0 +1,31 @@
+{
+  "questID:3": 40272,
+  "preRequisites:11": [
+    40224
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6Watz Operation & Waste§f\n\n§aOperate your Watz reactor efficiently and handle the toxic byproducts safely!§f\n\n§6GUI Layout§f:\n§b• Fuel Pellet Assembly§f — holds pellets; not location-dependent\n§b• Fluid Gauges§f — coolant, hot coolant, poisonous mud (§e64,000 mB§f each)\n§b• Pellet Configuration Lock§f — maintains pellet layout when auto-replacing\n§b• Heat Gauge§f — needle display; end of gauge ≠ max value or meltdown risk\n§b• Flux Value§f — current neutron flux level\n\n§6Operation§f:\n§b• Redstone signal§f to pressure pump starts the reaction\n§b• Cold coolant§f in through top ports\n§b• Hot coolant + poisonous mud§f out through bottom ports\n§b• No heat generation cap§f beyond the gauge display — purely visual\n\n§6Fuel Management§f:\n• Depletes §eextremely slowly§f — good for servers, impractical for breeding\n• Absorber pellets increase poisonous mud production by consuming flux\n• Fuel options: MEU, MEP, HEN, and schrabidium-based pellets\n\n§6Fuel Reprocessing§f:\n• Spent pellets are cold and non-radioactive — safe to handle!\n• Centrifuge directly for §btechnetium§f, §bbismuth§f, and §beuphemium§f\n• Slow depletion makes this impractical as a primary breeding strategy\n\n§6Meltdown§f:\n• Triggered when §bpoisonous mud buffer§f fills to maximum\n• Violent explosion irradiating a wide area + falling fallout\n• Spews corrosive poisonous mud that damages blocks like corium\n• Among the §eworst meltdowns§f if not properly contained\n\n§6Pros§f: Stackable (single signal), simple operation, cool model, safe spent fuel.\n§6Cons§f: Least efficient late-game fission reactor (≈ZIRNOX level), incredibly expensive, low power (~5 MHE/s), aggressive meltdown, waste liquid builds up at §e3,000 mB/s§f on high-power fuels.\n\n§eTip§f: Solidify poisonous mud immediately! Automate the output with fluiducts and a solidifier to prevent catastrophic buffer overflow.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "hbm:watz_pellet_depleted",
+        "Damage:2": 0
+      },
+      "name:8": "Watz Operation & Waste",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "hbm:watz_pellet",
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -2,12 +2,16 @@
   "comment": "Ingot/block/ore -> dust recipes are generated in post and can therefore not be changed with the config. Non-auto recipes do not use ore dict.",
   "recipes": [
     {
-      "input": ["biomesoplenty:log_4",1,4],
-      "output": ["hbm:powder_sawdust",4]
+      "input": ["byg:redwoodplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["minecraft:wool",1,11],
       "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["byg:palm_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["harvestcraft:guava_sapling"],
@@ -20,6 +24,10 @@
     {
       "input": ["minecraft:fermented_spider_eye"],
       "output": ["hbm:powder_poison",3]
+    },
+    {
+      "input": ["byg:strippedfirlog"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:deco_pipe_rim_marked"],
@@ -38,6 +46,14 @@
       "output": ["hbm:powder_steel"]
     },
     {
+      "input": ["byg:stripped_aspen_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:stripped_hawthorn_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:debris_element"],
       "output": ["hbm:scrap_nuclear",4]
     },
@@ -48,6 +64,18 @@
     {
       "input": ["harvestcraft:pammaple"],
       "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:enchantedplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:baobablog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:skyrisplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["harvestcraft:cashew_sapling"],
@@ -66,8 +94,32 @@
       "output": ["hbm:powder_quartz",4]
     },
     {
+      "input": ["byg:greatoaksapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:stripped_palo_verde_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:stripped_cherry_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:cypresslog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:baobab_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["minecraft:wool",1,10],
       "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["byg:stripped_rowan_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-jungle"],
@@ -82,8 +134,20 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:palo_verde_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:zelkovalog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:deco_pipe_quad_green_rusted"],
       "output": ["hbm:powder_steel"]
+    },
+    {
+      "input": ["byg:stripped_baobab_log"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:stone_gneiss"],
@@ -110,6 +174,22 @@
       "output": ["minecraft:sand",6]
     },
     {
+      "input": ["byg:blue_enchanted_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:hollyplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:redmaplesapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:ebony_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:deco_pipe_quad_red"],
       "output": ["hbm:powder_steel"]
     },
@@ -118,12 +198,32 @@
       "output": ["hbm:powder_meteorite"]
     },
     {
+      "input": ["byg:rainbow_eucalyptus_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:zelkovaplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:stripped_willow_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:coil_gold_torus"],
       "output": ["hbm:powder_gold",2]
     },
     {
+      "input": ["byg:hollysapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:crate_tungsten"],
       "output": ["hbm:powder_tungsten",36]
+    },
+    {
+      "input": ["byg:skyrislog"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["minecraft:wool",1,13],
@@ -132,6 +232,14 @@
     {
       "input": ["hbm:deco_pipe_framed_rusted"],
       "output": ["hbm:powder_steel"]
+    },
+    {
+      "input": ["byg:paloverdesapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:willowsapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["harvestcraft:date_sapling"],
@@ -150,16 +258,24 @@
       "output": ["minecraft:string",4]
     },
     {
+      "input": ["byg:stripped_ironwood_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:red_birch_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:yellow_birch_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["harvestcraft:banana_sapling"],
       "output": ["minecraft:stick"]
     },
     {
       "input": ["minecraft:packed_ice"],
       "output": ["hbm:powder_ice"]
-    },
-    {
-      "input": ["biomesoplenty:sapling_1",1,2],
-      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:fragment_neodymium"],
@@ -170,12 +286,20 @@
       "output": ["hbm:powder_quartz",2]
     },
     {
+      "input": ["byg:greenenchantedlog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["minecraft:brick_stairs"],
       "output": ["minecraft:clay_ball",3]
     },
     {
       "input": ["minecraft:carrot"],
       "output": ["minecraft:sugar"]
+    },
+    {
+      "input": ["byg:stripped_mangrove_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-jungle",1,6],
@@ -198,7 +322,7 @@
       "output": ["hbm:scrap_nuclear",2]
     },
     {
-      "input": ["biomesoplenty:sapling_1",1,3],
+      "input": ["byg:rowansapling"],
       "output": ["minecraft:stick"]
     },
     {
@@ -214,8 +338,16 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:cikalog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:coil_gold"],
       "output": ["hbm:powder_gold"]
+    },
+    {
+      "input": ["byg:ironwoodplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["chisel:planks-birch",1,13],
@@ -230,20 +362,36 @@
       "output": ["hbm:scrap_oil"]
     },
     {
-      "input": ["biomesoplenty:sapling_1",1,4],
-      "output": ["minecraft:stick"]
+      "input": ["byg:hawthornlog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:great_oak_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-jungle",1,8],
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:stripped_willow_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["chisel:planks-birch",1,14],
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:sapling_1",1,5],
+      "input": ["byg:redwoodsapling"],
       "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:cherryplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:pineplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["harvestcraft:almond_sapling"],
@@ -258,6 +406,14 @@
       "output": ["hbm:powder_steel_tiny",3]
     },
     {
+      "input": ["byg:silvermaplesapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:baobabsapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:steel_wall"],
       "output": ["hbm:powder_steel_tiny",9]
     },
@@ -270,12 +426,16 @@
       "output": ["hbm:powder_steel"]
     },
     {
-      "input": ["biomesoplenty:sapling_1",1,6],
-      "output": ["minecraft:stick"]
+      "input": ["byg:ebonyplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:scrap"],
       "output": ["hbm:dust"]
+    },
+    {
+      "input": ["byg:stripped_blue_enchanted_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:crystal_rare"],
@@ -306,12 +466,12 @@
       "output": ["hbm:biomass",4]
     },
     {
-      "input": ["biomesoplenty:sapling_1",1,7],
-      "output": ["minecraft:stick"]
-    },
-    {
       "input": ["hbm:ingot_schraranium"],
       "output": ["hbm:nugget_schrabidium",2]
+    },
+    {
+      "input": ["byg:enchantedlog"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["harvestcraft:vanillabean_sapling"],
@@ -330,6 +490,14 @@
       "output": ["hbm:powder_steel",27]
     },
     {
+      "input": ["byg:aspen_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:stripped_green_enchanted_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["minecraft:skull",1,4],
       "output": ["hbm:biomass",4]
     },
@@ -342,8 +510,20 @@
       "output": ["hbm:scrap_oil"]
     },
     {
+      "input": ["byg:rowanlog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:jacaranda_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:deco_pipe_framed_marked"],
       "output": ["hbm:powder_steel"]
+    },
+    {
+      "input": ["byg:stripped_holly_log"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["minecraft:tnt"],
@@ -366,7 +546,15 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:brown_birch_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["harvestcraft:pamcinnamon"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:frozenoaklog"],
       "output": ["hbm:powder_sawdust",4]
     },
     {
@@ -390,6 +578,14 @@
       "output": ["hbm:dust_tiny"]
     },
     {
+      "input": ["byg:stripped_cherry_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:ebonysapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:can_empty"],
       "output": ["hbm:powder_aluminium",2]
     },
@@ -410,8 +606,16 @@
       "output": ["hbm:powder_red_copper"]
     },
     {
+      "input": ["byg:rainboweucalyptuslog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["minecraft:quartz_ore"],
       "output": ["hbm:powder_quartz",2]
+    },
+    {
+      "input": ["byg:stripped_ebony_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:concrete_smooth"],
@@ -428,6 +632,14 @@
     {
       "input": ["chisel:planks-jungle",1,14],
       "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:stripped_redwood_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:strippedfirwood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-acacia",1,8],
@@ -450,8 +662,28 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:mangrove_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["chisel:planks-oak",1,14],
       "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:pinkstellatasapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:stripped_mangrove_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:jacarandasapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:stripped_cypress_log"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-acacia",1,10],
@@ -466,12 +698,24 @@
       "output": ["minecraft:glowstone_dust",4]
     },
     {
+      "input": ["byg:firsapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["chisel:planks-dark-oak",1,10],
       "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:coil_advanced_alloy"],
       "output": ["hbm:powder_advanced_alloy"]
+    },
+    {
+      "input": ["byg:pinelog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:bluesprucesapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:ore_nether_fire"],
@@ -490,6 +734,10 @@
       "output": ["hbm:powder_niobium_tiny"]
     },
     {
+      "input": ["byg:mahogany_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:deco_pipe_quad_marked"],
       "output": ["hbm:powder_steel"]
     },
@@ -506,6 +754,14 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:holly_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:stripped_witch_hazel_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["chisel:planks-jungle",1,11],
       "output": ["hbm:powder_sawdust"]
     },
@@ -520,10 +776,6 @@
     {
       "input": ["chisel:planks-dark-oak",1,12],
       "output": ["hbm:powder_sawdust"]
-    },
-    {
-      "input": ["biomesoplenty:sapling_1"],
-      "output": ["minecraft:stick"]
     },
     {
       "input": ["minecraft:dirt"],
@@ -550,20 +802,16 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:sapling_1",1,1],
-      "output": ["minecraft:stick"]
-    },
-    {
-      "input": ["biomesoplenty:log_1",1,7],
-      "output": ["hbm:powder_sawdust",4]
-    },
-    {
       "input": ["chisel:planks-dark-oak",1,13],
       "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:steel_scaffold",1,32767],
       "output": ["hbm:powder_steel_tiny",4]
+    },
+    {
+      "input": ["byg:orangesprucesapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:deco_pipe_rim_green"],
@@ -582,12 +830,8 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:log_1",1,6],
-      "output": ["hbm:powder_sawdust",4]
-    },
-    {
       "input": ["hbm:bobblehead",1,24],
-      "output": ["hbm:scrap_plastic",1,10]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["chisel:planks-oak",1,7],
@@ -614,11 +858,15 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:log_1",1,5],
-      "output": ["hbm:powder_sawdust",4]
+      "input": ["hbm:bobblehead",1,25],
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["chisel:planks-oak",1,6],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:frozenoakplanks"],
       "output": ["hbm:powder_sawdust"]
     },
     {
@@ -626,11 +874,23 @@
       "output": ["minecraft:string",4]
     },
     {
+      "input": ["byg:mahogany_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:stripped_rainbow_eucalyptus_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["chisel:planks-dark-oak",1,6],
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:log_1",1,4],
+      "input": ["byg:green_enchanted_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:skyris_wood"],
       "output": ["hbm:powder_sawdust",4]
     },
     {
@@ -658,12 +918,20 @@
       "output": ["hbm:powder_copper",3]
     },
     {
+      "input": ["hbm:bobblehead",1,26],
+      "output": ["hbm:scrap_plastic"]
+    },
+    {
       "input": ["hbm:sand_dirty_red"],
       "output": ["hbm:scrap_oil"]
     },
     {
       "input": ["hbm:meteor_brick"],
       "output": ["hbm:powder_meteorite"]
+    },
+    {
+      "input": ["byg:stripped_pine_log"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["minecraft:wool"],
@@ -682,10 +950,6 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:log_3",1,7],
-      "output": ["hbm:powder_sawdust",4]
-    },
-    {
       "input": ["harvestcraft:cinnamon_sapling"],
       "output": ["minecraft:stick"]
     },
@@ -702,8 +966,24 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["hbm:bobblehead",1,27],
+      "output": ["hbm:scrap_plastic"]
+    },
+    {
+      "input": ["byg:mahogany_planks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
       "input": ["hbm:crystal_tungsten"],
       "output": ["hbm:powder_tungsten",3]
+    },
+    {
+      "input": ["byg:skyrissapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:stripped_maple_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:crystal_coal"],
@@ -718,7 +998,11 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:log_3",1,6],
+      "input": ["byg:plant_stem"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:stripped_ebony_log"],
       "output": ["hbm:powder_sawdust",4]
     },
     {
@@ -747,7 +1031,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,19],
-      "output": ["hbm:scrap_plastic",1,12]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:fragment_meteorite"],
@@ -766,6 +1050,14 @@
       "output": ["minecraft:sand"]
     },
     {
+      "input": ["byg:stripped_green_enchanted_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:dry_green_oak_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:coal_infernal"],
       "output": ["hbm:powder_coal",2]
     },
@@ -778,16 +1070,12 @@
       "output": ["minecraft:stick"]
     },
     {
-      "input": ["biomesoplenty:log_3",1,5],
-      "output": ["hbm:powder_sawdust",4]
-    },
-    {
       "input": ["harvestcraft:pawpaw_sapling"],
       "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:bobblehead",1,21],
-      "output": ["hbm:scrap_plastic",1,2]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:brick_obsidian"],
@@ -796,6 +1084,10 @@
     {
       "input": ["minecraft:wool",1,7],
       "output": ["minecraft:string",4]
+    },
+    {
+      "input": ["byg:redsprucesapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:block_bakelite"],
@@ -822,16 +1114,16 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:log_3",1,4],
-      "output": ["hbm:powder_sawdust",4]
-    },
-    {
       "input": ["hbm:deco_pipe"],
       "output": ["hbm:powder_steel"]
     },
     {
       "input": ["hbm:bobblehead",1,22],
-      "output": ["hbm:scrap_plastic",1,21]
+      "output": ["hbm:scrap_plastic"]
+    },
+    {
+      "input": ["byg:willowlog"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-acacia",1,5],
@@ -858,8 +1150,12 @@
       "output": ["hbm:powder_plutonium",6]
     },
     {
+      "input": ["byg:firlog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:bobblehead",1,23],
-      "output": ["hbm:scrap_plastic",1,22]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:wool",1,5],
@@ -876,6 +1172,10 @@
     {
       "input": ["chisel:planks-oak",1,9],
       "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:redwood_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-dark-oak",1,4],
@@ -907,15 +1207,23 @@
     },
     {
       "input": ["hbm:bobblehead",1,15],
-      "output": ["hbm:scrap_plastic",1,19]
+      "output": ["hbm:scrap_plastic"]
+    },
+    {
+      "input": ["byg:mangroveplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:cika_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:cikaplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:coil_copper_torus"],
       "output": ["hbm:powder_red_copper",2]
-    },
-    {
-      "input": ["biomesoplenty:planks_0"],
-      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:crate_steel"],
@@ -923,14 +1231,46 @@
     },
     {
       "input": ["hbm:bobblehead",1,16],
-      "output": ["hbm:scrap_plastic",1,16]
+      "output": ["hbm:scrap_plastic"]
+    },
+    {
+      "input": ["byg:orchardsapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:stripped_blue_enchanted_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:stripped_cypress_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:thorn_branches"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:redoaksapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:zelkova_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:pinesapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:bobblehead",1,17],
-      "output": ["hbm:scrap_plastic",1,20]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["harvestcraft:gooseberry_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:orangeoaksapling"],
       "output": ["minecraft:stick"]
     },
     {
@@ -938,16 +1278,40 @@
       "output": ["minecraft:stick"]
     },
     {
+      "input": ["byg:mangrovelog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:stripped_redwood_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:bobblehead",1,18],
-      "output": ["hbm:scrap_plastic",1,1]
+      "output": ["hbm:scrap_plastic"]
+    },
+    {
+      "input": ["byg:ebonylog"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:deco_pipe_framed"],
       "output": ["hbm:powder_steel"]
     },
     {
+      "input": ["byg:stripped_skyris_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:witchhazelsapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["chisel:planks-oak",1,3],
       "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:ironwoodsapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["chisel:planks-spruce",1,12],
@@ -955,7 +1319,11 @@
     },
     {
       "input": ["hbm:bobblehead",1,11],
-      "output": ["hbm:scrap_plastic",1,14]
+      "output": ["hbm:scrap_plastic"]
+    },
+    {
+      "input": ["byg:redwoodlog"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-oak",1,2],
@@ -967,7 +1335,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,12],
-      "output": ["hbm:scrap_plastic",1,13]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["chisel:planks-spruce",1,13],
@@ -978,20 +1346,40 @@
       "output": ["hbm:powder_steel_tiny",18]
     },
     {
+      "input": ["byg:stripped_maple_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:block_schrabidate"],
       "output": ["hbm:powder_schrabidate",9]
+    },
+    {
+      "input": ["byg:rainboweucalyptusplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:crystal_uranium"],
       "output": ["hbm:powder_uranium",3]
     },
     {
+      "input": ["byg:stripped_ironwood_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:pink_enchanted_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["chisel:planks-oak",1,1],
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:cherry_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:bobblehead",1,13],
-      "output": ["hbm:scrap_plastic",1,17]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["chisel:planks-spruce",1,14],
@@ -1006,6 +1394,10 @@
       "output": ["hbm:powder_meteorite"]
     },
     {
+      "input": ["byg:pine_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["chisel:planks-oak"],
       "output": ["hbm:powder_sawdust"]
     },
@@ -1015,23 +1407,23 @@
     },
     {
       "input": ["hbm:bobblehead",1,14],
-      "output": ["hbm:scrap_plastic",1,18]
-    },
-    {
-      "input": ["biomesoplenty:sapling_0"],
-      "output": ["minecraft:stick"]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:sellafield_slaked"],
       "output": ["minecraft:gravel"]
     },
     {
-      "input": ["biomesoplenty:sapling_2",1,4],
-      "output": ["minecraft:stick"]
+      "input": ["byg:stripped_great_oak_log"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,7],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["byg:stripped_jacaranda_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:jacarandalog"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:crystal_lithium"],
@@ -1043,27 +1435,19 @@
     },
     {
       "input": ["hbm:bobblehead",1,7],
-      "output": ["hbm:scrap_plastic",1,8]
-    },
-    {
-      "input": ["biomesoplenty:sapling_0",1,1],
-      "output": ["minecraft:stick"]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:coil_tungsten"],
       "output": ["hbm:powder_tungsten"]
     },
     {
-      "input": ["biomesoplenty:sapling_2",1,5],
-      "output": ["minecraft:stick"]
-    },
-    {
       "input": ["harvestcraft:lychee_sapling"],
       "output": ["minecraft:stick"]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,8],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["byg:cypresssapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:steel_roof"],
@@ -1079,7 +1463,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,8],
-      "output": ["hbm:scrap_plastic",1,15]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:debris_exchanger"],
@@ -1094,10 +1478,6 @@
       "output": ["hbm:powder_steel"]
     },
     {
-      "input": ["biomesoplenty:sapling_2",1,6],
-      "output": ["minecraft:stick"]
-    },
-    {
       "input": ["minecraft:cobblestone"],
       "output": ["minecraft:gravel"]
     },
@@ -1106,16 +1486,20 @@
       "output": ["hbm:powder_diamond",3]
     },
     {
-      "input": ["biomesoplenty:sapling_0",1,2],
-      "output": ["minecraft:stick"]
+      "input": ["byg:witchhazelplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,5],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["byg:rainboweucalyptussapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:fragment_lanthanium"],
       "output": ["hbm:powder_lanthanium_tiny"]
+    },
+    {
+      "input": ["byg:stripped_witch_hazel_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["minecraft:stained_hardened_clay",1,3],
@@ -1123,23 +1507,19 @@
     },
     {
       "input": ["hbm:bobblehead",1,9],
-      "output": ["hbm:scrap_plastic",1,11]
+      "output": ["hbm:scrap_plastic"]
     },
     {
-      "input": ["biomesoplenty:sapling_2",1,7],
-      "output": ["minecraft:stick"]
+      "input": ["byg:stripped_zelkova_log"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:fragment_cerium"],
       "output": ["hbm:powder_cerium_tiny"]
     },
     {
-      "input": ["biomesoplenty:sapling_0",1,3],
-      "output": ["minecraft:stick"]
-    },
-    {
-      "input": ["biomesoplenty:planks_0",1,6],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["byg:rowan_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:meteor_brick_chiseled"],
@@ -1154,20 +1534,24 @@
       "output": ["minecraft:clay_ball",3]
     },
     {
+      "input": ["byg:stripped_hawthorn_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["betternether:stalagnate_planks"],
       "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:bobblehead",1,10],
-      "output": ["hbm:scrap_plastic",1,10]
-    },
-    {
-      "input": ["biomesoplenty:sapling_0",1,4],
-      "output": ["minecraft:stick"]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["harvestcraft:dragonfruit_sapling"],
       "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:maple_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:pink_planks"],
@@ -1175,15 +1559,11 @@
     },
     {
       "input": ["hbm:bobblehead",1,3],
-      "output": ["hbm:scrap_plastic",1,4]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["harvestcraft:lime_sapling"],
       "output": ["minecraft:stick"]
-    },
-    {
-      "input": ["biomesoplenty:planks_0",1,3],
-      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:deco_pipe_quad_green"],
@@ -1198,16 +1578,48 @@
       "output": ["hbm:powder_iron",3]
     },
     {
-      "input": ["biomesoplenty:sapling_0",1,5],
-      "output": ["minecraft:stick"]
+      "input": ["byg:cypressplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["harvestcraft:pear_sapling"],
       "output": ["minecraft:stick"]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,4],
+      "input": ["byg:orange_birch_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:purple_enchanted_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:aspen_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:palm_planks"],
       "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:stripped_baobab_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:hawthorn_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:witch_hazel_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:greenenchantedplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:stripped_jacaranda_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:meteor_pillar"],
@@ -1219,39 +1631,39 @@
     },
     {
       "input": ["hbm:bobblehead",1,4],
-      "output": ["hbm:scrap_plastic",1,5]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:brick_light"],
       "output": ["minecraft:clay_ball",4]
     },
     {
-      "input": ["biomesoplenty:sapling_0",1,6],
-      "output": ["minecraft:stick"]
+      "input": ["byg:stripped_great_oak_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:crystal_thorium"],
       "output": ["hbm:powder_thorium",3]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,1],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["byg:whitecherrysapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:stone_resource",1,4],
       "output": ["hbm:powder_limestone",4]
     },
     {
-      "input": ["hbm:bobblehead",1,5],
-      "output": ["hbm:scrap_plastic",1,6]
-    },
-    {
-      "input": ["biomesoplenty:sapling_0",1,7],
+      "input": ["byg:zelkovasapling"],
       "output": ["minecraft:stick"]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,2],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["byg:frozen_oak_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["hbm:bobblehead",1,5],
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:planks",1,32767],
@@ -1262,12 +1674,20 @@
       "output": ["hbm:powder_boron_tiny"]
     },
     {
+      "input": ["byg:witchhazellog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:mahogany_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["minecraft:stained_hardened_clay"],
       "output": ["minecraft:clay_ball",4]
     },
     {
       "input": ["hbm:bobblehead",1,6],
-      "output": ["hbm:scrap_plastic",1,7]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:brick"],
@@ -1282,16 +1702,20 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,15],
-      "output": ["hbm:powder_sawdust"]
-    },
-    {
       "input": ["minecraft:stone"],
       "output": ["minecraft:gravel"]
     },
     {
+      "input": ["byg:dry_brown_oak_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:deco_pipe_rim_rusted"],
       "output": ["hbm:powder_steel"]
+    },
+    {
+      "input": ["byg:jacarandaplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:bobblehead"],
@@ -1322,8 +1746,20 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:hollylog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:whitestellatasapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:bobblehead",1,1],
-      "output": ["hbm:scrap_plastic",1,9]
+      "output": ["hbm:scrap_plastic"]
+    },
+    {
+      "input": ["byg:stripped_palo_verde_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["minecraft:stained_hardened_clay",1,12],
@@ -1338,8 +1774,8 @@
       "output": ["hbm:powder_steel"]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,13],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["byg:pinkcherrysapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["chisel:planks-birch",1,6],
@@ -1355,7 +1791,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,2],
-      "output": ["hbm:scrap_plastic",1,3]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:reeds"],
@@ -1374,8 +1810,8 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,14],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["byg:yellowsprucesapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:crystal_starmetal"],
@@ -1398,20 +1834,16 @@
       "output": ["hbm:powder_cobalt",3]
     },
     {
+      "input": ["byg:stripped_cika_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["chisel:planks-birch",1,7],
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:sapling_2"],
-      "output": ["minecraft:stick"]
-    },
-    {
       "input": ["harvestcraft:passionfruit_sapling"],
       "output": ["minecraft:stick"]
-    },
-    {
-      "input": ["biomesoplenty:planks_0",1,11],
-      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["minecraft:stained_hardened_clay",1,6],
@@ -1438,20 +1870,12 @@
       "output": ["hbm:powder_meteorite"]
     },
     {
-      "input": ["biomesoplenty:log_0",1,7],
-      "output": ["hbm:powder_sawdust",4]
-    },
-    {
       "input": ["hbm:dust"],
       "output": ["hbm:dust"]
     },
     {
-      "input": ["biomesoplenty:sapling_2",1,1],
-      "output": ["minecraft:stick"]
-    },
-    {
-      "input": ["biomesoplenty:planks_0",1,12],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["byg:stripped_cika_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["minecraft:stained_hardened_clay",1,7],
@@ -1462,8 +1886,16 @@
       "output": ["minecraft:stick"]
     },
     {
+      "input": ["byg:stripped_zelkova_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["minecraft:poisonous_potato"],
       "output": ["hbm:powder_poison"]
+    },
+    {
+      "input": ["byg:stripped_rowan_log"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-birch",1,9],
@@ -1474,14 +1906,6 @@
       "output": ["minecraft:gravel"]
     },
     {
-      "input": ["biomesoplenty:sapling_2",1,2],
-      "output": ["minecraft:stick"]
-    },
-    {
-      "input": ["biomesoplenty:log_0",1,6],
-      "output": ["hbm:powder_sawdust",4]
-    },
-    {
       "input": ["hbm:crystal_fluorite"],
       "output": ["hbm:fluorite",8]
     },
@@ -1490,12 +1914,12 @@
       "output": ["hbm:powder_actinium_tiny"]
     },
     {
-      "input": ["hbm:debris_metal"],
-      "output": ["hbm:powder_steel_tiny",3]
+      "input": ["byg:cypress_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
-      "input": ["biomesoplenty:planks_0",1,9],
-      "output": ["hbm:powder_sawdust"]
+      "input": ["hbm:debris_metal"],
+      "output": ["hbm:powder_steel_tiny",3]
     },
     {
       "input": ["harvestcraft:paperbark_sapling"],
@@ -1506,20 +1930,16 @@
       "output": ["minecraft:clay_ball",4]
     },
     {
+      "input": ["byg:willowplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
       "input": ["chisel:planks-birch",1,10],
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:log_0",1,5],
-      "output": ["hbm:powder_sawdust",4]
-    },
-    {
-      "input": ["biomesoplenty:sapling_2",1,3],
+      "input": ["byg:mangrovesapling"],
       "output": ["minecraft:stick"]
-    },
-    {
-      "input": ["biomesoplenty:planks_0",1,10],
-      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["minecraft:stained_hardened_clay",1,9],
@@ -1542,7 +1962,7 @@
       "output": ["hbm:powder_beryllium",3]
     },
     {
-      "input": ["biomesoplenty:log_0",1,4],
+      "input": ["byg:stripped_pine_wood"],
       "output": ["hbm:powder_sawdust",4]
     },
     {
@@ -1562,11 +1982,19 @@
       "output": ["hbm:powder_sawdust",4]
     },
     {
+      "input": ["byg:palm_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["chisel:planks-spruce",1,7],
       "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["biomesoplenty:log_2",1,7],
+      "input": ["byg:palm_sapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:frozen_oak_wood"],
       "output": ["hbm:powder_sawdust",4]
     },
     {
@@ -1590,11 +2018,15 @@
       "output": ["hbm:powder_coal"]
     },
     {
+      "input": ["byg:firwood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["harvestcraft:tamarind_sapling"],
       "output": ["minecraft:stick"]
     },
     {
-      "input": ["biomesoplenty:log_2",1,6],
+      "input": ["byg:stripped_holly_wood"],
       "output": ["hbm:powder_sawdust",4]
     },
     {
@@ -1610,43 +2042,75 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:aspen_planks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
       "input": ["harvestcraft:orange_sapling"],
       "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:hawthornplanks"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:brick_concrete"],
       "output": ["minecraft:gravel"]
     },
     {
+      "input": ["byg:blue_enchanted_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:sellafield",1,5],
       "output": ["hbm:scrap_nuclear",15]
     },
     {
-      "input": ["biomesoplenty:log_2",1,5],
-      "output": ["hbm:powder_sawdust",4]
+      "input": ["byg:rowanplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:aspen_sapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["minecraft:quartz_stairs"],
       "output": ["hbm:powder_quartz",3]
     },
     {
+      "input": ["byg:paloverdelog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:stripped_aspen_log"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["chisel:planks-spruce",1,11],
       "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:ironwood_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:sellafield",1,4],
       "output": ["hbm:scrap_nuclear",7]
     },
     {
+      "input": ["byg:cherrylog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["minecraft:stained_hardened_clay",1,14],
       "output": ["minecraft:clay_ball",4]
     },
     {
-      "input": ["biomesoplenty:log_2",1,4],
-      "output": ["hbm:powder_sawdust",4]
+      "input": ["chisel:planks-spruce",1,3],
+      "output": ["hbm:powder_sawdust"]
     },
     {
-      "input": ["chisel:planks-spruce",1,3],
+      "input": ["byg:greatoakplanks"],
       "output": ["hbm:powder_sawdust"]
     },
     {
@@ -1654,16 +2118,40 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:maplelog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:sellafield",1,3],
       "output": ["hbm:scrap_nuclear",5]
+    },
+    {
+      "input": ["byg:greatoaklog"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:cikasapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["harvestcraft:nutmeg_sapling"],
       "output": ["minecraft:stick"]
     },
     {
+      "input": ["byg:thornblock"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:firplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
       "input": ["minecraft:stained_hardened_clay",1,15],
       "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["byg:stripped_rainbow_eucalyptus_log"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["chisel:planks-spruce",1,4],
@@ -1702,6 +2190,10 @@
       "output": ["hbm:powder_sawdust"]
     },
     {
+      "input": ["byg:baobabplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
       "input": ["chisel:planks-birch",1,2],
       "output": ["hbm:powder_sawdust"]
     },
@@ -1714,7 +2206,11 @@
       "output": ["hbm:powder_lead",3]
     },
     {
-      "input": ["biomesoplenty:log_4",1,5],
+      "input": ["byg:hawthornsapling"],
+      "output": ["minecraft:stick"]
+    },
+    {
+      "input": ["byg:ironwoodlog"],
       "output": ["hbm:powder_sawdust",4]
     },
     {
@@ -1740,6 +2236,18 @@
     {
       "input": ["hbm:sellafield"],
       "output": ["hbm:scrap_nuclear"]
+    },
+    {
+      "input": ["byg:stripped_skyris_wood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
+      "input": ["byg:mapleplanks"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
+      "input": ["byg:willow_wood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:block_slag"],

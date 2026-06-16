@@ -18,7 +18,6 @@
     "I:thresholdSoot": 8000
   },
   "steamturbineLeviathan": {
-    "L:maxPower": 100000000000,
     "INFO": "leviathan steam turbine consumes all availible steam per tick",
     "I:inputTankSize": 1000000000,
     "I:outputTankSize": 1000000000,
@@ -118,6 +117,12 @@
     "I:fuelCap": 16000,
     "INFO": "Fuel grades in order: LOW MEDIUM HIGH AERO GAS",
     "D[:efficiency": [0.0,0.5,0.75,0.1,0.0]
+  },
+  "steamturbineIndustrial": {
+    "INFO": "industrial steam turbine consumes 20% of availible steam per tick",
+    "I:inputTankSize": 750000,
+    "I:outputTankSize": 3000000,
+    "D:efficiency": 1.0
   },
   "waterpump": {
     "I:groundHeight": 70,

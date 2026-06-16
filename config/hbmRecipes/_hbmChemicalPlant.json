@@ -753,7 +753,7 @@
       "inputItem": [
         ["item","minecraft:sugar"],
         ["dict","dustSaltpeter"],
-        ["item","minecraft:sand"]
+        ["dict","sand"]
       ],
       "outputItem": [
         ["single",["hbm:ball_dynamite",2]]
@@ -803,6 +803,22 @@
       ],
       "duration": 100,
       "power": 1000
+    },
+    {
+      "name": "chem.laminate",
+      "inputItem": [
+        ["dict","blockGlass"],
+        ["dict","boltSteel",4]
+      ],
+      "inputFluid": [
+        ["XYLENE",50],
+        ["PHOSGENE",50]
+      ],
+      "outputItem": [
+        ["single",["hbm:reinforced_laminate"]]
+      ],
+      "duration": 20,
+      "power": 100
     },
     {
       "name": "chem.polarized",
@@ -912,7 +928,7 @@
       ],
       "duration": 400,
       "power": 500,
-      "icon": ["hbm:fluid_icon",1,205]
+      "icon": ["hbm:fluid_icon",1,154]
     },
     {
       "name": "chem.osmiridiumdeath",
