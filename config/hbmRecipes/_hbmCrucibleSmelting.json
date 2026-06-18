@@ -103,11 +103,11 @@
     },
     {
       "input": ["item","hbm:blade_tungsten"],
-      "output": [["Tungsten",144]]
+      "output": [["Tungsten",216]]
     },
     {
       "input": ["item","hbm:blade_titanium"],
-      "output": [["Titanium",144]]
+      "output": [["Titanium",216]]
     },
     {
       "input": ["dict","oreMalachite"],

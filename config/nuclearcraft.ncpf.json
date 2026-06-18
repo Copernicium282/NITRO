@@ -1593,6 +1593,39 @@
           "type": "legacy_block"
         },
         {
+          "name": "nuclearcraft:fission_shield",
+          "metadata": 1,
+          "blockstate": {
+            "active": false,
+            "type": "gadolinium_samarium"
+          },
+          "type": "legacy_block",
+          "modules": {
+            "nuclearcraft:overhaul_msr:neutron_shield": {
+              "efficiency": 0.75,
+              "closed": {
+                "name": "nuclearcraft:fission_shield",
+                "metadata": 1,
+                "blockstate": {
+                  "active": true,
+                  "type": "boron_silver"
+                },
+                "type": "legacy_block"
+              },
+              "heat_per_flux": 10.0
+            }
+          }
+        },
+        {
+          "name": "nuclearcraft:fission_shield",
+          "metadata": 2,
+          "blockstate": {
+            "active": true,
+            "type": "gadolinium_samarium"
+          },
+          "type": "legacy_block"
+        },
+        {
           "name": "nuclearcraft:fission_conductor",
           "blockstate": {},
           "type": "legacy_block",
@@ -8010,6 +8043,39 @@
           "blockstate": {
             "active": true,
             "type": "boron_silver"
+          },
+          "type": "legacy_block"
+        },
+        {
+          "name": "nuclearcraft:fission_shield",
+          "metadata": 1,
+          "blockstate": {
+            "active": false,
+            "type": "gadolinium_samarium"
+          },
+          "type": "legacy_block",
+          "modules": {
+            "nuclearcraft:overhaul_sfr:neutron_shield": {
+              "efficiency": 0.75,
+              "closed": {
+                "name": "nuclearcraft:fission_shield",
+                "metadata": 1,
+                "blockstate": {
+                  "active": true,
+                  "type": "boron_silver"
+                },
+                "type": "legacy_block"
+              },
+              "heat_per_flux": 10.0
+            }
+          }
+        },
+        {
+          "name": "nuclearcraft:fission_shield",
+          "metadata": 2,
+          "blockstate": {
+            "active": true,
+            "type": "gadolinium_samarium"
           },
           "type": "legacy_block"
         },

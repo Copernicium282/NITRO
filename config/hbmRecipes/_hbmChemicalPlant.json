@@ -438,6 +438,21 @@
       "power": 100
     },
     {
+      "name": "chem.deshcracked",
+      "inputItem": [
+        ["item","hbm:powder_desh_mix"]
+      ],
+      "inputFluid": [
+        ["LIGHTOIL_CRACK",500,1],
+        ["MERCURY",100]
+      ],
+      "outputItem": [
+        ["single",["hbm:ingot_desh"]]
+      ],
+      "duration": 100,
+      "power": 100
+    },
+    {
       "name": "chem.polymer",
       "inputItem": [
         ["dict","dustCoal",2],
@@ -473,7 +488,7 @@
         ["UNSATURATEDS",500]
       ],
       "outputItem": [
-        ["single",["hbm:ingot_rubber"]]
+        ["single",["hbm:ingot_rubber",2]]
       ],
       "duration": 100,
       "power": 200

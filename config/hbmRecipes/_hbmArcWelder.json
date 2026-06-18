@@ -22,6 +22,15 @@
     },
     {
       "inputs": [
+        ["dict","plateSteel",2],
+        ["dict","wireDenseMingrade",2]
+      ],
+      "output": ["hbm:motor",2],
+      "duration": 100,
+      "consumption": 400
+    },
+    {
+      "inputs": [
         ["dict","plateAluminum",4],
         ["dict","ingotFiberglass",4],
         ["dict","ingotAnyHardPlastic"]
@@ -56,6 +65,14 @@
         ["dict","wireFineCopper",8]
       ],
       "output": ["hbm:wire_dense",1,2900],
+      "duration": 100,
+      "consumption": 10000
+    },
+    {
+      "inputs": [
+        ["dict","wireFineMingrade",8]
+      ],
+      "output": ["hbm:wire_dense",1,31],
       "duration": 100,
       "consumption": 10000
     },

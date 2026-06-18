@@ -1873,7 +1873,7 @@
       "inputItem": [
         ["dict","plateSteel",12],
         ["dict","ingotRubber",4],
-        ["item","hbm:turbine_titanium",3],
+        ["item","hbm:turbine_titanium",2],
         ["dict","wireDenseGold",6],
         ["dict","ntmpipeDuraSteel",3],
         ["dict","ntmpipeSteel",4],
@@ -2040,7 +2040,7 @@
       "inputItem": [
         ["dict","plateSextupleAnyResistantAlloy",8],
         ["dict","plateTripleSaturnite",4],
-        ["item","hbm:coil_advanced_alloy",12],
+        ["dict","wireDenseBSCCO",8],
         ["item","hbm:battery_sc",1,6]
       ],
       "outputItem": [
@@ -2366,6 +2366,18 @@
       "inputItem": [
         ["dict","plateTripleSteel",2],
         ["dict","plateTungCar",4]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_reflector",4]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrreflectoralt",
+      "inputItem": [
+        ["dict","plateTripleSteel",2],
+        ["dict","plateWeaponSteel",16]
       ],
       "outputItem": [
         ["single",["hbm:pwr_reflector",4]]
@@ -2939,9 +2951,8 @@
       "name": "ass.explosivelenses1",
       "inputItem": [
         ["dict","plateAluminum",8],
-        ["dict","wireFineGold",16],
         ["item","hbm:det_cord",8],
-        ["dict","plateCopper",2],
+        ["dict","plateSaturnite",2],
         ["dict","ingotAnyHighexplosive",20],
         ["dict","ingotAnyPlastic",4]
       ],
@@ -2955,9 +2966,8 @@
       "name": "ass.explosivelenses2",
       "inputItem": [
         ["dict","plateAluminum",8],
-        ["dict","wireFineMingrade",16],
         ["dict","ingotAnyPlasticexplosive",4],
-        ["dict","plateCopper",2],
+        ["item","hbm:neutron_reflector",2],
         ["item","hbm:ball_tatb",16],
         ["dict","ingotRubber",2]
       ],
@@ -2970,8 +2980,7 @@
     {
       "name": "ass.wiring",
       "inputItem": [
-        ["dict","plateIron"],
-        ["dict","wireFineGold",12]
+        ["dict","wireFineGold",24]
       ],
       "outputItem": [
         ["single",["hbm:gadget_wireing"]]
@@ -3056,9 +3065,8 @@
     {
       "name": "ass.manigniter",
       "inputItem": [
-        ["dict","plateSteel",6],
-        ["item","hbm:circuit",1,9],
-        ["dict","wireFineMingrade",9]
+        ["item","hbm:circuit",3,9],
+        ["dict","wireFineGold",24]
       ],
       "outputItem": [
         ["single",["hbm:man_igniter"]]
@@ -3082,7 +3090,7 @@
       "name": "ass.mikecore",
       "inputItem": [
         ["dict","nuggetUranium238",24],
-        ["dict","ingotLead",6]
+        ["dict","plateLead",6]
       ],
       "outputItem": [
         ["single",["hbm:mike_core"]]
@@ -3093,8 +3101,8 @@
     {
       "name": "ass.mikedeut",
       "inputItem": [
-        ["dict","plateIron",12],
-        ["dict","plateSteel",16]
+        ["dict","plateWeaponSteel",16],
+        ["dict","plateTitanium",16]
       ],
       "inputFluid": [
         ["DEUTERIUM",10000]
@@ -3142,7 +3150,7 @@
     {
       "name": "ass.mikecooler",
       "inputItem": [
-        ["dict","plateIron",8],
+        ["dict","plateDuraSteel",8],
         ["item","hbm:coil_copper",5],
         ["item","hbm:coil_tungsten",5],
         ["item","hbm:motor",2]

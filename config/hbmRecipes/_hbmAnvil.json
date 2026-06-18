@@ -638,7 +638,7 @@
         ["item","hbm:motor"],
         ["dict","ingotAnyPlastic",2],
         ["dict","ingotWorkersAlloy",2],
-        ["item","hbm:coil_gold_torus"]
+        ["dict","wireDenseGold"]
       ],
       "outputs": [
         ["hbm:motor_desh",1.0]
